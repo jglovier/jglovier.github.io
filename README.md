@@ -14,7 +14,7 @@ The site has recently been updated so that the code is no entirely hosted on my 
 
 ## Behind the Curtain
 
-This site is built with Jekyll, a static site generator. Why Jekyll and why a static site? Because it's easy to setup, easy to deploy, and easy to maintain. And it's hella fast because it's just raw HTML/CSS/JS cached on a server! Plus @mojombo made it, so...
+This site is built with [Jekyll](http://jekyllrb.com/), a static site generator. Why Jekyll and why a static site? Because it's easy to setup, easy to deploy, and easy to maintain. And it's hella fast because it's just raw HTML/CSS/JS cached on a server! Plus @mojombo made it, so...
 
 **Some History**
 
