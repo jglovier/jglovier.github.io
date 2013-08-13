@@ -1,4 +1,4 @@
-Source code for my personal website (joelglovier.com)
+Source for my personal website (joelglovier.com)
 ==================
 
 Source for the new joelglovier.com (currently under development; this repo is not actually live on joelglovier.com yet).
@@ -6,9 +6,10 @@ Source for the new joelglovier.com (currently under development; this repo is no
 
 ## About the Site
 
-This site is my personal home on the World Wide Intarnetz™. I write about stuff, I link to other stuff, and I showcase stuff I've done/built/designed. It's purely personal in nature and does not necessarily reflect the views of my wonderful employer, my Murica, or my neighbor's dog. But you should still check it out.
+This site is my personal home on the World Wide Intarnetz™. I write about stuff, I link to other stuff, and I showcase stuff I've done/built/designed. It's purely personal in nature and does not necessarily reflect the views of my wonderful employer, my Murica, my tattoo artist, my barber or my neighbor's dog. But you should still check it out.
 
 **Recent Updates**
+
 The site has recently been updated so that the code is no entirely hosted on my GitHub profile, powered by GitHub Pages, and is overall a more simple, streamlined version of what I really want to put online. In other words I used to have a lot more crap to impress people that I no longer need to impress (since I stopped freelancing and [have my dream job](https://github.com/blog/1522-joel-glovier-is-a-githubber)), so now it's just The Essentials.™ I hope you enjoy your time visiting.
 
 ## Behind the Curtain
@@ -16,6 +17,7 @@ The site has recently been updated so that the code is no entirely hosted on my 
 This site is built with Jekyll, a static site generator. Why Jekyll and why a static site? Because it's easy to setup, easy to deploy, and easy to maintain. And it's hella fast because it's just raw HTML/CSS/JS cached on a server! Plus @mojombo made it, so...
 
 **Some History**
+
 The first version of my site in 2009 was just raw HTML & CSS, and then Wordpress installed in a separate directory for the blog. Then in 2011 I redesigned the site from the ground up, and built the entire site on Wordpress. However it turned out to be overkill, as I only used a couple features of Wordpress (not even the blog which ended up being a Tumblr blog!), but it was a good exercise in learning to work with Wordpress templates, post-types, etc., which I was doing plenty of at the time anyway.
 
 Fast forward to 2013 and I'm no longer doing much Wordpress development, [nor am I taking on new freelance gigs or side projects](https://github.com/blog/1522-joel-glovier-is-a-githubber). In short, the needs of my personal web presence have changed. All I really need now is a simple place to introduce myself to visitors, host my writing, link to some of my projects and other places on the web. A database driven website is way overkill for what I need. Plus PHP is out, Ruby is in. :trollface: But SRSLY.
