@@ -26,7 +26,7 @@ Fast forward to 2013 and I'm no longer doing much Wordpress development, [nor am
 
 The premise is simple: Jekyll is a ruby based framework for generating an entire static site out of templates and markdown files. You can either run Jekyll in production to build the site, or you can run Jekyll locally and then just push your static files to production. Both are easy breasy, especially with a [GitHub](https://github.com/) repo, [GitHub Pages](http://pages.github.com/), and the new [GitHub Pages gem](https://github.com/blog/1581-cutting-the-github-pages-gem).
 
-## The REAL Reason: [GitHub Flow™]() and [GitHub Pages™](http://pages.github.com/)
+## The REAL Reason: [GitHub Flow™](http://scottchacon.com/2011/08/31/github-flow.html) and [GitHub Pages™](http://pages.github.com/)
 
 Although I had been wanting to move away from a database driven website for a while in favor of a simpler, static system, I dragged my feet for quite some time. Part of my procrastination had to do with deciding on a technology to use and FUD around learning a new process, and part was just for lack of time/interest.
 
