@@ -1,0 +1,92 @@
+/* @group Layout Styles -------------------- */
+
+/* Page Header */
+
+.page-header {
+  background-image: image-url("default-intro-bg.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: $blue_l1;
+  border-bottom: 15px solid $blue;
+  padding: 70px 0;
+  color: $white;
+
+  .my-avatar { width: pct( 341, 1284); float: left; }
+
+  .joel-photo {
+    display: block;
+    margin: 0 auto;
+    width: pct( 245, 341);
+    max-width: 245px;
+    @include border-radius(100%); }
+
+  .intro-copy { width: pct( 525, 1284); float: left; font-weight: 300;
+
+    h1 { font-size: 60px; width: 150%; line-height: 1; margin: 10px 0 45px; font-weight: normal;
+
+      span { font-weight: 900; }
+
+    }
+
+    .description { font-size: 24px;
+
+      a { font-weight: 700; }
+
+    }
+
+    a { border-bottom: 2px solid rgba(255,255,255,.5); padding:0 5px; margin: 0 -5px; @include border-radius(4px 4px 0 0);
+
+      &:hover { background-color: rgba(0,68,114,.4); }
+
+    }
+
+  }
+
+}
+
+/* Home - Writing (article index) */
+
+.writing { margin-left: pct( 341, 1284); padding-bottom: 80px;
+
+  h2 { font-weight: 300; font-size: 48px; letter-spacing: -2px; }
+
+  .article-index { list-style: none; padding-left: 0;
+
+    li { margin: 42px 0; }
+
+    .article-date {
+      font-size: 18px;
+      color: $gray_2;
+      margin-left: -128px;
+      display: block;
+      float: left;
+      text-align: right;
+      letter-spacing: 1px;
+      width: 105px;
+      line-height: 46px; }
+
+    .article-title { font-size: 28px; color: $blue; font-weight: 700; }
+
+    a { display: block;
+
+      &:hover {
+
+        .article-date { color: $gray_3; }
+
+        .article-title { opacity: .8; background-color: $blue_l3; padding: 0 10px; margin: 0 -10px; @include border-radius(4px); }
+
+      }
+
+    }
+
+  }
+
+}
+
+/* Page Footer */
+
+.page-footer { text-align: center; color: $gray_2; border-top: 1px solid #e8e8e8;
+
+}
+
+/* @end Layout Styles */

@@ -1,0 +1,49 @@
+/* @group Base Styles -------------------- */
+
+body{
+  background: $white;
+  font-family: "pn_font", Arial, sans-serif;
+  color: $gray_3;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.wrap:before,
+.wrap:after { content:""; display:table; }
+.wrap:after { clear: both; }
+.wrap {
+  max-width: 1284px;
+  padding: 0;
+  margin: 0 auto;
+  zoom: 1; }
+
+.fixed{ position: fixed; }
+
+/* clearfix (now called group, via http://css-tricks.com/snippets/css/clear-fix/) */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both; }
+.group { zoom:1; /* For IE 6/7 (trigger hasLayout) */ }
+
+/* apply a natural box layout model to all elements; see: http://paulirish.com/2012/box-sizing-border-box-ftw/; */
+/* ...also, dont' be concerned about the everything selector here, as it's not being used as a compound selector, so it's performance impact is very nominal */
+* { -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+::-moz-selection {
+    background: rgba(0,68,114,.8);
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background: rgba(0,68,114,.8);
+    color: #fff;
+    text-shadow: none;
+}
+
+/* @end Base Styles */

@@ -1,0 +1,27 @@
+@function em( $fontSize, $contextSize: 16 ) {
+  @return 1em * ( $fontSize / $contextSize ); }
+
+@function pct( $size, $context ) {
+  @return percentage( $size / $context ); }
+
+@mixin overflowElipsis {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+@mixin pn_light {
+  font-family: "pn_font", Arial, sans-serif;
+  font-weight: 300; }
+
+@mixin pn_regular {
+  font-family: "pn_font", Arial, sans-serif;
+  font-weight: 400; }
+
+@mixin pn_bold {
+  font-family: "pn_font", "Arial", Arial, sans-serif;
+  font-weight: 700; }
+
+@mixin pn_extrabold {
+  font-family: "pn_font", "Arial Black", Arial, sans-serif;
+  font-weight: 900; }

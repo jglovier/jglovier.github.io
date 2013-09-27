@@ -1,0 +1,18 @@
+// Global Sass & Compass Includes
+@import "compass";
+
+$experimental-support-for-svg: true;
+
+// "Reset" styles and SCSS reusable components
+@import "includes/normalize";
+@import "includes/mixins";
+@import "includes/variables";
+
+// Generic site base & layout styles
+@import "includes/base";
+@import "includes/layout";
+@import "includes/typography";
+
+// Layouts
+@import "includes/home"
+
