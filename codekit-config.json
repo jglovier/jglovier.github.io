@@ -20,15 +20,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/_layouts\/blogindex.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_layouts\/blogindex.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_includes\/head.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -136,12 +127,32 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/_site\/img\/blogpost-bg.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/img\/blogpost-bg.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_site\/img\/blogpost-bg.jpg",
+      "initialSize" : 39596,
+      "fileType" : 4096
+    },
     "\/_site\/css\/ie.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_site\/css\/ie.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/_site\/fonts\/webfontkit-20130927-111916\/fonts.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/fonts\/webfontkit-20130927-111916\/fonts.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -153,15 +164,6 @@
       "inputAbbreviatedPath" : "\/_site\/2012\/12\/05\/on-twitter-followers.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/_site\/fonts\/webfontkit-20130927-111916\/fonts.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/fonts\/webfontkit-20130927-111916\/fonts.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/_site\/404.html" : {
       "ignoreWasSetByUser" : 0,
@@ -309,6 +311,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/img\/blogpost-bg.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/blogpost-bg.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/blogpost-bg.jpg",
+      "initialSize" : 39596,
+      "fileType" : 4096
+    },
     "\/scss\/includes\/_layout.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -416,6 +429,18 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/scss\/includes\/_blogpost.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/includes\/_blogpost.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_blogpost.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/scss\/print.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -464,6 +489,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/_site\/2012\/09\/15\/quick-tip-iphone-caps-lock.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/2012\/09\/15\/quick-tip-iphone-caps-lock.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_site\/fonts\/webfontkit-20130927-111916\/mark_simonson_-_proxima_nova_alt_bold-demo.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -479,15 +513,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/404.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/2012\/09\/15\/quick-tip-iphone-caps-lock.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2012\/09\/15\/quick-tip-iphone-caps-lock.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },

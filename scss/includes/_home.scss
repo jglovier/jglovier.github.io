@@ -4,7 +4,11 @@
 
 .writing { margin-left: pct( 341, 1284); padding-bottom: 80px;
 
-  h2 { font-weight: 300; font-size: 48px; letter-spacing: -2px; }
+  h2 { font-weight: 300; font-size: 48px; letter-spacing: -2px;
+
+    &.other-writing { margin-top: 60px; }
+
+  }
 
   .article-index { list-style: none; padding-left: 0;
 
@@ -22,6 +26,8 @@
       line-height: 46px; }
 
     .article-title { font-size: 28px; color: $blue; font-weight: 700; }
+
+    .article-source { display: block; font-style: italic; color: $gray_2; }
 
     a { display: block;
 

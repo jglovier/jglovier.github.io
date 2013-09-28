@@ -559,14 +559,17 @@ a {
     font-weight: 300;
     font-size: 48px;
     letter-spacing: -2px; }
-  /* line 9, ../scss/includes/_home.scss */
+    /* line 9, ../scss/includes/_home.scss */
+    .writing h2.other-writing {
+      margin-top: 60px; }
+  /* line 13, ../scss/includes/_home.scss */
   .writing .article-index {
     list-style: none;
     padding-left: 0; }
-    /* line 11, ../scss/includes/_home.scss */
+    /* line 15, ../scss/includes/_home.scss */
     .writing .article-index li {
       margin: 42px 0; }
-    /* line 13, ../scss/includes/_home.scss */
+    /* line 17, ../scss/includes/_home.scss */
     .writing .article-index .article-date {
       font-size: 18px;
       color: #c7c7c7;
@@ -577,18 +580,23 @@ a {
       letter-spacing: 1px;
       width: 105px;
       line-height: 46px; }
-    /* line 24, ../scss/includes/_home.scss */
+    /* line 28, ../scss/includes/_home.scss */
     .writing .article-index .article-title {
       font-size: 28px;
       color: #0099ff;
       font-weight: 700; }
-    /* line 26, ../scss/includes/_home.scss */
+    /* line 30, ../scss/includes/_home.scss */
+    .writing .article-index .article-source {
+      display: block;
+      font-style: italic;
+      color: #c7c7c7; }
+    /* line 32, ../scss/includes/_home.scss */
     .writing .article-index a {
       display: block; }
-      /* line 30, ../scss/includes/_home.scss */
+      /* line 36, ../scss/includes/_home.scss */
       .writing .article-index a:hover .article-date {
         color: #585858; }
-      /* line 32, ../scss/includes/_home.scss */
+      /* line 38, ../scss/includes/_home.scss */
       .writing .article-index a:hover .article-title {
         opacity: .8;
         background-color: #d3edff;
@@ -601,3 +609,25 @@ a {
         border-radius: 4px; }
 
 /* @end Home styles */
+/* @group Blog Post Styles -------------------- */
+/* line 5, ../scss/includes/_blogpost.scss */
+body.blogpost .page-header {
+  background-image: url('../img/blogpost-bg.jpg?1380384075');
+  padding: 50px 0;
+  margin-bottom: 40px; }
+  /* line 7, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header .joel-photo {
+    max-width: 184px; }
+  /* line 9, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header .my-avatar {
+    width: 18.45794%; }
+/* line 13, ../scss/includes/_blogpost.scss */
+body.blogpost .post-content {
+  margin-left: 18.45794%;
+  /*width: pct( 812, 1284);*/
+  max-width: 812px;
+  padding-bottom: 80px;
+  font-family: "Minion Pro", Palatino, Georgia, serif;
+  font-size: 26px; }
+
+/* @end Blog Post Styles */

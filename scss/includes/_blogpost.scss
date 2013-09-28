@@ -1,0 +1,23 @@
+/* @group Blog Post Styles -------------------- */
+
+body.blogpost {
+
+  .page-header { background-image: image-url("blogpost-bg.jpg"); padding: 50px 0; margin-bottom: 40px;
+
+    .joel-photo { max-width: 184px; }
+
+    .my-avatar { width: pct( 237, 1284); }
+
+  }
+
+  .post-content {
+    margin-left: pct( 237, 1284);
+    /*width: pct( 812, 1284);*/
+    max-width: 812px;
+    padding-bottom: 80px;
+    font-family: "Minion Pro", Palatino, Georgia, serif;
+    font-size: 26px; }
+
+}
+
+/* @end Blog Post Styles */
