@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+
+
+<!--
+
+ $$$$$$$$$$$$$$$$$$$$$$    $$$$$$$$$$$$$$$$$$$$$$    $$$$$$$$$$$$$$$$$$$$$$
+$                      $  $                      $  $                      $
+$                      $  $                      $  $                      $
+ $$$$$$$$$$$$$$$       $  $       $$$$$$$$       $  $       $$$$$$$$$$$$$$$
+                $      $  $      $        $      $  $      $
+ $$$$$$         $      $  $       $$$$$$$$       $  $      $         $$$$$$
+$      $        $      $  $                      $  $      $        $      $
+$       $$$$$$$$       $  $                      $  $       $$$$$$$$       $
+$                      $  $       $$$$$$$$       $  $                      $
+$                      $  $      $        $      $  $                      $
+ $$$$$$$$$$$$$$$$$$$$$$    $$$$$$          $$$$$$    $$$$$$$$$$$$$$$$$$$$$$
+
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <title> Quick Tip - Mountain Lion, Sandboxing, Mail.app & plist files | Joel Andrew Glovier (JAG), designer, developer, and lots of other things.</title>
+
+  <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  <link rel="icon" type="image/x-icon" href="/favicon.png" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+  <link rel="canonical" href="http://joelglovier.com/" />
+  <meta property="og:image" content="...">
+  <meta name="copyright" content="Joel Andrew Glovier 2013" />
+  <meta name="description" content="The personal gateway page of Joel Andrew Glovier, Web and Interface Designer. Representing all things web related to Joel and other random things he wanted to share on the Internets." />
+  <meta name="keywords" content="JAG, JAG Design Ideas, Joel Andrew Glovier, web design, CURE web designer, CURE International, UI, UX, user interface, user experience, graphic design, central PA, central Pennsylvania, Lebanon, advertising, marketing, graphic design, illustration, identity, branding, brand identity, designer, graphic artist, consultant, web design, CSS, front end, print, print design, business cards, website design, information architecture, logo design, content management, wordpress, custom wordpress, CMS, Harrisburg, Dauphin County, Lebanon County, York County, portfolio, design studio, creative services, web development, progressive enhancement, HTML5, CSS3" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Joel Andrew Glovier" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="rfhW_LUYYbZ4kwHGGZqplNsGs5eFB1-H8UEfmF6lE9o" />
+  <meta name="google-site-verification" content="SGfkvTb1a9lGoIk20Pj6ziWcVDWrXhHpeodFvfBSAyc" />
+  <!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+
+  });
+  </script>
+</head>
+
+<body class="blogpost">
+
+  <nav class="site-nav"></nav>
+
+  <header class="page-header">
+
+    <div class="wrap">
+
+      <div class="my-avatar">
+        <!-- to use gravatar, use: http://gravatar.com/avatar/08204f4b335869f868d11a5292c9a9fb?s=245 -->
+        <img class="joel-photo" src="img/joel-glovier.jpg" alt="Joel Andrew Glovier avatar" />
+      </div>
+
+      <div class="intro-copy">
+        <h1>Quick Tip - Mountain Lion, Sandboxing, Mail.app & plist files</h1>
+        
+      </div>
+
+    </div>
+
+  </header>
+
+<p>So the last couple days I've encountered some issues with rebooting my new 2012 Macbook Air from sleep (new as in this years model, actually had it since early July) where when the machine would awake from sleep overnight it became unresponsive and I had to do a hard restart.</p><p>Today when it happened, I was able to get the Console open before it became completely responsive, and noticed a particular error message from Mail.app that was occurring every few seconds:</p><img src='http://media.tumblr.com/tumblr_m9vpray3Sd1qh12k4.png' /><p>The error reads:</p><blockquote>
+<p>9/5/12 8:10:50.782 AM sandboxd[737]: ([693]) Mail(693) deny file-read-data /Library/Preferences/com.apple.mail.plist</p>
+</blockquote>
+<p>So I did a little bit of Googling and arrived at <a href='https://discussions.apple.com/thread/4178698'>this Apple Support discussion thread</a>, where several people were experiencing the same issue (specifically the plist file error, not sure about the machine becoming unresponsive).&lt;/p&gt;</p>
+<p>Turns out with the new app sandboxing requirements of OSX Mountain Lion, apparently Mail.app cannot properly access it's own plist file. Fortunately, the fix is very simple: simply delete that plist file, and Mail.app will recreate a new one in the proper location that it can now access with the new sandboxing restrictions.</p><p>I'm still not sure whether this was the exact cause of my machine becoming unresponsive, or if it was the 9 browser windows I had open with a total of 70-80 tabs...but at least there's a solution to the plist file problem. :-)</p>
+
+<!--GA script here-->
+<script>
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17567335-1']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+
+</html>

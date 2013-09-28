@@ -1,0 +1,19 @@
+  <nav class="site-nav"></nav>
+
+  <header class="page-header"{% if page.bgImage %} style="background-image: url({{ page.bgImage }};"{% endif %}>
+
+    <div class="wrap">
+
+      <div class="my-avatar">
+        <!-- to use gravatar, use: http://gravatar.com/avatar/08204f4b335869f868d11a5292c9a9fb?s=245 -->
+        <img class="joel-photo" src="img/joel-glovier.jpg" alt="Joel Andrew Glovier avatar" />
+      </div>
+
+      <div class="intro-copy">
+        <h1>{{ page.title }}</h1>
+        {% if page.subhead %}<p class="subhead">{{ page.subhead }}</p>{% endif %}
+      </div>
+
+    </div>
+
+  </header>

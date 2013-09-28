@@ -510,59 +510,8 @@ a {
       .page-header .intro-copy a:hover {
         background-color: rgba(0, 68, 114, 0.4); }
 
-/* Home - Writing (article index) */
-/* line 49, ../scss/includes/_layout.scss */
-.writing {
-  margin-left: 26.55763%;
-  padding-bottom: 80px; }
-  /* line 51, ../scss/includes/_layout.scss */
-  .writing h2 {
-    font-weight: 300;
-    font-size: 48px;
-    letter-spacing: -2px; }
-  /* line 53, ../scss/includes/_layout.scss */
-  .writing .article-index {
-    list-style: none;
-    padding-left: 0; }
-    /* line 55, ../scss/includes/_layout.scss */
-    .writing .article-index li {
-      margin: 42px 0; }
-    /* line 57, ../scss/includes/_layout.scss */
-    .writing .article-index .article-date {
-      font-size: 18px;
-      color: #c7c7c7;
-      margin-left: -128px;
-      display: block;
-      float: left;
-      text-align: right;
-      letter-spacing: 1px;
-      width: 105px;
-      line-height: 46px; }
-    /* line 68, ../scss/includes/_layout.scss */
-    .writing .article-index .article-title {
-      font-size: 28px;
-      color: #0099ff;
-      font-weight: 700; }
-    /* line 70, ../scss/includes/_layout.scss */
-    .writing .article-index a {
-      display: block; }
-      /* line 74, ../scss/includes/_layout.scss */
-      .writing .article-index a:hover .article-date {
-        color: #585858; }
-      /* line 76, ../scss/includes/_layout.scss */
-      .writing .article-index a:hover .article-title {
-        opacity: .8;
-        background-color: #d3edff;
-        padding: 0 10px;
-        margin: 0 -10px;
-        -webkit-border-radius: 4px;
-        -moz-border-radius: 4px;
-        -ms-border-radius: 4px;
-        -o-border-radius: 4px;
-        border-radius: 4px; }
-
 /* Page Footer */
-/* line 88, ../scss/includes/_layout.scss */
+/* line 50, ../scss/includes/_layout.scss */
 .page-footer {
   text-align: center;
   color: #c7c7c7;
@@ -600,4 +549,55 @@ a {
 
 /* NOTES: using methods of linking as described here: http://coding.smashingmagazine.com/2013/02/14/setting-weights-and-styles-at-font-face-declaration/ under "Style Linking"; Note: this method is known to crash browsers on Blackberry and iPad 1; Also, no more than 4 weights can be used on IE7 or IE8 or text won't render properly */
 /* @group Home styles -------------------- */
+/* Writing (article index) */
+/* line 5, ../scss/includes/_home.scss */
+.writing {
+  margin-left: 26.55763%;
+  padding-bottom: 80px; }
+  /* line 7, ../scss/includes/_home.scss */
+  .writing h2 {
+    font-weight: 300;
+    font-size: 48px;
+    letter-spacing: -2px; }
+  /* line 9, ../scss/includes/_home.scss */
+  .writing .article-index {
+    list-style: none;
+    padding-left: 0; }
+    /* line 11, ../scss/includes/_home.scss */
+    .writing .article-index li {
+      margin: 42px 0; }
+    /* line 13, ../scss/includes/_home.scss */
+    .writing .article-index .article-date {
+      font-size: 18px;
+      color: #c7c7c7;
+      margin-left: -128px;
+      display: block;
+      float: left;
+      text-align: right;
+      letter-spacing: 1px;
+      width: 105px;
+      line-height: 46px; }
+    /* line 24, ../scss/includes/_home.scss */
+    .writing .article-index .article-title {
+      font-size: 28px;
+      color: #0099ff;
+      font-weight: 700; }
+    /* line 26, ../scss/includes/_home.scss */
+    .writing .article-index a {
+      display: block; }
+      /* line 30, ../scss/includes/_home.scss */
+      .writing .article-index a:hover .article-date {
+        color: #585858; }
+      /* line 32, ../scss/includes/_home.scss */
+      .writing .article-index a:hover .article-title {
+        opacity: .8;
+        background-color: #d3edff;
+        padding: 0 10px;
+        margin: 0 -10px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        border-radius: 4px; }
+
 /* @end Home styles */

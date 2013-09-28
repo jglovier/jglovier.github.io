@@ -44,44 +44,6 @@
 
 }
 
-/* Home - Writing (article index) */
-
-.writing { margin-left: pct( 341, 1284); padding-bottom: 80px;
-
-  h2 { font-weight: 300; font-size: 48px; letter-spacing: -2px; }
-
-  .article-index { list-style: none; padding-left: 0;
-
-    li { margin: 42px 0; }
-
-    .article-date {
-      font-size: 18px;
-      color: $gray_2;
-      margin-left: -128px;
-      display: block;
-      float: left;
-      text-align: right;
-      letter-spacing: 1px;
-      width: 105px;
-      line-height: 46px; }
-
-    .article-title { font-size: 28px; color: $blue; font-weight: 700; }
-
-    a { display: block;
-
-      &:hover {
-
-        .article-date { color: $gray_3; }
-
-        .article-title { opacity: .8; background-color: $blue_l3; padding: 0 10px; margin: 0 -10px; @include border-radius(4px); }
-
-      }
-
-    }
-
-  }
-
-}
 
 /* Page Footer */
 

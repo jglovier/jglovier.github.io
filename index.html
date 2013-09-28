@@ -1,81 +1,6 @@
-<!DOCTYPE html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html lang="en-us" class="no-js ie lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>    <html lang="en-us" class="no-js ie lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>    <html lang="en-us" class="no-js ie lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en-us" class="no-js"> <!--<![endif]-->
-
-<!--
-
- $$$$$$$$$$$$$$$$$$$$$$    $$$$$$$$$$$$$$$$$$$$$$    $$$$$$$$$$$$$$$$$$$$$$
-$                      $  $                      $  $                      $
-$                      $  $                      $  $                      $
- $$$$$$$$$$$$$$$       $  $       $$$$$$$$       $  $       $$$$$$$$$$$$$$$
-                $      $  $      $        $      $  $      $
- $$$$$$         $      $  $       $$$$$$$$       $  $      $         $$$$$$
-$      $        $      $  $                      $  $      $        $      $
-$       $$$$$$$$       $  $                      $  $       $$$$$$$$       $
-$                      $  $       $$$$$$$$       $  $                      $
-$                      $  $      $        $      $  $                      $
- $$$$$$$$$$$$$$$$$$$$$$    $$$$$$          $$$$$$    $$$$$$$$$$$$$$$$$$$$$$
-
--->
-
-<head>
-  <meta charset="UTF-8">
-  <title>Hi! I'm Joel Andrew Glovier (JAG), web designer and developer, and lots of other things.</title>
-
-  <link rel="stylesheet" type="text/css" href="css/main.css" />
-  <link rel="icon" type="image/x-icon" href="/favicon.png" />
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
-  <link rel="logo" type="image/svg" href="..." />
-  <link rel="canonical" href="http://joelglovier.com/" />
-  <meta property="og:image" content="...">
-  <meta name="copyright" content="Joel Andrew Glovier 2013" />
-  <meta name="description" content="The personal gateway page of Joel Andrew Glovier, Web and Interface Designer. Representing all things web related to Joel and other random things he wanted to share on the Internets." />
-  <meta name="keywords" content="JAG, JAG Design Ideas, Joel Andrew Glovier, web design, CURE web designer, CURE International, UI, UX, user interface, user experience, graphic design, central PA, central Pennsylvania, Lebanon, advertising, marketing, graphic design, illustration, identity, branding, brand identity, designer, graphic artist, consultant, web design, CSS, front end, print, print design, business cards, website design, information architecture, logo design, content management, wordpress, custom wordpress, CMS, Harrisburg, Dauphin County, Lebanon County, York County, portfolio, design studio, creative services, web development, progressive enhancement, HTML5, CSS3" />
-  <meta name="robots" content="index, follow" />
-  <meta name="author" content="Joel Andrew Glovier" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="google-site-verification" content="rfhW_LUYYbZ4kwHGGZqplNsGs5eFB1-H8UEfmF6lE9o" />
-  <meta name="google-site-verification" content="SGfkvTb1a9lGoIk20Pj6ziWcVDWrXhHpeodFvfBSAyc" />
-  <!--[if IE]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script>
-  $(document).ready(function(){
-
-  });
-  </script>
-</head>
-
-
-<body id="jag-home" class="home">
-
-  <nav class="site-nav"></nav>
-
-  <header class="page-header">
-
-    <div class="wrap">
-
-      <div class="my-avatar">
-        <!-- to use gravatar, use: http://gravatar.com/avatar/08204f4b335869f868d11a5292c9a9fb?s=245 -->
-        <img class="joel-photo" src="img/joel-glovier.jpg" alt="Joel Andrew Glovier avatar" />
-      </div>
-
-      <div class="intro-copy">
-        <h1>Hi, I'm <span>Joel Glovier</span></h1>
-        <p class="description">I’m a <a href="#">GitHubber</a>. I <a href="#">design</a> things, <a href="#">build</a> things, <a href="#">write</a> stuff, <a href="#">speak</a> sometimes, and <a href="#">teach</a>.</p>
-        <p class="description">You can find me <a href="#">lots of places on the web</a>.</p>
-      </div>
-
-    </div>
-
-  </header>
+---
+layout: home
+---
 
   <section class="writing" id="writing">
 
@@ -87,80 +12,34 @@ $                      $  $      $        $      $  $                      $
 
       <ul class="article-index">
 
+        {% for post in site.posts %}
         <li>
-          <a href="#">
-            <span class="article-date">11/14/2013</span>
-            <span class="article-title">A new design and a new backend</span>
+          <a href="{{ post.url }}">
+            <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
+            <span class="article-title">{{ post.title }}</span>
+          </a>
+        </li>
+        {% endfor %}
+
+      </ul>
+
+      <h2 class="other-writing">Articles Elsewhere</h2>
+
+      <ul class="article-index">
+
+        <li>
+          <a href="http://appendto.com/blog/2013/03/pure-css-triangles-explained/">
+            <span class="article-date">3/27/2013</span>
+            <span class="article-title">Pure CSS Triangles Explained</span>
+            <span class="article-source">appendto.com/blog</span>
           </a>
         </li>
 
         <li>
-          <a href="#">
-            <span class="article-date">9/28/2013</span>
-            <span class="article-title">Why I’m selling Dev Tees</span>
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <span class="article-date">6/14/2013</span>
-            <span class="article-title">On Love</span>
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <span class="article-date">6/5/2013</span>
-            <span class="article-title">Solution for CSS Transitions crashing on Safari</span>
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <span class="article-date">6/18/2013</span>
-            <span class="article-title">A fond farewell to AppendTo</span>
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <span class="article-date">6/18/2013</span>
-            <span class="article-title">Markerboard Mentality</span>
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <span class="article-date">6/18/2013</span>
-            <span class="article-title">Pure CSS triangles explained</span>
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <span class="article-date">6/18/2013</span>
-            <span class="article-title">Flat design or skeuomorphism: wrong question</span>
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <span class="article-date">6/18/2013</span>
-            <span class="article-title">Thoughts on design:</span>
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <span class="article-date">6/18/2013</span>
-            <span class="article-title">On Twitter followers</span>
-          </a>
-        </li>
-
-        <li>
-          <a href="#">
-            <span class="article-date">6/18/2013</span>
-            <span class="article-title">Are domain hacks devaluing .coms?</span>
+          <a href="http://www.slidedeck.com/blog/how-cure-org-increased-website-workflow-and-engagement-with-slidedeck/">
+            <span class="article-date">4/26/2011</span>
+            <span class="article-title">How a Non-Profit Increased User Engagement with Facebook API and CSS3</span>
+            <span class="article-source">http://www.slidedeck.com/blog</span>
           </a>
         </li>
 
@@ -169,30 +48,3 @@ $                      $  $      $        $      $  $                      $
     </div>
 
   </section>
-
-  <footer class="page-footer">
-    <div class="wrap">
-      <p class="copyright">All content © copyright 2013 Joel Andrew Glovier. All rights reserved. Site design, markup and styles open source and available on <a href="#">GitHub</a>.</p>
-    </div>
-  </footer>
-
-
-<!--GA script here-->
-<script>
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-17567335-1']);
-  _gaq.push(['_trackPageview']);
-  _gaq.push(['_trackPageLoadTime']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
-</body>
-
-</html>
