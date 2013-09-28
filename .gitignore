@@ -3,3 +3,4 @@ _drafts/
 _site/
 _postarchive/
 .DS_Store
+codekit-config.json
