@@ -55,6 +55,9 @@ body.blogpost {
       padding: 20px;
       @include border-radius(5px); }
 
+    .strikethrough,
+    del { text-decoration: line-through; color: $gray_2; }
+
   }
 
 }

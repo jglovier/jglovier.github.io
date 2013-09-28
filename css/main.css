@@ -677,5 +677,10 @@ body.blogpost .post-content {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     border-radius: 5px; }
+  /* line 59, ../scss/includes/_blogpost.scss */
+  body.blogpost .post-content .strikethrough,
+  body.blogpost .post-content del {
+    text-decoration: line-through;
+    color: #c7c7c7; }
 
 /* @end Blog Post Styles */
