@@ -2,77 +2,74 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8326",
   "files" : {
-    "\/_site\/css\/screen.css" : {
+    "\/_layouts\/blogpost.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_layouts\/blogpost.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/scss\/includes\/_mixins.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/includes\/_mixins.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_mixins.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/scss\/includes\/_blogpost.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/includes\/_blogpost.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_blogpost.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/fonts\/webfontkit-20130927-111916\/fonts.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/css\/screen.css",
+      "inputAbbreviatedPath" : "\/fonts\/webfontkit-20130927-111916\/fonts.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/_site\/writing\/2012\/on-twitter-followers\/index.html" : {
+    "\/css\/screen.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/writing\/2012\/on-twitter-followers\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/writing\/2013\/solution-for-css-transitions-crashing-safari\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/writing\/2013\/solution-for-css-transitions-crashing-safari\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/css\/print.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/css\/print.css",
+      "inputAbbreviatedPath" : "\/css\/screen.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/_includes\/head.html" : {
+    "\/css\/ie.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_includes\/head.html",
+      "inputAbbreviatedPath" : "\/css\/ie.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "fileType" : 16
     },
-    "\/_site\/writing\/2012\/are-domain-hacks-devaluing-coms\/index.html" : {
+    "\/css\/main.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/writing\/2012\/are-domain-hacks-devaluing-coms\/index.html",
+      "inputAbbreviatedPath" : "\/css\/main.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_includes\/header_home.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_includes\/header_home.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "fileType" : 16
     },
     "\/scss\/main.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -86,26 +83,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_site\/img\/default-intro-bg.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/img\/default-intro-bg.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_site\/img\/default-intro-bg.jpg",
-      "initialSize" : 48388,
-      "fileType" : 4096
-    },
-    "\/_site\/writing\/2012\/quick-tip-fix-your-unresponsive-iphone-home-button\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/writing\/2012\/quick-tip-fix-your-unresponsive-iphone-home-button\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/scss\/includes\/_variables.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -115,124 +92,6 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/_variables.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_site\/img\/blogpost-bg.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/img\/blogpost-bg.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_site\/img\/blogpost-bg.jpg",
-      "initialSize" : 39596,
-      "fileType" : 4096
-    },
-    "\/_site\/css\/ie.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/css\/ie.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/_site\/fonts\/webfontkit-20130927-111916\/fonts.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/fonts\/webfontkit-20130927-111916\/fonts.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/_site\/writing\/2013\/a-fond-farewell-to-appendto\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/writing\/2013\/a-fond-farewell-to-appendto\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/writing\/2013\/flat-design-or-skeuomorphism-wrong-question\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/writing\/2013\/flat-design-or-skeuomorphism-wrong-question\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/404.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/404.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/img\/joel-glovier.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/img\/joel-glovier.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_site\/img\/joel-glovier.jpg",
-      "initialSize" : 15746,
-      "fileType" : 4096
-    },
-    "\/css\/screen.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/screen.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/scss\/ie.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/ie.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/ie.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_includes\/header_blogpost.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_includes\/header_blogpost.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/scss\/includes\/_normalize.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/includes\/_normalize.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_normalize.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -248,26 +107,46 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/includes\/_mixins.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/includes\/_mixins.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_mixins.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_site\/css\/main.css" : {
+    "\/img\/default-intro-bg.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/css\/main.css",
+      "inputAbbreviatedPath" : "\/img\/default-intro-bg.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/default-intro-bg.jpg",
+      "initialSize" : 50555,
+      "fileType" : 4096
+    },
+    "\/scss\/print.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/print.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/print.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_includes\/header_blogpost.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_includes\/header_blogpost.html",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "fileType" : 2048
+    },
+    "\/_includes\/header_home.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_includes\/header_home.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_includes\/closing-tags.html" : {
       "ignoreWasSetByUser" : 0,
@@ -278,30 +157,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_site\/writing\/2012\/quick-tip-iphone-caps-lock\/index.html" : {
+    "\/404.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/writing\/2012\/quick-tip-iphone-caps-lock\/index.html",
+      "inputAbbreviatedPath" : "\/404.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/fonts\/fonts.css" : {
+    "\/_includes\/footer.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/fonts.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/_site\/writing\/2012\/quick-tip-mountain-lion-sandboxing-mail-app-plist\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/writing\/2012\/quick-tip-mountain-lion-sandboxing-mail-app-plist\/index.html",
+      "inputAbbreviatedPath" : "\/_includes\/footer.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -316,95 +186,6 @@
       "outputAbbreviatedPath" : "\/css\/_typography.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/scss\/screen.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/screen.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/screen.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/img\/blogpost-bg.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/blogpost-bg.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/blogpost-bg.jpg",
-      "initialSize" : 39596,
-      "fileType" : 4096
-    },
-    "\/scss\/includes\/_layout.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/includes\/_layout.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_layout.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_layouts\/blogpost.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_layouts\/blogpost.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_includes\/footer.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_includes\/footer.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/writing\/2012\/quick-tip-view-alternate-keys-on-osx\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/writing\/2012\/quick-tip-view-alternate-keys-on-osx\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/css\/print.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/print.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/fonts\/webfontkit-20130927-111916\/fonts.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/webfontkit-20130927-111916\/fonts.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/_layouts\/home.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_layouts\/home.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/config.rb" : {
       "ignoreWasSetByUser" : 0,
@@ -424,26 +205,80 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/scss\/includes\/_base.scss" : {
+    "\/css\/print.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/includes\/_base.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_base.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/css\/print.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
-    "\/_site\/writing\/2012\/i-have-a-dream\/index.html" : {
+    "\/scss\/screen.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/writing\/2012\/i-have-a-dream\/index.html",
+      "inputAbbreviatedPath" : "\/scss\/screen.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/screen.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/fonts\/fonts.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/fonts\/fonts.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/scss\/includes\/_layout.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/includes\/_layout.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_layout.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/scss\/ie.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/ie.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/ie.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_layouts\/home.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_layouts\/home.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/scss\/includes\/_normalize.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/includes\/_normalize.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_normalize.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/img\/joel-glovier.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -456,112 +291,46 @@
       "initialSize" : 15746,
       "fileType" : 4096
     },
-    "\/_site\/writing\/2012\/using-the-hr-element-semantically\/index.html" : {
+    "\/_includes\/head.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/writing\/2012\/using-the-hr-element-semantically\/index.html",
+      "inputAbbreviatedPath" : "\/_includes\/head.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/scss\/includes\/_blogpost.scss" : {
+    "\/scss\/includes\/_base.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/includes\/_blogpost.scss",
+      "inputAbbreviatedPath" : "\/scss\/includes\/_base.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_blogpost.css",
+      "outputAbbreviatedPath" : "\/css\/_base.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/print.scss" : {
+    "\/img\/blogpost-bg.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/print.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/print.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_site\/writing\/2013\/on-love\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/writing\/2013\/on-love\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/fonts\/webfontkit-20130927-111916\/mark_simonson_-_proxima_nova_alt_bold-demo.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/fonts\/webfontkit-20130927-111916\/mark_simonson_-_proxima_nova_alt_bold-demo.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/404.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/404.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/css\/main.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/main.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/img\/default-intro-bg.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/default-intro-bg.jpg",
+      "inputAbbreviatedPath" : "\/img\/blogpost-bg.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/default-intro-bg.jpg",
-      "initialSize" : 50555,
+      "outputAbbreviatedPath" : "\/img\/blogpost-bg.jpg",
+      "initialSize" : 39596,
       "fileType" : 4096
     },
-    "\/_site\/writing\/2013\/markerboard-mentality\/index.html" : {
+    "\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/writing\/2013\/markerboard-mentality\/index.html",
+      "inputAbbreviatedPath" : "\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/_site\/fonts\/fonts.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/fonts\/fonts.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/css\/ie.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/ie.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     }
   },
   "manualImportLinks" : [
