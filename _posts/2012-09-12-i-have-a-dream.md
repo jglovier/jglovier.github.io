@@ -3,7 +3,7 @@ layout: blogpost
 title: I have a dream...
 ---
 
-<p>Before you get the wrong idea from the title, I'm not claiming this dream to be as meaningful or significant as what Martin Luther King's envisioned when he said those words. But, here's something I think would be revolutionary in it's own way if it eventually transpired in our society:</p>
+<p class="disclaimer">Before you get the wrong idea from the title, I'm not claiming this dream to be as meaningful or significant as what Martin Luther King's envisioned when he said those words. But, here's something I think would be revolutionary in it's own way if it eventually transpired in our society:</p>
 
 <p>My dream is that one day, people will be as fluent in code as in their native language. Along with English or Spanish taken in elementary school or middle school, children would also learn markup and programming languages.</p>
 

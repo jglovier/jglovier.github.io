@@ -11,6 +11,24 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/_site\/writing\/2012\/on-twitter-followers\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/writing\/2012\/on-twitter-followers\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/writing\/2013\/solution-for-css-transitions-crashing-safari\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/writing\/2013\/solution-for-css-transitions-crashing-safari\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/_site\/css\/print.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -29,12 +47,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_site\/2013\/06\/03\/a-fond-farewell-to-appendto.html" : {
+    "\/_site\/writing\/2012\/are-domain-hacks-devaluing-coms\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2013\/06\/03\/a-fond-farewell-to-appendto.html",
+      "inputAbbreviatedPath" : "\/_site\/writing\/2012\/are-domain-hacks-devaluing-coms\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -53,33 +71,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/_includes\/header_home.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/2012\/12\/19\/are-domain-hacks-devaluing-coms.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2012\/12\/19\/are-domain-hacks-devaluing-coms.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/2013\/06\/05\/solution-for-css-transitions-crashing-safari.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2013\/06\/05\/solution-for-css-transitions-crashing-safari.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/2013\/06\/14\/on-love.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2013\/06\/14\/on-love.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -106,6 +97,15 @@
       "initialSize" : 48388,
       "fileType" : 4096
     },
+    "\/_site\/writing\/2012\/quick-tip-fix-your-unresponsive-iphone-home-button\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/writing\/2012\/quick-tip-fix-your-unresponsive-iphone-home-button\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/scss\/includes\/_variables.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -117,15 +117,6 @@
       "outputAbbreviatedPath" : "\/css\/_variables.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/_site\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/_site\/img\/blogpost-bg.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -156,12 +147,30 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/_site\/2012\/12\/05\/on-twitter-followers.html" : {
+    "\/_site\/writing\/2013\/a-fond-farewell-to-appendto\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2012\/12\/05\/on-twitter-followers.html",
+      "inputAbbreviatedPath" : "\/_site\/writing\/2013\/a-fond-farewell-to-appendto\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_site\/writing\/2013\/flat-design-or-skeuomorphism-wrong-question\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/writing\/2013\/flat-design-or-skeuomorphism-wrong-question\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -269,12 +278,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_site\/2012\/09\/12\/i-have-a-dream.html" : {
+    "\/_site\/writing\/2012\/quick-tip-iphone-caps-lock\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2012\/09\/12\/i-have-a-dream.html",
+      "inputAbbreviatedPath" : "\/_site\/writing\/2012\/quick-tip-iphone-caps-lock\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -286,6 +295,15 @@
       "inputAbbreviatedPath" : "\/fonts\/fonts.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/_site\/writing\/2012\/quick-tip-mountain-lion-sandboxing-mail-app-plist\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/writing\/2012\/quick-tip-mountain-lion-sandboxing-mail-app-plist\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/scss\/includes\/_typography.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -352,6 +370,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/_site\/writing\/2012\/quick-tip-view-alternate-keys-on-osx\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/writing\/2012\/quick-tip-view-alternate-keys-on-osx\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/css\/print.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -409,6 +436,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/_site\/writing\/2012\/i-have-a-dream\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/writing\/2012\/i-have-a-dream\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/img\/joel-glovier.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -420,12 +456,12 @@
       "initialSize" : 15746,
       "fileType" : 4096
     },
-    "\/_site\/2012\/10\/08\/quick-tip-view-alternate-keys-on-osx.html" : {
+    "\/_site\/writing\/2012\/using-the-hr-element-semantically\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2012\/10\/08\/quick-tip-view-alternate-keys-on-osx.html",
+      "inputAbbreviatedPath" : "\/_site\/writing\/2012\/using-the-hr-element-semantically\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -453,48 +489,12 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_site\/2012\/09\/05\/quick-tip-mountain-lion-sandboxing-mail-app-plist.html" : {
+    "\/_site\/writing\/2013\/on-love\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2012\/09\/05\/quick-tip-mountain-lion-sandboxing-mail-app-plist.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/2013\/03\/23\/flat-design-or-skeuomorphism-wrong-question.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2013\/03\/23\/flat-design-or-skeuomorphism-wrong-question.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/2012\/08\/30\/using-the-hr-element-semantically.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2012\/08\/30\/using-the-hr-element-semantically.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/2012\/09\/15\/quick-tip-iphone-caps-lock.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2012\/09\/15\/quick-tip-iphone-caps-lock.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/_site\/2013\/05\/02\/markerboard-mentality.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2013\/05\/02\/markerboard-mentality.html",
+      "inputAbbreviatedPath" : "\/_site\/writing\/2013\/on-love\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -516,6 +516,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/css\/main.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/main.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/img\/default-intro-bg.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -527,21 +536,12 @@
       "initialSize" : 50555,
       "fileType" : 4096
     },
-    "\/css\/main.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/main.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/_site\/2012\/10\/11\/quick-tip-fix-your-unresponsive-iphone-home-button.html" : {
+    "\/_site\/writing\/2013\/markerboard-mentality\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/2012\/10\/11\/quick-tip-fix-your-unresponsive-iphone-home-button.html",
+      "inputAbbreviatedPath" : "\/_site\/writing\/2013\/markerboard-mentality\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },

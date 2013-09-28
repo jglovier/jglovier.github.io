@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+
+<!--
+        $$$$$$$$$$  $$$$$$$$$$  $$$$$$$$$$
+                $$  $$      $$  $$
+        $$      $$  $$$$$$$$$$  $$      $$
+        $$$$$$$$$$  $$      $$  $$$$$$$$$$
+
+               ____==========_______
+    _--____   |    | ""  " "|       \
+   /  )8}  ^^^| 0  |  =     |  o  0  |
+ </_ +-==B vvv|""  |  =     | '  "" "|
+    \_____/   |____|________|________|
+             (_(  )\________/___(  )__)
+               |\  \            /  /\
+               | \  \          /  /\ \
+               | |\  \        /  /  \ \
+               (  )(  )       (  \   (  )
+                \  / /        \  \   \  \
+                 \|  |\        \  \  |  |
+                  |  | )____    \  \ \  )___
+                  (  )  /  /    (  )  (/  /
+                 /___\ /__/     /___\ /__/
+                The AT-AT, By Core21
+                (ASCII Art from: http://www.chris.com/ascii/index.php?art=movies%2Fstar%20wars)
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <title> Solution For CSS Transitions Crashing Safari | Joel Andrew Glovier (JAG), designer, developer, and lots of other things.</title>
+
+  <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  <link rel="icon" type="image/x-icon" href="/favicon.png" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+  <link rel="canonical" href="http://joelglovier.com/" />
+  <meta property="og:image" content="...">
+  <meta name="copyright" content="Joel Andrew Glovier 2013" />
+  <meta name="description" content="The personal gateway page of Joel Andrew Glovier, Web and Interface Designer. Representing all things web related to Joel and other random things he wanted to share on the Internets." />
+  <meta name="keywords" content="JAG, JAG Design Ideas, Joel Andrew Glovier, web design, CURE web designer, CURE International, UI, UX, user interface, user experience, graphic design, central PA, central Pennsylvania, Lebanon, advertising, marketing, graphic design, illustration, identity, branding, brand identity, designer, graphic artist, consultant, web design, CSS, front end, print, print design, business cards, website design, information architecture, logo design, content management, wordpress, custom wordpress, CMS, Harrisburg, Dauphin County, Lebanon County, York County, portfolio, design studio, creative services, web development, progressive enhancement, HTML5, CSS3" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Joel Andrew Glovier" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="rfhW_LUYYbZ4kwHGGZqplNsGs5eFB1-H8UEfmF6lE9o" />
+  <meta name="google-site-verification" content="SGfkvTb1a9lGoIk20Pj6ziWcVDWrXhHpeodFvfBSAyc" />
+  <!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+
+  });
+  </script>
+</head>
+
+<body class="blogpost">
+
+  <nav class="site-nav"></nav>
+
+  <header class="page-header">
+
+    <div class="wrap">
+
+      <div class="my-avatar">
+        <!-- to use gravatar, use: http://gravatar.com/avatar/08204f4b335869f868d11a5292c9a9fb?s=245 -->
+        <a href="/"><img class="joel-photo" src="/img/joel-glovier.jpg" alt="Joel Andrew Glovier avatar" /></a>
+      </div>
+
+      <div class="intro-copy">
+        <h1>Solution For CSS Transitions Crashing Safari</h1>
+        
+        <p class="article-date">6/5/2013</p>
+      </div>
+
+    </div>
+
+  </header>
+
+<div class="wrap">
+
+  <article class="post-content">
+<p>A few weeks ago I discovered a bug with my newly launched site <a href="http://remotejobs.io">Remote Jobs</a>. The site is fully responsive, and I happened to be at a Verizon store upgrading my wife’s phone when I decided to take a glance at Remote Jobs on one of their iPads.</p>
+
+<p>Surprisingly, the site crashed iOS Safari before it could even fully load. So I tried it again. Crash. And again…crash. I took it to another one of their four iPads, and same thing on every device: crashed iOS Safari before it could even fully load of the page.</p>
+
+<p>Naturally, wanting to debug my site more than upgrade my wife’s phone, I tried Remote Jobs on every OTHER tablet in the store that were not iOS devices. Turned out that the site did not crash on any other tablet - just the iPads.</p>
+
+<p>So I tweeted to confirm my issue, and sure enough many other people reported back the same behavior on their iPads and even on Safari 6.1 on OS X.</p>
+
+<p>At this point I was baffled. So the site was crashing Safari on desktop, iOS Safari on iPads, but strangely enough NOT crashing iOS Safari on iPhones.</p>
+
+<p>As soon as I got home I started debugging on Safari for OS X. I checked OS X console for any useful error messages. Nada. I checked other webkit browsers (aka Chrome) to try to observe any similar behavior. Nada. I poured over my code to see if I could spot anything strange. No clues.</p>
+
+<p>Finally, I turned to Google and landed on StackOverflow where a couple questions described Safari crashing under some strange circumstances that were in fact CSS related.</p>
+
+<p>I noticed that some people had similar issues with Safari crashing when using the css <code>transition</code> property, and sure enough it was choking on the <code>transition-property: all</code> value applied to a global anchor selector, in conjunction with the percentage based layout (for responsive design) of the site.</p>
+
+<p>When I changed the value of <code>all</code> to <code>color</code>, the site stopped crashing in Safari.</p>
+
+<p>It’s a pretty severe bug, but I hope my experience helps someone else out there. For more on the technical details of the solution, see the question and answer I posted on Stack Overflow: http://stackoverflow.com/questions/15987787/my-website-crashes-safari-both-desktop-and-ios-consistently</p>
+
+  </article>
+
+</div>
+
+<footer class="page-footer">
+
+    <div class="wrap">
+
+      <p class="copyright">Content © Joel Andrew Glovier. Hosted on <a href="http://pages.github.com">GitHub Pages</a>. Built with <a href="http://jekyllrb.com/">Jekyll</a>. Feel free to <a href="https://github.com/jglovier/jglovier.github.io">Fork me on GitHub</a>.</p>
+
+    </div>
+
+  </footer>
+
+<!--GA script here-->
+<script>
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17567335-1']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+
+</html>

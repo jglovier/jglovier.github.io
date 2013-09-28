@@ -8,6 +8,25 @@ body.blogpost {
 
     .my-avatar { width: pct( 237, 1284); }
 
+    .intro-copy { width: pct( 1022, 1284);
+
+      h1 { font-weight: 700; margin: 10px 0 0; width: auto; }
+
+      .subhead {
+        font-size: 28px;
+        font-family: "Minion Pro", Palatino, Georgia, serif;
+        font-style: italic;
+        margin: 5px 0 0; }
+
+      .article-date {
+        font-size: 20px;
+        font-family: "pn_font";
+        letter-spacing: 2px;
+        margin: 0;
+        color: $blue_l3; }
+
+    }
+
   }
 
   .post-content {
@@ -16,7 +35,27 @@ body.blogpost {
     max-width: 812px;
     padding-bottom: 80px;
     font-family: "Minion Pro", Palatino, Georgia, serif;
-    font-size: 26px; }
+    font-size: 26px;
+    color: $gray_4;
+
+    h1, h2, h3, h4, h5, h6, h7 { font-family: "pn_font"; }
+
+    a { color: $blue; text-decoration: underline;
+
+      &:hover { text-decoration: none; }
+
+      &:visited { color: $navy; }
+
+    }
+
+    .disclaimer {
+      color: $blue;
+      font-size: 22px;
+      background-color: $blue_l3;
+      padding: 20px;
+      @include border-radius(5px); }
+
+  }
 
 }
 

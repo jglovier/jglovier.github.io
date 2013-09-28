@@ -47,7 +47,9 @@
 
 /* Page Footer */
 
-.page-footer { text-align: center; color: $gray_2; border-top: 1px solid #e8e8e8;
+.page-footer { text-align: center; border-top: 1px solid #e8e8e8;
+
+  a { color: $blue; }
 
 }
 
