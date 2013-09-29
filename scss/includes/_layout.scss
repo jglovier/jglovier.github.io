@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
   background-color: $blue_l1;
   border-bottom: 15px solid $blue;
-  padding: 70px 0;
+  padding: 60px 0;
   color: $white;
 
   .my-avatar { width: pct( 341, 1284); float: left; }
@@ -28,7 +28,7 @@
 
     }
 
-    .description { font-size: 24px;
+    .description { font-size: 24px; margin-bottom: 0;
 
       a { font-weight: 700; }
 

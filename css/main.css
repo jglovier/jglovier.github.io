@@ -458,7 +458,7 @@ a {
   background-repeat: no-repeat;
   background-color: #3fb2ff;
   border-bottom: 15px solid #0099ff;
-  padding: 70px 0;
+  padding: 60px 0;
   color: white; }
   /* line 14, ../scss/includes/_layout.scss */
   .page-header .my-avatar {
@@ -492,7 +492,8 @@ a {
         font-weight: 900; }
     /* line 31, ../scss/includes/_layout.scss */
     .page-header .intro-copy .description {
-      font-size: 24px; }
+      font-size: 24px;
+      margin-bottom: 0; }
       /* line 33, ../scss/includes/_layout.scss */
       .page-header .intro-copy .description a {
         font-weight: 700; }
