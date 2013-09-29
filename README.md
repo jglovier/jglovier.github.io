@@ -1,4 +1,4 @@
-Source for my personal website (joelglovier.com)
+jglovier.github.io [![Build Status](https://travis-ci.org/jglovier/jglovier.github.io.png)](https://travis-ci.org/jglovier/jglovier.github.io)
 ==================
 
 Source for the new joelglovier.com (currently under development; this repo is not actually live on joelglovier.com yet).
