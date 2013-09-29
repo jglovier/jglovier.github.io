@@ -683,5 +683,16 @@ body.blogpost .post-content {
   body.blogpost .post-content del {
     text-decoration: line-through;
     color: #c7c7c7; }
+  /* line 61, ../scss/includes/_blogpost.scss */
+  body.blogpost .post-content blockquote {
+    border-left: 6px solid #7fccff;
+    margin-left: 0;
+    padding: 5px 40px;
+    background-color: #f3faff;
+    -webkit-border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+    -ms-border-radius: 0 10px 10px 0;
+    -o-border-radius: 0 10px 10px 0;
+    border-radius: 0 10px 10px 0; }
 
 /* @end Blog Post Styles */

@@ -58,6 +58,13 @@ body.blogpost {
     .strikethrough,
     del { text-decoration: line-through; color: $gray_2; }
 
+    blockquote {
+      border-left: 6px solid $blue_l2;
+      margin-left: 0;
+      padding: 5px 40px;
+      background-color: $blue_l4;
+      @include border-radius(0 10px 10px 0); }
+
   }
 
 }
