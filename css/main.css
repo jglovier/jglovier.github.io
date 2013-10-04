@@ -533,21 +533,21 @@ a {
     /* line 73, ../scss/includes/_layout.scss */
     .page-header .intro-copy h1 {
       font-size: 60px;
-      width: 150%;
+      width: 120%;
       line-height: 1;
-      margin: 10px 0 45px;
+      margin: 20px 0 25px;
       font-weight: normal; }
-      /* line 75, ../scss/includes/_layout.scss */
+      /* line 80, ../scss/includes/_layout.scss */
       .page-header .intro-copy h1 span {
         font-weight: 900; }
-    /* line 79, ../scss/includes/_layout.scss */
+    /* line 84, ../scss/includes/_layout.scss */
     .page-header .intro-copy .description {
       font-size: 24px;
-      margin-bottom: 0; }
-      /* line 81, ../scss/includes/_layout.scss */
+      margin: 10px 0 0; }
+      /* line 86, ../scss/includes/_layout.scss */
       .page-header .intro-copy .description a {
         font-weight: 700; }
-    /* line 85, ../scss/includes/_layout.scss */
+    /* line 90, ../scss/includes/_layout.scss */
     .page-header .intro-copy a {
       border-bottom: 2px solid rgba(255, 255, 255, 0.5);
       padding: 0 5px;
@@ -557,16 +557,16 @@ a {
       -ms-border-radius: 4px 4px 0 0;
       -o-border-radius: 4px 4px 0 0;
       border-radius: 4px 4px 0 0; }
-      /* line 87, ../scss/includes/_layout.scss */
+      /* line 92, ../scss/includes/_layout.scss */
       .page-header .intro-copy a:hover {
         background-color: rgba(0, 68, 114, 0.4); }
 
 /* Page Footer */
-/* line 98, ../scss/includes/_layout.scss */
+/* line 103, ../scss/includes/_layout.scss */
 .page-footer {
   text-align: center;
   border-top: 1px solid #e8e8e8; }
-  /* line 100, ../scss/includes/_layout.scss */
+  /* line 105, ../scss/includes/_layout.scss */
   .page-footer a {
     color: #0099ff; }
 

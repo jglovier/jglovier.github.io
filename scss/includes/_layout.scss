@@ -70,13 +70,18 @@
 
   .intro-copy { width: pct( 525, 1284); float: left; font-weight: 300;
 
-    h1 { font-size: 60px; width: 150%; line-height: 1; margin: 10px 0 45px; font-weight: normal;
+    h1 {
+      font-size: 60px;
+      width: 120%;
+      line-height: 1;
+      margin: 20px 0 25px;
+      font-weight: normal;
 
       span { font-weight: 900; }
 
     }
 
-    .description { font-size: 24px; margin-bottom: 0;
+    .description { font-size: 24px; margin: 10px 0 0;
 
       a { font-weight: 700; }
 
