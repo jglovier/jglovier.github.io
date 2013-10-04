@@ -637,18 +637,56 @@ a {
   .writing h2 {
     font-weight: 300;
     font-size: 48px;
-    letter-spacing: -2px; }
-    /* line 9, ../scss/includes/_home.scss */
+    letter-spacing: -2px;
+    margin-bottom: 10px; }
+    /* line 13, ../scss/includes/_home.scss */
     .writing h2.other-writing {
-      margin-top: 60px; }
-  /* line 13, ../scss/includes/_home.scss */
+      margin-top: 120px;
+      font-size: 36px; }
+  /* line 17, ../scss/includes/_home.scss */
+  .writing .article-nav {
+    font-weight: 300;
+    font-size: 28px; }
+    /* line 19, ../scss/includes/_home.scss */
+    .writing .article-nav > a {
+      color: #0099ff;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      border-radius: 5px;
+      margin-left: 20px;
+      padding: 0 15px;
+      float: left;
+      line-height: 1.25; }
+      /* line 27, ../scss/includes/_home.scss */
+      .writing .article-nav > a:first-child {
+        margin-left: 0; }
+      /* line 29, ../scss/includes/_home.scss */
+      .writing .article-nav > a:hover {
+        background-color: #d3edff; }
+    /* line 33, ../scss/includes/_home.scss */
+    .writing .article-nav .showing {
+      color: #585858;
+      background-color: #eeeeee;
+      cursor: default; }
+      /* line 35, ../scss/includes/_home.scss */
+      .writing .article-nav .showing:hover {
+        background-color: #eeeeee; }
+  /* line 41, ../scss/includes/_home.scss */
+  .writing .articles {
+    display: none; }
+    /* line 43, ../scss/includes/_home.scss */
+    .writing .articles.show {
+      display: block; }
+  /* line 47, ../scss/includes/_home.scss */
   .writing .article-index {
     list-style: none;
     padding-left: 0; }
-    /* line 15, ../scss/includes/_home.scss */
+    /* line 49, ../scss/includes/_home.scss */
     .writing .article-index li {
       margin: 42px 0; }
-    /* line 17, ../scss/includes/_home.scss */
+    /* line 51, ../scss/includes/_home.scss */
     .writing .article-index .article-date {
       font-size: 18px;
       color: #c7c7c7;
@@ -659,23 +697,23 @@ a {
       letter-spacing: 1px;
       width: 105px;
       line-height: 46px; }
-    /* line 28, ../scss/includes/_home.scss */
+    /* line 62, ../scss/includes/_home.scss */
     .writing .article-index .article-title {
       font-size: 28px;
       color: #0099ff;
       font-weight: 700; }
-    /* line 30, ../scss/includes/_home.scss */
+    /* line 64, ../scss/includes/_home.scss */
     .writing .article-index .article-source {
       display: block;
       font-style: italic;
       color: #c7c7c7; }
-    /* line 32, ../scss/includes/_home.scss */
+    /* line 66, ../scss/includes/_home.scss */
     .writing .article-index a {
       display: block; }
-      /* line 36, ../scss/includes/_home.scss */
+      /* line 70, ../scss/includes/_home.scss */
       .writing .article-index a:hover .article-date {
         color: #585858; }
-      /* line 38, ../scss/includes/_home.scss */
+      /* line 72, ../scss/includes/_home.scss */
       .writing .article-index a:hover .article-title {
         opacity: .8;
         background-color: #d3edff;

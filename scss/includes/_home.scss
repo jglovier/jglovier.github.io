@@ -4,9 +4,43 @@
 
 .writing { padding-bottom: 80px;
 
-  h2 { font-weight: 300; font-size: 48px; letter-spacing: -2px;
+  h2 {
+    font-weight: 300;
+    font-size: 48px;
+    letter-spacing: -2px;
+    margin-bottom: 10px;
 
-    &.other-writing { margin-top: 60px; }
+    &.other-writing { margin-top: 120px; font-size: 36px; }
+
+  }
+
+  .article-nav { font-weight: 300; font-size: 28px;
+
+    > a {
+      color: $blue;
+      @include border-radius(5px);
+      margin-left: 20px;
+      padding: 0 15px;
+      float: left;
+      line-height: 1.25;
+
+      &:first-child { margin-left: 0; }
+
+      &:hover { background-color: $blue_l3; }
+
+    }
+
+    .showing { color: $gray_3; background-color: $gray_1; cursor: default;
+
+      &:hover { background-color: $gray_1; }
+
+    }
+
+  }
+
+  .articles { display: none;
+
+    &.show { display: block; }
 
   }
 
