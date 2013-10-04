@@ -450,8 +450,58 @@ a {
 
 /* @end Base Styles */
 /* @group Layout Styles -------------------- */
-/* Page Header */
+/* Site Nav */
 /* line 5, ../scss/includes/_layout.scss */
+.site-nav {
+  position: fixed;
+  z-index: 999;
+  top: 16px;
+  right: 16px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  color: white; }
+  /* line 11, ../scss/includes/_layout.scss */
+  .site-nav .nav-trigger {
+    background: #0099ff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    padding: 8px;
+    display: block;
+    text-align: right;
+    line-height: 1; }
+    /* line 19, ../scss/includes/_layout.scss */
+    .site-nav .nav-trigger .menu-icon {
+      display: block; }
+  /* line 23, ../scss/includes/_layout.scss */
+  .site-nav .links {
+    list-style: none;
+    margin: 0;
+    padding: 0 15px 8px;
+    text-align: right;
+    display: none; }
+    /* line 30, ../scss/includes/_layout.scss */
+    .site-nav .links > li:hover {
+      background-color: #7fccff;
+      margin: 0 -15px;
+      padding: 0 15px; }
+  /* line 37, ../scss/includes/_layout.scss */
+  .site-nav:hover {
+    background: #0099ff; }
+    /* line 39, ../scss/includes/_layout.scss */
+    .site-nav:hover .links {
+      display: block; }
+    /* line 43, ../scss/includes/_layout.scss */
+    .site-nav:hover .nav-trigger .menu-icon {
+      display: inline-block; }
+
+/* Page Header */
+/* line 53, ../scss/includes/_layout.scss */
 .page-header {
   background-image: url('../img/default-intro-bg.jpg?1380224413');
   background-position: center top;
@@ -460,55 +510,11 @@ a {
   border-bottom: 15px solid #0099ff;
   padding: 60px 0;
   color: white; }
-  /* line 14, ../scss/includes/_layout.scss */
-  .page-header .site-nav {
-    position: fixed;
-    top: 16px;
-    right: 16px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    border-radius: 4px; }
-    /* line 19, ../scss/includes/_layout.scss */
-    .page-header .site-nav .nav-trigger {
-      background: #0099ff;
-      -webkit-border-radius: 4px;
-      -moz-border-radius: 4px;
-      -ms-border-radius: 4px;
-      -o-border-radius: 4px;
-      border-radius: 4px;
-      padding: 8px;
-      display: block;
-      text-align: right; }
-      /* line 26, ../scss/includes/_layout.scss */
-      .page-header .site-nav .nav-trigger .menu-icon {
-        display: block; }
-    /* line 30, ../scss/includes/_layout.scss */
-    .page-header .site-nav .links {
-      list-style: none;
-      border-top: 1px solid #3fb2ff;
-      margin: 0;
-      padding: 8px 15px;
-      text-align: right;
-      display: none; }
-      /* line 38, ../scss/includes/_layout.scss */
-      .page-header .site-nav .links a:hover {
-        text-decoration: underline; }
-    /* line 42, ../scss/includes/_layout.scss */
-    .page-header .site-nav:hover {
-      background: #0099ff; }
-      /* line 44, ../scss/includes/_layout.scss */
-      .page-header .site-nav:hover .links {
-        display: block; }
-      /* line 48, ../scss/includes/_layout.scss */
-      .page-header .site-nav:hover .nav-trigger .menu-icon {
-        display: inline-block; }
-  /* line 56, ../scss/includes/_layout.scss */
+  /* line 62, ../scss/includes/_layout.scss */
   .page-header .my-avatar {
     width: 26.55763%;
     float: left; }
-  /* line 58, ../scss/includes/_layout.scss */
+  /* line 64, ../scss/includes/_layout.scss */
   .page-header .joel-photo {
     display: block;
     margin: 0 auto;
@@ -519,29 +525,29 @@ a {
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
     border-radius: 100%; }
-  /* line 65, ../scss/includes/_layout.scss */
+  /* line 71, ../scss/includes/_layout.scss */
   .page-header .intro-copy {
     width: 40.88785%;
     float: left;
     font-weight: 300; }
-    /* line 67, ../scss/includes/_layout.scss */
+    /* line 73, ../scss/includes/_layout.scss */
     .page-header .intro-copy h1 {
       font-size: 60px;
       width: 150%;
       line-height: 1;
       margin: 10px 0 45px;
       font-weight: normal; }
-      /* line 69, ../scss/includes/_layout.scss */
+      /* line 75, ../scss/includes/_layout.scss */
       .page-header .intro-copy h1 span {
         font-weight: 900; }
-    /* line 73, ../scss/includes/_layout.scss */
+    /* line 79, ../scss/includes/_layout.scss */
     .page-header .intro-copy .description {
       font-size: 24px;
       margin-bottom: 0; }
-      /* line 75, ../scss/includes/_layout.scss */
+      /* line 81, ../scss/includes/_layout.scss */
       .page-header .intro-copy .description a {
         font-weight: 700; }
-    /* line 79, ../scss/includes/_layout.scss */
+    /* line 85, ../scss/includes/_layout.scss */
     .page-header .intro-copy a {
       border-bottom: 2px solid rgba(255, 255, 255, 0.5);
       padding: 0 5px;
@@ -551,16 +557,16 @@ a {
       -ms-border-radius: 4px 4px 0 0;
       -o-border-radius: 4px 4px 0 0;
       border-radius: 4px 4px 0 0; }
-      /* line 81, ../scss/includes/_layout.scss */
+      /* line 87, ../scss/includes/_layout.scss */
       .page-header .intro-copy a:hover {
         background-color: rgba(0, 68, 114, 0.4); }
 
 /* Page Footer */
-/* line 92, ../scss/includes/_layout.scss */
+/* line 98, ../scss/includes/_layout.scss */
 .page-footer {
   text-align: center;
   border-top: 1px solid #e8e8e8; }
-  /* line 94, ../scss/includes/_layout.scss */
+  /* line 100, ../scss/includes/_layout.scss */
   .page-footer a {
     color: #0099ff; }
 

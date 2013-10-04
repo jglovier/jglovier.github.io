@@ -1,5 +1,53 @@
 /* @group Layout Styles -------------------- */
 
+/* Site Nav */
+
+.site-nav {
+  position: fixed; z-index: 999;
+  top: 16px; right: 16px;
+  @include border-radius(4px);
+  color: $white;
+
+  .nav-trigger {
+    background: $blue;
+    @include border-radius(4px);
+    padding: 8px;
+    display: block;
+    text-align: right;
+    line-height: 1;
+
+    .menu-icon { display: block; }
+
+  }
+
+  .links {
+    list-style: none;
+    margin: 0;
+    padding: 0 15px 8px;
+    text-align: right;
+    display: none;
+
+    > li:hover {
+      background-color: $blue_l2;
+      margin: 0 -15px;
+      padding: 0 15px; }
+
+  }
+
+  &:hover { background: $blue;
+
+    .links { display: block; }
+
+    .nav-trigger {
+
+      .menu-icon { display: inline-block; }
+
+    }
+
+  }
+
+}
+
 /* Page Header */
 
 .page-header {
@@ -10,48 +58,6 @@
   border-bottom: 15px solid $blue;
   padding: 60px 0;
   color: $white;
-
-  .site-nav {
-    position: fixed;
-    top: 16px; right: 16px;
-    @include border-radius(4px);
-
-    .nav-trigger {
-      background: $blue;
-      @include border-radius(4px);
-      padding: 8px;
-      display: block;
-      text-align: right;
-
-      .menu-icon { display: block; }
-
-    }
-
-    .links {
-      list-style: none;
-      border-top: 1px solid $blue_l1;
-      margin: 0;
-      padding: 8px 15px;
-      text-align: right;
-      display: none;
-
-      a:hover { text-decoration: underline; }
-
-    }
-
-    &:hover { background: $blue;
-
-      .links { display: block; }
-
-      .nav-trigger {
-
-        .menu-icon { display: inline-block; }
-
-      }
-
-    }
-
-  }
 
   .my-avatar { width: pct( 341, 1284); float: left; }
 
