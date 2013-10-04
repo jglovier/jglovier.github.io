@@ -17,16 +17,17 @@ title: CSS Hack for Creating Superscript
 
 <p>Turns out there is a sweet little hack (as sweet as a hack can be of course) where instead of using the CSS vertical-align property with a value of "super", we can use a combination of the following properties to achieve roughly the same effect, without throwing off the line-height across browers.</p>
 
-
-<pre><code><span class="html-element">&lt;p&gt;</span>
-  <span class="html-element">&lt;span class="<span class="attribute-value">super</span>"&gt;</span>$<span class="html-element">&lt;/span&gt;</span>
+{% highlight html %}
+<p>
+  <span class="super">$</span>
   100
-<span class="html-element">&lt;/p&gt;</span>
+</p>
 
-<span class="html-element">&lt;style&gt;</span>
-<span class="css-selector">.super</span> {
-    <span class="css-property">font-size</span>:<span class="css-property-value">80%</span>; <span class="comment">/* or designate an appropriate px or em value here */</span>
-    <span class="css-property">position</span>:<span class="css-property-value">relative</span>;
-    <span class="css-property">top</span>:<span class="css-property-value">-.5em</span>; <span class="comment">/* alternatively, you could use a positive bottom value */</span>
+<style>
+.super {
+    font-size:80%; /* or designate an appropriate px or em value here */
+    position:relative;
+    top:-.5em; /* alternatively, you could use a positive bottom value */
 }
-<span class="html-element">&lt;/style&gt;</span></code></pre>
+</style>
+{% endhighlight %}

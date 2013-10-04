@@ -71,6 +71,53 @@ body.blogpost {
       background-color: $blue_l4;
       @include border-radius(0 10px 10px 0); }
 
+    code {
+      font-size: 22px;
+      background-color: $gray_1;
+      padding: 4px 8px;
+      @include border-radius(5px); }
+
+  }
+
+}
+
+.wrap {
+
+  div.highlight {
+    @include border-radius(10px);
+    padding: 20px 30px;
+    border: 1px solid $gray_1;
+    font-size: 20px;
+
+    pre { margin: 0;
+
+      code {
+        background-color: transparent;
+        font-size: 20px;
+        padding: 0; }
+
+    }
+
+    .html {
+
+      .nt {
+        color: $navy;
+        background-color: $blue_l4; }
+      .na { color: $blue; }
+      .s { color: $red; }
+      .mc { color: $blue; }
+      .p {}
+      .k {
+        color: $purple;
+        background-color: $blue_l4; }
+      .o {}
+      .m { color: $green; }
+      .c { color: $gray_2; }
+
+    }
+
+    .css {}
+
   }
 
 }

@@ -776,5 +776,57 @@ body.blogpost .post-content {
     -ms-border-radius: 0 10px 10px 0;
     -o-border-radius: 0 10px 10px 0;
     border-radius: 0 10px 10px 0; }
+  /* line 74, ../scss/includes/_blogpost.scss */
+  body.blogpost .post-content code {
+    font-size: 22px;
+    background-color: #eeeeee;
+    padding: 4px 8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px; }
+
+/* line 86, ../scss/includes/_blogpost.scss */
+.wrap div.highlight {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  padding: 20px 30px;
+  border: 1px solid #eeeeee;
+  font-size: 20px; }
+  /* line 92, ../scss/includes/_blogpost.scss */
+  .wrap div.highlight pre {
+    margin: 0; }
+    /* line 94, ../scss/includes/_blogpost.scss */
+    .wrap div.highlight pre code {
+      background-color: transparent;
+      font-size: 20px;
+      padding: 0; }
+  /* line 103, ../scss/includes/_blogpost.scss */
+  .wrap div.highlight .html .nt {
+    color: #004472;
+    background-color: #f3faff; }
+  /* line 106, ../scss/includes/_blogpost.scss */
+  .wrap div.highlight .html .na {
+    color: #0099ff; }
+  /* line 107, ../scss/includes/_blogpost.scss */
+  .wrap div.highlight .html .s {
+    color: red; }
+  /* line 108, ../scss/includes/_blogpost.scss */
+  .wrap div.highlight .html .mc {
+    color: #0099ff; }
+  /* line 110, ../scss/includes/_blogpost.scss */
+  .wrap div.highlight .html .k {
+    color: #b400ff;
+    background-color: #f3faff; }
+  /* line 114, ../scss/includes/_blogpost.scss */
+  .wrap div.highlight .html .m {
+    color: #24ac00; }
+  /* line 115, ../scss/includes/_blogpost.scss */
+  .wrap div.highlight .html .c {
+    color: #c7c7c7; }
 
 /* @end Blog Post Styles */
