@@ -6,44 +6,48 @@ layout: home
 
     <div class="wrap">
 
-      <h2>Writing</h2>
+      <div class="wide-left-margin">
 
-      <nav class="writing-nav"></nav>
+        <h2>Writing</h2>
 
-      <ul class="article-index">
+        <nav class="writing-nav"></nav>
 
-        {% for post in site.posts %}
-        <li>
-          <a href="{{ post.url }}">
-            <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
-            <span class="article-title">{{ post.title }}</span>
-          </a>
-        </li>
-        {% endfor %}
+        <ul class="article-index">
 
-      </ul>
+          {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url }}">
+              <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
+              <span class="article-title">{{ post.title }}</span>
+            </a>
+          </li>
+          {% endfor %}
 
-      <h2 class="other-writing">Articles Elsewhere</h2>
+        </ul>
 
-      <ul class="article-index">
+        <h2 class="other-writing">Articles Elsewhere</h2>
 
-        <li>
-          <a href="http://appendto.com/blog/2013/03/pure-css-triangles-explained/">
-            <span class="article-date">3/27/2013</span>
-            <span class="article-title">Pure CSS Triangles Explained</span>
-            <span class="article-source">appendto.com/blog</span>
-          </a>
-        </li>
+        <ul class="article-index">
 
-        <li>
-          <a href="http://www.slidedeck.com/blog/how-cure-org-increased-website-workflow-and-engagement-with-slidedeck/">
-            <span class="article-date">4/26/2011</span>
-            <span class="article-title">How a Non-Profit Increased User Engagement with Facebook API and CSS3</span>
-            <span class="article-source">http://www.slidedeck.com/blog</span>
-          </a>
-        </li>
+          <li>
+            <a href="http://appendto.com/blog/2013/03/pure-css-triangles-explained/">
+              <span class="article-date">3/27/2013</span>
+              <span class="article-title">Pure CSS Triangles Explained</span>
+              <span class="article-source">appendto.com/blog</span>
+            </a>
+          </li>
 
-      </ul>
+          <li>
+            <a href="http://www.slidedeck.com/blog/how-cure-org-increased-website-workflow-and-engagement-with-slidedeck/">
+              <span class="article-date">4/26/2011</span>
+              <span class="article-title">How a Non-Profit Increased User Engagement with Facebook API and CSS3</span>
+              <span class="article-source">http://www.slidedeck.com/blog</span>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
 
     </div>
 
