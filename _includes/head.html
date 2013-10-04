@@ -28,6 +28,7 @@
   <title>{% if page.title %} {{ page.title }} | {% endif %}Joel Andrew Glovier (JAG), designer, developer, and lots of other things.</title>
 
   <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  {% if page.cssFile %}<link rel="stylesheet" type="text/css" href="/css/{{ cssFile }}" />{% endif %}
   <link rel="icon" type="image/x-icon" href="/favicon.png" />
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
   <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
