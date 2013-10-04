@@ -461,10 +461,54 @@ a {
   padding: 60px 0;
   color: white; }
   /* line 14, ../scss/includes/_layout.scss */
+  .page-header .site-nav {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px; }
+    /* line 19, ../scss/includes/_layout.scss */
+    .page-header .site-nav .nav-trigger {
+      background: #0099ff;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -o-border-radius: 4px;
+      border-radius: 4px;
+      padding: 8px;
+      display: block;
+      text-align: right; }
+      /* line 26, ../scss/includes/_layout.scss */
+      .page-header .site-nav .nav-trigger .menu-icon {
+        display: block; }
+    /* line 30, ../scss/includes/_layout.scss */
+    .page-header .site-nav .links {
+      list-style: none;
+      border-top: 1px solid #3fb2ff;
+      margin: 0;
+      padding: 8px 15px;
+      text-align: right;
+      display: none; }
+      /* line 38, ../scss/includes/_layout.scss */
+      .page-header .site-nav .links a:hover {
+        text-decoration: underline; }
+    /* line 42, ../scss/includes/_layout.scss */
+    .page-header .site-nav:hover {
+      background: #0099ff; }
+      /* line 44, ../scss/includes/_layout.scss */
+      .page-header .site-nav:hover .links {
+        display: block; }
+      /* line 48, ../scss/includes/_layout.scss */
+      .page-header .site-nav:hover .nav-trigger .menu-icon {
+        display: inline-block; }
+  /* line 56, ../scss/includes/_layout.scss */
   .page-header .my-avatar {
     width: 26.55763%;
     float: left; }
-  /* line 16, ../scss/includes/_layout.scss */
+  /* line 58, ../scss/includes/_layout.scss */
   .page-header .joel-photo {
     display: block;
     margin: 0 auto;
@@ -475,29 +519,29 @@ a {
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
     border-radius: 100%; }
-  /* line 23, ../scss/includes/_layout.scss */
+  /* line 65, ../scss/includes/_layout.scss */
   .page-header .intro-copy {
     width: 40.88785%;
     float: left;
     font-weight: 300; }
-    /* line 25, ../scss/includes/_layout.scss */
+    /* line 67, ../scss/includes/_layout.scss */
     .page-header .intro-copy h1 {
       font-size: 60px;
       width: 150%;
       line-height: 1;
       margin: 10px 0 45px;
       font-weight: normal; }
-      /* line 27, ../scss/includes/_layout.scss */
+      /* line 69, ../scss/includes/_layout.scss */
       .page-header .intro-copy h1 span {
         font-weight: 900; }
-    /* line 31, ../scss/includes/_layout.scss */
+    /* line 73, ../scss/includes/_layout.scss */
     .page-header .intro-copy .description {
       font-size: 24px;
       margin-bottom: 0; }
-      /* line 33, ../scss/includes/_layout.scss */
+      /* line 75, ../scss/includes/_layout.scss */
       .page-header .intro-copy .description a {
         font-weight: 700; }
-    /* line 37, ../scss/includes/_layout.scss */
+    /* line 79, ../scss/includes/_layout.scss */
     .page-header .intro-copy a {
       border-bottom: 2px solid rgba(255, 255, 255, 0.5);
       padding: 0 5px;
@@ -507,16 +551,16 @@ a {
       -ms-border-radius: 4px 4px 0 0;
       -o-border-radius: 4px 4px 0 0;
       border-radius: 4px 4px 0 0; }
-      /* line 39, ../scss/includes/_layout.scss */
+      /* line 81, ../scss/includes/_layout.scss */
       .page-header .intro-copy a:hover {
         background-color: rgba(0, 68, 114, 0.4); }
 
 /* Page Footer */
-/* line 50, ../scss/includes/_layout.scss */
+/* line 92, ../scss/includes/_layout.scss */
 .page-footer {
   text-align: center;
   border-top: 1px solid #e8e8e8; }
-  /* line 52, ../scss/includes/_layout.scss */
+  /* line 94, ../scss/includes/_layout.scss */
   .page-footer a {
     color: #0099ff; }
 
@@ -652,22 +696,21 @@ body.blogpost .post-content {
   max-width: 812px;
   padding-bottom: 80px;
   font-family: "Minion Pro", Palatino, Georgia, serif;
-  font-size: 26px;
-  color: #333333; }
-  /* line 41, ../scss/includes/_blogpost.scss */
+  font-size: 26px; }
+  /* line 40, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content h1, body.blogpost .post-content h2, body.blogpost .post-content h3, body.blogpost .post-content h4, body.blogpost .post-content h5, body.blogpost .post-content h6, body.blogpost .post-content h7 {
     font-family: "pn_font"; }
-  /* line 43, ../scss/includes/_blogpost.scss */
+  /* line 42, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content a {
     color: #0099ff;
     text-decoration: underline; }
-    /* line 45, ../scss/includes/_blogpost.scss */
+    /* line 44, ../scss/includes/_blogpost.scss */
     body.blogpost .post-content a:hover {
       text-decoration: none; }
-    /* line 47, ../scss/includes/_blogpost.scss */
+    /* line 46, ../scss/includes/_blogpost.scss */
     body.blogpost .post-content a:visited {
       color: #004472; }
-  /* line 51, ../scss/includes/_blogpost.scss */
+  /* line 50, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content .disclaimer {
     color: #0099ff;
     font-size: 22px;
@@ -678,12 +721,12 @@ body.blogpost .post-content {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     border-radius: 5px; }
-  /* line 59, ../scss/includes/_blogpost.scss */
+  /* line 58, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content .strikethrough,
   body.blogpost .post-content del {
     text-decoration: line-through;
     color: #c7c7c7; }
-  /* line 61, ../scss/includes/_blogpost.scss */
+  /* line 60, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content blockquote {
     border-left: 6px solid #7fccff;
     margin-left: 0;
