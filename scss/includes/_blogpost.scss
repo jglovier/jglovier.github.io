@@ -2,15 +2,22 @@
 
 body.blogpost {
 
-  .page-header { background-image: image-url("blogpost-bg.jpg"); padding: 50px 0; margin-bottom: 40px;
+  .page-header { background-image: image-url("blogpost-bg.jpg"); padding: 35px 0; margin-bottom: 40px;
 
-    .joel-photo { max-width: 184px; }
+    .joel-photo {
+      max-width: 124px;
+      display: inline-block;
+      margin-right: 30px; }
 
-    .my-avatar { width: pct( 237, 1284); }
+    .my-avatar { width: pct( 237, 1284); text-align: right;
+
+      > a { display: block; height: 126px; }
+
+    }
 
     .intro-copy { width: pct( 1022, 1284);
 
-      h1 { font-weight: 700; margin: 10px 0 0; width: auto; }
+      h1 { font-weight: 700; margin: 20px 0 0; width: auto; }
 
       .subhead {
         font-size: 28px;
