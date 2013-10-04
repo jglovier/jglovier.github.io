@@ -110,4 +110,27 @@
 
 .wide-left-margin { margin-left: pct( 341, 1284); }
 
+/* WIP Notice */
+
+.wip-notice {
+  position: fixed;
+  top: 20px; left: 0;
+  width: 140px;
+  padding: 5px 5px;
+  background-color: $blue_l4;
+  border-right: 2px solid $blue_l3;
+  border-bottom: 2px solid $blue_l3;
+
+  p {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.25;
+
+    a { color: $blue; text-decoration: underline; }
+
+  }
+
+}
+
 /* @end Layout Styles */
