@@ -908,7 +908,8 @@ body.blogpost .post-content {
     /* line 36, ../scss/includes/_mq.scss */
     body.blogpost .page-header .intro-copy,
     .page-header .intro-copy {
-      width: auto; }
+      width: auto;
+      float: none; }
       /* line 38, ../scss/includes/_mq.scss */
       body.blogpost .page-header .intro-copy h1,
       .page-header .intro-copy h1 {
