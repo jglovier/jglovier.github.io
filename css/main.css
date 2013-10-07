@@ -527,7 +527,7 @@ a {
     border-radius: 100%; }
   /* line 71, ../scss/includes/_layout.scss */
   .page-header .intro-copy {
-    width: 40.88785%;
+    width: 525px;
     float: left;
     font-weight: 300; }
     /* line 73, ../scss/includes/_layout.scss */
@@ -573,7 +573,8 @@ a {
 /* Utilities */
 /* line 111, ../scss/includes/_layout.scss */
 .wide-left-margin {
-  margin-left: 26.55763%; }
+  margin-left: 26.55763%;
+  padding-right: 30px; }
 
 /* WIP Notice */
 /* line 115, ../scss/includes/_layout.scss */
@@ -868,3 +869,91 @@ body.blogpost .post-content {
     color: #c7c7c7; }
 
 /* @end Blog Post Styles */
+/* @group Media Queries -------------------- */
+@media screen and (max-width: 750px) {
+  /* line 7, ../scss/includes/_mq.scss */
+  .page-header .my-avatar {
+    width: 130px; }
+  /* line 9, ../scss/includes/_mq.scss */
+  .page-header .joel-photo {
+    width: 70%; }
+
+  /* line 15, ../scss/includes/_mq.scss */
+  .wide-left-margin {
+    margin-left: 130px; } }
+@media screen and (max-width: 675px) {
+  /* line 21, ../scss/includes/_mq.scss */
+  .page-header {
+    padding: 25px;
+    text-align: center; }
+    /* line 23, ../scss/includes/_mq.scss */
+    .page-header .my-avatar {
+      float: none;
+      width: auto; }
+      /* line 25, ../scss/includes/_mq.scss */
+      .page-header .my-avatar img {
+        width: 80px; }
+    /* line 29, ../scss/includes/_mq.scss */
+    .page-header .intro-copy {
+      width: auto; }
+      /* line 31, ../scss/includes/_mq.scss */
+      .page-header .intro-copy h1 {
+        width: auto;
+        margin-bottom: 10px; } }
+@media screen and (max-width: 570px) {
+  /* line 41, ../scss/includes/_mq.scss */
+  .page-header {
+    padding: 20px 10px; }
+    /* line 45, ../scss/includes/_mq.scss */
+    .page-header .intro-copy h1 {
+      font-size: 28px; }
+      /* line 47, ../scss/includes/_mq.scss */
+      .page-header .intro-copy h1 span {
+        font-size: 44px;
+        display: block; }
+    /* line 51, ../scss/includes/_mq.scss */
+    .page-header .intro-copy .description {
+      font-size: 18px; }
+
+  /* line 57, ../scss/includes/_mq.scss */
+  .wide-left-margin {
+    margin: 0;
+    padding: 0 20px; }
+
+  /* line 61, ../scss/includes/_mq.scss */
+  .writing h2 {
+    font-size: 34px;
+    letter-spacing: -1px;
+    margin: 20px 0; }
+  /* line 63, ../scss/includes/_mq.scss */
+  .writing .article-nav {
+    font-size: 20px; }
+    /* line 65, ../scss/includes/_mq.scss */
+    .writing .article-nav > a {
+      padding: 3px 10px 2px;
+      margin-left: 10px; }
+      /* line 69, ../scss/includes/_mq.scss */
+      .writing .article-nav > a:first-child {
+        margin-left: 0; }
+  /* line 77, ../scss/includes/_mq.scss */
+  .writing .article-index li {
+    margin: 40px 0;
+    line-height: 1; }
+  /* line 79, ../scss/includes/_mq.scss */
+  .writing .article-index a {
+    position: relative;
+    padding-bottom: 20px; }
+  /* line 81, ../scss/includes/_mq.scss */
+  .writing .article-index .article-date {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    text-align: left;
+    line-height: 1;
+    font-size: 14px; }
+  /* line 89, ../scss/includes/_mq.scss */
+  .writing .article-index article-title {
+    font-size: 24px;
+    line-height: 1; } }
+/* @end Media Queries */

@@ -1,0 +1,97 @@
+/* @group Media Queries -------------------- */
+
+@media screen and (max-width: 750px) {
+
+  .page-header {
+
+    .my-avatar { width: 130px; }
+
+    .joel-photo { width: 70%; }
+
+    .intro-copy {}
+
+  }
+
+  .wide-left-margin { margin-left: 130px; }
+
+}
+
+@media screen and (max-width: 675px) {
+
+  .page-header { padding: 25px; text-align: center;
+
+    .my-avatar { float: none; width: auto;
+
+      img { width: 80px; }
+
+    }
+
+    .intro-copy { width: auto;
+
+      h1 { width: auto; margin-bottom: 10px; }
+
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 570px) {
+
+  .page-header { padding: 20px 10px;
+
+    .intro-copy {
+
+      h1 { font-size: 28px;
+
+        span { font-size: 44px; display: block; }
+
+      }
+
+      .description { font-size: 18px; }
+
+    }
+
+  }
+
+  .wide-left-margin { margin: 0; padding: 0 20px; }
+
+  .writing {
+
+    h2 { font-size: 34px; letter-spacing: -1px; margin: 20px 0; }
+
+    .article-nav { font-size: 20px;
+
+      > a {
+        padding: 3px 10px 2px;
+        margin-left: 10px;
+
+        &:first-child { margin-left: 0; }
+
+      }
+
+    }
+
+    .article-index {
+
+      li { margin: 40px 0; line-height: 1; }
+
+      a { position: relative; padding-bottom: 20px; }
+
+      .article-date {
+        position: absolute;
+        bottom: 0; left: 0;
+        margin: 0;
+        text-align: left;
+        line-height: 1;
+        font-size: 14px; }
+
+      article-title { font-size: 24px; line-height: 1; }
+
+    }
+
+  }
+
+}
+
+/* @end Media Queries */

@@ -68,7 +68,7 @@
     max-width: 245px;
     @include border-radius(100%); }
 
-  .intro-copy { width: pct( 525, 1284); float: left; font-weight: 300;
+  .intro-copy { width: 525px; float: left; font-weight: 300;
 
     h1 {
       font-size: 60px;
@@ -108,7 +108,7 @@
 
 /* Utilities */
 
-.wide-left-margin { margin-left: pct( 341, 1284); }
+.wide-left-margin { margin-left: pct( 341, 1284); padding-right: 30px; }
 
 /* WIP Notice */
 
