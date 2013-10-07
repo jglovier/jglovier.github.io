@@ -2,6 +2,7 @@
 
 @media screen and (max-width: 750px) {
 
+  body.blogpost .page-header,
   .page-header {
 
     .my-avatar { width: 130px; }
@@ -18,17 +19,51 @@
 
 @media screen and (max-width: 675px) {
 
+  body.blogpost .page-header,
   .page-header { padding: 25px; text-align: center;
 
-    .my-avatar { float: none; width: auto;
+    .my-avatar {
+      float: none;
+      width: auto;
+      text-align: center;
 
-      img { width: 80px; }
+      > a { height: auto; }
+
+      img { width: 80px; margin: 0 auto; }
 
     }
 
     .intro-copy { width: auto;
 
       h1 { width: auto; margin-bottom: 10px; }
+
+      .article-date { font-size: 14px; }
+
+    }
+
+  }
+
+  body.blogpost {
+
+    .page-header { margin-bottom: 0;
+
+      .intro-copy {
+
+        h1 { margin: 10px auto 0; }
+
+      }
+
+    }
+
+    .post-content {
+      overflow: hidden;
+      font-size: 18px;
+      margin: 0;
+      padding: 0 25px;
+
+      .disclaimer { font-size: 18px; }
+
+      code { font-size: 16px; padding: 2px 4px; }
 
     }
 
@@ -38,6 +73,7 @@
 
 @media screen and (max-width: 570px) {
 
+  body.blogpost .page-header,
   .page-header { padding: 20px 10px;
 
     .intro-copy {
@@ -54,11 +90,13 @@
 
   }
 
+  body.blogpost .page-header { padding-bottom: 5px; }
+
   .wide-left-margin { margin: 0; padding: 0 20px; }
 
   .writing {
 
-    h2 { font-size: 34px; letter-spacing: -1px; margin: 20px 0; }
+    h2 { font-size: 34px; letter-spacing: -1px; margin: 40px 0 20px; line-height: 1; }
 
     .article-nav { font-size: 20px;
 
@@ -86,7 +124,7 @@
         line-height: 1;
         font-size: 14px; }
 
-      article-title { font-size: 24px; line-height: 1; }
+      .article-title { font-size: 24px; line-height: 1; }
 
     }
 
