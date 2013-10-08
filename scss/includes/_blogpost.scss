@@ -78,6 +78,8 @@ body.blogpost {
       padding: 4px 8px;
       @include border-radius(5px); }
 
+    img { max-width: 100%; @include border-radius(5px); }
+
   }
 
 }

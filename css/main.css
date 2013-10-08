@@ -730,7 +730,7 @@ a {
 /* @group Blog Post Styles -------------------- */
 /* line 5, ../scss/includes/_blogpost.scss */
 body.blogpost .page-header {
-  background-image: url('../img/blogpost-bg.jpg?1380384075');
+  background-image: url('../img/blogpost-bg.jpg?1381159343');
   padding: 35px 0;
   margin-bottom: 40px; }
   /* line 7, ../scss/includes/_blogpost.scss */
@@ -826,8 +826,16 @@ body.blogpost .post-content {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     border-radius: 5px; }
+  /* line 81, ../scss/includes/_blogpost.scss */
+  body.blogpost .post-content img {
+    max-width: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px; }
 
-/* line 87, ../scss/includes/_blogpost.scss */
+/* line 89, ../scss/includes/_blogpost.scss */
 .wrap div.highlight {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -837,35 +845,35 @@ body.blogpost .post-content {
   padding: 20px 30px;
   border: 1px solid #eeeeee;
   font-size: 20px; }
-  /* line 93, ../scss/includes/_blogpost.scss */
+  /* line 95, ../scss/includes/_blogpost.scss */
   .wrap div.highlight pre {
     margin: 0; }
-    /* line 95, ../scss/includes/_blogpost.scss */
+    /* line 97, ../scss/includes/_blogpost.scss */
     .wrap div.highlight pre code {
       background-color: transparent;
       font-size: 20px;
       padding: 0; }
-  /* line 104, ../scss/includes/_blogpost.scss */
+  /* line 106, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .nt {
     color: #004472;
     background-color: #f3faff; }
-  /* line 107, ../scss/includes/_blogpost.scss */
+  /* line 109, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .na {
     color: #0099ff; }
-  /* line 108, ../scss/includes/_blogpost.scss */
+  /* line 110, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .s {
     color: red; }
-  /* line 109, ../scss/includes/_blogpost.scss */
+  /* line 111, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .mc {
     color: #0099ff; }
-  /* line 111, ../scss/includes/_blogpost.scss */
+  /* line 113, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .k {
     color: #b400ff;
     background-color: #f3faff; }
-  /* line 115, ../scss/includes/_blogpost.scss */
+  /* line 117, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .m {
     color: #24ac00; }
-  /* line 116, ../scss/includes/_blogpost.scss */
+  /* line 118, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .c {
     color: #c7c7c7; }
 
