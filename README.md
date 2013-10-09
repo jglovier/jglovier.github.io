@@ -1,8 +1,5 @@
-jglovier.github.io [![Build Status](https://travis-ci.org/jglovier/jglovier.github.io.png)](https://travis-ci.org/jglovier/jglovier.github.io)
+joelglovier.com [![Build Status](https://travis-ci.org/jglovier/jglovier.github.io.png)](https://travis-ci.org/jglovier/jglovier.github.io)
 ==================
-
-Source for the new joelglovier.com.
-
 
 ## About the Site
 
