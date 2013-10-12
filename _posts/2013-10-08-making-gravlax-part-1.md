@@ -3,6 +3,8 @@ layout: blogpost
 title: Making Gravlax - Part 1
 ---
 
+<p class="disclaimer">This is Part 1 in my experience on making gravlax. You can read <a href="/writing/2013/making-gravlax-part-2/">Part 2 here</a>.</p>
+
 Recently I went to Ikea with my wife and my mom to pickup a new dresser for our baby on the way. After a grueling afternoon of shopping (at first it's so much fun walking through the showroom, but then you quickly discover you are trapped in a maze designed to squeeze as much money of you as possible) we stopped at the Ikea cafeteria.
 
 I was thrilled to see a dish that looked almost like raw salmon called gravad lax (or gravlax). I'm a huge sushi fan, my favorite roll being one with salmon, so anything that looks like raw salmon looks apetizing to me.
@@ -96,3 +98,5 @@ I used another corningwear dish set on top of the salmon with some heavy items i
 ## To be continued.
 
 Check back in a couple days for part 2 of my experience when I bring the gravlax out and devour it!
+
+<p class="disclaimer">Continue to <a href="/writing/2013/making-gravlax-part-2/">Part 2</a>.</p>
