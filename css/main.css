@@ -585,15 +585,18 @@ a {
   width: 110px;
   padding: 5px 5px;
   background-color: #f3faff;
-  border-right: 2px solid #d3edff;
-  border-bottom: 2px solid #d3edff; }
+  border-radius: 0 3px 3px 0;
+  opacity: .6; }
   /* line 124, ../scss/includes/_layout.scss */
+  .wip-notice:hover {
+    opacity: 1; }
+  /* line 126, ../scss/includes/_layout.scss */
   .wip-notice p {
     margin: 0;
     font-size: 12px;
     text-align: center;
     line-height: 1.25; }
-    /* line 130, ../scss/includes/_layout.scss */
+    /* line 132, ../scss/includes/_layout.scss */
     .wip-notice p a {
       color: #0099ff;
       text-decoration: underline; }
