@@ -2,7 +2,10 @@
 
 body.blogpost {
 
-  .page-header { background-image: image-url("blogpost-bg.jpg"); padding: 35px 0; margin-bottom: 40px;
+  .page-header {
+    background-image: image-url("blogpost-bg.jpg");
+    padding: 35px 0;
+    margin-bottom: 40px;
 
     .joel-photo {
       max-width: 124px;
@@ -79,6 +82,57 @@ body.blogpost {
       @include border-radius(5px); }
 
     img { max-width: 100%; @include border-radius(5px); }
+
+  }
+
+  .next-article {
+    color: $white;
+    background-color: $blue;
+    background-image: image-url("bg-css3.jpg");
+    background-position: center top;
+    padding: 50px 0;
+
+    .contents {
+      margin-left: pct( 237, 1284);
+      padding-right: 30px;
+      /*width: pct( 812, 1284);*/
+      max-width: 812px; }
+
+    .next-arrow {
+      font-size: 18px;
+      text-transform: uppercase;
+      @include pn_regular;
+      letter-spacing: 2px;
+      margin: 0 0 10px; }
+
+    .title {
+      margin: 0;
+      font-size: 40px;
+      @include pn_extrabold;
+      line-height: 1;
+
+      a:hover { opacity: .75; }
+
+    }
+
+    .subhead {
+      margin: 0;
+      font-style: italic;
+      font-size: 21px;
+      font-family: "Minion Pro", Palatino, Georgia, serif; }
+
+    .article-date { margin: 0; letter-spacing: 2px; }
+
+    .index-link {
+      font-size: 14px;
+      text-transform: uppercase;
+      @include pn_regular;
+      letter-spacing: 2px;
+      margin: 20px 0 0;
+      @include border-radius(5px);
+      border: 2px solid white;
+      padding: 2px 12px;
+      display: inline-block; }
 
   }
 

@@ -1,0 +1,15 @@
+<div class="next-article">
+  <div class="wrap">
+
+    <div class="contents">
+    {% if page.previous %}
+      <p class="next-arrow">Next Article &rarr;</p>
+      <h3 class="title"><a href="{{ page.previous.url }}" class="next-article-link">{{ page.previous.title }}</a></h3>
+      {% if page.previous.subhead %}<p class="subhead">{{ page.previous.subhead }}</p>{% endif %}
+      <p class="article-date">{{ page.previous.date | date: "%-m/%-d/%Y" }}</p>
+    {% endif %}
+    <a href="/" class="index-link">&larr; Index</a>
+    </div>
+
+  </div>
+</div>
