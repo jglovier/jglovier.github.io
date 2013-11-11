@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Religion VS Faith (Book Synopsis)
+imgclass: book
 ---
 
 <p class="disclaimer"><em>In the coming months I'm going to be publishing snippets from my work on <a href="http://joelglovier.com/books/religion-vs-faith/" target+="_blank">Religion Versus Faith</a>.  So in the interest of discussion and clarification, here's a synopsis for the book to refer to.</em></p>

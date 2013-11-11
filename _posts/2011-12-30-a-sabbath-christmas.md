@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: A Sabbath Christmas
+imgclass: mountain
 ---
 
 <p>This year Christmas fell on a Sunday. <em>("You're welcome" - sincerely, Captain Obvious)</em></p>

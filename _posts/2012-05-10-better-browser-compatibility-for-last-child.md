@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Better browser compatibility for :last-child
+imgclass: code
 ---
 
 <p>So you're working on styling a list of elements that have borders between them. Of course everyone knows to style said list of elements you can just apply a <code>border-bottom</code> property in your CSS and then remove the very last elements border with <code>li:last-child</code> and set the <code>border-bottom</code> to <code>none</code>.</p>

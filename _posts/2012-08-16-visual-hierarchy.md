@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Visual Hierarchy
+imgclass: chill
 ---
 
 <p>One of the core concepts of user experience design - and of graphic design in general - is the idea of "visual hierarchy." It also happens to be one of my favorite aspects of design.</p>

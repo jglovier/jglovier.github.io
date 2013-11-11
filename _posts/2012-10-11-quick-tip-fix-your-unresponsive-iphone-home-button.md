@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Quick Tip - Fix your unresponsive iPhone home button
+imgclass: quicktip
 ---
 
 <p>Have an iPhone 4, or 3G, or ANY iPhone with an unresponsive home button? I do. Lately I've been frustrated that when I hit the "home" button on my iPhone, it would take 4 or 5 tries until it actually responded. SO annoying.</p>

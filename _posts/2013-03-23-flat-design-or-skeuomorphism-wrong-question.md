@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Flat Design or Skeuomorphism - Wrong Question
+imgclass: chill
 ---
 
 Like most designers, I've read more articles, blog posts, and tweets about <a href="http://fltdsgn.com/">Flat Design</a> versus <a href="http://en.wikipedia.org/wiki/Skeuomorph">Skeuomorphic design</a> over the past several months than I care to have. And to be clear - I'm not here to continue that discussion.

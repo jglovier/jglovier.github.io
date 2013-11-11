@@ -7,6 +7,30 @@ body.blogpost {
     padding: 35px 0;
     margin-bottom: 40px;
 
+    &.code { background-image: image-url("bg-css.jpg"); }
+    &.food { background-image: image-url("bg-forks.jpg"); }
+    &.book { background-image: image-url("bg-book.jpg"); }
+    &.chill { background-image: image-url("bg-chill.jpg"); }
+    &.clouds { background-image: image-url("bg-clouds.jpg"); }
+    &.css { background-image: image-url("bg-css.jpg"); }
+    &.cultivating { background-image: image-url("bg-cultivating.jpg"); }
+    &.droplets { background-image: image-url("bg-droplets.jpg"); }
+    &.externaldrive { background-image: image-url("bg-externaldrive.jpg"); }
+    &.hardware { background-image: image-url("bg-externaldrive.jpg"); }
+    &.faith { background-image: image-url("bg-faith.jpg"); }
+    &.fence { background-image: image-url("bg-fence.jpg"); }
+    &.forks { background-image: image-url("bg-forks.jpg"); }
+    &.lightbulb { background-image: image-url("bg-lightbulb.jpg"); }
+    &.markerboard { background-image: image-url("bg-markerboard.jpg"); }
+    &.mountain { background-image: image-url("bg-mountain.jpg"); }
+    &.music { background-image: image-url("bg-music.jpg"); }
+    &.path { background-image: image-url("bg-faith.jpg"); }
+    &.road { background-image: image-url("bg-road.jpg"); }
+    &.sky { background-image: image-url("bg-sky.jpg"); }
+    &.ux { background-image: image-url("bg-markerboard.jpg"); }
+    &.worship { background-image: image-url("bg-worship.jpg"); }
+    &.quicktip { background-image: image-url("bg-lightbulb.jpg"); }
+
     .joel-photo {
       max-width: 124px;
       display: inline-block;
@@ -88,9 +112,33 @@ body.blogpost {
   .next-article {
     color: $white;
     background-color: $blue;
-    background-image: image-url("bg-css3.jpg");
+    background-image: image-url("blogpost-bg.jpg");
     background-position: center top;
     padding: 50px 0;
+
+    &.code { background-image: image-url("bg-css.jpg"); }
+    &.food { background-image: image-url("bg-forks.jpg"); }
+    &.book { background-image: image-url("bg-book.jpg"); }
+    &.chill { background-image: image-url("bg-chill.jpg"); }
+    &.clouds { background-image: image-url("bg-clouds.jpg"); }
+    &.css { background-image: image-url("bg-css.jpg"); }
+    &.cultivating { background-image: image-url("bg-cultivating.jpg"); }
+    &.droplets { background-image: image-url("bg-droplets.jpg"); }
+    &.externaldrive { background-image: image-url("bg-externaldrive.jpg"); }
+    &.hardware { background-image: image-url("bg-externaldrive.jpg"); }
+    &.faith { background-image: image-url("bg-faith.jpg"); }
+    &.fence { background-image: image-url("bg-fence.jpg"); }
+    &.forks { background-image: image-url("bg-forks.jpg"); }
+    &.lightbulb { background-image: image-url("bg-lightbulb.jpg"); }
+    &.markerboard { background-image: image-url("bg-markerboard.jpg"); }
+    &.mountain { background-image: image-url("bg-mountain.jpg"); }
+    &.music { background-image: image-url("bg-music.jpg"); }
+    &.path { background-image: image-url("bg-faith.jpg"); }
+    &.road { background-image: image-url("bg-road.jpg"); }
+    &.sky { background-image: image-url("bg-sky.jpg"); }
+    &.ux { background-image: image-url("bg-markerboard.jpg"); }
+    &.worship { background-image: image-url("bg-worship.jpg"); }
+    &.quicktip { background-image: image-url("bg-lightbulb.jpg"); }
 
     .contents {
       margin-left: pct( 237, 1284);

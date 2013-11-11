@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Making Gravlax - Part 1
+imgclass: food
 ---
 
 <p class="disclaimer">This is Part 1 in my experience on making gravlax. You can read <a href="/writing/2013/making-gravlax-part-2/">Part 2 here</a>.</p>

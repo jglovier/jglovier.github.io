@@ -2,6 +2,7 @@
 layout: blogpost
 title: Redesigning and rebuilding
 subhead: or "Static sites FTW"
+imgclass: code
 ---
 
 This site is my personal home on the World Wide Intarnetz™. I write about stuff, I link to other stuff, and I showcase stuff I've done/built/designed. It's purely personal in nature and does not necessarily reflect the views of my wonderful employer, my Murica, my tattoo artist, my barber or my neighbor's dog. It's where I represent, yo!

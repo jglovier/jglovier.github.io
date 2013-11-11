@@ -3,6 +3,7 @@ layout: blogpost
 title: What makes Trello different?
 postLink: http://www.joelonsoftware.com/items/2012/01/06.html
 postLinkText: How Trello is different
+imgclass: ux
 ---
 
 <p>Recently I was introduced to a wonderful piece of project/task management software by <a href="https://twitter.com/#!/flukesh">Fran Lukesh</a>, CD at <a href="http://andculture.com/">andCulture</a>, while working on a contract project for them. I used it a little and thought it was cool, but at the time I was pretty vested in a <a href="http://docs.google.com">Google Docs</a> based task management workflow.</p>

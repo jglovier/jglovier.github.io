@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Quick Tip - View Alternate Keys on OSX
+imgclass: quicktip
 ---
 
 So if you're on a mac, you probably know that you can hit <code>alt + r</code> to get the <code>©</code> symbol directly in your input. Or, that <code>alt + r</code> will get you the <code>®</code> symbol. Or, that <code>alt+8</code> will get you a bullet.

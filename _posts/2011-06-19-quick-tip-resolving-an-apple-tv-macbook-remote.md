@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: QUICK TIP - Resolving an Apple TV / Macbook Remote Conflict
+imgclass: quicktip
 ---
 
 <blockquote>

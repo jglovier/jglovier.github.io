@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: On Using the Cross in Design
+imgclass: clouds
 ---
 
 <p>I'm a Christian. Not a religious nut, but a committed follower of the Way, Jesus Christ.</p>

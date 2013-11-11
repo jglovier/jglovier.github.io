@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Leaving CURE, but staying involved.
+imgclass: road
 ---
 
 <p class="disclaimer">An open note to my colleagues, family, and friends:</p>

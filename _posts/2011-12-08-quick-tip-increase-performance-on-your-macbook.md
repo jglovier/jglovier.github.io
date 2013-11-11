@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Quick Tip - Increase Performance on your Macbook
+imgclass: externaldrive
 ---
 
 <p>So I work from two machines on an ongoing basis:<p>

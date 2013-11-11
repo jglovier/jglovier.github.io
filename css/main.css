@@ -737,40 +737,109 @@ body.blogpost .page-header {
   padding: 35px 0;
   margin-bottom: 40px; }
   /* line 10, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.code {
+    background-image: url('../img/bg-css.jpg?1384188884'); }
+  /* line 11, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.food {
+    background-image: url('../img/bg-forks.jpg?1384188884'); }
+  /* line 12, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.book {
+    background-image: url('../img/bg-book.jpg?1384190323'); }
+  /* line 13, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.chill {
+    background-image: url('../img/bg-chill.jpg?1384190447'); }
+  /* line 14, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.clouds {
+    background-image: url('../img/bg-clouds.jpg?1384190655'); }
+  /* line 15, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.css {
+    background-image: url('../img/bg-css.jpg?1384188884'); }
+  /* line 16, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.cultivating {
+    background-image: url('../img/bg-cultivating.jpg?1384190603'); }
+  /* line 17, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.droplets {
+    background-image: url('../img/bg-droplets.jpg?1384188884'); }
+  /* line 18, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.externaldrive {
+    background-image: url('../img/bg-externaldrive.jpg?1384188884'); }
+  /* line 19, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.hardware {
+    background-image: url('../img/bg-externaldrive.jpg?1384188884'); }
+  /* line 20, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.faith {
+    background-image: url('../img/bg-faith.jpg?1384190308'); }
+  /* line 21, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.fence {
+    background-image: url('../img/bg-fence.jpg?1384190295'); }
+  /* line 22, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.forks {
+    background-image: url('../img/bg-forks.jpg?1384188884'); }
+  /* line 23, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.lightbulb {
+    background-image: url('../img/bg-lightbulb.jpg?1384195777'); }
+  /* line 24, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.markerboard {
+    background-image: url('../img/bg-markerboard.jpg?1384191364'); }
+  /* line 25, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.mountain {
+    background-image: url('../img/bg-mountain.jpg?1384190772'); }
+  /* line 26, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.music {
+    background-image: url('../img/bg-music.jpg?1384188884'); }
+  /* line 27, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.path {
+    background-image: url('../img/bg-faith.jpg?1384190308'); }
+  /* line 28, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.road {
+    background-image: url('../img/bg-road.jpg?1384190398'); }
+  /* line 29, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.sky {
+    background-image: url('../img/bg-sky.jpg?1384190509'); }
+  /* line 30, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.ux {
+    background-image: url('../img/bg-markerboard.jpg?1384191364'); }
+  /* line 31, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.worship {
+    background-image: url('../img/bg-worship.jpg?1384192446'); }
+  /* line 32, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.quicktip {
+    background-image: url('../img/bg-lightbulb.jpg?1384195777'); }
+  /* line 34, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header .joel-photo {
     max-width: 124px;
     display: inline-block;
     margin-right: 30px; }
-  /* line 15, ../scss/includes/_blogpost.scss */
+  /* line 39, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header .my-avatar {
     width: 18.45794%;
     text-align: right; }
-    /* line 17, ../scss/includes/_blogpost.scss */
+    /* line 41, ../scss/includes/_blogpost.scss */
     body.blogpost .page-header .my-avatar > a {
       display: block;
       height: 126px; }
-  /* line 21, ../scss/includes/_blogpost.scss */
+  /* line 45, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header .intro-copy {
     width: 79.59502%; }
-    /* line 23, ../scss/includes/_blogpost.scss */
+    /* line 47, ../scss/includes/_blogpost.scss */
     body.blogpost .page-header .intro-copy h1 {
       font-weight: 700;
       margin: 20px 0 0;
       width: auto; }
-    /* line 25, ../scss/includes/_blogpost.scss */
+    /* line 49, ../scss/includes/_blogpost.scss */
     body.blogpost .page-header .intro-copy .subhead {
       font-size: 28px;
       font-family: "Minion Pro", Palatino, Georgia, serif;
       font-style: italic;
       margin: 5px 0 0; }
-    /* line 31, ../scss/includes/_blogpost.scss */
+    /* line 55, ../scss/includes/_blogpost.scss */
     body.blogpost .page-header .intro-copy .article-date {
       font-size: 20px;
       font-family: "pn_font";
       letter-spacing: 2px;
       margin: 0;
       color: #d3edff; }
-/* line 42, ../scss/includes/_blogpost.scss */
+/* line 66, ../scss/includes/_blogpost.scss */
 body.blogpost .post-content {
   margin-left: 18.45794%;
   padding-right: 30px;
@@ -779,20 +848,20 @@ body.blogpost .post-content {
   padding-bottom: 80px;
   font-family: "Minion Pro", Palatino, Georgia, serif;
   font-size: 26px; }
-  /* line 51, ../scss/includes/_blogpost.scss */
+  /* line 75, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content h1, body.blogpost .post-content h2, body.blogpost .post-content h3, body.blogpost .post-content h4, body.blogpost .post-content h5, body.blogpost .post-content h6, body.blogpost .post-content h7 {
     font-family: "pn_font"; }
-  /* line 53, ../scss/includes/_blogpost.scss */
+  /* line 77, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content a {
     color: #0099ff;
     text-decoration: underline; }
-    /* line 55, ../scss/includes/_blogpost.scss */
+    /* line 79, ../scss/includes/_blogpost.scss */
     body.blogpost .post-content a:hover {
       text-decoration: none; }
-    /* line 57, ../scss/includes/_blogpost.scss */
+    /* line 81, ../scss/includes/_blogpost.scss */
     body.blogpost .post-content a:visited {
       color: #004472; }
-  /* line 61, ../scss/includes/_blogpost.scss */
+  /* line 85, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content .disclaimer {
     color: #0099ff;
     font-size: 22px;
@@ -803,12 +872,12 @@ body.blogpost .post-content {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     border-radius: 5px; }
-  /* line 69, ../scss/includes/_blogpost.scss */
+  /* line 93, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content .strikethrough,
   body.blogpost .post-content del {
     text-decoration: line-through;
     color: #c7c7c7; }
-  /* line 71, ../scss/includes/_blogpost.scss */
+  /* line 95, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content blockquote {
     border-left: 6px solid #7fccff;
     margin-left: 0;
@@ -819,7 +888,7 @@ body.blogpost .post-content {
     -ms-border-radius: 0 10px 10px 0;
     -o-border-radius: 0 10px 10px 0;
     border-radius: 0 10px 10px 0; }
-  /* line 78, ../scss/includes/_blogpost.scss */
+  /* line 102, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content code {
     font-size: 22px;
     background-color: #eeeeee;
@@ -829,7 +898,7 @@ body.blogpost .post-content {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     border-radius: 5px; }
-  /* line 84, ../scss/includes/_blogpost.scss */
+  /* line 108, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content img {
     max-width: 100%;
     -webkit-border-radius: 5px;
@@ -837,20 +906,89 @@ body.blogpost .post-content {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     border-radius: 5px; }
-/* line 88, ../scss/includes/_blogpost.scss */
+/* line 112, ../scss/includes/_blogpost.scss */
 body.blogpost .next-article {
   color: white;
   background-color: #0099ff;
-  background-image: url('../img/bg-css3.jpg?1384063468');
+  background-image: url('../img/blogpost-bg.jpg?1381159343');
   background-position: center top;
   padding: 50px 0; }
-  /* line 95, ../scss/includes/_blogpost.scss */
+  /* line 119, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.code {
+    background-image: url('../img/bg-css.jpg?1384188884'); }
+  /* line 120, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.food {
+    background-image: url('../img/bg-forks.jpg?1384188884'); }
+  /* line 121, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.book {
+    background-image: url('../img/bg-book.jpg?1384190323'); }
+  /* line 122, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.chill {
+    background-image: url('../img/bg-chill.jpg?1384190447'); }
+  /* line 123, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.clouds {
+    background-image: url('../img/bg-clouds.jpg?1384190655'); }
+  /* line 124, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.css {
+    background-image: url('../img/bg-css.jpg?1384188884'); }
+  /* line 125, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.cultivating {
+    background-image: url('../img/bg-cultivating.jpg?1384190603'); }
+  /* line 126, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.droplets {
+    background-image: url('../img/bg-droplets.jpg?1384188884'); }
+  /* line 127, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.externaldrive {
+    background-image: url('../img/bg-externaldrive.jpg?1384188884'); }
+  /* line 128, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.hardware {
+    background-image: url('../img/bg-externaldrive.jpg?1384188884'); }
+  /* line 129, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.faith {
+    background-image: url('../img/bg-faith.jpg?1384190308'); }
+  /* line 130, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.fence {
+    background-image: url('../img/bg-fence.jpg?1384190295'); }
+  /* line 131, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.forks {
+    background-image: url('../img/bg-forks.jpg?1384188884'); }
+  /* line 132, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.lightbulb {
+    background-image: url('../img/bg-lightbulb.jpg?1384195777'); }
+  /* line 133, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.markerboard {
+    background-image: url('../img/bg-markerboard.jpg?1384191364'); }
+  /* line 134, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.mountain {
+    background-image: url('../img/bg-mountain.jpg?1384190772'); }
+  /* line 135, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.music {
+    background-image: url('../img/bg-music.jpg?1384188884'); }
+  /* line 136, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.path {
+    background-image: url('../img/bg-faith.jpg?1384190308'); }
+  /* line 137, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.road {
+    background-image: url('../img/bg-road.jpg?1384190398'); }
+  /* line 138, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.sky {
+    background-image: url('../img/bg-sky.jpg?1384190509'); }
+  /* line 139, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.ux {
+    background-image: url('../img/bg-markerboard.jpg?1384191364'); }
+  /* line 140, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.worship {
+    background-image: url('../img/bg-worship.jpg?1384192446'); }
+  /* line 141, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.quicktip {
+    background-image: url('../img/bg-lightbulb.jpg?1384195777'); }
+  /* line 143, ../scss/includes/_blogpost.scss */
   body.blogpost .next-article .contents {
     margin-left: 18.45794%;
     padding-right: 30px;
     /*width: pct( 812, 1284);*/
     max-width: 812px; }
-  /* line 101, ../scss/includes/_blogpost.scss */
+  /* line 149, ../scss/includes/_blogpost.scss */
   body.blogpost .next-article .next-arrow {
     font-size: 18px;
     text-transform: uppercase;
@@ -858,27 +996,27 @@ body.blogpost .next-article {
     font-weight: 400;
     letter-spacing: 2px;
     margin: 0 0 10px; }
-  /* line 108, ../scss/includes/_blogpost.scss */
+  /* line 156, ../scss/includes/_blogpost.scss */
   body.blogpost .next-article .title {
     margin: 0;
     font-size: 40px;
     font-family: "pn_font", "Arial Black", Arial, sans-serif;
     font-weight: 900;
     line-height: 1; }
-    /* line 114, ../scss/includes/_blogpost.scss */
+    /* line 162, ../scss/includes/_blogpost.scss */
     body.blogpost .next-article .title a:hover {
       opacity: .75; }
-  /* line 118, ../scss/includes/_blogpost.scss */
+  /* line 166, ../scss/includes/_blogpost.scss */
   body.blogpost .next-article .subhead {
     margin: 0;
     font-style: italic;
     font-size: 21px;
     font-family: "Minion Pro", Palatino, Georgia, serif; }
-  /* line 124, ../scss/includes/_blogpost.scss */
+  /* line 172, ../scss/includes/_blogpost.scss */
   body.blogpost .next-article .article-date {
     margin: 0;
     letter-spacing: 2px; }
-  /* line 126, ../scss/includes/_blogpost.scss */
+  /* line 174, ../scss/includes/_blogpost.scss */
   body.blogpost .next-article .index-link {
     font-size: 14px;
     text-transform: uppercase;
@@ -895,7 +1033,7 @@ body.blogpost .next-article {
     padding: 2px 12px;
     display: inline-block; }
 
-/* line 143, ../scss/includes/_blogpost.scss */
+/* line 191, ../scss/includes/_blogpost.scss */
 .wrap div.highlight {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -905,35 +1043,35 @@ body.blogpost .next-article {
   padding: 20px 30px;
   border: 1px solid #eeeeee;
   font-size: 20px; }
-  /* line 149, ../scss/includes/_blogpost.scss */
+  /* line 197, ../scss/includes/_blogpost.scss */
   .wrap div.highlight pre {
     margin: 0; }
-    /* line 151, ../scss/includes/_blogpost.scss */
+    /* line 199, ../scss/includes/_blogpost.scss */
     .wrap div.highlight pre code {
       background-color: transparent;
       font-size: 20px;
       padding: 0; }
-  /* line 160, ../scss/includes/_blogpost.scss */
+  /* line 208, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .nt {
     color: #004472;
     background-color: #f3faff; }
-  /* line 163, ../scss/includes/_blogpost.scss */
+  /* line 211, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .na {
     color: #0099ff; }
-  /* line 164, ../scss/includes/_blogpost.scss */
+  /* line 212, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .s {
     color: red; }
-  /* line 165, ../scss/includes/_blogpost.scss */
+  /* line 213, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .mc {
     color: #0099ff; }
-  /* line 167, ../scss/includes/_blogpost.scss */
+  /* line 215, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .k {
     color: #b400ff;
     background-color: #f3faff; }
-  /* line 171, ../scss/includes/_blogpost.scss */
+  /* line 219, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .m {
     color: #24ac00; }
-  /* line 172, ../scss/includes/_blogpost.scss */
+  /* line 220, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .c {
     color: #c7c7c7; }
 
