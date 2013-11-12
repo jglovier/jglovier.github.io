@@ -82,6 +82,15 @@ body.blogpost {
 
     }
 
+    .half { max-width: 50%; }
+    .one-third { max-width: 33%; }
+    .two-third { max-width: 66%; }
+    .quarter { max-width: 25%; }
+    .three-quarter { max-width: 75%; }
+
+    .left { float: left; margin-right: 20px; }
+    .right { float: right; margin-left: 20px; }
+
     .disclaimer {
       color: $blue;
       font-size: 22px;
