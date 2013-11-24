@@ -26,7 +26,7 @@
       <div class="intro-copy">
         <h1>{{ page.title }}</h1>
         {% if page.subhead %}<p class="subhead">{{ page.subhead }}</p>{% endif %}
-        <p class="article-date">By Joel Glovier on {{ page.date | date: "%-m/%-d/%Y" }}</p>
+        <p class="article-date">{{ page.date | date: "%-m/%-d/%Y" }} by Joel Glovier</p>
       </div>
 
     </div>
