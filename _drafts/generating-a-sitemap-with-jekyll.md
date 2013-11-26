@@ -1,9 +1,10 @@
 ---
 layout: blogpost
-title: Generating sitemaps with Jekyll & GitHub Pages
+title: "Generating sitemaps with Jekyll & GitHub Pages"
 subhead: SUCH SIMPLE. SO EASE. WOW.
 imgclass:
 permalink:
+categories: jekyll code seo
 ---
 
 References:
