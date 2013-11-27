@@ -30,6 +30,8 @@ body.blogpost {
     &.ux { background-image: image-url("bg-markerboard.jpg"); }
     &.worship { background-image: image-url("bg-worship.jpg"); }
     &.quicktip { background-image: image-url("bg-lightbulb.jpg"); }
+    &.solarsystem { background-image: image-url("bg-solarsystem.jpg"); }
+    &.jekyll { background-image: image-url("bg-jekyll.jpg"); }
 
     .joel-photo {
       max-width: 124px;
@@ -148,6 +150,8 @@ body.blogpost {
     &.ux { background-image: image-url("bg-markerboard.jpg"); }
     &.worship { background-image: image-url("bg-worship.jpg"); }
     &.quicktip { background-image: image-url("bg-lightbulb.jpg"); }
+    &.solarsystem { background-image: image-url("bg-solarsystem.jpg"); }
+    &.jekyll { background-image: image-url("bg-jekyll.jpg"); }
 
     .contents {
       margin-left: pct( 237, 1284);
