@@ -12,4 +12,31 @@ body.category {
 
 }
 
+.categories {
+
+  h4 { font-weight: 300; font-size: 26px; }
+
+  .category-list {
+    margin: 0; padding: 0;
+    list-style: none;
+
+    li {
+      text-transform: capitalize;
+      display: inline-block;
+
+      > a {
+        background-color: $blue_l3;
+        @include border-radius(5px);
+        padding: 2px 10px;
+        display: inline-block;
+        margin: 0 2px 10px; }
+
+      &:hover { opacity: .75; }
+
+    }
+
+  }
+
+}
+
 /* @end Category Page Styles */

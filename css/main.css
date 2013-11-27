@@ -1220,6 +1220,34 @@ body.category .page-header {
   body.category .page-header h1 {
     text-transform: capitalize; }
 
+/* line 17, ../scss/includes/_category.scss */
+.categories h4 {
+  font-weight: 300;
+  font-size: 26px; }
+/* line 19, ../scss/includes/_category.scss */
+.categories .category-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  /* line 23, ../scss/includes/_category.scss */
+  .categories .category-list li {
+    text-transform: capitalize;
+    display: inline-block; }
+    /* line 27, ../scss/includes/_category.scss */
+    .categories .category-list li > a {
+      background-color: #d3edff;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      border-radius: 5px;
+      padding: 2px 10px;
+      display: inline-block;
+      margin: 0 2px 10px; }
+    /* line 34, ../scss/includes/_category.scss */
+    .categories .category-list li:hover {
+      opacity: .75; }
+
 /* @end Category Page Styles */
 /* @group Media Queries -------------------- */
 @media screen and (max-width: 750px) {
