@@ -32,6 +32,8 @@
       margin: 0 -15px;
       padding: 0 15px; }
 
+    a { color: #fff; }
+
   }
 
   &:hover { background: $blue;
@@ -87,7 +89,11 @@
 
     }
 
-    a { border-bottom: 2px solid rgba(255,255,255,.5); padding:0 5px; margin: 0 -5px; @include border-radius(4px 4px 0 0);
+    a {
+      border-bottom: 2px solid rgba(255,255,255,.5);
+      padding:0 5px; margin: 0 -5px;
+      @include border-radius(4px 4px 0 0);
+      color: #fff;
 
       &:hover { background-color: rgba(0,68,114,.4); }
 
@@ -100,7 +106,12 @@
 
 /* Page Footer */
 
-.page-footer { text-align: center; border-top: 1px solid #e8e8e8;
+.page-footer {
+  text-align: center;
+  border-top: 1px solid #e8e8e8;
+  padding: 20px 0;
+
+  p { margin: 0; }
 
   a { color: $blue; }
 

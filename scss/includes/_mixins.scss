@@ -25,3 +25,7 @@
 @mixin pn_extrabold {
   font-family: "pn_font", "Arial Black", Arial, sans-serif;
   font-weight: 900; }
+
+@mixin serif {
+  font-family: "Minion Pro", Palatino, Georgia, serif;
+}

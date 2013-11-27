@@ -433,7 +433,7 @@ body {
 
 /* line 34, ../scss/includes/_base.scss */
 a {
-  color: inherit;
+  color: #0099ff;
   text-decoration: none; }
 
 /* line 38, ../scss/includes/_base.scss */
@@ -490,18 +490,21 @@ a {
       background-color: #7fccff;
       margin: 0 -15px;
       padding: 0 15px; }
-  /* line 37, ../scss/includes/_layout.scss */
+    /* line 35, ../scss/includes/_layout.scss */
+    .site-nav .links a {
+      color: #fff; }
+  /* line 39, ../scss/includes/_layout.scss */
   .site-nav:hover {
     background: #0099ff; }
-    /* line 39, ../scss/includes/_layout.scss */
+    /* line 41, ../scss/includes/_layout.scss */
     .site-nav:hover .links {
       display: block; }
-    /* line 43, ../scss/includes/_layout.scss */
+    /* line 45, ../scss/includes/_layout.scss */
     .site-nav:hover .nav-trigger .menu-icon {
       display: inline-block; }
 
 /* Page Header */
-/* line 53, ../scss/includes/_layout.scss */
+/* line 55, ../scss/includes/_layout.scss */
 .page-header {
   background-image: url('../img/default-intro-bg.jpg?1380224413');
   background-position: center top;
@@ -510,11 +513,11 @@ a {
   border-bottom: 15px solid #0099ff;
   padding: 60px 0;
   color: white; }
-  /* line 62, ../scss/includes/_layout.scss */
+  /* line 64, ../scss/includes/_layout.scss */
   .page-header .my-avatar {
     width: 26.55763%;
     float: left; }
-  /* line 64, ../scss/includes/_layout.scss */
+  /* line 66, ../scss/includes/_layout.scss */
   .page-header .joel-photo {
     display: block;
     margin: 0 auto;
@@ -525,29 +528,29 @@ a {
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
     border-radius: 100%; }
-  /* line 71, ../scss/includes/_layout.scss */
+  /* line 73, ../scss/includes/_layout.scss */
   .page-header .intro-copy {
     width: 525px;
     float: left;
     font-weight: 300; }
-    /* line 73, ../scss/includes/_layout.scss */
+    /* line 75, ../scss/includes/_layout.scss */
     .page-header .intro-copy h1 {
       font-size: 60px;
       width: 120%;
       line-height: 1;
       margin: 20px 0 25px;
       font-weight: normal; }
-      /* line 80, ../scss/includes/_layout.scss */
+      /* line 82, ../scss/includes/_layout.scss */
       .page-header .intro-copy h1 span {
         font-weight: 900; }
-    /* line 84, ../scss/includes/_layout.scss */
+    /* line 86, ../scss/includes/_layout.scss */
     .page-header .intro-copy .description {
       font-size: 24px;
       margin: 10px 0 0; }
-      /* line 86, ../scss/includes/_layout.scss */
+      /* line 88, ../scss/includes/_layout.scss */
       .page-header .intro-copy .description a {
         font-weight: 700; }
-    /* line 90, ../scss/includes/_layout.scss */
+    /* line 92, ../scss/includes/_layout.scss */
     .page-header .intro-copy a {
       border-bottom: 2px solid rgba(255, 255, 255, 0.5);
       padding: 0 5px;
@@ -556,28 +559,33 @@ a {
       -moz-border-radius: 4px 4px 0 0;
       -ms-border-radius: 4px 4px 0 0;
       -o-border-radius: 4px 4px 0 0;
-      border-radius: 4px 4px 0 0; }
-      /* line 92, ../scss/includes/_layout.scss */
+      border-radius: 4px 4px 0 0;
+      color: #fff; }
+      /* line 98, ../scss/includes/_layout.scss */
       .page-header .intro-copy a:hover {
         background-color: rgba(0, 68, 114, 0.4); }
 
 /* Page Footer */
-/* line 103, ../scss/includes/_layout.scss */
+/* line 109, ../scss/includes/_layout.scss */
 .page-footer {
   text-align: center;
-  border-top: 1px solid #e8e8e8; }
-  /* line 105, ../scss/includes/_layout.scss */
+  border-top: 1px solid #e8e8e8;
+  padding: 20px 0; }
+  /* line 114, ../scss/includes/_layout.scss */
+  .page-footer p {
+    margin: 0; }
+  /* line 116, ../scss/includes/_layout.scss */
   .page-footer a {
     color: #0099ff; }
 
 /* Utilities */
-/* line 111, ../scss/includes/_layout.scss */
+/* line 122, ../scss/includes/_layout.scss */
 .wide-left-margin {
   margin-left: 26.55763%;
   padding-right: 30px; }
 
 /* WIP Notice */
-/* line 115, ../scss/includes/_layout.scss */
+/* line 126, ../scss/includes/_layout.scss */
 .wip-notice {
   position: fixed;
   top: 10px;
@@ -587,16 +595,16 @@ a {
   background-color: #f3faff;
   border-radius: 0 3px 3px 0;
   opacity: .6; }
-  /* line 124, ../scss/includes/_layout.scss */
+  /* line 135, ../scss/includes/_layout.scss */
   .wip-notice:hover {
     opacity: 1; }
-  /* line 126, ../scss/includes/_layout.scss */
+  /* line 137, ../scss/includes/_layout.scss */
   .wip-notice p {
     margin: 0;
     font-size: 12px;
     text-align: center;
     line-height: 1.25; }
-    /* line 132, ../scss/includes/_layout.scss */
+    /* line 143, ../scss/includes/_layout.scss */
     .wip-notice p a {
       color: #0099ff;
       text-decoration: underline; }
@@ -738,108 +746,116 @@ body.blogpost .page-header {
   margin-bottom: 40px; }
   /* line 10, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header.code {
-    background-image: url('../img/bg-css.jpg?1384188884'); }
+    background-image: url('../img/bg-css.jpg?1385506951'); }
   /* line 11, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header.food {
-    background-image: url('../img/bg-forks.jpg?1384188884'); }
+    background-image: url('../img/bg-forks.jpg?1385506951'); }
   /* line 12, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header.book {
-    background-image: url('../img/bg-book.jpg?1384190323'); }
+    background-image: url('../img/bg-book.jpg?1385506951'); }
   /* line 13, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header.chill {
-    background-image: url('../img/bg-chill.jpg?1384190447'); }
+    background-image: url('../img/bg-chill.jpg?1385506951'); }
   /* line 14, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header.clouds {
-    background-image: url('../img/bg-clouds.jpg?1384190655'); }
+    background-image: url('../img/bg-clouds.jpg?1385506951'); }
   /* line 15, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header.css {
-    background-image: url('../img/bg-css.jpg?1384188884'); }
+    background-image: url('../img/bg-css.jpg?1385506951'); }
   /* line 16, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header.cultivating {
-    background-image: url('../img/bg-cultivating.jpg?1384190603'); }
+    background-image: url('../img/bg-cultivating.jpg?1385506951'); }
   /* line 17, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header.droplets {
-    background-image: url('../img/bg-droplets.jpg?1384188884'); }
+    background-image: url('../img/bg-droplets.jpg?1385506951'); }
   /* line 18, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header.externaldrive {
-    background-image: url('../img/bg-externaldrive.jpg?1384188884'); }
+    background-image: url('../img/bg-externaldrive.jpg?1385506951'); }
   /* line 19, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header.hardware {
-    background-image: url('../img/bg-externaldrive.jpg?1384188884'); }
+    background-image: url('../img/bg-externaldrive.jpg?1385506951'); }
   /* line 20, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header.faith {
-    background-image: url('../img/bg-faith.jpg?1384190308'); }
+    background-image: url('../img/bg-faith.jpg?1385506951'); }
   /* line 21, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header.fence {
-    background-image: url('../img/bg-fence.jpg?1384190295'); }
+    background-image: url('../img/bg-fence.jpg?1385506951'); }
   /* line 22, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header.forks {
-    background-image: url('../img/bg-forks.jpg?1384188884'); }
+    background-image: url('../img/bg-forks.jpg?1385506951'); }
   /* line 23, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header.lightbulb {
-    background-image: url('../img/bg-lightbulb.jpg?1384195990'); }
+    background-image: url('../img/bg-lightbulb.jpg?1385506951'); }
   /* line 24, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header.markerboard {
-    background-image: url('../img/bg-markerboard.jpg?1384191364'); }
+    background-image: url('../img/bg-markerboard.jpg?1385506951'); }
   /* line 25, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header.mountain {
-    background-image: url('../img/bg-mountain.jpg?1384190772'); }
+    background-image: url('../img/bg-mountain.jpg?1385506951'); }
   /* line 26, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header.music {
-    background-image: url('../img/bg-music.jpg?1384188884'); }
+    background-image: url('../img/bg-music.jpg?1385506951'); }
   /* line 27, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header.path {
-    background-image: url('../img/bg-faith.jpg?1384190308'); }
-  /* line 28, ../scss/includes/_blogpost.scss */
-  body.blogpost .page-header.road {
-    background-image: url('../img/bg-road.jpg?1384190398'); }
-  /* line 29, ../scss/includes/_blogpost.scss */
-  body.blogpost .page-header.sky {
-    background-image: url('../img/bg-sky.jpg?1384190509'); }
+    background-image: url('../img/bg-faith.jpg?1385506951');
+    background-position: center bottom; }
   /* line 30, ../scss/includes/_blogpost.scss */
-  body.blogpost .page-header.ux {
-    background-image: url('../img/bg-markerboard.jpg?1384191364'); }
-  /* line 31, ../scss/includes/_blogpost.scss */
-  body.blogpost .page-header.worship {
-    background-image: url('../img/bg-worship.jpg?1384192446'); }
-  /* line 32, ../scss/includes/_blogpost.scss */
-  body.blogpost .page-header.quicktip {
-    background-image: url('../img/bg-lightbulb.jpg?1384195990'); }
+  body.blogpost .page-header.road {
+    background-image: url('../img/bg-road.jpg?1385506951');
+    background-position: center bottom; }
+  /* line 33, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.sky {
+    background-image: url('../img/bg-sky.jpg?1385506951'); }
   /* line 34, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.ux {
+    background-image: url('../img/bg-markerboard.jpg?1385506951'); }
+  /* line 35, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.worship {
+    background-image: url('../img/bg-worship.jpg?1385506951'); }
+  /* line 36, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.quicktip {
+    background-image: url('../img/bg-lightbulb.jpg?1385506951'); }
+  /* line 37, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.solarsystem {
+    background-image: url('../img/bg-solarsystem.jpg?1385511485'); }
+  /* line 38, ../scss/includes/_blogpost.scss */
+  body.blogpost .page-header.jekyll {
+    background-image: url('../img/bg-jekyll.jpg?1385506951'); }
+  /* line 40, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header .joel-photo {
     max-width: 124px;
     display: inline-block;
     margin-right: 30px; }
-  /* line 39, ../scss/includes/_blogpost.scss */
+  /* line 45, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header .my-avatar {
     width: 18.45794%;
     text-align: right; }
-    /* line 41, ../scss/includes/_blogpost.scss */
+    /* line 47, ../scss/includes/_blogpost.scss */
     body.blogpost .page-header .my-avatar > a {
       display: block;
       height: 126px; }
-  /* line 45, ../scss/includes/_blogpost.scss */
+  /* line 51, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header .intro-copy {
     width: 79.59502%; }
-    /* line 47, ../scss/includes/_blogpost.scss */
+    /* line 53, ../scss/includes/_blogpost.scss */
     body.blogpost .page-header .intro-copy h1 {
       font-weight: 700;
       margin: 20px 0 0;
       width: auto; }
-    /* line 49, ../scss/includes/_blogpost.scss */
+    /* line 55, ../scss/includes/_blogpost.scss */
     body.blogpost .page-header .intro-copy .subhead {
       font-size: 28px;
       font-family: "Minion Pro", Palatino, Georgia, serif;
       font-style: italic;
       margin: 5px 0 0; }
-    /* line 55, ../scss/includes/_blogpost.scss */
+    /* line 61, ../scss/includes/_blogpost.scss */
     body.blogpost .page-header .intro-copy .article-date {
       font-size: 20px;
       font-family: "pn_font";
       letter-spacing: 2px;
       margin: 0;
       color: #d3edff; }
-/* line 66, ../scss/includes/_blogpost.scss */
+/* line 72, ../scss/includes/_blogpost.scss */
 body.blogpost .post-content {
   margin-left: 18.45794%;
   padding-right: 30px;
@@ -848,43 +864,43 @@ body.blogpost .post-content {
   padding-bottom: 80px;
   font-family: "Minion Pro", Palatino, Georgia, serif;
   font-size: 26px; }
-  /* line 75, ../scss/includes/_blogpost.scss */
+  /* line 81, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content h1, body.blogpost .post-content h2, body.blogpost .post-content h3, body.blogpost .post-content h4, body.blogpost .post-content h5, body.blogpost .post-content h6, body.blogpost .post-content h7 {
     font-family: "pn_font"; }
-  /* line 77, ../scss/includes/_blogpost.scss */
+  /* line 83, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content a {
     color: #0099ff;
     text-decoration: underline; }
-    /* line 79, ../scss/includes/_blogpost.scss */
+    /* line 85, ../scss/includes/_blogpost.scss */
     body.blogpost .post-content a:hover {
       text-decoration: none; }
-    /* line 81, ../scss/includes/_blogpost.scss */
+    /* line 87, ../scss/includes/_blogpost.scss */
     body.blogpost .post-content a:visited {
       color: #004472; }
-  /* line 85, ../scss/includes/_blogpost.scss */
+  /* line 91, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content .half {
     max-width: 50%; }
-  /* line 86, ../scss/includes/_blogpost.scss */
+  /* line 92, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content .one-third {
     max-width: 33%; }
-  /* line 87, ../scss/includes/_blogpost.scss */
+  /* line 93, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content .two-third {
     max-width: 66%; }
-  /* line 88, ../scss/includes/_blogpost.scss */
+  /* line 94, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content .quarter {
     max-width: 25%; }
-  /* line 89, ../scss/includes/_blogpost.scss */
+  /* line 95, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content .three-quarter {
     max-width: 75%; }
-  /* line 91, ../scss/includes/_blogpost.scss */
+  /* line 97, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content .left {
     float: left;
     margin-right: 20px; }
-  /* line 92, ../scss/includes/_blogpost.scss */
+  /* line 98, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content .right {
     float: right;
     margin-left: 20px; }
-  /* line 94, ../scss/includes/_blogpost.scss */
+  /* line 100, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content .disclaimer {
     color: #0099ff;
     font-size: 22px;
@@ -895,12 +911,12 @@ body.blogpost .post-content {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     border-radius: 5px; }
-  /* line 102, ../scss/includes/_blogpost.scss */
+  /* line 108, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content .strikethrough,
   body.blogpost .post-content del {
     text-decoration: line-through;
     color: #c7c7c7; }
-  /* line 104, ../scss/includes/_blogpost.scss */
+  /* line 110, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content blockquote {
     border-left: 6px solid #7fccff;
     margin-left: 0;
@@ -911,7 +927,7 @@ body.blogpost .post-content {
     -ms-border-radius: 0 10px 10px 0;
     -o-border-radius: 0 10px 10px 0;
     border-radius: 0 10px 10px 0; }
-  /* line 111, ../scss/includes/_blogpost.scss */
+  /* line 117, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content code {
     font-size: 22px;
     background-color: #eeeeee;
@@ -921,7 +937,7 @@ body.blogpost .post-content {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     border-radius: 5px; }
-  /* line 117, ../scss/includes/_blogpost.scss */
+  /* line 123, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content img {
     max-width: 100%;
     -webkit-border-radius: 5px;
@@ -929,89 +945,100 @@ body.blogpost .post-content {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     border-radius: 5px; }
-/* line 121, ../scss/includes/_blogpost.scss */
+/* line 127, ../scss/includes/_blogpost.scss */
 body.blogpost .next-article {
   color: white;
   background-color: #0099ff;
   background-image: url('../img/blogpost-bg.jpg?1381159343');
   background-position: center top;
   padding: 50px 0; }
-  /* line 128, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.code {
-    background-image: url('../img/bg-css.jpg?1384188884'); }
-  /* line 129, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.food {
-    background-image: url('../img/bg-forks.jpg?1384188884'); }
-  /* line 130, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.book {
-    background-image: url('../img/bg-book.jpg?1384190323'); }
-  /* line 131, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.chill {
-    background-image: url('../img/bg-chill.jpg?1384190447'); }
-  /* line 132, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.clouds {
-    background-image: url('../img/bg-clouds.jpg?1384190655'); }
-  /* line 133, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.css {
-    background-image: url('../img/bg-css.jpg?1384188884'); }
   /* line 134, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.cultivating {
-    background-image: url('../img/bg-cultivating.jpg?1384190603'); }
-  /* line 135, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.droplets {
-    background-image: url('../img/bg-droplets.jpg?1384188884'); }
+  body.blogpost .next-article a {
+    color: #fff; }
   /* line 136, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.externaldrive {
-    background-image: url('../img/bg-externaldrive.jpg?1384188884'); }
+  body.blogpost .next-article.code {
+    background-image: url('../img/bg-css.jpg?1385506951'); }
   /* line 137, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.hardware {
-    background-image: url('../img/bg-externaldrive.jpg?1384188884'); }
+  body.blogpost .next-article.food {
+    background-image: url('../img/bg-forks.jpg?1385506951'); }
   /* line 138, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.faith {
-    background-image: url('../img/bg-faith.jpg?1384190308'); }
+  body.blogpost .next-article.book {
+    background-image: url('../img/bg-book.jpg?1385506951'); }
   /* line 139, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.fence {
-    background-image: url('../img/bg-fence.jpg?1384190295'); }
+  body.blogpost .next-article.chill {
+    background-image: url('../img/bg-chill.jpg?1385506951'); }
   /* line 140, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.forks {
-    background-image: url('../img/bg-forks.jpg?1384188884'); }
+  body.blogpost .next-article.clouds {
+    background-image: url('../img/bg-clouds.jpg?1385506951'); }
   /* line 141, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.lightbulb {
-    background-image: url('../img/bg-lightbulb.jpg?1384195990'); }
+  body.blogpost .next-article.css {
+    background-image: url('../img/bg-css.jpg?1385506951'); }
   /* line 142, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.markerboard {
-    background-image: url('../img/bg-markerboard.jpg?1384191364'); }
+  body.blogpost .next-article.cultivating {
+    background-image: url('../img/bg-cultivating.jpg?1385506951'); }
   /* line 143, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.mountain {
-    background-image: url('../img/bg-mountain.jpg?1384190772'); }
+  body.blogpost .next-article.droplets {
+    background-image: url('../img/bg-droplets.jpg?1385506951'); }
   /* line 144, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.music {
-    background-image: url('../img/bg-music.jpg?1384188884'); }
+  body.blogpost .next-article.externaldrive {
+    background-image: url('../img/bg-externaldrive.jpg?1385506951'); }
   /* line 145, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.path {
-    background-image: url('../img/bg-faith.jpg?1384190308'); }
+  body.blogpost .next-article.hardware {
+    background-image: url('../img/bg-externaldrive.jpg?1385506951'); }
   /* line 146, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.road {
-    background-image: url('../img/bg-road.jpg?1384190398'); }
+  body.blogpost .next-article.faith {
+    background-image: url('../img/bg-faith.jpg?1385506951'); }
   /* line 147, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.sky {
-    background-image: url('../img/bg-sky.jpg?1384190509'); }
+  body.blogpost .next-article.fence {
+    background-image: url('../img/bg-fence.jpg?1385506951'); }
   /* line 148, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.ux {
-    background-image: url('../img/bg-markerboard.jpg?1384191364'); }
+  body.blogpost .next-article.forks {
+    background-image: url('../img/bg-forks.jpg?1385506951'); }
   /* line 149, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.worship {
-    background-image: url('../img/bg-worship.jpg?1384192446'); }
+  body.blogpost .next-article.lightbulb {
+    background-image: url('../img/bg-lightbulb.jpg?1385506951'); }
   /* line 150, ../scss/includes/_blogpost.scss */
-  body.blogpost .next-article.quicktip {
-    background-image: url('../img/bg-lightbulb.jpg?1384195990'); }
+  body.blogpost .next-article.markerboard {
+    background-image: url('../img/bg-markerboard.jpg?1385506951'); }
+  /* line 151, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.mountain {
+    background-image: url('../img/bg-mountain.jpg?1385506951'); }
   /* line 152, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.music {
+    background-image: url('../img/bg-music.jpg?1385506951'); }
+  /* line 153, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.path {
+    background-image: url('../img/bg-faith.jpg?1385506951');
+    background-position: center bottom; }
+  /* line 156, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.road {
+    background-image: url('../img/bg-road.jpg?1385506951');
+    background-position: center bottom; }
+  /* line 159, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.sky {
+    background-image: url('../img/bg-sky.jpg?1385506951'); }
+  /* line 160, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.ux {
+    background-image: url('../img/bg-markerboard.jpg?1385506951'); }
+  /* line 161, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.worship {
+    background-image: url('../img/bg-worship.jpg?1385506951'); }
+  /* line 162, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.quicktip {
+    background-image: url('../img/bg-lightbulb.jpg?1385506951'); }
+  /* line 163, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.solarsystem {
+    background-image: url('../img/bg-solarsystem.jpg?1385511485'); }
+  /* line 164, ../scss/includes/_blogpost.scss */
+  body.blogpost .next-article.jekyll {
+    background-image: url('../img/bg-jekyll.jpg?1385506951'); }
+  /* line 166, ../scss/includes/_blogpost.scss */
   body.blogpost .next-article .contents {
     margin-left: 18.45794%;
     padding-right: 30px;
     /*width: pct( 812, 1284);*/
     max-width: 812px; }
-  /* line 158, ../scss/includes/_blogpost.scss */
+  /* line 172, ../scss/includes/_blogpost.scss */
   body.blogpost .next-article .next-arrow {
     font-size: 18px;
     text-transform: uppercase;
@@ -1019,27 +1046,27 @@ body.blogpost .next-article {
     font-weight: 400;
     letter-spacing: 2px;
     margin: 0 0 10px; }
-  /* line 165, ../scss/includes/_blogpost.scss */
+  /* line 179, ../scss/includes/_blogpost.scss */
   body.blogpost .next-article .title {
     margin: 0;
     font-size: 40px;
     font-family: "pn_font", "Arial Black", Arial, sans-serif;
     font-weight: 900;
     line-height: 1; }
-    /* line 171, ../scss/includes/_blogpost.scss */
+    /* line 185, ../scss/includes/_blogpost.scss */
     body.blogpost .next-article .title a:hover {
       opacity: .75; }
-  /* line 175, ../scss/includes/_blogpost.scss */
+  /* line 189, ../scss/includes/_blogpost.scss */
   body.blogpost .next-article .subhead {
     margin: 0;
     font-style: italic;
     font-size: 21px;
     font-family: "Minion Pro", Palatino, Georgia, serif; }
-  /* line 181, ../scss/includes/_blogpost.scss */
+  /* line 195, ../scss/includes/_blogpost.scss */
   body.blogpost .next-article .article-date {
     margin: 0;
     letter-spacing: 2px; }
-  /* line 183, ../scss/includes/_blogpost.scss */
+  /* line 197, ../scss/includes/_blogpost.scss */
   body.blogpost .next-article .index-link {
     font-size: 14px;
     text-transform: uppercase;
@@ -1056,7 +1083,7 @@ body.blogpost .next-article {
     padding: 2px 12px;
     display: inline-block; }
 
-/* line 200, ../scss/includes/_blogpost.scss */
+/* line 214, ../scss/includes/_blogpost.scss */
 .wrap div.highlight {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -1066,39 +1093,116 @@ body.blogpost .next-article {
   padding: 20px 30px;
   border: 1px solid #eeeeee;
   font-size: 20px; }
-  /* line 206, ../scss/includes/_blogpost.scss */
+  /* line 220, ../scss/includes/_blogpost.scss */
   .wrap div.highlight pre {
     margin: 0; }
-    /* line 208, ../scss/includes/_blogpost.scss */
+    /* line 222, ../scss/includes/_blogpost.scss */
     .wrap div.highlight pre code {
       background-color: transparent;
       font-size: 20px;
       padding: 0; }
-  /* line 217, ../scss/includes/_blogpost.scss */
+  /* line 231, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .nt {
     color: #004472;
     background-color: #f3faff; }
-  /* line 220, ../scss/includes/_blogpost.scss */
+  /* line 234, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .na {
     color: #0099ff; }
-  /* line 221, ../scss/includes/_blogpost.scss */
+  /* line 235, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .s {
     color: red; }
-  /* line 222, ../scss/includes/_blogpost.scss */
+  /* line 236, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .mc {
     color: #0099ff; }
-  /* line 224, ../scss/includes/_blogpost.scss */
+  /* line 238, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .k {
     color: #b400ff;
     background-color: #f3faff; }
-  /* line 228, ../scss/includes/_blogpost.scss */
+  /* line 242, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .m {
     color: #24ac00; }
-  /* line 229, ../scss/includes/_blogpost.scss */
+  /* line 243, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .c {
     color: #c7c7c7; }
 
 /* @end Blog Post Styles */
+/* @group 404 page styles -------------------- */
+/* line 3, ../scss/includes/_page404.scss */
+body.page404 {
+  text-align: center; }
+  /* line 5, ../scss/includes/_page404.scss */
+  body.page404 .page-header {
+    background-image: url('../img/bg-solarsystem.jpg?1385511485');
+    background-position: center center;
+    padding: 35px 0;
+    text-align: center; }
+    /* line 11, ../scss/includes/_page404.scss */
+    body.page404 .page-header .intro-copy {
+      width: 100%; }
+      /* line 13, ../scss/includes/_page404.scss */
+      body.page404 .page-header .intro-copy h1 {
+        font-weight: 700;
+        margin: 20px 0 0;
+        width: auto; }
+      /* line 15, ../scss/includes/_page404.scss */
+      body.page404 .page-header .intro-copy .subhead {
+        font-size: 28px;
+        font-family: "Minion Pro", Palatino, Georgia, serif;
+        font-style: italic;
+        margin: 5px 0 0; }
+  /* line 25, ../scss/includes/_page404.scss */
+  body.page404 .wrap {
+    max-width: 864px; }
+  /* line 29, ../scss/includes/_page404.scss */
+  body.page404 .content h2 {
+    font-size: 30px; }
+  /* line 31, ../scss/includes/_page404.scss */
+  body.page404 .content p {
+    font-size: 18px;
+    font-family: "Minion Pro", Palatino, Georgia, serif; }
+  /* line 35, ../scss/includes/_page404.scss */
+  body.page404 .options-list {
+    list-style: none;
+    margin: 60px 0;
+    padding: 0; }
+    /* line 40, ../scss/includes/_page404.scss */
+    body.page404 .options-list li {
+      float: left;
+      max-width: 236px;
+      margin-left: 78px; }
+      /* line 45, ../scss/includes/_page404.scss */
+      body.page404 .options-list li:first-child {
+        margin-left: 0; }
+    /* line 49, ../scss/includes/_page404.scss */
+    body.page404 .options-list .callout {
+      background-color: #d3edff;
+      color: #fff;
+      -webkit-border-radius: 400px;
+      -moz-border-radius: 400px;
+      -ms-border-radius: 400px;
+      -o-border-radius: 400px;
+      border-radius: 400px;
+      width: 130px;
+      height: 130px;
+      margin: 0 auto; }
+    /* line 56, ../scss/includes/_page404.scss */
+    body.page404 .options-list .number {
+      font-size: 50px;
+      font-weight: 300;
+      margin: 0;
+      line-height: 1;
+      padding: 30px 0 0; }
+    /* line 63, ../scss/includes/_page404.scss */
+    body.page404 .options-list .title {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 3px; }
+    /* line 68, ../scss/includes/_page404.scss */
+    body.page404 .options-list p {
+      font-size: 16px;
+      line-height: 1.2; }
+
+/* @end 404 page styles */
 /* @group Media Queries -------------------- */
 @media screen and (max-width: 750px) {
   /* line 8, ../scss/includes/_mq.scss */
@@ -1110,117 +1214,117 @@ body.blogpost .next-article {
   .page-header .joel-photo {
     width: 70%; }
 
-  /* line 16, ../scss/includes/_mq.scss */
+  /* line 14, ../scss/includes/_mq.scss */
   .wide-left-margin {
     margin-left: 130px; } }
 @media screen and (max-width: 675px) {
-  /* line 23, ../scss/includes/_mq.scss */
+  /* line 21, ../scss/includes/_mq.scss */
   body.blogpost .page-header,
   .page-header {
     padding: 25px;
     text-align: center; }
-    /* line 25, ../scss/includes/_mq.scss */
+    /* line 23, ../scss/includes/_mq.scss */
     body.blogpost .page-header .my-avatar,
     .page-header .my-avatar {
       float: none;
       width: auto;
       text-align: center; }
-      /* line 30, ../scss/includes/_mq.scss */
+      /* line 28, ../scss/includes/_mq.scss */
       body.blogpost .page-header .my-avatar > a,
       .page-header .my-avatar > a {
         height: auto; }
-      /* line 32, ../scss/includes/_mq.scss */
+      /* line 30, ../scss/includes/_mq.scss */
       body.blogpost .page-header .my-avatar img,
       .page-header .my-avatar img {
         width: 80px;
         margin: 0 auto; }
-    /* line 36, ../scss/includes/_mq.scss */
+    /* line 34, ../scss/includes/_mq.scss */
     body.blogpost .page-header .intro-copy,
     .page-header .intro-copy {
       width: auto;
       float: none; }
-      /* line 38, ../scss/includes/_mq.scss */
+      /* line 36, ../scss/includes/_mq.scss */
       body.blogpost .page-header .intro-copy h1,
       .page-header .intro-copy h1 {
         width: auto;
         margin-bottom: 10px; }
-      /* line 40, ../scss/includes/_mq.scss */
+      /* line 38, ../scss/includes/_mq.scss */
       body.blogpost .page-header .intro-copy .article-date,
       .page-header .intro-copy .article-date {
         font-size: 14px; }
 
-  /* line 48, ../scss/includes/_mq.scss */
+  /* line 46, ../scss/includes/_mq.scss */
   body.blogpost .page-header {
     margin-bottom: 0; }
-    /* line 52, ../scss/includes/_mq.scss */
+    /* line 50, ../scss/includes/_mq.scss */
     body.blogpost .page-header .intro-copy h1 {
       margin: 10px auto 0; }
-  /* line 58, ../scss/includes/_mq.scss */
+  /* line 56, ../scss/includes/_mq.scss */
   body.blogpost .post-content {
     overflow: hidden;
     font-size: 18px;
     margin: 0;
     padding: 0 25px; }
-    /* line 64, ../scss/includes/_mq.scss */
+    /* line 62, ../scss/includes/_mq.scss */
     body.blogpost .post-content .disclaimer {
       font-size: 18px; }
-    /* line 66, ../scss/includes/_mq.scss */
+    /* line 64, ../scss/includes/_mq.scss */
     body.blogpost .post-content code {
       font-size: 16px;
       padding: 2px 4px; } }
 @media screen and (max-width: 570px) {
-  /* line 77, ../scss/includes/_mq.scss */
+  /* line 75, ../scss/includes/_mq.scss */
   body.blogpost .page-header,
   .page-header {
     padding: 20px 10px; }
-    /* line 81, ../scss/includes/_mq.scss */
+    /* line 79, ../scss/includes/_mq.scss */
     body.blogpost .page-header .intro-copy h1,
     .page-header .intro-copy h1 {
       font-size: 28px; }
-      /* line 83, ../scss/includes/_mq.scss */
+      /* line 81, ../scss/includes/_mq.scss */
       body.blogpost .page-header .intro-copy h1 span,
       .page-header .intro-copy h1 span {
         font-size: 44px;
         display: block; }
-    /* line 87, ../scss/includes/_mq.scss */
+    /* line 85, ../scss/includes/_mq.scss */
     body.blogpost .page-header .intro-copy .description,
     .page-header .intro-copy .description {
       font-size: 18px; }
 
-  /* line 93, ../scss/includes/_mq.scss */
+  /* line 91, ../scss/includes/_mq.scss */
   body.blogpost .page-header {
     padding-bottom: 5px; }
 
-  /* line 95, ../scss/includes/_mq.scss */
+  /* line 93, ../scss/includes/_mq.scss */
   .wide-left-margin {
     margin: 0;
     padding: 0 20px; }
 
-  /* line 99, ../scss/includes/_mq.scss */
+  /* line 97, ../scss/includes/_mq.scss */
   .writing h2 {
     font-size: 34px;
     letter-spacing: -1px;
     margin: 40px 0 20px;
     line-height: 1; }
-  /* line 101, ../scss/includes/_mq.scss */
+  /* line 99, ../scss/includes/_mq.scss */
   .writing .article-nav {
     font-size: 20px; }
-    /* line 103, ../scss/includes/_mq.scss */
+    /* line 101, ../scss/includes/_mq.scss */
     .writing .article-nav > a {
       padding: 3px 10px 2px;
       margin-left: 10px; }
-      /* line 107, ../scss/includes/_mq.scss */
+      /* line 105, ../scss/includes/_mq.scss */
       .writing .article-nav > a:first-child {
         margin-left: 0; }
-  /* line 115, ../scss/includes/_mq.scss */
+  /* line 113, ../scss/includes/_mq.scss */
   .writing .article-index li {
     margin: 20px 0;
     line-height: 1; }
-  /* line 117, ../scss/includes/_mq.scss */
+  /* line 115, ../scss/includes/_mq.scss */
   .writing .article-index a {
     position: relative;
     padding-bottom: 20px; }
-  /* line 119, ../scss/includes/_mq.scss */
+  /* line 117, ../scss/includes/_mq.scss */
   .writing .article-index .article-date {
     position: absolute;
     bottom: 0;
@@ -1229,7 +1333,7 @@ body.blogpost .next-article {
     text-align: left;
     line-height: 1;
     font-size: 14px; }
-  /* line 127, ../scss/includes/_mq.scss */
+  /* line 125, ../scss/includes/_mq.scss */
   .writing .article-index .article-title {
     font-size: 24px;
     line-height: 1; } }
