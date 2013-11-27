@@ -75,7 +75,7 @@ body.blogpost {
     /*width: pct( 812, 1284);*/
     max-width: 812px;
     padding-bottom: 80px;
-    font-family: "Minion Pro", Palatino, Georgia, serif;
+    @include serif;
     font-size: 26px;
 
     h1, h2, h3, h4, h5, h6, h7 { font-family: "pn_font"; }
@@ -130,6 +130,8 @@ body.blogpost {
     background-image: image-url("blogpost-bg.jpg");
     background-position: center top;
     padding: 50px 0;
+
+    a { color: #fff; }
 
     &.code { background-image: image-url("bg-css.jpg"); }
     &.food { background-image: image-url("bg-forks.jpg"); }
