@@ -1,7 +1,8 @@
 ---
 layout: blogpost
 title: Quick Tip - OSX Easy Networking
-imgclass: quicktip
+imgclass: quicktips
+categories: quicktips
 ---
 
 <P>So you have more than one machine - say a Macbook Pro and an iMac, or two Macbook Pros, or a Mac Pro and a Macbook Pro - <em>whatever</em>.</p>

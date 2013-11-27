@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Social Media Duchebags
+categories: marketing business
 ---
 
 <p>So everyone thinks different things about social media. <em>(For the unenlightened, I'm referring to Facebook and Twitter, as the most popular examples, and then a huge myriad variety of other "social" sites where users have a profile, connect with one another, and talk about - well - themselves).</em></p>

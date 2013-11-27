@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: I'm a tabaholic & Chrome doesn't help
+categories: life workflow
 ---
 
 <p>So by now some of you that know me know I'm a huge <a href="http://google.com/chrome" target="_blank">Chrome</a> fan - in fact I try to convert anybody I know using Firefox to jump to the Chrome boat. It has been <a href="http://arstechnica.com/microsoft/news/2010/10/windows-browsers-benchmarked-october-2010-edition.ars" target="_blank"> empirically proven to be the leading browser</a> in terms of performance (page speed, javascript execution, etc.) and I'm a huge fan of it's simple interface and life-saving (overstatement) extensions like my personal favorite, <a href="https://chrome.google.com/webstore/detail/nmidkjogcjnnlfimjcedenagjfacpobb" target="_blank">Fresh Start (session manager)</a>. <em>Not to mention it's support for CSS3 and HTML5 markup</em>.</p>

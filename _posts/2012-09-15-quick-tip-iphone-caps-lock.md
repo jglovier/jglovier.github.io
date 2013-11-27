@@ -1,7 +1,8 @@
 ---
 layout: blogpost
 title: Quick Tip - iPhone Caps Lock
-imgclass: quicktip
+imgclass: quicktips
+categories: quicktips
 ---
 
 <p>Ever wonder how to turn on caps lock on your iPhone? If you're like me, sometimes you want to type a whole word in capitals - or several words - and tapping the shift arrow before every letter can become annoying.</p>

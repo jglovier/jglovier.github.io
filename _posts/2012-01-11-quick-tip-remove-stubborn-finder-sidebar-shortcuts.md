@@ -1,7 +1,8 @@
 ---
 layout: blogpost
 title: Quick Tip - Remove Stubborn Finder sidebar shortcuts
-imgclass: quicktip
+imgclass: quicktips
+categories: quicktips
 ---
 
 <p>Ever tried to remove a sidebar shortcut in Finder only to have it refuse to disappear? Well here's the secret:</p>

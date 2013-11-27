@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Get Rich Quick Slowly
+categories: business
 ---
 
 <p>Everyone wants to get rich, right? It's part of the "American dream" after all. Proving that point are lots of "get rich quick" scams that you can fall into all around: network marketing...ok, well that's the most popular one these days, but trust me there are others.</p>

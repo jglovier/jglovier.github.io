@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: CSS Hack for Creating Superscript
+categories: code css
 ---
 
 <p>So I'm working on <a href="http://cure.org/mothersday">this page</a> at CURE.org which we are launching shortly, and I noticed that my super-script dollar signs in the appeal offer look off in Chrome.</p>

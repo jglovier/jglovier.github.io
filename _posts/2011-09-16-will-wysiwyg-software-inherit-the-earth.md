@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Will WYSIWYG software inherit the earth?
+categories: workflow internets
 ---
 
 <p class="disclaimer"><em>*Disclaimer: some of you will read this and think, "Yay, another 'Should designer's know how to code' blog post." And'll you'll be right. Or at least you'll think you're right. But it's not. Just sayin'.</em></p>

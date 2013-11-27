@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: I don't deserve my wife
+categories: life
 ---
 
 <p>I have an amazing wife, in many ways and I love her deeply. She just proved how amazing she is yet again, and that I really don't deserve this woman.</p>

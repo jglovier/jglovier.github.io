@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: User Testing & A Trip To The Eye Doctor
+categories: design life
 ---
 
 <img class="tumblr-post-img" src="http://media.tumblr.com/tumblr_ljtb6b6ErH1qh12k4.png" />

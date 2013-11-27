@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Using the &lt;hr&gt; Element Semantically
+categories: code
 ---
 
 I was doing a code review for a friend recently when I noticed something I've seen people do from time to time: use the `&lt;hr&gt;` (horizontal rule) element as a way to provide a border or line solely for sake of the page design.

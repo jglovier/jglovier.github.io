@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: My Favorite Chrome Shortcuts
+categories: workflow
 ---
 
 <p><span class="psuedo-tag">&lt;opinion&gt;</span>Chrome is the best browser ever.<span class="psuedo-tag">&lt;/opinion&gt;</span> Seriously though, ever since switching to Chrome shortly after they had a stable release for Mac, I've really enjoyed the browser.</p>

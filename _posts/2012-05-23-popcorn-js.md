@@ -4,6 +4,7 @@ title: Popcorn.js
 postLink: http://mozillapopcorn.org/
 postLinkText: Popcorn.js
 imgclass: code
+categories: code js
 ---
 
 Stumbled across this script today (I think <a href="https://twitter.com/#!/mozilla">Mozilla</a> tweeted it) and it looks like something with huge potential.

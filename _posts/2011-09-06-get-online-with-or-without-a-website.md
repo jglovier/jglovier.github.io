@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Get online - with or without a website
+categories: business marketing
 ---
 
 <p>So I meet a lot of people in the design community, many of which are just starting out in their work. I'm always interested to see other designer's work, so I always ask them where I can check their stuff out online.</p>

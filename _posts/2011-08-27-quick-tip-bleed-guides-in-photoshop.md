@@ -1,7 +1,8 @@
 ---
 layout: blogpost
 title: Quick Tip - Bleed Guides in Photoshop
-imgclass: quicktip
+imgclass: quicktips
+categories: quicktips design
 ---
 
 <p>I just wanted to share this quick tip I stumbled on recently for setting up guides a little faster in Photoshop when you make a new document, specifically for print bleeds.</p>

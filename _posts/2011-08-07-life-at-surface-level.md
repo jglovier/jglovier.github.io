@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Life at Surface Level
+categories: life faith
 ---
 
 For the past week I've spent time with my Kenyan brother in Colorado for his wedding. I've had the amazing privilege of meeting and experiencing the group of people he lives in community with. It has been quite an experience.

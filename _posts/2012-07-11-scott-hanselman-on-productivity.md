@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Scott Hanselman on productivity
+categories: workflow
 ---
 
 <div class="video media">

@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Are Domain Hacks Devaluing .COMs?
+categories: business
 ---
 
 <p class="disclaimer">Note: this is purely speculation based on my limited experience, and it is only my opinion. Just sayin'.</p>

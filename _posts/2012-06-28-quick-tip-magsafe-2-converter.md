@@ -1,7 +1,8 @@
 ---
 layout: blogpost
 title: Quick Tip - Magsafe 2 Converter
-imgclass: quicktip
+imgclass: quicktips
+categories: quicktips
 ---
 
 <p>Did you buy one of the new Macbook Airs or Macbook Pros that were released a few weeks ago and now you're wondering, "What do I do with the new Magsafe 2 port when I'm connected to my Apple Cinema Display??"</p>

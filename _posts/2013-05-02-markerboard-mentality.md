@@ -3,6 +3,7 @@ layout: blogpost
 title: Markerboard Mentality
 subhead: Originally published on <a href="http://stemmings.com/markerboard-mentality/">Stemmings Blog</a>.
 imgclass: markerboard
+categories: design
 ---
 
 I have a markerboard in my office. I also have a Macbook Air with as many prototyping and design creation apps as you can think of. But I prefer to kickoff most projects on the markerboard.

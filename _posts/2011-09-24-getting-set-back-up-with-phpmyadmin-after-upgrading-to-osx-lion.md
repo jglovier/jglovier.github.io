@@ -3,6 +3,7 @@ layout: blogpost
 title: Getting set back up with phpMyAdmin after upgrading to OSX Lion
 postLink: http://www.coolestguyplanet.net/installing-phpmyadmin-on-mac-osx-10-7-lion/
 postLinkText: Installing phpmyadmin on Mac OSX 10.7 Lion
+categories: workflow
 ---
 
 <p>So last night I finally bit the bullet and plunked $29.99 to upgrade my Mac Pro and my MacBook Pro to OSX Lion.</p>

@@ -2,6 +2,7 @@
 layout: blogpost
 title: A Fond Farewell To appendTo
 imgclass: road
+categories: life
 ---
 
 Over the past year I've had the enormous privilege to be part of an amazing team of professionals called appendTo. AppendTo provides front-end development services and training to enterprise organizations. I've had the chance to work along side [some of the brightest and most talented developers](http://appendto.com/team/) in the industry at appendTo.

@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Chrome crashing Macbook Airs (UPDATE)
+categories: workflow
 ---
 
 <p>So for everyone keeping track, Google has officially acknowledged that the current stable build of Chrome is causing a kernel panic (system crash) on the brand new Macbooks (Airs and Pros) with the Intel 4000 graphics chipset. Apparently it is in part due to the current Chrome build, and in part due to an issue with the Apple drivers even allowing an application to trigger a kernel panic (<em>meaning the OS shouldn't even be allowing an application to crash the whole machine at all</em>).</p>

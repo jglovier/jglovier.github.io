@@ -1,7 +1,8 @@
 ---
 layout: blogpost
 title: Quick Tip - Re-enable Finder Icon Zoom Slider in OSX Lion
-imgclass: quicktip
+imgclass: quicktips
+categories: quicktips
 ---
 
 <p>I recently upgraded to OSX Lion - and by recently I mean several weeks ago. But ever since one thing has really been bugging me: the lack of my handy thumbnail/icon zoom slider in Finder!</p>

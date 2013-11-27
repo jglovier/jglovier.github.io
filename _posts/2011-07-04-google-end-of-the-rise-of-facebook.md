@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Google+ - End of the Rise of Facebook?
+categories: internets
 ---
 
 <p>So Google release Google+ (Google Plus) the other day. And no one seems to be making too much of a fuss. LOL, jk, but seriously.</p>
