@@ -1,0 +1,29 @@
+  <nav class="site-nav">
+
+    <a href="#" class="nav-trigger">
+      <img src="/img/menu-icon.svg" alt="menu" class="menu-icon" />
+    </a>
+
+    <ul class="links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/#writing">Writing</a></li>
+      <li><a href="/#projects">Projects</a></li>
+      <li><a href="/#elsewhere">Elsewhere</a></li>
+    </ul>
+
+  </nav>
+
+  <header class="page-header {% if page.imgclass %}{{ page.imgclass }}{% endif %}">
+
+    <div class="wrap">
+
+      <div class="intro-copy">
+        <h1>{{ page.title }}</h1>
+        {% if page.subhead %}<p class="subhead">{{ page.subhead }}</p>{% endif %}
+        <p class="article-date">{{ page.date | date: "%-m/%-d/%Y" }} by Joel Glovier</p>
+      </div>
+
+    </div>
+
+  </header>
