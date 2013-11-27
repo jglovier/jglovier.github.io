@@ -24,8 +24,12 @@ body.blogpost {
     &.markerboard { background-image: image-url("bg-markerboard.jpg"); }
     &.mountain { background-image: image-url("bg-mountain.jpg"); }
     &.music { background-image: image-url("bg-music.jpg"); }
-    &.path { background-image: image-url("bg-faith.jpg"); }
-    &.road { background-image: image-url("bg-road.jpg"); }
+    &.path {
+      background-image: image-url("bg-faith.jpg");
+      background-position: center bottom; }
+    &.road {
+      background-image: image-url("bg-road.jpg");
+      background-position: center bottom; }
     &.sky { background-image: image-url("bg-sky.jpg"); }
     &.ux { background-image: image-url("bg-markerboard.jpg"); }
     &.worship { background-image: image-url("bg-worship.jpg"); }
@@ -144,8 +148,12 @@ body.blogpost {
     &.markerboard { background-image: image-url("bg-markerboard.jpg"); }
     &.mountain { background-image: image-url("bg-mountain.jpg"); }
     &.music { background-image: image-url("bg-music.jpg"); }
-    &.path { background-image: image-url("bg-faith.jpg"); }
-    &.road { background-image: image-url("bg-road.jpg"); }
+    &.path {
+      background-image: image-url("bg-faith.jpg");
+      background-position: center bottom; }
+    &.road {
+      background-image: image-url("bg-road.jpg");
+      background-position: center bottom; }
     &.sky { background-image: image-url("bg-sky.jpg"); }
     &.ux { background-image: image-url("bg-markerboard.jpg"); }
     &.worship { background-image: image-url("bg-worship.jpg"); }
