@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+
+{% include head.html %}
+
+<body class="blogpost category">
+
+{% include header_category.html %}
+
+<section class="writing" id="writing">
+
+  {{ content }}
+
+  <div class="wrap">
+
+    <div class="wide-left-margin">
+
+      <div class="articles show">
+          <!-- <h3 class="list-year">2013</h3> -->
+          <ul class="article-index">
+            {% for post in site.categories[page.title] %}
+            <li class="{% cycle 'even', 'odd' %}">
+              <a href="{{ post.url }}">
+                <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
+                <span class="article-title">{{ post.title }}</span>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        {% include categories.html %}
+
+    </div>
+
+  </div>
+
+</section>
+
+{% include footer.html %}
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+{% include closing-tags.html %}

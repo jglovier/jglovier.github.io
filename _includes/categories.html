@@ -1,0 +1,11 @@
+<div class="categories">
+
+  <h4>See posts {% if page.layout == 'home' %}by category:{% else%}in other categories:{% endif %}</h4>
+
+  <ul class="category-list">
+    {% for category in site.categories %}
+    <li><a href="/writing/{{ category | first }}/">{{ category | first }}</a></li>
+    {% endfor %}
+  </ul>
+
+</div>

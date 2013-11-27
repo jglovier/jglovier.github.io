@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: CURE direct mail design time lapse
+categories: design
 ---
 
 <div class="video media">

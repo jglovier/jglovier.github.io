@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Expensive Grace
+categories: faith
 ---
 
 <blockquote>

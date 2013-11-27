@@ -2,6 +2,7 @@
 layout: blogpost
 title: On Religion vs Faith
 imgclass: path
+categories: faith
 ---
 
 <p>Religion puts God in my debt when I adhere to required standards of behavior and makes me an idolator by putting the things I am trying to get from God above God Himself in my affections.</p>

@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Performance optimizing your @font-face
+categories: performance css
 ---
 
 <p>If you're like any modern web designer worth their salt, you love you some @font-face. And with the <a href="http://arstechnica.com/apple/news/2012/03/signs-in-mountain-lion-point-to-retina-display-coming-this-summer.ars">coming of the retina display</a> to laptops (still rumored of course), you know that @font-face will save us all. <a href="http://www.zeldman.com/2012/03/23/web-type-will-save-us/">You do know that, right</a>?</p>

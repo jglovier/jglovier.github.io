@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: The 2 Most Important Things
+categories: life
 ---
 
 <p>In working at CURE the past two and a half years, I've had the chance to work alongside two of the most brilliant and talented programmer/developers I've ever known: <a href="https://twitter.com/tangollama">Joel Worrall</a> and <a href="https://twitter.com/jkleinsc">John Kleinschmidt</a>.</p>

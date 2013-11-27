@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: He Himself is sufficient
+categories: faith
 ---
 
 <p>A cursory glance through the early part of Hebrews chapter 13 reveals several instructional verses more of the random nature than of a pattern of a message. As though the author had gone to great lengths to make a handful of complex points in all the previous chapters, and now, breaking from the mental tilling, is tossing a few grains fo seed in at random barren patches of dirt he sees, hoping to address the barren spots.</p>

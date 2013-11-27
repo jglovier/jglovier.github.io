@@ -1,7 +1,8 @@
 ---
 layout: blogpost
 title: Quick Tip - Mountain Lion, Sandboxing, Mail.app & plist files
-imgclass: quicktip
+imgclass: quicktips
+categories: quicktips
 ---
 
 <p>So the last couple days I've encountered some issues with rebooting my new 2012 Macbook Air from sleep (new as in this years model, actually had it since early July) where when the machine would awake from sleep overnight it became unresponsive and I had to do a hard restart.</p>

@@ -1,7 +1,8 @@
 ---
 layout: blogpost
 title: Quick Tip - Renaming Your iPhone in iTunes
-imgclass: quicktip
+imgclass: quicktips
+categories: quicktips
 ---
 
 <p>I just got my first iPhone a few months ago: a shiny new iPhone 4. I love it (about as much as you can love a device).</p>

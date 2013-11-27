@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Theming Tumblr
+categories: code
 ---
 
 <p class="disclaimer">EDIT: This blog is no longer on Tumblr. I've moved to a static Jekyll powered site for the blog.</p>

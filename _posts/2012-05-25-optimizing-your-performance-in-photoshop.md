@@ -3,6 +3,7 @@ layout: blogpost
 title: Optimizing your performance in Photoshop
 postLink: http://helpx.adobe.com/photoshop/kb/optimize-performance-photoshop-cs4-cs5.html
 postLinkText: Optimize performance | Photoshop CS4, CS5, CS6
+categories: workflow performance
 ---
 
 <p>I've been working with Photoshop for 11 years now (since version 6 back in 2000 as a freshman in college). I've used it as a student, as a casual user, and as a professional designer.</p>

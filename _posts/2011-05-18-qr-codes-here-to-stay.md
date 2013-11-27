@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: QR Codes - Here to stay?
+categories: marketing
 ---
 
 <p>QR codes are everywhere now. Not literally, but almost. Consider the following examples...</p>

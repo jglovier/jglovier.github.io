@@ -3,6 +3,7 @@ layout: blogpost
 title: Net Tuts - web design from scratch (4 n00bs)
 postLink: http://net.tutsplus.com/sessions/web-design-from-scratch/
 postLinkText: Web Design from Scratch
+categories: resources
 ---
 
 Are you brand new to web development? Can you believe that lot's of people pick up web development without ever having gone to school or received formal education in the field? Maybe even the majority?...I dunno. But lot's of people are self taught.

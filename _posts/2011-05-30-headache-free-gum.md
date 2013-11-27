@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Headache Free Gum
+categories: life
 ---
 
 <p class="disclaimer">DISCLAIMER: <em>So I want to rant about gum for a little bit...and marketing. This post has nothing to do with design, code, or anything even remotely spiritual - I think. Also, I have an affiliate account with Amazon to the linked products below.</em></p>

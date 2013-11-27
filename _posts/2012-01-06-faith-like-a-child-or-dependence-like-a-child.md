@@ -2,6 +2,7 @@
 layout: blogpost
 title: Faith like a child, or dependence like a child?
 imgclass: clouds
+categories: faith
 ---
 
 <p>Coming from a church background, I've always heard people talk about "child-like faith." But where do we get that concept anyway?</p>

@@ -3,6 +3,7 @@ layout: blogpost
 title: Best tutorial on the web?
 postLink: http://net.tutsplus.com/articles/news/the-best-psd-to-html-to-wordpress-video-series-available-new-plus-tutorial/
 postLinkText: Best tutorial on the web?
+categories: code
 ---
 
 I manage a group on LinkedIn called <a href="http://www.linkedin.com/groups/Design-Develop-2058763">Design and Develop</a>. Today somebody posted a discussion titled, "Name 5 best web design tutorial on the web?". I almost deleted the post as a nonsensical discussion question, until I thought about it and realized I actually had a good answer.

@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: On Twitter Followers
+categories: business marketing
 ---
 
 <p>I want to share some thoughts on something almost everyone pays attention to, but nobody talks much about: Twitter followers.</p>

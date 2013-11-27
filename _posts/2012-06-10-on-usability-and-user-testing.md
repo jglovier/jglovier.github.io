@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: On Usability and User Testing
+categories: design
 ---
 
 <p>The web standards movement has done amazing things for the web over the past few years. Not just for the web vaguely - specifically for web developers and for the users of the web alike. The web standards movement has taught developers to become more conscious of our coding practices both for ourselves, (for sake of efficiency and future friendly development practices) and for users, who we now know that we must be very considerate of as we design and implement solutions that work across a variety of browsers, devices, and accessibility contexts.</p>

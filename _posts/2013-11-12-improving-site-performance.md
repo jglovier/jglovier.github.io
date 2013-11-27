@@ -3,6 +3,7 @@ layout: blogpost
 title: Improving Site Performance
 subhead: Shaving page load time from 26s to 336ms
 imgclass: externaldrive
+categories: code performance
 ---
 
 The [last version](http://2011.joelglovier.com) of my personal site was something I was proud of from an aesthetic design perspective, but from a performance perspective it was an abomination. There were tons of images used and way too many server calls.

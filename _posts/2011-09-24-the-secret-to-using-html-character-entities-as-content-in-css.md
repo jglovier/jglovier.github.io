@@ -4,6 +4,7 @@ title: The secret to using HTML character entities as content in a CSS
 postLink: http://www.evotech.net/blog/2007/04/named-html-entities-in-numeric-order/
 postLinkText: Named HTML entities in numeric order
 imgclass: code
+categories: code
 ---
 
 <p>So yesterday I was trying to style a blockquote element on <a href="http://cure.org/hydrocephalus">a landing page</a> and I wanted to use the cool technique <a href="https://twitter.com/#!/chriscoyier">Chris Coyier</a> emphasized at <a href="http://frontenddesignconference.com/">Front End Design Conf</a> this summer to accomplish it: <a href="http://css-tricks.com/9516-pseudo-element-roundup/">CSS :before/:after pseudo elements</a>.</p>

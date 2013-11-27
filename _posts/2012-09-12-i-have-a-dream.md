@@ -2,6 +2,7 @@
 layout: blogpost
 title: I have a dream...
 imgclass: sky
+categories: internets
 ---
 
 <p class="disclaimer">Before you get the wrong idea from the title, I'm not claiming this dream to be as meaningful or significant as what Martin Luther King's envisioned when he said those words. But, here's something I think would be revolutionary in it's own way if it eventually transpired in our society:</p>

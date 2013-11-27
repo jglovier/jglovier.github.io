@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Growth as the Enemy of Contentment
+categories: faith
 ---
 
 <p>Recently I listened to a <a href="http://itunes.apple.com/us/podcast/the-village-church-sermon/id82014403">Village Church podcast</a> and I was really challenged by a particular thing he said. I was listening to the message from 4/30/2011 on my morning walk and I had to just stop the whole thing and think on this one particular thing that God showed me about myself was I was listening. Here's a little bit about what God showed me:</p>

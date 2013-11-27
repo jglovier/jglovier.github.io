@@ -1,6 +1,7 @@
 ---
 layout: blogpost
-title: Mac Quicktip - iChat Screen Sharing issue solution
+title: "Quicktip: iChat Screen Sharing issue solution"
+categories: quicktips
 ---
 
 <p>So recently I had this problem with iChat where every time I'd try to screenshare with somebody, I'd get an error from iChat that said it could not connect because I was already engaged in another chat.</p>

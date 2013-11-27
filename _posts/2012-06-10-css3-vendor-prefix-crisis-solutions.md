@@ -3,6 +3,7 @@ layout: blogpost
 title: CSS3 Vendor Prefix Crisis Solutions
 postLink: http://www.sitepoint.com/css3-vendor-prefix-crisis-solutions/
 postLinkText: CSS3 Vendor Prefix Crisis Solutions
+categories: code css
 ---
 
 <div class="media link">

@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Spirit of Peace & Adoption
+categories: faith life
 ---
 
 <p>Recently life has been filled with changes and new things. In so many ways this is just great. I thrive on the excitement of change and fresh things in a very real way. I enjoy seasons - both the actual natural seasons of the outdoors, and also the seasons of life.</p>
