@@ -17,7 +17,9 @@ body.blogpost {
     &.droplets { background-image: image-url("bg-droplets.jpg"); }
     &.externaldrive { background-image: image-url("bg-externaldrive.jpg"); }
     &.hardware { background-image: image-url("bg-externaldrive.jpg"); }
-    &.faith { background-image: image-url("bg-faith.jpg"); }
+    &.faith {
+      background-image: image-url("bg-faith.jpg");
+      background-position: center 40%; }
     &.fence { background-image: image-url("bg-fence.jpg"); }
     &.forks { background-image: image-url("bg-forks.jpg"); }
     &.lightbulb { background-image: image-url("bg-lightbulb.jpg"); }
@@ -26,7 +28,7 @@ body.blogpost {
     &.music { background-image: image-url("bg-music.jpg"); }
     &.path {
       background-image: image-url("bg-faith.jpg");
-      background-position: center bottom; }
+      background-position: center 40%; }
     &.road {
       background-image: image-url("bg-road.jpg");
       background-position: center bottom; }
@@ -144,7 +146,9 @@ body.blogpost {
     &.droplets { background-image: image-url("bg-droplets.jpg"); }
     &.externaldrive { background-image: image-url("bg-externaldrive.jpg"); }
     &.hardware { background-image: image-url("bg-externaldrive.jpg"); }
-    &.faith { background-image: image-url("bg-faith.jpg"); }
+    &.faith {
+      background-image: image-url("bg-faith.jpg");
+      background-position: center 40%; }
     &.fence { background-image: image-url("bg-fence.jpg"); }
     &.forks { background-image: image-url("bg-forks.jpg"); }
     &.lightbulb { background-image: image-url("bg-lightbulb.jpg"); }
@@ -153,7 +157,7 @@ body.blogpost {
     &.music { background-image: image-url("bg-music.jpg"); }
     &.path {
       background-image: image-url("bg-faith.jpg");
-      background-position: center bottom; }
+      background-position: center 40%; }
     &.road {
       background-image: image-url("bg-road.jpg");
       background-position: center bottom; }
