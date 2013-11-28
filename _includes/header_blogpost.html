@@ -1,6 +1,6 @@
 {% include site-nav.html %}
 
-  <header class="page-header {% if page.imgclass %}{{ page.imgclass }}{% endif %}">
+  <header class="page-header {% if page.imgclass %}{{ page.imgclass }} {% else %}{{ page.categories | join: " " }} {% endif %}">
 
     <div class="wrap">
 
