@@ -48,11 +48,17 @@ body.page404 { text-align: center;
     }
 
     .callout {
-      background-color: $blue_l3;
+      background-color: $blue;
+      display: block;
+      text-decoration: none;
       color: #fff;
       @include border-radius(400px);
       width: 130px; height: 130px;
-      margin: 0 auto; }
+      margin: 0 auto;
+
+      &:hover { opacity: .7; }
+
+    }
 
     .number {
       font-size: 50px;

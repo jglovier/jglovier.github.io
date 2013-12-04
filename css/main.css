@@ -1177,7 +1177,7 @@ body.page404 {
   text-align: center; }
   /* line 5, ../scss/includes/_page404.scss */
   body.page404 .page-header {
-    background-image: url('../img/bg-404.jpg?1386184650');
+    background-image: url('../img/bg-404.jpg?1386184814');
     background-color: #2e2523;
     background-position: center bottom;
     padding: 35px 0;
@@ -1221,7 +1221,9 @@ body.page404 {
         margin-left: 0; }
     /* line 50, ../scss/includes/_page404.scss */
     body.page404 .options-list .callout {
-      background-color: #d3edff;
+      background-color: #0099ff;
+      display: block;
+      text-decoration: none;
       color: #fff;
       -webkit-border-radius: 400px;
       -moz-border-radius: 400px;
@@ -1231,19 +1233,22 @@ body.page404 {
       width: 130px;
       height: 130px;
       margin: 0 auto; }
-    /* line 57, ../scss/includes/_page404.scss */
+      /* line 59, ../scss/includes/_page404.scss */
+      body.page404 .options-list .callout:hover {
+        opacity: .7; }
+    /* line 63, ../scss/includes/_page404.scss */
     body.page404 .options-list .number {
       font-size: 50px;
       font-weight: 300;
       margin: 0;
       line-height: 1;
       padding: 30px 0 0; }
-    /* line 64, ../scss/includes/_page404.scss */
+    /* line 70, ../scss/includes/_page404.scss */
     body.page404 .options-list .title {
       font-size: 14px;
       text-transform: uppercase;
       letter-spacing: 3px; }
-    /* line 69, ../scss/includes/_page404.scss */
+    /* line 75, ../scss/includes/_page404.scss */
     body.page404 .options-list p {
       font-size: 16px;
       line-height: 1.2; }
