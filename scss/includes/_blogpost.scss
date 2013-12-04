@@ -234,16 +234,12 @@ body.blogpost {
 
     .html {
 
-      .nt {
-        color: $navy;
-        background-color: $blue_l4; }
+      .nt { color: $navy; background-color: $blue_l4; }
       .na { color: $blue; }
       .s { color: $red; }
       .mc { color: $blue; }
       .p {}
-      .k {
-        color: $purple;
-        background-color: $blue_l4; }
+      .k { color: $purple; background-color: $blue_l4; }
       .o {}
       .m { color: $green; }
       .c { color: $gray_2; }
@@ -251,6 +247,23 @@ body.blogpost {
     }
 
     .css {}
+
+    .scss {
+
+      .c1 { color: $gray_2; }   // comment
+      .nc { color: $blue; }     // selector (class)
+      .p { color: $black; }     // bracket or semi-colon
+      .na { color: $red; }      // property
+      .o { color: $black; }     // colon
+      .no { color: $blue_d1; }  // value (keyword)
+      .mh { color: $purple; background-color: $purple_l; }    // value (hex)
+      .mi { color: $green; }     // value (integer)
+      .kt { color: $green; }     // value (unit)
+      .k { color: $blue_d1; }    // self selector
+      .nd { color: $blue; }      // selector (psuedo)
+      .nt { color: $green; }     // selector (element)
+
+    }
 
   }
 

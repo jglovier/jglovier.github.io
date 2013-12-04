@@ -1113,25 +1113,62 @@ body.blogpost .next-article {
   .wrap div.highlight .html .nt {
     color: #004472;
     background-color: #f3faff; }
-  /* line 240, ../scss/includes/_blogpost.scss */
+  /* line 238, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .na {
     color: #0099ff; }
-  /* line 241, ../scss/includes/_blogpost.scss */
+  /* line 239, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .s {
     color: red; }
-  /* line 242, ../scss/includes/_blogpost.scss */
+  /* line 240, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .mc {
     color: #0099ff; }
-  /* line 244, ../scss/includes/_blogpost.scss */
+  /* line 242, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .k {
-    color: #b400ff;
+    color: #7653c1;
     background-color: #f3faff; }
-  /* line 248, ../scss/includes/_blogpost.scss */
+  /* line 244, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .m {
     color: #24ac00; }
-  /* line 249, ../scss/includes/_blogpost.scss */
+  /* line 245, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .c {
     color: #c7c7c7; }
+  /* line 253, ../scss/includes/_blogpost.scss */
+  .wrap div.highlight .scss .c1 {
+    color: #c7c7c7; }
+  /* line 254, ../scss/includes/_blogpost.scss */
+  .wrap div.highlight .scss .nc {
+    color: #0099ff; }
+  /* line 255, ../scss/includes/_blogpost.scss */
+  .wrap div.highlight .scss .p {
+    color: black; }
+  /* line 256, ../scss/includes/_blogpost.scss */
+  .wrap div.highlight .scss .na {
+    color: red; }
+  /* line 257, ../scss/includes/_blogpost.scss */
+  .wrap div.highlight .scss .o {
+    color: black; }
+  /* line 258, ../scss/includes/_blogpost.scss */
+  .wrap div.highlight .scss .no {
+    color: #2a7ae2; }
+  /* line 259, ../scss/includes/_blogpost.scss */
+  .wrap div.highlight .scss .mh {
+    color: #7653c1;
+    background-color: #f3f2ff; }
+  /* line 260, ../scss/includes/_blogpost.scss */
+  .wrap div.highlight .scss .mi {
+    color: #24ac00; }
+  /* line 261, ../scss/includes/_blogpost.scss */
+  .wrap div.highlight .scss .kt {
+    color: #24ac00; }
+  /* line 262, ../scss/includes/_blogpost.scss */
+  .wrap div.highlight .scss .k {
+    color: #2a7ae2; }
+  /* line 263, ../scss/includes/_blogpost.scss */
+  .wrap div.highlight .scss .nd {
+    color: #0099ff; }
+  /* line 264, ../scss/includes/_blogpost.scss */
+  .wrap div.highlight .scss .nt {
+    color: #24ac00; }
 
 /* @end Blog Post Styles */
 /* @group 404 page styles -------------------- */
