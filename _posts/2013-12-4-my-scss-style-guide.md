@@ -6,11 +6,11 @@ imgclass:
 categories: code css sass
 ---
 
-One of the beauties of authoring code is that apart from basic syntax rules, formatting is flexible. But we all know there are best practices for helping make certain code more readable, and more friendly for collaborator environments.
+One of the beauties of authoring code is that apart from basic syntax rules, formatting is flexible. But, we all know there are best practices for helping make certain code more readable, and more friendly for collaborator environments.
 
 Here's the basic styleguide that I've come to adopt for authoring my Sass files (SCSS flavor of course). You may like what I've come up with (then use it), or you may not like it (then make one of your own). Either way I hope it gets you to think more critically about how formatting your code can lead to efficiency for yourself, and for your team.
 
-```scss
+{% highlight scss %}
 // Style category name
 // -------------------------------------------/
 
@@ -26,7 +26,8 @@ Here's the basic styleguide that I've come to adopt for authoring my Sass files 
 
         // When 3 or more properties, add new lines and bracket after last
         &:first-child {
-            width: auto; height: 3em; // group props onto 1 line for logical associations
+            // Group props onto 1 line for logical associations
+            width: auto; height: 3em;
             margin: 0; padding: 0;
             display: block;
             position: absolute;
@@ -44,7 +45,7 @@ Here's the basic styleguide that I've come to adopt for authoring my Sass files 
 }
 
 // end style category name ------------/
-```
+{% endhighlight %}
 
 I've arrived at this format over several years of writing and maintaining CSS or Sass on projects of all different scales, and I've found this approach to be most comfortable for authoring and maintaining, whether riding solo or rolling with a posse.
 
