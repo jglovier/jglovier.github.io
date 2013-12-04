@@ -2,7 +2,6 @@
 layout: blogpost
 title: My SCSS style guide
 subhead: "This is how I roll, animal print, pants outta control"
-imgclass:
 categories: code css sass
 ---
 
