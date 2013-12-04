@@ -1177,48 +1177,49 @@ body.page404 {
   text-align: center; }
   /* line 5, ../scss/includes/_page404.scss */
   body.page404 .page-header {
-    background-image: url('../img/bg-solarsystem.jpg?1385519666');
-    background-position: center center;
+    background-image: url('../img/bg-404.jpg?1386184650');
+    background-color: #2e2523;
+    background-position: center bottom;
     padding: 35px 0;
     text-align: center; }
-    /* line 11, ../scss/includes/_page404.scss */
+    /* line 12, ../scss/includes/_page404.scss */
     body.page404 .page-header .intro-copy {
       width: 100%; }
-      /* line 13, ../scss/includes/_page404.scss */
+      /* line 14, ../scss/includes/_page404.scss */
       body.page404 .page-header .intro-copy h1 {
         font-weight: 700;
         margin: 20px 0 0;
         width: auto; }
-      /* line 15, ../scss/includes/_page404.scss */
+      /* line 16, ../scss/includes/_page404.scss */
       body.page404 .page-header .intro-copy .subhead {
         font-size: 28px;
         font-family: "Minion Pro", Palatino, Georgia, serif;
         font-style: italic;
         margin: 5px 0 0; }
-  /* line 25, ../scss/includes/_page404.scss */
+  /* line 26, ../scss/includes/_page404.scss */
   body.page404 .wrap {
     max-width: 864px; }
-  /* line 29, ../scss/includes/_page404.scss */
+  /* line 30, ../scss/includes/_page404.scss */
   body.page404 .content h2 {
     font-size: 30px; }
-  /* line 31, ../scss/includes/_page404.scss */
+  /* line 32, ../scss/includes/_page404.scss */
   body.page404 .content p {
     font-size: 18px;
     font-family: "Minion Pro", Palatino, Georgia, serif; }
-  /* line 35, ../scss/includes/_page404.scss */
+  /* line 36, ../scss/includes/_page404.scss */
   body.page404 .options-list {
     list-style: none;
     margin: 60px 0;
     padding: 0; }
-    /* line 40, ../scss/includes/_page404.scss */
+    /* line 41, ../scss/includes/_page404.scss */
     body.page404 .options-list li {
       float: left;
       max-width: 236px;
       margin-left: 78px; }
-      /* line 45, ../scss/includes/_page404.scss */
+      /* line 46, ../scss/includes/_page404.scss */
       body.page404 .options-list li:first-child {
         margin-left: 0; }
-    /* line 49, ../scss/includes/_page404.scss */
+    /* line 50, ../scss/includes/_page404.scss */
     body.page404 .options-list .callout {
       background-color: #d3edff;
       color: #fff;
@@ -1230,19 +1231,19 @@ body.page404 {
       width: 130px;
       height: 130px;
       margin: 0 auto; }
-    /* line 56, ../scss/includes/_page404.scss */
+    /* line 57, ../scss/includes/_page404.scss */
     body.page404 .options-list .number {
       font-size: 50px;
       font-weight: 300;
       margin: 0;
       line-height: 1;
       padding: 30px 0 0; }
-    /* line 63, ../scss/includes/_page404.scss */
+    /* line 64, ../scss/includes/_page404.scss */
     body.page404 .options-list .title {
       font-size: 14px;
       text-transform: uppercase;
       letter-spacing: 3px; }
-    /* line 68, ../scss/includes/_page404.scss */
+    /* line 69, ../scss/includes/_page404.scss */
     body.page404 .options-list p {
       font-size: 16px;
       line-height: 1.2; }
