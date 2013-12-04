@@ -9,6 +9,8 @@ It lives here: [joelglovier.com](http://joelglovier.com)
 
 For more about the latest iteration, read this blog post: [joelglovier.com/writing/2013/redesigning-and-rebuilding/](http://joelglovier.com/writing/2013/redesigning-and-rebuilding/)
 
+Many of the post images are retouched versions of photos I found at [Unsplash](http://unsplash.com/). If you are looking for great photos to use on your own blog, they have a great collection all free for public use.
+
 ## Licensing
 
 Feel free to inspect the code structure, and reuse what is appropriate. But please respect that the files in the following directories are Copyright Joel Andrew Glovier. You may not reuse anything therein without my written permission:
