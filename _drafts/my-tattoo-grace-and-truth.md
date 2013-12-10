@@ -17,3 +17,20 @@ My faith in Jesus is a permanent part of my life. It's a permanent commitment I 
 
 ## I thought Christians couldn't have tattoos?
 
+
+```
+notes from a while back:
+---
+
+Why I Got My New Tattoo
+
+- to commemorate a major milestone in my life (turning 30) and the changing of seasons (Shiloh being born; Dad turning 80; Ash leaving camp ministry and becoming a full-time mom; getting a minivan; 2 years at CURE; etc)
+
+- to emphasize the temporality of the flesh: while a tattoo is a permanent physical marking, it is also temporary because one day I will leave this body
+
+- as a testimony to the work of Jesus in my life. The meaning of the tattoos come from John 1:17, which says, "for the Law came through Moses, but grace and truth came through Jesus Christ."
+
+- somewhat inspired by Nick Wooster's fashion sense and arm tottoos
+
+- to have a permanent reminder of how Christ has changed my life and of those eternal and enduring valued that come from Him
+```
