@@ -1360,62 +1360,65 @@ body.category .page-header {
     body.blogpost .post-content .disclaimer {
       font-size: 18px; }
     /* line 64, ../scss/includes/_mq.scss */
-    body.blogpost .post-content code {
-      font-size: 16px;
+    body.blogpost .post-content div.highlight {
+      padding: 10px 15px; }
+    /* line 66, ../scss/includes/_mq.scss */
+    body.blogpost .post-content pre code {
+      font-size: 14px;
       padding: 2px 4px; } }
 @media screen and (max-width: 570px) {
-  /* line 75, ../scss/includes/_mq.scss */
+  /* line 77, ../scss/includes/_mq.scss */
   body.blogpost .page-header,
   .page-header {
     padding: 20px 10px; }
-    /* line 79, ../scss/includes/_mq.scss */
+    /* line 81, ../scss/includes/_mq.scss */
     body.blogpost .page-header .intro-copy h1,
     .page-header .intro-copy h1 {
       font-size: 28px; }
-      /* line 81, ../scss/includes/_mq.scss */
+      /* line 83, ../scss/includes/_mq.scss */
       body.blogpost .page-header .intro-copy h1 span,
       .page-header .intro-copy h1 span {
         font-size: 44px;
         display: block; }
-    /* line 85, ../scss/includes/_mq.scss */
+    /* line 87, ../scss/includes/_mq.scss */
     body.blogpost .page-header .intro-copy .description,
     .page-header .intro-copy .description {
       font-size: 18px; }
 
-  /* line 91, ../scss/includes/_mq.scss */
+  /* line 93, ../scss/includes/_mq.scss */
   body.blogpost .page-header {
     padding-bottom: 5px; }
 
-  /* line 93, ../scss/includes/_mq.scss */
+  /* line 95, ../scss/includes/_mq.scss */
   .wide-left-margin {
     margin: 0;
     padding: 0 20px; }
 
-  /* line 97, ../scss/includes/_mq.scss */
+  /* line 99, ../scss/includes/_mq.scss */
   .writing h2 {
     font-size: 34px;
     letter-spacing: -1px;
     margin: 40px 0 20px;
     line-height: 1; }
-  /* line 99, ../scss/includes/_mq.scss */
+  /* line 101, ../scss/includes/_mq.scss */
   .writing .article-nav {
     font-size: 20px; }
-    /* line 101, ../scss/includes/_mq.scss */
+    /* line 103, ../scss/includes/_mq.scss */
     .writing .article-nav > a {
       padding: 3px 10px 2px;
       margin-left: 10px; }
-      /* line 105, ../scss/includes/_mq.scss */
+      /* line 107, ../scss/includes/_mq.scss */
       .writing .article-nav > a:first-child {
         margin-left: 0; }
-  /* line 113, ../scss/includes/_mq.scss */
+  /* line 115, ../scss/includes/_mq.scss */
   .writing .article-index li {
     margin: 20px 0;
     line-height: 1; }
-  /* line 115, ../scss/includes/_mq.scss */
+  /* line 117, ../scss/includes/_mq.scss */
   .writing .article-index a {
     position: relative;
     padding-bottom: 20px; }
-  /* line 117, ../scss/includes/_mq.scss */
+  /* line 119, ../scss/includes/_mq.scss */
   .writing .article-index .article-date {
     position: absolute;
     bottom: 0;
@@ -1424,7 +1427,7 @@ body.category .page-header {
     text-align: left;
     line-height: 1;
     font-size: 14px; }
-  /* line 125, ../scss/includes/_mq.scss */
+  /* line 127, ../scss/includes/_mq.scss */
   .writing .article-index .article-title {
     font-size: 24px;
     line-height: 1; } }
