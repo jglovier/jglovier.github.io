@@ -15,7 +15,7 @@ Add to that the fact that I married a girl who can cook like the best of them, a
 
 ## Understanding why we get fat
 
-I've battled this fatness for the last few years, but with little apparent or long lasting results. I was starting to just chaulk it all up to my inevitably sedentary lifestyle and slowing metabolism when my friend and [fellow GitHubber Tim](https://twitter.com/tlberglund) helped me realize there is more to the obesity equasion that I was seeing - or than what most people are seeing.
+I've battled this fatness for the last few years, but with little apparent or long lasting results. I was starting to just chaulk it all up to my inevitably sedentary lifestyle and slowing metabolism when my friend and [fellow GitHubber Tim](https://twitter.com/tlberglund) helped me realize there is more to the obesity equation that I was seeing - or than what most people are seeing.
 
 He suggested I read some of Gary Taubes work, so I got Taube's book [Why We Get Fat: And What to Do About It](http://www.audible.com/pd/Nonfiction/Why-We-Get-Fat-Audiobook/B004D5K512/ref=a_search_c4_1_1_srTtl?qid=1386951919&sr=1-1). In the book, which is quite dense with medical science, Taubes explains that our current collectively agreed upon understanding of obesity is wrong. Popularly accepted science tells us that obsity is caused by an inverse calorie deficit - or in other words when we consume more calories than we burn. However that idea is based on poor scientific research and not actually supported by reality.
 
