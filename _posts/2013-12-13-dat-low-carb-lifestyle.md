@@ -33,7 +33,9 @@ Note: Here's a really helpful infographic called [Carbs Are Killing You](/post-i
 
 ## Putting it into practice
 
-So over the last five or six weeks I've been practicing a low carb lifestyle, and I've already lost nearly 12lbs (about 10 of that came in the first three weeks, but I've slowed down my progress lately because of holiday festivities). But the best part is when you realize that carbs are the enemy of someone trying to stop getting fat, and not actually a lot of other things like fatty foods, it becomes much easier to diet when you're only cutting out some of the things you love.
+So over the last five or six weeks I've been practicing a low carb lifestyle, and I've already lost nearly 12lbs (about 10 of that came in the first three weeks, but I've slowed down my progress lately because of holiday festivities). This is almost entirely just from the diet change, as I've literally only exercised once in the past 6 weeks due to a pretty busy schedule lately and cold weather (no excuse, but it's reality).
+
+But the best part is when you realize that carbs are the enemy of someone trying to stop getting fat, and not actually a lot of other things like fatty foods, it becomes much easier to diet when you're only cutting out some of the things you love.
 
 For example, a low carb diet makes breads, cereals, sugary drinks like milk, juice and beer all off limits. But it doensn't make meats (including steak or bacon), cheeses, and plenty of other delicious stuff off limits.
 
