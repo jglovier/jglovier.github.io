@@ -7,7 +7,7 @@ categories: food
 
 I'm a naturally athletic person. But I'm not a naturally fit person. There's a difference.
 
-I used to enjoy all sorts of sports from [skateboarding](/post-images/kgrind.jpg) and [snowboarding](/post-images/boyceparkrail.jpg) to basketball, football, [weightlifting](/post-images/joel-sean-lu-gym.jpg) (not a sport, but still an athletic pursuit), and [breakdancing](/post-images/bboy-jag.jpg).
+I used to enjoy all sorts of sports from [skateboarding](/post-images/kgrind.jpg) and [snowboarding](/post-images/boyceparkrail.jpg) to basketball, football, [weightlifting](/post-images/joel-sean-lu-gym.jpg), and [breakdancing](/post-images/bboy-jag.jpg).
 
 These days though I mostly just enjoy putting all of my energy into [my work](http://github.com/jglovier), and saving the rest for my family. Since my kids are really little, we don't do much in the way of sports and athletics yet. That means I live a pretty sedentary life since I'm a designer by profession (in other words I sit on my butt all day, every day).
 
