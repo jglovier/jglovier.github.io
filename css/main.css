@@ -742,7 +742,7 @@ a {
 /* line 5, ../scss/includes/_blogpost.scss */
 body.blogpost .page-header {
   background-image: url('../img/blogpost-bg.jpg?1381159343');
-  padding: 35px 0;
+  padding: 195px 0 75px;
   margin-bottom: 40px; }
   /* line 10, ../scss/includes/_blogpost.scss */
   body.blogpost .page-header.code {
