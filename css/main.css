@@ -539,7 +539,7 @@ a {
       width: 120%;
       line-height: 1;
       margin: 20px 0 25px;
-      font-weight: normal; }
+      font-weight: 300; }
       /* line 82, ../scss/includes/_layout.scss */
       .page-header .intro-copy h1 span {
         font-weight: 900; }
@@ -697,7 +697,7 @@ a {
     padding-left: 0; }
     /* line 49, ../scss/includes/_home.scss */
     .writing .article-index li {
-      margin: 42px 0; }
+      margin: 20px 0; }
     /* line 51, ../scss/includes/_home.scss */
     .writing .article-index .article-date {
       font-size: 18px;
