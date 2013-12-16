@@ -31,7 +31,7 @@
 
     }
 
-    .intro-copy { width: auto; float: none;
+    .intro-copy { width: auto; float: none; margin-bottom: 20px;
 
       h1 { width: auto; margin-bottom: 10px; }
 
@@ -67,6 +67,12 @@
 
     }
 
+    .next-article {
+
+      .contents { margin: 0; padding: 0 25px; }
+
+    }
+
   }
 
 }
@@ -83,6 +89,8 @@
         span { font-size: 44px; display: block; }
 
       }
+
+      .subhead { font-size: 18px; }
 
       .description { font-size: 18px; }
 

@@ -870,7 +870,8 @@ body.blogpost .post-content {
   font-size: 26px; }
   /* line 84, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content h1, body.blogpost .post-content h2, body.blogpost .post-content h3, body.blogpost .post-content h4, body.blogpost .post-content h5, body.blogpost .post-content h6, body.blogpost .post-content h7 {
-    font-family: "pn_font"; }
+    font-family: "pn_font";
+    line-height: 1; }
   /* line 86, ../scss/includes/_blogpost.scss */
   body.blogpost .post-content a {
     color: #0099ff;
@@ -1333,7 +1334,8 @@ body.category .page-header {
     body.blogpost .page-header .intro-copy,
     .page-header .intro-copy {
       width: auto;
-      float: none; }
+      float: none;
+      margin-bottom: 20px; }
       /* line 36, ../scss/includes/_mq.scss */
       body.blogpost .page-header .intro-copy h1,
       .page-header .intro-copy h1 {
@@ -1365,60 +1367,68 @@ body.category .page-header {
     /* line 66, ../scss/includes/_mq.scss */
     body.blogpost .post-content pre code {
       font-size: 14px;
-      padding: 2px 4px; } }
+      padding: 2px 4px; }
+  /* line 72, ../scss/includes/_mq.scss */
+  body.blogpost .next-article .contents {
+    margin: 0;
+    padding: 0 25px; } }
 @media screen and (max-width: 570px) {
-  /* line 77, ../scss/includes/_mq.scss */
+  /* line 83, ../scss/includes/_mq.scss */
   body.blogpost .page-header,
   .page-header {
     padding: 20px 10px; }
-    /* line 81, ../scss/includes/_mq.scss */
+    /* line 87, ../scss/includes/_mq.scss */
     body.blogpost .page-header .intro-copy h1,
     .page-header .intro-copy h1 {
       font-size: 28px; }
-      /* line 83, ../scss/includes/_mq.scss */
+      /* line 89, ../scss/includes/_mq.scss */
       body.blogpost .page-header .intro-copy h1 span,
       .page-header .intro-copy h1 span {
         font-size: 44px;
         display: block; }
-    /* line 87, ../scss/includes/_mq.scss */
+    /* line 93, ../scss/includes/_mq.scss */
+    body.blogpost .page-header .intro-copy .subhead,
+    .page-header .intro-copy .subhead {
+      font-size: 18px; }
+    /* line 95, ../scss/includes/_mq.scss */
     body.blogpost .page-header .intro-copy .description,
     .page-header .intro-copy .description {
       font-size: 18px; }
 
-  /* line 93, ../scss/includes/_mq.scss */
+  /* line 101, ../scss/includes/_mq.scss */
   body.blogpost .page-header {
     padding-bottom: 5px; }
 
-  /* line 95, ../scss/includes/_mq.scss */
+  /* line 103, ../scss/includes/_mq.scss */
   .wide-left-margin {
     margin: 0;
     padding: 0 20px; }
 
-  /* line 99, ../scss/includes/_mq.scss */
+  /* line 107, ../scss/includes/_mq.scss */
   .writing h2 {
     font-size: 34px;
     letter-spacing: -1px;
     margin: 40px 0 20px;
     line-height: 1; }
-  /* line 101, ../scss/includes/_mq.scss */
+  /* line 109, ../scss/includes/_mq.scss */
   .writing .article-nav {
     font-size: 20px; }
-    /* line 103, ../scss/includes/_mq.scss */
+    /* line 111, ../scss/includes/_mq.scss */
     .writing .article-nav > a {
       padding: 3px 10px 2px;
       margin-left: 10px; }
-      /* line 107, ../scss/includes/_mq.scss */
+      /* line 115, ../scss/includes/_mq.scss */
       .writing .article-nav > a:first-child {
         margin-left: 0; }
-  /* line 115, ../scss/includes/_mq.scss */
+  /* line 123, ../scss/includes/_mq.scss */
   .writing .article-index li {
     margin: 20px 0;
     line-height: 1; }
-  /* line 117, ../scss/includes/_mq.scss */
+  /* line 125, ../scss/includes/_mq.scss */
   .writing .article-index a {
     position: relative;
     padding-bottom: 20px; }
-  /* line 119, ../scss/includes/_mq.scss */
+  /* line 127, ../scss/includes/_mq.scss */
   .writing .article-index .article-date {
     position: absolute;
     bottom: 0;
@@ -1427,7 +1437,7 @@ body.category .page-header {
     text-align: left;
     line-height: 1;
     font-size: 14px; }
-  /* line 127, ../scss/includes/_mq.scss */
+  /* line 135, ../scss/includes/_mq.scss */
   .writing .article-index .article-title {
     font-size: 24px;
     line-height: 1; } }

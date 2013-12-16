@@ -81,7 +81,7 @@ body.blogpost {
     @include serif;
     font-size: 26px;
 
-    h1, h2, h3, h4, h5, h6, h7 { font-family: "pn_font"; }
+    h1, h2, h3, h4, h5, h6, h7 { font-family: "pn_font"; line-height: 1; }
 
     a { color: $blue; text-decoration: underline;
 
