@@ -183,7 +183,7 @@ body.blogpost {
       margin: 0 0 10px; }
 
     .title {
-      margin: 0;
+      margin: 0 0 10px;
       font-size: 40px;
       @include pn_extrabold;
       line-height: 1;
@@ -193,22 +193,33 @@ body.blogpost {
     }
 
     .subhead {
-      margin: 0;
+      margin: 0 0 10px;
       font-style: italic;
       font-size: 21px;
+      line-height: 1;
       font-family: "Minion Pro", Palatino, Georgia, serif; }
 
     .article-date { margin: 0; letter-spacing: 2px; }
 
-    .index-link {
+    .nav { margin: 0; }
+
+    .next-link {
       font-size: 14px;
       text-transform: uppercase;
       @include pn_regular;
       letter-spacing: 2px;
-      margin: 20px 0 0;
+      margin: 10px 0 0;
       @include border-radius(5px);
       border: 2px solid white;
       padding: 2px 12px;
+      display: inline-block; }
+
+    .index-link {
+      font-size: 12px;
+      text-transform: uppercase;
+      @include pn_regular;
+      letter-spacing: 2px;
+      margin: 20px 0 0;
       display: inline-block; }
 
   }
