@@ -20,3 +20,7 @@ With that spirit I was recently thinking of how to optimize the reader experienc
 I set out to implement this in Jekyll, and quickly realized that because just linking to 1 next article isn't standard behavior yet (most blog engines expect you to link to before and after) I would have to do a little digging to make it work.
 
 Turns out the solution is pretty simple.
+
+---------
+http://stackoverflow.com/questions/2026023/having-difficulties-with-jekyll-liquid
+http://jekyllrb.com/docs/posts/
