@@ -5,17 +5,21 @@ subhead: "Hey, it's easier than ya think, Jack!"
 categories: jekyll code
 ---
 
-Recently I rebuilt my blog on Jekyll, a sweet static site generator. However when a friend noticed I had no way for him to subscribe to my content, he suggested adding an RSS feed.
+Recently I [rebuilt my blog on Jekyll](https://github.com/jglovier/jglovier.github.io), a sweet static site generator. However when a friend noticed I had no way for him to subscribe to my content, he [suggested adding an RSS feed](https://twitter.com/pengwynn/status/408340355315027970).
 
 Turns out adding an RSS feed to a Jekyll site is [SUPER SIMPLE](http://cl.ly/T3k3) by just using [jekyll-rss-feeds](https://github.com/snaptortoise/jekyll-rss-feeds). Here's how:
 
 ## 1. Add site details for your Jekyll config file
+
+Add the following key/value pairs to your `_config.yml` file:
 
 {% highlight json %}
 name:         Your Blog's Name
 description:  A description for your blog
 url:          http://your-blog-url.example.com
 {% endhighlight %}
+
+These values will be used as site info in your feed. As a bonus, you can now access these as variables anyplace else in your Jekyll templates by using `{% raw %}{{ site.name }}{% endraw %}`, `{% raw %}{{ site.description }}{% endraw %}` and `{% raw %}{{ site.url }}{% endraw %}`.
 
 ## 2. Add `feed.xml` to the site root
 
