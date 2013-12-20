@@ -27,7 +27,7 @@ The [jekyll-rss-feeds](https://github.com/snaptortoise/jekyll-rss-feeds) project
 
 The following jekyll template will generate a properly formatted list of your 10 most recent posts. Just create a `feed.xml` file in your site root, and paste this into it:
 
-{% highlight xml %}
+{% highlight html %}
 {% raw %}
 ---
 layout: none
