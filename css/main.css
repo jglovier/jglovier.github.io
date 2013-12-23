@@ -650,16 +650,16 @@ a {
     font-weight: 300;
     font-size: 48px;
     letter-spacing: -2px;
-    margin-bottom: 10px; }
+    margin: 60px 0 10px; }
     /* line 13, ../scss/includes/_home.scss */
     .writing h2.other-writing {
-      margin-top: 120px;
       font-size: 36px; }
   /* line 17, ../scss/includes/_home.scss */
   .writing .article-nav {
     font-weight: 300;
-    font-size: 28px; }
-    /* line 19, ../scss/includes/_home.scss */
+    font-size: 28px;
+    margin-bottom: 40px; }
+    /* line 22, ../scss/includes/_home.scss */
     .writing .article-nav > a {
       color: #0099ff;
       -webkit-border-radius: 5px;
@@ -671,34 +671,34 @@ a {
       padding: 0 15px;
       float: left;
       line-height: 1.25; }
-      /* line 27, ../scss/includes/_home.scss */
+      /* line 30, ../scss/includes/_home.scss */
       .writing .article-nav > a:first-child {
         margin-left: 0; }
-      /* line 29, ../scss/includes/_home.scss */
+      /* line 32, ../scss/includes/_home.scss */
       .writing .article-nav > a:hover {
         background-color: #d3edff; }
-    /* line 33, ../scss/includes/_home.scss */
+    /* line 36, ../scss/includes/_home.scss */
     .writing .article-nav .showing {
       color: #585858;
       background-color: #eeeeee;
       cursor: default; }
-      /* line 35, ../scss/includes/_home.scss */
+      /* line 38, ../scss/includes/_home.scss */
       .writing .article-nav .showing:hover {
         background-color: #eeeeee; }
-  /* line 41, ../scss/includes/_home.scss */
+  /* line 44, ../scss/includes/_home.scss */
   .writing .articles {
     display: none; }
-    /* line 43, ../scss/includes/_home.scss */
+    /* line 46, ../scss/includes/_home.scss */
     .writing .articles.show {
       display: block; }
-  /* line 47, ../scss/includes/_home.scss */
+  /* line 50, ../scss/includes/_home.scss */
   .writing .article-index {
     list-style: none;
     padding-left: 0; }
-    /* line 49, ../scss/includes/_home.scss */
+    /* line 52, ../scss/includes/_home.scss */
     .writing .article-index li {
       margin: 20px 0; }
-    /* line 51, ../scss/includes/_home.scss */
+    /* line 54, ../scss/includes/_home.scss */
     .writing .article-index .article-date {
       font-size: 18px;
       color: #c7c7c7;
@@ -709,23 +709,23 @@ a {
       letter-spacing: 1px;
       width: 105px;
       line-height: 46px; }
-    /* line 62, ../scss/includes/_home.scss */
+    /* line 65, ../scss/includes/_home.scss */
     .writing .article-index .article-title {
       font-size: 28px;
       color: #0099ff;
       font-weight: 700; }
-    /* line 64, ../scss/includes/_home.scss */
+    /* line 67, ../scss/includes/_home.scss */
     .writing .article-index .article-source {
       display: block;
       font-style: italic;
       color: #c7c7c7; }
-    /* line 66, ../scss/includes/_home.scss */
+    /* line 69, ../scss/includes/_home.scss */
     .writing .article-index a {
       display: block; }
-      /* line 70, ../scss/includes/_home.scss */
+      /* line 73, ../scss/includes/_home.scss */
       .writing .article-index a:hover .article-date {
         color: #585858; }
-      /* line 72, ../scss/includes/_home.scss */
+      /* line 75, ../scss/includes/_home.scss */
       .writing .article-index a:hover .article-title {
         opacity: .8;
         background-color: #d3edff;

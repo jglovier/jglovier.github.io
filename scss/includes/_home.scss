@@ -8,13 +8,16 @@
     font-weight: 300;
     font-size: 48px;
     letter-spacing: -2px;
-    margin-bottom: 10px;
+    margin: 60px 0 10px;
 
-    &.other-writing { margin-top: 120px; font-size: 36px; }
+    &.other-writing { font-size: 36px; }
 
   }
 
-  .article-nav { font-weight: 300; font-size: 28px;
+  .article-nav {
+    font-weight: 300;
+    font-size: 28px;
+    margin-bottom: 40px;
 
     > a {
       color: $blue;
