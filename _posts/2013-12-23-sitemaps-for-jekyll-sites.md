@@ -1,9 +1,7 @@
 ---
 layout: blogpost
-title: "Generating sitemaps with Jekyll & GitHub Pages"
+title: "Sitemaps for Jekyll sites"
 subhead: SUCH SIMPLE. SO EASE. WOW.
-imgclass:
-permalink:
 categories: jekyll code seo
 ---
 
@@ -13,7 +11,7 @@ A couple days ago I talked about how easy it is to [create an RSS feed with Jeky
 
 Because GOOGLE. [Webmaster tools](https://www.google.com/webmasters/tools/) are your friend. Use them. Love them. Give them [what they want](http://support.google.com/webmasters/bin/answer.py?hl=en&answer=183669#183669) and enjoy great profit as a result.
 
-Or, in less witty but equally helpful words, a sitemap when provided to Google via a verified Webmaster Tools account tells Google exactly what all pages of your site it should index.
+Or, in less witty but equally helpful words, a sitemap when provided to Google via a verified Webmaster Tools account, tells Google exactly what all pages of your site it should index.
 
 Okay, now that you're sold on having a sitemap, here's how to use it like a champ:
 
@@ -35,7 +33,7 @@ Create a new file at the root of your site called `sitemap.xml`, and add the fol
 
     {% for page in site.pages %}
     {% if page.layout != nil %}
-    {% if page.layout != 'feed' %}
+    {% if page.layout != 'redirect' %}
     <url>
         <loc>{{ site.url }}{{ page.url | remove: 'index.html' }}</loc>
     </url>
@@ -50,6 +48,8 @@ The above is basically a Jekyll template that outputs your sitemap by looping ov
 
 One thing you need to make sure you do for this to work is be sure you have the `url` value set to your root domain name in your `_config.yml` site configuration file. For example, you can [see mine here](https://github.com/jglovier/jglovier.github.io/blob/master/_config.yml).
 
+Also note that you should exclude any utility layouts you may have created, such as for feeds, or in my case, redirects.
+
 ### 2. Submit to Google
 
 You need to have a Google account setup with Webmaster Tools, and have your site verified from within Webmaster tools. Instructions on how to do that are [available here](https://support.google.com/webmasters/answer/183669?hl=en#183669).
@@ -59,10 +59,3 @@ Once you have submitted your sitemap, Google now knows all of the pages that exi
 For the record, Google normally indexes anything that is linked from your site index (homepage) and then anything it can follow from there. So a sitemap is particularly beneficial for cases where you might have pages that aren't linked from your homepage or the built in navigational structures of your site.
 
 It's also good for anytime you change the document structure of your site, like if you modify your permalink settings. That's always a good time to resubmit a sitemap to Google.
-
-
-References:
-- http://vvv.tobiassjosten.net/jekyll/jekyll-sitemap-without-plugins/
-- submitting sitemaps: http://support.google.com/webmasters/bin/answer.py?hl=en&answer=183669#183669
-
-Addresses #26 (https://github.com/jglovier/jglovier.github.io/issues/26)
