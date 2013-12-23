@@ -5,3 +5,5 @@ subhead: Why I started on Big Cartel but eventually outgrew it
 imgclass:
 permalink:
 ---
+
+(be sure to share Shopify referrall link http://www.shopify.com/?ref=jag)
