@@ -28,3 +28,6 @@ If you're looking for more specific tips on optimizing the performance of your o
 - [YSlow browser addon](http://developer.yahoo.com/yslow/) - grades current page and suggests perf improvements
 - [Web Performance Best Practices](https://developers.google.com/speed/docs/best-practices/rules_intro) - the "according to Google" version
 - [WPO – Web Performance Optimization](http://www.stevesouders.com/blog/2010/05/07/wpo-web-performance-optimization/) - a historically significant perspective
+
+<blockquote class="twitter-tweet" lang="en"><p>Shaving page load time from 26 seconds to 336ms: <a href="http://t.co/SRfJKFPyeg">http://t.co/SRfJKFPyeg</a></p>&mdash; Joel Glovier (@jglovier) <a href="https://twitter.com/jglovier/statuses/400380480219918336">November 12, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

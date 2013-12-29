@@ -50,3 +50,6 @@ This isn't the first time I've made a dietary change since I've gotten heavier i
 This change is based on real science which was actually accepted science for a long time up until the 50's when one man's crappy research became wildely popular with the media and never really stopped being accepted as correct.
 
 I suppose time will tell if a) this approach works for me, and b) if I can keep following it's practical implications. But here's hoping I do.
+
+<blockquote class="twitter-tweet" lang="en"><p>Dat low carb lifestyle: How I stopped getting fat by understanding what makes us fat <a href="http://t.co/lo9EDYoYB3">http://t.co/lo9EDYoYB3</a></p>&mdash; Joel Glovier (@jglovier) <a href="https://twitter.com/jglovier/statuses/411542129031122944">December 13, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

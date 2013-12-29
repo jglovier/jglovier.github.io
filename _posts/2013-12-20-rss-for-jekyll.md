@@ -64,3 +64,6 @@ Don't forget to put a link to your feed somewhere where in your page layout so y
 Also, it's a good idea to add a `<link>` element in the document `<head>` for browsers that have built in support for RSS feed-readers. You can use a line like this: `<link href='http://joelglovier.com/feed.xml' rel='alternate' type='application/atom+xml'>` (props to [@pengwynn](https://github.com/pengwynn) for [pointing this one out with a PR](https://github.com/jglovier/jglovier.github.io/pull/48)).
 
 Mad props to [@snaptortoise](https://github.com/snaptortoise) for creating these simple and easy to use RSS Jekyll templates!
+
+<blockquote class="twitter-tweet" lang="en"><p>How to add an RSS feed to your <a href="https://twitter.com/jekyllrb">@Jekyllrb</a> blog in 3 simple steps: <a href="http://t.co/PHDHMVfTbc">http://t.co/PHDHMVfTbc</a></p>&mdash; Joel Glovier (@jglovier) <a href="https://twitter.com/jglovier/statuses/414142797713661952">December 20, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

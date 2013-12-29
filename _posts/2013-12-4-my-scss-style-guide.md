@@ -55,3 +55,6 @@ It's influenced by a number of different CSS schools of thought, including [Nico
 To be clear, this is my personal preferred approach which I have used in the past on client projects, for employers, and for personal projects. However, it's not the exact approach we take at GitHub. It's close, but there are some small differences, like where I tend to combine multiple related properties on one line, or grouping less than two properties in general on one line.
 
 If you'd like to learn more about how we author CSS (and SCSS) at GitHub, you should check out our public [CSS Styleguide](https://github.com/styleguide/css).
+
+<blockquote class="twitter-tweet" lang="en"><p>My SCSS style guide: <a href="http://t.co/F6p1lyqlXR">http://t.co/F6p1lyqlXR</a></p>&mdash; Joel Glovier (@jglovier) <a href="https://twitter.com/jglovier/statuses/408290949723205633">December 4, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

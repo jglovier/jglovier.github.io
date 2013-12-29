@@ -59,3 +59,6 @@ Once you have submitted your sitemap, Google now knows all of the pages that exi
 For the record, Google normally indexes anything that is linked from your site index (homepage) and then anything it can follow from there. So a sitemap is particularly beneficial for cases where you might have pages that aren't linked from your homepage or the built in navigational structures of your site.
 
 It's also good for anytime you change the document structure of your site, like if you modify your permalink settings. That's always a good time to resubmit a sitemap to Google.
+
+<blockquote class="twitter-tweet" lang="en"><p>Sitemaps for <a href="https://twitter.com/jekyllrb">@Jekyllrb</a> sites (and GitHub Pages sites) <a href="http://t.co/UJvg6PInbw">http://t.co/UJvg6PInbw</a></p>&mdash; Joel Glovier (@jglovier) <a href="https://twitter.com/jglovier/statuses/415240947685797889">December 23, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
