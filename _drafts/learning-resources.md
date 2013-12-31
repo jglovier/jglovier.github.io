@@ -4,7 +4,7 @@ title: "So you want to become a web designer?"
 subhead:
 imgclass:
 permalink:
-categories:
+categories: design code
 ---
 
 I often meet people who are new into the design industry, or have been doing print design for a while and want to transition into web design. The question I am often asked is, “where do I start?” It’s truly a good question.
