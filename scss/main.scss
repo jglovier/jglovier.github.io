@@ -14,10 +14,13 @@ $experimental-support-for-svg: true;
 @import "includes/typography";
 
 // Layouts
+@import "includes/page";
 @import "includes/home";
 @import "includes/blogpost";
 @import "includes/page404";
 @import "includes/category";
+@import "includes/about";
+
 
 // Media Queries
 @import "includes/mq";
