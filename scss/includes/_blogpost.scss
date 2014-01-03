@@ -1,232 +1,156 @@
 /* @group Blog Post Styles -------------------- */
 
-body.blogpost {
+.post-content {
+  margin-left: pct( 237, 1284);
+  padding: 40px 30px 80px 0;
+  max-width: 812px;
+  @include serif;
+  font-size: 26px;
 
-  .page-header {
-    background-image: image-url("blogpost-bg.jpg");
-    padding: 195px 0 75px;
-    margin-bottom: 40px;
+  h1, h2, h3, h4, h5, h6, h7 { font-family: "pn_font"; line-height: 1; }
 
-    &.code { background-image: image-url("bg-css.jpg"); }
-    &.food { background-image: image-url("bg-forks.jpg"); }
-    &.book { background-image: image-url("bg-book.jpg"); }
-    &.chill { background-image: image-url("bg-chill.jpg"); }
-    &.clouds { background-image: image-url("bg-clouds.jpg"); }
-    &.css { background-image: image-url("bg-css.jpg"); }
-    &.cultivating { background-image: image-url("bg-cultivating.jpg"); }
-    &.droplets { background-image: image-url("bg-droplets.jpg"); }
-    &.externaldrive { background-image: image-url("bg-externaldrive.jpg"); }
-    &.hardware { background-image: image-url("bg-externaldrive.jpg"); }
-    &.faith {
-      background-image: image-url("bg-faith.jpg");
-      background-position: center 40%; }
-    &.fence { background-image: image-url("bg-fence.jpg"); }
-    &.forks { background-image: image-url("bg-forks.jpg"); }
-    &.lightbulb { background-image: image-url("bg-lightbulb.jpg"); }
-    &.markerboard { background-image: image-url("bg-markerboard.jpg"); }
-    &.mountain { background-image: image-url("bg-mountain.jpg"); }
-    &.music { background-image: image-url("bg-music.jpg"); }
-    &.path {
-      background-image: image-url("bg-faith.jpg");
-      background-position: center 40%; }
-    &.road {
-      background-image: image-url("bg-road.jpg");
-      background-position: center bottom; }
-    &.sky { background-image: image-url("bg-sky.jpg"); }
-    &.ux { background-image: image-url("bg-markerboard.jpg"); }
-    &.worship { background-image: image-url("bg-worship.jpg"); }
-    &.quicktip { background-image: image-url("bg-lightbulb.jpg"); }
-    &.quicktips { background-image: image-url("bg-lightbulb.jpg"); }
-    &.solarsystem { background-image: image-url("bg-solarsystem.jpg"); }
-    &.jekyll { background-image: image-url("bg-jekyll.jpg"); }
+  h1, h2 { margin: 80px 0 60px; }
 
-    .joel-photo {
-      max-width: 124px;
-      display: inline-block;
-      margin-right: 30px; }
+  h3, h4 { margin: 40px 0 20px; }
 
-    .my-avatar { width: pct( 237, 1284); text-align: right;
+  a { color: $blue; text-decoration: underline;
 
-      > a { display: block; height: 126px; }
+    &:hover { text-decoration: none; }
 
-    }
-
-    .intro-copy { width: pct( 1022, 1284);
-
-      h1 { font-weight: 700; margin: 20px 0 0; width: auto; }
-
-      .subhead {
-        font-size: 28px;
-        font-family: "Minion Pro", Palatino, Georgia, serif;
-        font-style: italic;
-        margin: 5px 0 0; }
-
-      .article-date {
-        font-size: 20px;
-        font-family: "pn_font";
-        letter-spacing: 2px;
-        margin: 0;
-        color: $blue_l3; }
-
-    }
+    &:visited { color: $navy; }
 
   }
 
-  .post-content {
+  .half { max-width: 50%; }
+  .one-third { max-width: 33%; }
+  .two-third { max-width: 66%; }
+  .quarter { max-width: 25%; }
+  .three-quarter { max-width: 75%; }
+
+  .left { float: left; margin-right: 20px; }
+  .right { float: right; margin-left: 20px; }
+
+  .disclaimer {
+    color: $blue;
+    font-size: 22px;
+    background-color: $blue_l3;
+    padding: 20px;
+    @include border-radius(5px); }
+
+  .strikethrough,
+  del { text-decoration: line-through; color: $gray_2; }
+
+  blockquote {
+    border-left: 6px solid $blue_l2;
+    margin-left: 0;
+    padding: 5px 40px;
+    background-color: $blue_l4;
+    @include border-radius(0 10px 10px 0); }
+
+  code {
+    font-size: 22px;
+    background-color: $gray_1;
+    padding: 4px 8px;
+    @include border-radius(5px); }
+
+  img { max-width: 100%; @include border-radius(5px); }
+
+}
+
+.next-article {
+  color: $white;
+  background-color: $blue;
+  background-image: image-url("blogpost-bg.jpg");
+  background-position: center top;
+  padding: 50px 0;
+
+  a { color: #fff; }
+
+  &.code { background-image: image-url("bg-css.jpg"); }
+  &.food { background-image: image-url("bg-forks.jpg"); }
+  &.book { background-image: image-url("bg-book.jpg"); }
+  &.chill { background-image: image-url("bg-chill.jpg"); }
+  &.clouds { background-image: image-url("bg-clouds.jpg"); }
+  &.css { background-image: image-url("bg-css.jpg"); }
+  &.cultivating { background-image: image-url("bg-cultivating.jpg"); }
+  &.droplets { background-image: image-url("bg-droplets.jpg"); }
+  &.externaldrive { background-image: image-url("bg-externaldrive.jpg"); }
+  &.hardware { background-image: image-url("bg-externaldrive.jpg"); }
+  &.faith {
+    background-image: image-url("bg-faith.jpg");
+    background-position: center 40%; }
+  &.fence { background-image: image-url("bg-fence.jpg"); }
+  &.forks { background-image: image-url("bg-forks.jpg"); }
+  &.lightbulb { background-image: image-url("bg-lightbulb.jpg"); }
+  &.markerboard { background-image: image-url("bg-markerboard.jpg"); }
+  &.mountain { background-image: image-url("bg-mountain.jpg"); }
+  &.music { background-image: image-url("bg-music.jpg"); }
+  &.path {
+    background-image: image-url("bg-faith.jpg");
+    background-position: center 40%; }
+  &.road {
+    background-image: image-url("bg-road.jpg");
+    background-position: center bottom; }
+  &.sky { background-image: image-url("bg-sky.jpg"); }
+  &.ux { background-image: image-url("bg-markerboard.jpg"); }
+  &.worship { background-image: image-url("bg-worship.jpg"); }
+  &.quicktip { background-image: image-url("bg-lightbulb.jpg"); }
+  &.quicktips { background-image: image-url("bg-lightbulb.jpg"); }
+  &.solarsystem { background-image: image-url("bg-solarsystem.jpg"); }
+  &.jekyll { background-image: image-url("bg-jekyll.jpg"); }
+
+  .contents {
     margin-left: pct( 237, 1284);
     padding-right: 30px;
     /*width: pct( 812, 1284);*/
-    max-width: 812px;
-    padding-bottom: 80px;
-    @include serif;
-    font-size: 26px;
+    max-width: 812px; }
 
-    h1, h2, h3, h4, h5, h6, h7 { font-family: "pn_font"; line-height: 1; }
+  .next-arrow {
+    font-size: 18px;
+    text-transform: uppercase;
+    @include pn_regular;
+    letter-spacing: 2px;
+    margin: 0 0 10px; }
 
-    h1, h2 { margin: 80px 0 60px; }
+  .title {
+    margin: 0 0 10px;
+    font-size: 40px;
+    @include pn_extrabold;
+    line-height: 1;
 
-    h3, h4 { margin: 40px 0 20px; }
-
-    a { color: $blue; text-decoration: underline;
-
-      &:hover { text-decoration: none; }
-
-      &:visited { color: $navy; }
-
-    }
-
-    .half { max-width: 50%; }
-    .one-third { max-width: 33%; }
-    .two-third { max-width: 66%; }
-    .quarter { max-width: 25%; }
-    .three-quarter { max-width: 75%; }
-
-    .left { float: left; margin-right: 20px; }
-    .right { float: right; margin-left: 20px; }
-
-    .disclaimer {
-      color: $blue;
-      font-size: 22px;
-      background-color: $blue_l3;
-      padding: 20px;
-      @include border-radius(5px); }
-
-    .strikethrough,
-    del { text-decoration: line-through; color: $gray_2; }
-
-    blockquote {
-      border-left: 6px solid $blue_l2;
-      margin-left: 0;
-      padding: 5px 40px;
-      background-color: $blue_l4;
-      @include border-radius(0 10px 10px 0); }
-
-    code {
-      font-size: 22px;
-      background-color: $gray_1;
-      padding: 4px 8px;
-      @include border-radius(5px); }
-
-    img { max-width: 100%; @include border-radius(5px); }
+    a:hover { opacity: .75; }
 
   }
 
-  .next-article {
-    color: $white;
-    background-color: $blue;
-    background-image: image-url("blogpost-bg.jpg");
-    background-position: center top;
-    padding: 50px 0;
+  .subhead {
+    margin: 0 0 10px;
+    font-style: italic;
+    font-size: 21px;
+    line-height: 1;
+    font-family: "Minion Pro", Palatino, Georgia, serif; }
 
-    a { color: #fff; }
+  .article-date { margin: 0; letter-spacing: 2px; }
 
-    &.code { background-image: image-url("bg-css.jpg"); }
-    &.food { background-image: image-url("bg-forks.jpg"); }
-    &.book { background-image: image-url("bg-book.jpg"); }
-    &.chill { background-image: image-url("bg-chill.jpg"); }
-    &.clouds { background-image: image-url("bg-clouds.jpg"); }
-    &.css { background-image: image-url("bg-css.jpg"); }
-    &.cultivating { background-image: image-url("bg-cultivating.jpg"); }
-    &.droplets { background-image: image-url("bg-droplets.jpg"); }
-    &.externaldrive { background-image: image-url("bg-externaldrive.jpg"); }
-    &.hardware { background-image: image-url("bg-externaldrive.jpg"); }
-    &.faith {
-      background-image: image-url("bg-faith.jpg");
-      background-position: center 40%; }
-    &.fence { background-image: image-url("bg-fence.jpg"); }
-    &.forks { background-image: image-url("bg-forks.jpg"); }
-    &.lightbulb { background-image: image-url("bg-lightbulb.jpg"); }
-    &.markerboard { background-image: image-url("bg-markerboard.jpg"); }
-    &.mountain { background-image: image-url("bg-mountain.jpg"); }
-    &.music { background-image: image-url("bg-music.jpg"); }
-    &.path {
-      background-image: image-url("bg-faith.jpg");
-      background-position: center 40%; }
-    &.road {
-      background-image: image-url("bg-road.jpg");
-      background-position: center bottom; }
-    &.sky { background-image: image-url("bg-sky.jpg"); }
-    &.ux { background-image: image-url("bg-markerboard.jpg"); }
-    &.worship { background-image: image-url("bg-worship.jpg"); }
-    &.quicktip { background-image: image-url("bg-lightbulb.jpg"); }
-    &.quicktips { background-image: image-url("bg-lightbulb.jpg"); }
-    &.solarsystem { background-image: image-url("bg-solarsystem.jpg"); }
-    &.jekyll { background-image: image-url("bg-jekyll.jpg"); }
+  .nav { margin: 0; }
 
-    .contents {
-      margin-left: pct( 237, 1284);
-      padding-right: 30px;
-      /*width: pct( 812, 1284);*/
-      max-width: 812px; }
+  .next-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    @include pn_regular;
+    letter-spacing: 2px;
+    margin: 10px 0 0;
+    @include border-radius(5px);
+    border: 2px solid white;
+    padding: 2px 12px;
+    display: inline-block; }
 
-    .next-arrow {
-      font-size: 18px;
-      text-transform: uppercase;
-      @include pn_regular;
-      letter-spacing: 2px;
-      margin: 0 0 10px; }
-
-    .title {
-      margin: 0 0 10px;
-      font-size: 40px;
-      @include pn_extrabold;
-      line-height: 1;
-
-      a:hover { opacity: .75; }
-
-    }
-
-    .subhead {
-      margin: 0 0 10px;
-      font-style: italic;
-      font-size: 21px;
-      line-height: 1;
-      font-family: "Minion Pro", Palatino, Georgia, serif; }
-
-    .article-date { margin: 0; letter-spacing: 2px; }
-
-    .nav { margin: 0; }
-
-    .next-link {
-      font-size: 14px;
-      text-transform: uppercase;
-      @include pn_regular;
-      letter-spacing: 2px;
-      margin: 10px 0 0;
-      @include border-radius(5px);
-      border: 2px solid white;
-      padding: 2px 12px;
-      display: inline-block; }
-
-    .index-link {
-      font-size: 12px;
-      text-transform: uppercase;
-      @include pn_regular;
-      letter-spacing: 2px;
-      margin: 20px 0 0;
-      display: inline-block; }
-
-  }
+  .index-link {
+    font-size: 12px;
+    text-transform: uppercase;
+    @include pn_regular;
+    letter-spacing: 2px;
+    margin: 20px 0 0;
+    display: inline-block; }
 
 }
 

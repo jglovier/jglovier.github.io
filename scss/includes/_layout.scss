@@ -53,35 +53,68 @@
 /* Page Header */
 
 .page-header {
-  background-image: image-url("default-intro-bg.jpg");
+  background-image: image-url("blogpost-bg.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   background-color: $blue_l1;
   border-bottom: 15px solid $blue;
-  padding: 60px 0;
+  padding: 195px 0 75px;
   color: $white;
 
-  .my-avatar { width: pct( 341, 1284); float: left; }
+  &.code { background-image: image-url("bg-css.jpg"); }
+  &.food { background-image: image-url("bg-forks.jpg"); }
+  &.book { background-image: image-url("bg-book.jpg"); }
+  &.chill { background-image: image-url("bg-chill.jpg"); }
+  &.clouds { background-image: image-url("bg-clouds.jpg"); }
+  &.css { background-image: image-url("bg-css.jpg"); }
+  &.cultivating { background-image: image-url("bg-cultivating.jpg"); }
+  &.droplets { background-image: image-url("bg-droplets.jpg"); }
+  &.externaldrive { background-image: image-url("bg-externaldrive.jpg"); }
+  &.hardware { background-image: image-url("bg-externaldrive.jpg"); }
+  &.faith {
+    background-image: image-url("bg-faith.jpg");
+    background-position: center 40%; }
+  &.fence { background-image: image-url("bg-fence.jpg"); }
+  &.forks { background-image: image-url("bg-forks.jpg"); }
+  &.lightbulb { background-image: image-url("bg-lightbulb.jpg"); }
+  &.markerboard { background-image: image-url("bg-markerboard.jpg"); }
+  &.mountain { background-image: image-url("bg-mountain.jpg"); }
+  &.music { background-image: image-url("bg-music.jpg"); }
+  &.path {
+    background-image: image-url("bg-faith.jpg");
+    background-position: center 40%; }
+  &.road {
+    background-image: image-url("bg-road.jpg");
+    background-position: center bottom; }
+  &.sky { background-image: image-url("bg-sky.jpg"); }
+  &.ux { background-image: image-url("bg-markerboard.jpg"); }
+  &.worship { background-image: image-url("bg-worship.jpg"); }
+  &.quicktip { background-image: image-url("bg-lightbulb.jpg"); }
+  &.quicktips { background-image: image-url("bg-lightbulb.jpg"); }
+  &.solarsystem { background-image: image-url("bg-solarsystem.jpg"); }
+  &.jekyll { background-image: image-url("bg-jekyll.jpg"); }
 
-  .joel-photo {
-    display: block;
-    margin: 0 auto;
-    width: pct( 245, 341);
-    max-width: 245px;
-    @include border-radius(100%); }
-
-  .intro-copy { width: 525px; float: left; font-weight: 300;
+  .intro-copy { width: pct( 1022, 1284); float: left; font-weight: 300;
 
     h1 {
+      font-weight: 700;
+      margin: 20px 0 0;
+      width: auto;
       font-size: 60px;
-      width: 120%;
-      line-height: 1;
-      margin: 20px 0 25px;
-      font-weight: 300;
+      line-height: 1; }
 
-      span { font-weight: 900; }
+    .subhead {
+      font-size: 28px;
+      font-family: "Minion Pro", Palatino, Georgia, serif;
+      font-style: italic;
+      margin: 5px 0 0; }
 
-    }
+    .article-date {
+      font-size: 20px;
+      font-family: "pn_font";
+      letter-spacing: 2px;
+      margin: 0;
+      color: $blue_l3; }
 
     .description { font-size: 24px; margin: 10px 0 0;
 
@@ -98,6 +131,19 @@
       &:hover { background-color: rgba(0,68,114,.4); }
 
     }
+
+  }
+
+  .joel-photo {
+    display: inline-block;
+    width: pct( 245, 341);
+    max-width: 124px;
+    margin-right: 30px;
+    @include border-radius(100%); }
+
+  .my-avatar { width: pct( 237, 1284); text-align: right; float: left;
+
+    > a { display: block; height: 126px; }
 
   }
 

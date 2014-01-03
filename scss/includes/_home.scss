@@ -1,5 +1,29 @@
 /* @group Home styles -------------------- */
 
+.page-home {
+
+  .page-header {
+    background-image: image-url("default-intro-bg.jpg");
+    padding: 60px 0;
+
+    .my-avatar { width: pct( 341, 1284); }
+
+    .joel-photo { margin-right: 40px; max-width: 245px; }
+
+    .intro-copy { width: 525px;
+
+      h1 { width: 120%; margin: 20px 0 25px; font-weight: 300;
+
+        a { font-weight: 900; }
+
+      }
+
+    }
+
+  }
+
+}
+
 /* Writing (article index) */
 
 .writing { padding-bottom: 80px;

@@ -1,0 +1,22 @@
+/* @group About page styles -------------------- */
+
+.page-about {
+
+  .page-header { background-position: center center; }
+
+  .post-content {
+    @include pn_regular;
+    font-size: 24px;
+
+    .lead {
+      font-size: 32px;
+      font-weight: 300;
+      margin-bottom: 65px; }
+
+    a { @include pn_bold; color: $gray_3; }
+
+  }
+
+}
+
+/* @end about page styles */
