@@ -1339,19 +1339,18 @@ body.category .page-header {
   /* line 9, ../scss/includes/_about.scss */
   .page-about .page-header .intro-copy h1 {
     text-align: right;
-    margin-right: 10%;
-    font-weight: 300; }
-/* line 16, ../scss/includes/_about.scss */
+    margin-right: 10%; }
+/* line 15, ../scss/includes/_about.scss */
 .page-about .post-content {
   font-family: "pn_font", Arial, sans-serif;
   font-weight: 400;
   font-size: 24px; }
-  /* line 20, ../scss/includes/_about.scss */
+  /* line 19, ../scss/includes/_about.scss */
   .page-about .post-content .lead {
     font-size: 32px;
     font-weight: 300;
     margin-bottom: 65px; }
-  /* line 25, ../scss/includes/_about.scss */
+  /* line 24, ../scss/includes/_about.scss */
   .page-about .post-content a {
     font-family: "pn_font", "Arial", Arial, sans-serif;
     font-weight: 700;
