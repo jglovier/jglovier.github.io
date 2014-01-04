@@ -2,13 +2,16 @@
 
 .page-about {
 
-  .page-header { padding: 75px 0; background-size: 1280px;
+  .page-header {
+    padding: 100px 0;
+    background-size: 1280px;
 
     .my-avatar { display: none; }
 
     .intro-copy h1 {
       text-align: right;
-      margin-right: 10%; }
+      margin-right: 10%;
+      margin-top: 0; }
 
   }
 
@@ -19,7 +22,8 @@
     .lead {
       font-size: 32px;
       font-weight: 300;
-      margin-bottom: 65px; }
+      margin-bottom: 45px;
+      margin-top: 10px; }
 
     a { @include pn_bold; color: $gray_3; }
 

@@ -578,7 +578,7 @@ a {
     background-image: url('../img/bg-sky.jpg?1388774234'); }
   /* line 90, ../scss/includes/_layout.scss */
   .page-header.speaking {
-    background-image: url('../img/bg-speaking.jpg?1388792782'); }
+    background-image: url('../img/bg-speaking.jpg?1388853347'); }
   /* line 91, ../scss/includes/_layout.scss */
   .page-header.ux {
     background-image: url('../img/bg-markerboard.jpg?1388774234'); }
@@ -1041,7 +1041,7 @@ a {
     background-image: url('../img/bg-sky.jpg?1388774234'); }
   /* line 95, ../scss/includes/_blogpost.scss */
   .next-article.speaking {
-    background-image: url('../img/bg-speaking.jpg?1388792782'); }
+    background-image: url('../img/bg-speaking.jpg?1388853347'); }
   /* line 96, ../scss/includes/_blogpost.scss */
   .next-article.ux {
     background-image: url('../img/bg-markerboard.jpg?1388774234'); }
@@ -1331,26 +1331,28 @@ body.category .page-header {
 /* @group About page styles -------------------- */
 /* line 5, ../scss/includes/_about.scss */
 .page-about .page-header {
-  padding: 75px 0;
+  padding: 100px 0;
   background-size: 1280px; }
-  /* line 7, ../scss/includes/_about.scss */
+  /* line 9, ../scss/includes/_about.scss */
   .page-about .page-header .my-avatar {
     display: none; }
-  /* line 9, ../scss/includes/_about.scss */
+  /* line 11, ../scss/includes/_about.scss */
   .page-about .page-header .intro-copy h1 {
     text-align: right;
-    margin-right: 10%; }
-/* line 15, ../scss/includes/_about.scss */
+    margin-right: 10%;
+    margin-top: 0; }
+/* line 18, ../scss/includes/_about.scss */
 .page-about .post-content {
   font-family: "pn_font", Arial, sans-serif;
   font-weight: 400;
   font-size: 24px; }
-  /* line 19, ../scss/includes/_about.scss */
+  /* line 22, ../scss/includes/_about.scss */
   .page-about .post-content .lead {
     font-size: 32px;
     font-weight: 300;
-    margin-bottom: 65px; }
-  /* line 24, ../scss/includes/_about.scss */
+    margin-bottom: 45px;
+    margin-top: 10px; }
+  /* line 28, ../scss/includes/_about.scss */
   .page-about .post-content a {
     font-family: "pn_font", "Arial", Arial, sans-serif;
     font-weight: 700;
