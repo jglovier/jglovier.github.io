@@ -5,7 +5,12 @@ imgclass: mountain
 categories: life
 ---
 
-Some years I set a bunch of unrealistic expectations. Some years, I set none. This year I've come up with five really practical things I'd like to work on throughout the year. There's plenty more that I want to do than just this list this year. But I think that if I can just focus on this list of simple goals, the rest of the things that need to happen will fall in place in order of importance and priority.
+I love setting goals. In fact, that's pretty much the best part of New Year. Oh and of course there's the partying. New Years is great for that too.
+
+But to me - and to countless other people - New Years another chance to look at life, assess a little, and course correct.
+
+Some years I set a bunch of unrealistic expectations. Some years, I set none.
+This year I've come up with five really practical things I'd like to work on throughout the year. There's plenty more that I want to do throughout the year than just this list. But, if I can just focus on this list of simple goals, the rest of the things that need to happen will fall in place in order of importance and priority.
 
 ## 1. Say no to things
 
