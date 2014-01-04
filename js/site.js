@@ -2,6 +2,14 @@ $(function(){
 
   // Homepage | section.writing | article nav behavior
   // NOTE: this code is mad ghetto and in no wise to be held up as a standard of JavaScript brilliance; so sorry bout that; but It Works™
+  $("#articles2014Trigger").on("click", function(event){
+    event.preventDefault();
+    $(".article-nav .year").removeClass("showing");
+    $(this).addClass("showing");
+    $("div.articles").removeClass("show");
+    $("#articles2014").addClass("show");
+  });
+
   $("#articles2013Trigger").on("click", function(event){
     event.preventDefault();
     $(".article-nav .year").removeClass("showing");
