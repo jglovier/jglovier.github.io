@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About me
-imgclass: chill
+imgclass: speaking
 ---
 
 <p class="lead" markdown="1">I’m **Joel Glovier**. I’m a product and user experience designer at [GitHub](https://github.com/jglovier), where I’m currently helping make [training resources](http://training.github.com/resources/videos/) awesome.</p>

@@ -2,7 +2,16 @@
 
 .page-about {
 
-  .page-header { background-position: center center; }
+  .page-header { padding: 75px 0; background-size: 1280px;
+
+    .my-avatar { display: none; }
+
+    .intro-copy h1 {
+      text-align: right;
+      margin-right: 10%;
+      font-weight: 300; }
+
+  }
 
   .post-content {
     @include pn_regular;
