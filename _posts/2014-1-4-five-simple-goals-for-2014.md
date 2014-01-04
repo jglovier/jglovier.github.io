@@ -1,14 +1,11 @@
 ---
 layout: blogpost
 title: Five simple goals for 2014
+imgclass: mountain
 categories: life
 ---
 
-# Five simple goals for 2014
-
-Some years I set a bunch of unrealistic expectations. Some years, I set none. This year I've come up with five really practical things I'd like to work on throughout the year.
-
-They are:
+Some years I set a bunch of unrealistic expectations. Some years, I set none. This year I've come up with five really practical things I'd like to work on throughout the year. There's plenty more that I want to do than just this list this year. But I think that if I can just focus on this list of simple goals, the rest of the things that need to happen will fall in place in order of importance and priority.
 
 ## 1. Say no to things
 
@@ -86,6 +83,6 @@ This year, walking and growing in the love of God as expressed in how I relate t
 
 The thing about goals is they are only useful if you give life to them. In and of themselves they are meaningless and powerless, but to the extent that you use them to grow deeper in life they can be a powerful tool.
 
-The goals I've set aren't necessarily profound, and they aren't necessarily huge. They are intentionally simple, but they are also deeply important. It's not the size of your goals that matters, it's the implications those goals have on your life, and whether you actually pursue them or not.
+The goals I've set aren't necessarily profound, and they aren't necessarily huge. They're not exactly moving mountaints. They are intentionally simple, and they're pretty actionable.
 
-Here's to pressing forward every day, and to my old elementary school principal Wendell Bossart who used to say, "Every day, in every way, I'm getting better and better."
+After all, it's not the size of your goals that matters, it's the implications those goals have on your life, and whether you actually pursue them or not.
