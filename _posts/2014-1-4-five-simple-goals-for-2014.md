@@ -49,7 +49,7 @@ With lists you have to think about how to translate the task or purpose into wor
 
 There are absolutely huge benefits to using lists - no question. But I've long struggled with the fact that those benefits come with the heafty price of learning to use them efficiently when I'm not a naturally organized person.
 
-That being said - I'm sold there's a better way, and it involves  having substantially less tabs open at any given time.
+That being said - I'm told there's a better way, and it involves  having substantially less tabs open at any given time.
 
 What really convinced me was realizing the cognitive toll having all those tabs open was taking. Even though I tended to just minimize most windows and focus on one particular window with just a handful of particular tabs, those minimized windows were still in my brain's hard drive. I realized I needed to start getting them out of my brain's background processes, and out of the browser tabs, and documented somewhere that I'll be sure to readdress them later (or say no to them altogether - see no. 1 above).
 
@@ -66,7 +66,7 @@ My theory is that my brain can only really track with about 10 things effectivel
 
 Between saying no to things more, and keeping my browser tabs under 10 on average, I think I've got a solid plan for increasing my productivity, my efficiency, and my quality of output as a whole.
 
-I almost made these my only two goals for the year, but they are almost entirely productivity related which I felt was short sigtned. I have some other types of goals that are really important to me as well...
+I almost made these my only two goals for the year, but they are almost entirely productivity related which I felt was short sighted. I have some other types of goals that are really important to me as well...
 
 ## 3. Dramatically cut back carb intake
 
@@ -74,17 +74,17 @@ I [wrote about this recently](/dat-low-carb-lifestyle/), so I won't go into deta
 
 I started practicing it last year after I read [Why We Get Fat & What To Do About It](http://www.amazon.com/Why-We-Get-Fat-About/dp/0307474259/ref=sr_1_1?ie=UTF8&qid=1388864302&sr=8-1&keywords=why+we+get+fat+and+what+to+do+about+it) by Gary Taubes, and it's been changing my life in several ways.
 
-- I've had less migraines and the migraine I have had have been much less severe.
+- I've had fewer migraines and the migraines I have had have been much less severe.
 - I've lost about 15 lbs.
 - I've been less lethargic and had overall more clear thinking.
 - My acid reflux has dramatically subsided.
-- People have noticed I'm looking a bit thinner than I was, which has helped improve my overall self confidence a bit.
+- People have noticed I'm looking a bit thinner than I was, which has helped improve my overall self-confidence a bit.
 
 So this year, one of my goals is to keep striving for a low-carb lifestyle.
 
 ## 4. Get back into weightlifting, skateboarding, and bboying
 
-At 32, these days I'm much less active than I was in my mid 20's. Age actually may have much less to do with it, and the fact that I have kids and a family who require my spare time attention, and the fact that I have a sedentary job where I sit all day have probably made far more difference than how old I actually am.
+At 32, these days I'm much less active than I was in my mid 20's. Age actually may have much less to do with it, and the fact that I have kids and a family who require my spare time and attention, and the fact that I have a sedentary job where I sit all day have probably made far more difference than how old I actually am.
 
 In any case, I'm renewing my commitment to be active by getting back into some of the activities I've found so much joy in in times past.
 
@@ -104,6 +104,6 @@ This year, walking and growing in the love of God as expressed in how I relate t
 
 The thing about goals is they are only useful if you give life to them. In and of themselves they are meaningless and powerless, but to the extent that you use them to grow deeper in life they can be a powerful tool.
 
-The goals I've set aren't necessarily profound, and they aren't necessarily huge. They're not exactly moving mountaints. They are intentionally simple, and they're pretty actionable.
+The goals I've set aren't necessarily profound, and they aren't necessarily huge. They're not exactly moving mountains. They are intentionally simple, and they're pretty actionable.
 
 After all, it's not the size of your goals that matters, it's the implications those goals have on your life, and whether you actually pursue them or not.
