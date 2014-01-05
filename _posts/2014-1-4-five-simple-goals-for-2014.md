@@ -49,7 +49,7 @@ With lists you have to think about how to translate the task or purpose into wor
 
 There are absolutely huge benefits to using lists - no question. But I've long struggled with the fact that those benefits come with the heafty price of learning to use them efficiently when I'm not a naturally organized person.
 
-That being said - I'm told there's a better way, and it involves  having substantially less tabs open at any given time.
+That being said - I'm sold on the fact that there's a better way, and it involves  having substantially less tabs open at any given time.
 
 What really convinced me was realizing the cognitive toll having all those tabs open was taking. Even though I tended to just minimize most windows and focus on one particular window with just a handful of particular tabs, those minimized windows were still in my brain's hard drive. I realized I needed to start getting them out of my brain's background processes, and out of the browser tabs, and documented somewhere that I'll be sure to readdress them later (or say no to them altogether - see no. 1 above).
 
