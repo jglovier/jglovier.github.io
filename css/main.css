@@ -883,7 +883,7 @@ a {
     line-height: 1; }
   /* line 12, ../scss/includes/_blogpost.scss */
   .post-content h1, .post-content h2 {
-    margin: 80px 0 60px; }
+    margin: 80px 0 30px; }
   /* line 14, ../scss/includes/_blogpost.scss */
   .post-content h3, .post-content h4 {
     margin: 40px 0 20px; }
