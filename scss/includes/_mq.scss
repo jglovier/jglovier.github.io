@@ -2,12 +2,12 @@
 
 @media screen and (max-width: 750px) {
 
-  body.blogpost .page-header,
+  .page-home .page-header,
   .page-header {
 
     .my-avatar { width: 130px; }
 
-    .joel-photo { width: 70%; }
+    .joel-photo { width: 70%; margin-right: 15%; }
 
   }
 
@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 675px) {
 
-  body.blogpost .page-header,
+  .page-home .page-header,
   .page-header { padding: 25px; text-align: center;
 
     .my-avatar {
@@ -53,25 +53,27 @@
 
     }
 
-    .post-content {
-      overflow: hidden;
-      font-size: 18px;
-      margin: 0;
-      padding: 0 25px;
+  }
 
-      .disclaimer { font-size: 18px; }
+  .post-content {
+    overflow: hidden;
+    font-size: 18px;
+    margin: 0;
+    padding: 0 25px;
 
-      div.highlight { padding: 10px 15px; }
+    h2 { margin: 40px 0 20px; }
 
-      pre code { font-size: 14px; padding: 2px 4px; }
+    .disclaimer { font-size: 18px; }
 
-    }
+    div.highlight { padding: 10px 15px; }
 
-    .next-article {
+    pre code { font-size: 14px; padding: 2px 4px; }
 
-      .contents { margin: 0; padding: 0 25px; }
+  }
 
-    }
+  .next-article {
+
+    .contents { margin: 0; padding: 0 25px; }
 
   }
 
@@ -79,7 +81,7 @@
 
 @media screen and (max-width: 570px) {
 
-  body.blogpost .page-header,
+  .page-home .page-header,
   .page-header { padding: 20px 10px;
 
     .intro-copy {
@@ -98,7 +100,7 @@
 
   }
 
-  body.blogpost .page-header { padding-bottom: 5px; }
+  .page-header { padding-bottom: 5px; }
 
   .wide-left-margin { margin: 0; padding: 0 20px; }
 
@@ -109,8 +111,8 @@
     .article-nav { font-size: 20px;
 
       > a {
-        padding: 3px 10px 2px;
-        margin-left: 10px;
+        padding: 3px 8px 2px;
+        margin-left: 4px;
 
         &:first-child { margin-left: 0; }
 

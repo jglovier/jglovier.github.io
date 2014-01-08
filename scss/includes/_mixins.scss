@@ -35,6 +35,10 @@
   background-position: center top;
   background-repeat: no-repeat;
   background-color: $blue_l1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
   &.code { background-image: image-url("bg-css.jpg"); }
   &.food { background-image: image-url("bg-forks.jpg"); }
