@@ -155,7 +155,11 @@
     @include pn_regular;
     letter-spacing: 2px;
     margin: 20px 0 0;
-    display: inline-block; }
+    display: inline-block;
+
+    &:hover { opacity: .75; }
+
+  }
 
 }
 
