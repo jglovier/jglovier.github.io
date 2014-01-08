@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Are Domain Hacks Devaluing .COMs?
+hnlink: "https://news.ycombinator.com/item?id=7024146"
 categories: business
 ---
 
