@@ -1,7 +1,7 @@
 ---
 layout: blogpost
-title: "Quick Tip: How to use Apple emoji in Photoshop"
-permalink: How to use Apple emoji in Photoshop
+title: "Quick Tip: Using Apple emoji in Photoshop"
+permalink: using-apple-emoji-in-photoshop
 categories: quicktip design
 ---
 
