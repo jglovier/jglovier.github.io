@@ -1114,7 +1114,10 @@ a {
     border: 2px solid white;
     padding: 2px 12px;
     display: inline-block; }
-  /* line 148, ../scss/includes/_blogpost.scss */
+    /* line 148, ../scss/includes/_blogpost.scss */
+    .next-article .next-link:hover {
+      background-color: rgba(255, 255, 255, 0.2); }
+  /* line 152, ../scss/includes/_blogpost.scss */
   .next-article .index-link {
     font-size: 12px;
     text-transform: uppercase;
@@ -1124,7 +1127,7 @@ a {
     margin: 20px 0 0;
     display: inline-block; }
 
-/* line 160, ../scss/includes/_blogpost.scss */
+/* line 164, ../scss/includes/_blogpost.scss */
 .wrap div.highlight {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -1134,72 +1137,72 @@ a {
   padding: 20px 30px;
   border: 1px solid #eeeeee;
   font-size: 20px; }
-  /* line 166, ../scss/includes/_blogpost.scss */
+  /* line 170, ../scss/includes/_blogpost.scss */
   .wrap div.highlight pre {
     margin: 0; }
-    /* line 168, ../scss/includes/_blogpost.scss */
+    /* line 172, ../scss/includes/_blogpost.scss */
     .wrap div.highlight pre code {
       background-color: transparent;
       font-size: 20px;
       padding: 0; }
-  /* line 177, ../scss/includes/_blogpost.scss */
+  /* line 181, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .nt {
     color: #004472;
     background-color: #f3faff; }
-  /* line 178, ../scss/includes/_blogpost.scss */
+  /* line 182, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .na {
     color: #0099ff; }
-  /* line 179, ../scss/includes/_blogpost.scss */
+  /* line 183, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .s {
     color: red; }
-  /* line 180, ../scss/includes/_blogpost.scss */
+  /* line 184, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .mc {
     color: #0099ff; }
-  /* line 182, ../scss/includes/_blogpost.scss */
+  /* line 186, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .k {
     color: #7653c1;
     background-color: #f3faff; }
-  /* line 184, ../scss/includes/_blogpost.scss */
+  /* line 188, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .m {
     color: #24ac00; }
-  /* line 185, ../scss/includes/_blogpost.scss */
+  /* line 189, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .html .c {
     color: #c7c7c7; }
-  /* line 193, ../scss/includes/_blogpost.scss */
+  /* line 197, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .scss .c1 {
     color: #c7c7c7; }
-  /* line 194, ../scss/includes/_blogpost.scss */
+  /* line 198, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .scss .nc {
     color: #0099ff; }
-  /* line 195, ../scss/includes/_blogpost.scss */
+  /* line 199, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .scss .p {
     color: black; }
-  /* line 196, ../scss/includes/_blogpost.scss */
+  /* line 200, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .scss .na {
     color: red; }
-  /* line 197, ../scss/includes/_blogpost.scss */
+  /* line 201, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .scss .o {
     color: black; }
-  /* line 198, ../scss/includes/_blogpost.scss */
+  /* line 202, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .scss .no {
     color: #2a7ae2; }
-  /* line 199, ../scss/includes/_blogpost.scss */
+  /* line 203, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .scss .mh {
     color: #7653c1;
     background-color: #f3f2ff; }
-  /* line 200, ../scss/includes/_blogpost.scss */
+  /* line 204, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .scss .mi {
     color: #24ac00; }
-  /* line 201, ../scss/includes/_blogpost.scss */
+  /* line 205, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .scss .kt {
     color: #24ac00; }
-  /* line 202, ../scss/includes/_blogpost.scss */
+  /* line 206, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .scss .k {
     color: #2a7ae2; }
-  /* line 203, ../scss/includes/_blogpost.scss */
+  /* line 207, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .scss .nd {
     color: #0099ff; }
-  /* line 204, ../scss/includes/_blogpost.scss */
+  /* line 208, ../scss/includes/_blogpost.scss */
   .wrap div.highlight .scss .nt {
     color: #24ac00; }
 
