@@ -57,6 +57,17 @@
 
 }
 
+.discussion-link {
+  font-size: 20px;
+  text-transform: uppercase;
+  @include pn_bold;
+
+  a { text-decoration: none; }
+
+}
+
+/* next article styles */
+
 .next-article {
   color: $white;
   background-color: $blue;

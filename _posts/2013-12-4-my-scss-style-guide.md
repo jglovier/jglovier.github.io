@@ -2,6 +2,7 @@
 layout: blogpost
 title: My SCSS style guide
 subhead: "This is how I roll, animal print, pants outta control"
+hnlink: "https://news.ycombinator.com/item?id=7023041"
 categories: code css sass
 ---
 
