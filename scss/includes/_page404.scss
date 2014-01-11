@@ -1,78 +1,74 @@
 /* @group 404 page styles -------------------- */
 
-body.page404 { text-align: center;
+body.page404 {
+  background-image: image-url("bg-404-sunset.jpg");
+  background-color: #4b215f;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  color: #fff;
 
-  .page-header {
-    background-image: image-url("bg-404.jpg");
-    background-color: #2e2523;
-    background-position: center bottom;
-    padding: 35px 0;
+  a { color: #e1a7ff; }
+
+  header { margin-top: 40px; }
+
+  .intro-copy {
+    width: pct( 455, 1284);
+    float: left;
     text-align: center;
 
-    .intro-copy { width: pct( 1284, 1284);
+    h1 {
+      font-weight: 900;
+      font-size: 246px;
+      margin: 40px 0 20px;
+      width: auto;
+      line-height: 170px;
 
-      h1 { font-weight: 700; margin: 20px 0 0; width: auto; }
-
-      .subhead {
-        font-size: 28px;
-        font-family: "Minion Pro", Palatino, Georgia, serif;
-        font-style: italic;
-        margin: 5px 0 0; }
-
-    }
-
-  }
-
-  .wrap { max-width: 864px; }
-
-  .content {
-
-    h2 { font-size: 30px; }
-
-    p { font-size: 18px; @include serif; }
-
-  }
-
-  .options-list {
-    list-style: none;
-    margin: 60px 0;
-    padding: 0;
-
-    li {
-      float: left;
-      max-width: 236px;
-      margin-left: 78px;
-
-      &:first-child { margin-left: 0; }
+      a { color: #fff; }
 
     }
 
-    .callout {
-      background-color: $blue;
-      display: block;
-      text-decoration: none;
-      color: #fff;
-      @include border-radius(400px);
-      width: 130px; height: 130px;
-      margin: 0 auto;
-
-      &:hover { opacity: .7; }
-
-    }
-
-    .number {
+    .subhead {
       font-size: 50px;
       font-weight: 300;
-      margin: 0;
-      line-height: 1;
-      padding: 30px 0 0; }
-
-    .title {
-      font-size: 14px;
       text-transform: uppercase;
-      letter-spacing: 3px; }
+      letter-spacing: 1px;
+      margin: 0; }
 
-    p { font-size: 16px; line-height: 1.2; }
+  }
+
+  .intro-right {
+    @include pn_bold;
+    font-size: 78px;
+    line-height: 96.5px;
+    margin: 15px 0 0;
+    width: pct( 736, 1284);
+    float: right;
+
+  }
+
+  .wrap { max-width: 1232px; }
+
+  .content {
+    background-color: rgba(56,21,68,.4);
+    margin: 60px 0;
+    padding: 0 0 30px;
+
+    h2 { font-size: 30px; margin: 40px 0 0; }
+
+    p { font-size: 20px; @include serif; }
+
+  }
+
+  ol {
+    @include serif;
+    font-size: 20px;
+    padding-left: 0;
+
+    li { list-style-position: inside; margin-bottom: 10px; }
 
   }
 
