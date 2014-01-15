@@ -7,7 +7,7 @@ redirect_from:
 - http://joelglovier.com/writing/2013/making-gravlax-part-1/
 ---
 
-<p class="disclaimer">This is Part 1 in my experience on making gravlax. You can read <a href="/writing/2013/making-gravlax-part-2/">Part 2 here</a>.</p>
+<p class="disclaimer">This is Part 1 in my experience on making gravlax. You can read <a href="/making-gravlax-part-2/">Part 2 here</a>.</p>
 
 Recently I went to Ikea with my wife and my mom to pickup a new dresser for our baby on the way. After a grueling afternoon of shopping (at first it's so much fun walking through the showroom, but then you quickly discover you are trapped in a maze designed to squeeze as much money of you as possible) we stopped at the Ikea cafeteria.
 
