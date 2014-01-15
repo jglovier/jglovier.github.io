@@ -4,7 +4,7 @@ title: Making Gravlax - Part 1
 imgclass: food
 categories: food life
 redirect_from:
-  - /testdir/2013/making-gravlax-part-1/
+  - /writing/2013/making-gravlax-part-1/
 ---
 
 <p class="disclaimer">This is Part 1 in my experience on making gravlax. You can read <a href="/making-gravlax-part-2/">Part 2 here</a>.</p>
