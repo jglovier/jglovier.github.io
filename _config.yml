@@ -11,3 +11,4 @@ description:    "The personal site of Joel Andrew Glovier, designer and front-en
 url:            http://joelglovier.com
 gem:
   - jekyll-redirect-from
+  - powered-by-pages

@@ -42,6 +42,8 @@ GEM
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.8)
+    powered-by-pages (0.0.2)
+      jekyll
     pygments.rb (0.5.4)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
@@ -64,4 +66,5 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-redirect-from
+  powered-by-pages
   sass
