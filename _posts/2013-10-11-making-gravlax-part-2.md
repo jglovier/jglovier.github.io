@@ -3,11 +3,13 @@ layout: blogpost
 title: Making Gravlax - Part 2
 imgclass: food
 categories: life food
+redirect_from:
+- http://joelglovier.com/writing/2013/making-gravlax-part-2/
 ---
 
 <p class="disclaimer">This is Part 2 in my experience on making gravlax. You can read <a href="/making-gravlax-part-1/">Part 1 here</a>.</p>
 
-So a few days ago I took my [first stab at making gravlax](/writing/2013/making-gravlax-part-1/), a Scandinavian cured salmon dish which I've recently fallen in love with.
+So a few days ago I took my [first stab at making gravlax](/making-gravlax-part-1/), a Scandinavian cured salmon dish which I've recently fallen in love with.
 
 Today I'm going to show you how everything turned out after the 48 hour curing process, show you how to prepare and serve your gravlax post-curing, and tell you what went right, what went wrong, and what I'm going to do differently next time.
 
