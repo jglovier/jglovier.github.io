@@ -5,7 +5,7 @@ imgclass: food
 categories: life food
 ---
 
-<p class="disclaimer">This is Part 2 in my experience on making gravlax. You can read <a href="/writing/2013/making-gravlax-part-1/">Part 1 here</a>.</p>
+<p class="disclaimer">This is Part 2 in my experience on making gravlax. You can read <a href="/making-gravlax-part-1/">Part 1 here</a>.</p>
 
 So a few days ago I took my [first stab at making gravlax](/writing/2013/making-gravlax-part-1/), a Scandinavian cured salmon dish which I've recently fallen in love with.
 
