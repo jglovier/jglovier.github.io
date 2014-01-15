@@ -1,7 +1,7 @@
 ---
 layout: blogpost
-title: Dat low carb lifestyle
-subhead: How I stopped getting fat by understanding what makes us fat
+title: "Dat low carb lifestyle"
+subhead: "How I stopped getting fat by understanding what makes us fat"
 categories: food
 ---
 
