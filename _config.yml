@@ -1,4 +1,3 @@
-destination:    ./_site
 lsi:            false
 pygments:       true
 exclude:        ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md", "scss"]
