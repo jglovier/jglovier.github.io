@@ -38,7 +38,6 @@
   <link rel="canonical" href="http://joelglovier.com{{ page.url | replace:'index.html','' }}" />
   <link rel="author" href="https://plus.google.com/+JoelGlovier/posts">
   <link href='http://joelglovier.com/feed.xml' rel='alternate' type='application/rss+xml'>
-  <meta property="og:image" content="...">
   <meta name="copyright" content="Joel Andrew Glovier 2013" />
   <meta name="description" content="{{ site.description }}" />
   <meta name="robots" content="index, follow" />
@@ -46,6 +45,9 @@
   <meta name="google-site-verification" content="rfhW_LUYYbZ4kwHGGZqplNsGs5eFB1-H8UEfmF6lE9o" />
   {% if page.redirect %}
   <meta http-equiv="refresh" content="0;url={{ page.redirect }}" />
+  {% endif %}
+  {% if page.categories %}
+  <meta property="og:image" content="http://joelglovier.com/img/ogimgs/{{ page.categories | first }}.jpg" />
   {% endif %}
   <!--[if IE]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

@@ -2,7 +2,7 @@
 layout: blogpost
 title: Why Apple is wealthier than any other company in the world
 subhead: "Spoiler: because they start with user experience and work backward from there"
-categories: business user-experience design
+categories: business user-experience design internets
 hnlink: "https://news.ycombinator.com/item?id=7069730"
 ---
 
