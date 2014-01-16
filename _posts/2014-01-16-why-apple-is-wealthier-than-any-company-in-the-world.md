@@ -41,3 +41,5 @@ Apple - as led by Jobs at least - has been quite content to aim for the share of
 Below is the clip of Jobs I'm talking about. If you have a moment to watch it, do so. If you design or build software - or anything for that matter, you will certainly appreciate his words, and clearly see why Apple has been so successful as a business:
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/FF-tKLISfPE" frameborder="0" allowfullscreen></iframe>
+
+Oh, and dem jeans tho.
