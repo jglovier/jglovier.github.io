@@ -54,6 +54,9 @@
   {% if page.title %}
   <meta property="og:title" content="{{ page.title }}" />
   {% endif %}
+  {% if page.excerpt %}
+  <meta property="og:description" content="{{ page.excerpt | strip_html }}" />
+  {% endif %}
   <meta property="og:author" content="https://www.facebook.com/joelglovier" />
   <meta property="og:site_name" content="Joel Glovier's blog" />
   <!--[if IE]>
