@@ -51,6 +51,12 @@
   {% else %}
   <meta property="og:image" content="http://joelglovier.com/img/ogimgs/default.jpg" />
   {% endif %}
+  {% if page.title %}
+  <meta property="og:title" content="{{ page.title }}" />
+  {% endif %}
+  {% if page.excerpt %}
+  <meta property="og:description" content="{{ page.excerpt }}" />
+  {% endif %}
   <!--[if IE]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
