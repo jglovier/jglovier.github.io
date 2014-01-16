@@ -10,7 +10,7 @@ I randomly ran across a [YouTube clip](http://www.youtube.com/watch?v=FF-tKLISfP
 
 Instead of feeding the troll, what Steve Jobs did was unapologetically articulate the first principle Apple starts with and sticks with when they design products, which ultimately led to the decisions that this particular attendee was so annoyed with. That first principle is **user experience**.
 
-Jobs explained how at Apple, decisions start with designing a customer (i.e. "user") experience that can appeal to anyone, regarless of how well they understand the technical implementations that allow for them to have that experience.
+Jobs explained how at Apple, decisions start with designing a customer (i.e. "user") experience that can appeal to anyone, regardless of how well they understand the technical implementations that allow for them to have that experience.
 
 He also doesn't pretend to understand all of those techincal implementations with 100% accuracy himself, but defers to the fact that decisions such as the one in question don't start with a conversation with the engineers about what the best technology is to use - they start with a conversation about what problems the customers are having and how to solve those problems in a way that will allow the company to sell 8Bn or 9Bn worth of products because *that* is where designing solutions starts: *with understanding the user's pain points, and discovering solutions that the user wants enough to buy the product*.
 
