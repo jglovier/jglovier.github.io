@@ -48,6 +48,8 @@
   {% endif %}
   {% if page.categories %}
   <meta property="og:image" content="http://joelglovier.com/img/ogimgs/{{ page.categories | first }}.jpg" />
+  {% else %}
+  <meta property="og:image" content="http://joelglovier.com/img/ogimgs/default.jpg" />
   {% endif %}
   <!--[if IE]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
