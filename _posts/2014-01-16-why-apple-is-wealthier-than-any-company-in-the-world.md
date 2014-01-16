@@ -2,8 +2,8 @@
 layout: blogpost
 title: Why Apple is wealthier than any other company in the world
 subhead: "Spoiler: because they start with user experience and work backward from there"
-imgclass:
 categories: business user-experience design
+hnlink: "https://news.ycombinator.com/item?id=7069730"
 ---
 
 I randomly ran across a [YouTube clip](http://www.youtube.com/watch?v=FF-tKLISfPE) today of Steve Jobs speaking at WWDC 1997. Specifically, it's his response to an audience member who was allowed to ask a question and chose to troll Jobs about recent Apple decisions to use Java over OpenDoc *(remind you of any other recently-ish [controversial](http://www.apple.com/hotnews/thoughts-on-flash/) [decisions](http://www.theguardian.com/technology/2011/nov/09/adobe-flash-mobile-dead) by Apple?; more importanly, anyone even know what [OpenDoc](http://en.wikipedia.org/wiki/OpenDoc) is? lol)*.
