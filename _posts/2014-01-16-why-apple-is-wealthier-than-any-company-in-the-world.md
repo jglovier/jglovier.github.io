@@ -32,7 +32,7 @@ Apply has understood that it's not making popular decisions, and been okay with 
 
 The strategy Apple used with the Laserwriter is the same strategy that Apple has used time and time again as it conceives of and designs products that are often looked back upon as revolutionary in the space they occupy. Apple has consistenty been in the habbit of asking, "what incredible benefits can we give to our customers", and then designing according to those benefits and experiences, figuring out the technology of how it should work only after the ideal benefit or experience has been envisioned.
 
-It's a strategy that has served Apple well. Apple's market share is far from majority, yet it holds more cash on hand than any other company in the world. So how can a company without majority marketshare even in their own industry be more profitable than it's competitors with more customers?
+It's a strategy that has [served](http://www.theatlantic.com/business/archive/2013/10/apple-has-10-percent-of-all-corporate-cash-and-more-profits-than-the-three-other-biggest-brands-combined/280197/) [Apple](http://money.cnn.com/2012/01/25/technology/thebuzz/) [well](http://bgr.com/2013/10/02/apple-cash-reserves-147-billion-dollars/). Apple's market share is far from majority, yet it holds more cash on hand than any other company in the world. So how can a company without majority marketshare even in their own industry be more profitable than it's competitors with more customers?
 
 Because it's turns out that people are willing to pay well for things that solve their problems well.
 
