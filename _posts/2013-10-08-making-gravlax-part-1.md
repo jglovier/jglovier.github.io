@@ -3,7 +3,9 @@ layout: blogpost
 title: Making Gravlax - Part 1
 imgclass: food
 categories: food life
-redirect_from: /writing/2013/making-gravlax-part-1/
+redirect_from:
+  - /writing/2013/making-gravlax-part-1/
+  - /making-gravlax-part-1/
 ---
 
 <p class="disclaimer">This is Part 1 in my experience on making gravlax. You can read <a href="/writing/making-gravlax-part-2/">Part 2 here</a>.</p>
