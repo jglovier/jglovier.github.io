@@ -75,3 +75,12 @@
   &.jekyll { background-image: image-url("bg-jekyll.jpg"); }
 
 }
+
+// media querie tools
+@mixin bp($screen_width) {
+  @media (max-width: $screen_width) { @content; }
+}
+
+@mixin bp_main {
+  @media (max-width: 1440px) { @content; }
+}
