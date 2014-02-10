@@ -101,3 +101,6 @@ That being said, if you get to where you are actually considering buying bux wit
 So there's all the things I've learned from playing my favorite toilet-time waster the past few months. Normally I don't write about games on my blog, but this game has been sufficiently entertaining that I wanted to share, and it just seemed like a good excuse to practice non-techincal or philosphical writing.
 
 Anyway, let me know [on Twitter](https://twitter.com/jglovier) if you found it helpful.
+
+<blockquote class="twitter-tweet" lang="en"><p>Any other Tiny Death Star addicts out there? Here&#39;s some tips: <a href="http://t.co/m1gWnj6rZ9">http://t.co/m1gWnj6rZ9</a></p>&mdash; Joel Glovier (@jglovier) <a href="https://twitter.com/jglovier/statuses/432993953466417152">February 10, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
