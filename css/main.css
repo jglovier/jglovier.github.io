@@ -605,6 +605,9 @@ a {
   /* line 76, ../scss/includes/_mixins.scss */
   .page-header.jekyll {
     background-image: url('../img/bg-jekyll.jpg?1388774234'); }
+  /* line 79, ../scss/includes/_mixins.scss */
+  .page-header.tinydeathstar {
+    background-image: url('../img/bg-tinydeathstar.jpg?1392069312'); }
   /* line 62, ../scss/includes/_layout.scss */
   .page-header .intro-copy {
     width: 79.59502%;
@@ -1084,6 +1087,9 @@ a {
   /* line 76, ../scss/includes/_mixins.scss */
   .next-article.jekyll {
     background-image: url('../img/bg-jekyll.jpg?1388774234'); }
+  /* line 79, ../scss/includes/_mixins.scss */
+  .next-article.tinydeathstar {
+    background-image: url('../img/bg-tinydeathstar.jpg?1392069312'); }
   /* line 76, ../scss/includes/_blogpost.scss */
   .next-article a {
     color: #fff; }

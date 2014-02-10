@@ -2,7 +2,7 @@
 layout: blogpost
 title: "Tiny Death Star tips"
 subhead: "That's no moon, that's a spacestation."
-imgclass:
+imgclass: tinydeathstar
 categories: gaming
 ---
 
