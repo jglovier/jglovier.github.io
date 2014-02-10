@@ -559,47 +559,50 @@ a {
   .page-header.forks {
     background-image: url('../img/bg-forks.jpg?1388774234'); }
   /* line 58, ../scss/includes/_mixins.scss */
+  .page-header.gaming {
+    background-image: url('../img/bg-gaming.jpg?1392068163'); }
+  /* line 59, ../scss/includes/_mixins.scss */
   .page-header.lightbulb {
     background-image: url('../img/bg-lightbulb.jpg?1388774234'); }
-  /* line 59, ../scss/includes/_mixins.scss */
+  /* line 60, ../scss/includes/_mixins.scss */
   .page-header.markerboard {
     background-image: url('../img/bg-markerboard.jpg?1388774234'); }
-  /* line 60, ../scss/includes/_mixins.scss */
+  /* line 61, ../scss/includes/_mixins.scss */
   .page-header.mountain {
     background-image: url('../img/bg-mountain.jpg?1388774234'); }
-  /* line 61, ../scss/includes/_mixins.scss */
+  /* line 62, ../scss/includes/_mixins.scss */
   .page-header.music {
     background-image: url('../img/bg-music.jpg?1388774234'); }
-  /* line 62, ../scss/includes/_mixins.scss */
+  /* line 63, ../scss/includes/_mixins.scss */
   .page-header.path {
     background-image: url('../img/bg-faith.jpg?1388774234');
     background-position: center 40%; }
-  /* line 65, ../scss/includes/_mixins.scss */
+  /* line 66, ../scss/includes/_mixins.scss */
   .page-header.road {
     background-image: url('../img/bg-road.jpg?1388774234');
     background-position: center bottom; }
-  /* line 68, ../scss/includes/_mixins.scss */
+  /* line 69, ../scss/includes/_mixins.scss */
   .page-header.sky {
     background-image: url('../img/bg-sky.jpg?1388774234'); }
-  /* line 69, ../scss/includes/_mixins.scss */
+  /* line 70, ../scss/includes/_mixins.scss */
   .page-header.speaking {
     background-image: url('../img/bg-speaking.jpg?1388853347'); }
-  /* line 70, ../scss/includes/_mixins.scss */
+  /* line 71, ../scss/includes/_mixins.scss */
   .page-header.ux {
     background-image: url('../img/bg-markerboard.jpg?1388774234'); }
-  /* line 71, ../scss/includes/_mixins.scss */
+  /* line 72, ../scss/includes/_mixins.scss */
   .page-header.worship {
     background-image: url('../img/bg-worship.jpg?1388774234'); }
-  /* line 72, ../scss/includes/_mixins.scss */
+  /* line 73, ../scss/includes/_mixins.scss */
   .page-header.quicktip {
     background-image: url('../img/bg-lightbulb.jpg?1388774234'); }
-  /* line 73, ../scss/includes/_mixins.scss */
+  /* line 74, ../scss/includes/_mixins.scss */
   .page-header.quicktips {
     background-image: url('../img/bg-lightbulb.jpg?1388774234'); }
-  /* line 74, ../scss/includes/_mixins.scss */
+  /* line 75, ../scss/includes/_mixins.scss */
   .page-header.solarsystem {
     background-image: url('../img/bg-solarsystem.jpg?1388774234'); }
-  /* line 75, ../scss/includes/_mixins.scss */
+  /* line 76, ../scss/includes/_mixins.scss */
   .page-header.jekyll {
     background-image: url('../img/bg-jekyll.jpg?1388774234'); }
   /* line 62, ../scss/includes/_layout.scss */
@@ -1035,47 +1038,50 @@ a {
   .next-article.forks {
     background-image: url('../img/bg-forks.jpg?1388774234'); }
   /* line 58, ../scss/includes/_mixins.scss */
+  .next-article.gaming {
+    background-image: url('../img/bg-gaming.jpg?1392068163'); }
+  /* line 59, ../scss/includes/_mixins.scss */
   .next-article.lightbulb {
     background-image: url('../img/bg-lightbulb.jpg?1388774234'); }
-  /* line 59, ../scss/includes/_mixins.scss */
+  /* line 60, ../scss/includes/_mixins.scss */
   .next-article.markerboard {
     background-image: url('../img/bg-markerboard.jpg?1388774234'); }
-  /* line 60, ../scss/includes/_mixins.scss */
+  /* line 61, ../scss/includes/_mixins.scss */
   .next-article.mountain {
     background-image: url('../img/bg-mountain.jpg?1388774234'); }
-  /* line 61, ../scss/includes/_mixins.scss */
+  /* line 62, ../scss/includes/_mixins.scss */
   .next-article.music {
     background-image: url('../img/bg-music.jpg?1388774234'); }
-  /* line 62, ../scss/includes/_mixins.scss */
+  /* line 63, ../scss/includes/_mixins.scss */
   .next-article.path {
     background-image: url('../img/bg-faith.jpg?1388774234');
     background-position: center 40%; }
-  /* line 65, ../scss/includes/_mixins.scss */
+  /* line 66, ../scss/includes/_mixins.scss */
   .next-article.road {
     background-image: url('../img/bg-road.jpg?1388774234');
     background-position: center bottom; }
-  /* line 68, ../scss/includes/_mixins.scss */
+  /* line 69, ../scss/includes/_mixins.scss */
   .next-article.sky {
     background-image: url('../img/bg-sky.jpg?1388774234'); }
-  /* line 69, ../scss/includes/_mixins.scss */
+  /* line 70, ../scss/includes/_mixins.scss */
   .next-article.speaking {
     background-image: url('../img/bg-speaking.jpg?1388853347'); }
-  /* line 70, ../scss/includes/_mixins.scss */
+  /* line 71, ../scss/includes/_mixins.scss */
   .next-article.ux {
     background-image: url('../img/bg-markerboard.jpg?1388774234'); }
-  /* line 71, ../scss/includes/_mixins.scss */
+  /* line 72, ../scss/includes/_mixins.scss */
   .next-article.worship {
     background-image: url('../img/bg-worship.jpg?1388774234'); }
-  /* line 72, ../scss/includes/_mixins.scss */
+  /* line 73, ../scss/includes/_mixins.scss */
   .next-article.quicktip {
     background-image: url('../img/bg-lightbulb.jpg?1388774234'); }
-  /* line 73, ../scss/includes/_mixins.scss */
+  /* line 74, ../scss/includes/_mixins.scss */
   .next-article.quicktips {
     background-image: url('../img/bg-lightbulb.jpg?1388774234'); }
-  /* line 74, ../scss/includes/_mixins.scss */
+  /* line 75, ../scss/includes/_mixins.scss */
   .next-article.solarsystem {
     background-image: url('../img/bg-solarsystem.jpg?1388774234'); }
-  /* line 75, ../scss/includes/_mixins.scss */
+  /* line 76, ../scss/includes/_mixins.scss */
   .next-article.jekyll {
     background-image: url('../img/bg-jekyll.jpg?1388774234'); }
   /* line 76, ../scss/includes/_blogpost.scss */
