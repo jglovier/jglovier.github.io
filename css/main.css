@@ -1409,16 +1409,17 @@ body.category .page-header {
     display: inline-block; }
     /* line 27, ../scss/includes/_category.scss */
     .categories .category-list li > a {
-      background-color: #d3edff;
+      background-color: rgba(211, 237, 255, 0.4);
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
       -ms-border-radius: 5px;
       -o-border-radius: 5px;
       border-radius: 5px;
-      padding: 2px 10px;
+      padding: 0 8px;
       display: inline-block;
-      margin: 0 2px 10px; }
-    /* line 34, ../scss/includes/_category.scss */
+      margin: 0 2px 8px;
+      font-weight: 300; }
+    /* line 35, ../scss/includes/_category.scss */
     .categories .category-list li:hover {
       opacity: .75; }
 

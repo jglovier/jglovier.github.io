@@ -25,11 +25,12 @@ body.category {
       display: inline-block;
 
       > a {
-        background-color: $blue_l3;
+        background-color: rgba($blue_l3, .4);
         @include border-radius(5px);
-        padding: 2px 10px;
+        padding: 0 8px;
         display: inline-block;
-        margin: 0 2px 10px; }
+        margin: 0 2px 8px;
+        font-weight: 300; }
 
       &:hover { opacity: .75; }
 
