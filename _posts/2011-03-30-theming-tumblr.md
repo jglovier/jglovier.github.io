@@ -2,6 +2,9 @@
 layout: blogpost
 title: Theming Tumblr
 categories: code
+redirect_from:
+  - /writing/2011/theming-tumblr/
+  - /theming-tumblr/
 ---
 
 <p class="disclaimer">EDIT: This blog is no longer on Tumblr. I've moved to a static Jekyll powered site for the blog.</p>
