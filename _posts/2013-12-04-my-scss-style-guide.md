@@ -4,6 +4,9 @@ title: My SCSS style guide
 subhead: "This is how I roll, animal print, pants outta control"
 hnlink: "https://news.ycombinator.com/item?id=7023041"
 categories: code css sass
+redirect_from:
+  - /writing/2013/my-scss-style-guide/
+  - /my-scss-style-guide/
 ---
 
 One of the beauties of authoring code is that apart from basic syntax rules, formatting is flexible. But, we all know there are best practices for helping make certain code more readable, and more friendly for collaborator environments.
