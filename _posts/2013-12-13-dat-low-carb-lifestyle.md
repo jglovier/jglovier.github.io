@@ -3,6 +3,9 @@ layout: blogpost
 title: "Dat low carb lifestyle"
 subhead: "How I stopped getting fat by understanding what makes us fat"
 categories: food
+redirect_from:
+  - /writing/2013/dat-low-carb-lifestyle/
+  - /dat-low-carb-lifestyle/
 ---
 
 I'm a naturally athletic person. But I'm not a naturally fit person. There's a difference.
