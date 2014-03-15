@@ -2,6 +2,9 @@
 layout: blogpost
 title: Wordpress QuickTip - Custom Post Type Single.php
 categories: code wordpress
+redirect_from:
+  - /writing/2012/wordpress-quicktip-custom-post-type-single-php/
+  - /wordpress-quicktip-custom-post-type-single-php/
 ---
 
 <p>So I'm developing a Wordpress powered site for a client, and I'm using Wordpress custom post-types to power different sections on the site, like a job board.</p>
