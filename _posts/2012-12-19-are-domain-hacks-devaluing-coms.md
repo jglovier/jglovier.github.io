@@ -3,6 +3,9 @@ layout: blogpost
 title: Are Domain Hacks Devaluing .COMs?
 hnlink: "https://news.ycombinator.com/item?id=7024146"
 categories: business
+redirect_from:
+  - /writing/2012/are-domain-hacks-devaluing-coms/
+  - /are-domain-hacks-devaluing-coms/
 ---
 
 Long gone are the days of the [Dot-com boom](http://en.wikipedia.org/wiki/Dot-com_bubble). And yet, premium dot-com domain names still go for tens of thousands of dollars.
