@@ -3,6 +3,9 @@ layout: blogpost
 title: Leaving CURE, but staying involved.
 imgclass: road
 categories: life
+redirect_from:
+  - /writing/2012/leaving-cure-but-staying-involved/
+  - /leaving-cure-but-staying-involved/
 ---
 
 <p class="disclaimer">An open note to my colleagues, family, and friends:</p>
