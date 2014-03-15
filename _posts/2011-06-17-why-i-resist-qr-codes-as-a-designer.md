@@ -2,6 +2,9 @@
 layout: blogpost
 title: Why I resist QR codes as a Designer
 categories: marketing
+redirect_from:
+  - /writing/2011/why-i-resist-qr-codes-as-a-designer/
+  - /why-i-resist-qr-codes-as-a-designer/
 ---
 
 <a href="http://ow.ly/5kH78" target="_blank"><img src="http://qrcode.kaywa.com/img.php?s=12&d=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dt1kApnsayeQ" alt="qrcode" width="160" class="left"  /></a>
