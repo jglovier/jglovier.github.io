@@ -39,3 +39,5 @@ Being the best, making the best, striving for the best requires effort, attentio
 Laziness is the enemey of making things the best they can be. If we are to practice laziness, let's at least not try to hide it under the guise of busyness. And let's certainly not pretend that busyness is a virtue unto itself, as if it is the opposite of laziness.
 
 Busyness is not the opposite of laziness. Diligence is the opposite of laziness. Let's press ever forward in diligence, aspiring to tend to both the things we are excited to do, and the things which we dread or bore to do, yet are nonetheless important.
+
+>A lazy person doesn't even bother to cook what he's hunted; but diligence itself is a precious posession. - Proverbs 12:27
