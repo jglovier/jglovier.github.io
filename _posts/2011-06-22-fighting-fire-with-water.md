@@ -2,6 +2,9 @@
 layout: blogpost
 title: Fighting Fire with Water
 categories: faith
+redirect_from:
+  - /writing/2011/fighting-fire-with-water/
+  - /fighting-fire-with-water/
 ---
 
 <p>We've all heard the expression <em>"fight fire with fire."</em> It's an interesting phrase that comes from the strategy that firemen who fight forest fires sometimes have to use in order to combat huge forest fires - they actually start a controlled burn around the fire to remove it's fuel by the time it gets there. It's a brilliant strategy.</p>
