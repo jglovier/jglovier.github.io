@@ -2,6 +2,9 @@
 layout: blogpost
 title: DuckDuckGo and "Zero-click" search
 categories: internets
+redirect_from:
+  - /writing/2012/duckduckgo-and-zero-click-search/
+  - /duckduckgo-and-zero-click-search/
 ---
 
 <p class="disclaimer">Disclaimer: This morning I received an email from Stickermule offering a free set of DuckDuckGo stickers to the first 100 people who wrote about the Stickermule/DuckDuckGo store. I'm a sucker for free stickers (don't like to have a naked Macbook), so here it is...</p>
