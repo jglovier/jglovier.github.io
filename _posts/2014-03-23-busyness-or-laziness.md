@@ -36,6 +36,6 @@ The answer is I'll likely have good code, but it won't be the best it can be. An
 
 Being the best, making the best, striving for the best requires effort, attention to detail, and a commitment to meticulously seeing things through to their full end. To be honest, it requires obsession. What it does not require, is busyness.
 
-Laziness is the enemey of making things the best they can be. If we are to practice laziness, let's at least not try to hide it under the guise of busyness.
+Laziness is the enemey of making things the best they can be. If we are to practice laziness, let's at least not try to hide it under the guise of busyness. And let's certainly not pretend that busyness is a virtue unto itself, as if it is the opposite of laziness.
 
-But how about let's just not practice laziness.
+Busyness is not the opposite of laziness. Diligence is the opposite of laziness. Let's press ever forward in diligence, aspiring to tend to both the things we are excited to do, and the things which we dread or bore to do, yet are nonetheless important.
