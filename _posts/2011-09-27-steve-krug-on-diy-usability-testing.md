@@ -5,6 +5,9 @@ postLink: http://www.netmagazine.com/interviews/in-depth/steve-krug-diy-usabilit
 postLinkText: Steve Krug on DIY Usability Testing
 imgclass: externaldrive
 categories: design
+redirect_from:
+  - /writing/2011/steve-krug-on-diy-usability-testing/
+  - /steve-krug-on-diy-usability-testing/
 ---
 
 <p>Excellent advice from the man who <a href="http://www.amazon.com/Dont-Make-Me-Think-Usability/dp/0321344758">wrote the book</a> (literally) on web usability. In this article he advocates for DIY usability testing when you can't afford to hire a usability expert (and who can anyway?!).</p>
