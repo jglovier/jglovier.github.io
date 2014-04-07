@@ -34,7 +34,7 @@ layout: home
           </ul>
         </div>
 
-        <div id="articles2013" class="articles">
+        <div id="articles2013" class="articles show">
           <ul class="article-index list-2013">
             {% for post in site.posts %}
               {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -50,7 +50,7 @@ layout: home
           </ul>
         </div>
 
-        <div id="articles2012" class="articles">
+        <div id="articles2012" class="articles show">
           <ul class="article-index list-2012">
             {% for post in site.posts %}
               {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -66,7 +66,7 @@ layout: home
           </ul>
         </div>
 
-        <div id="articles2011" class="articles">
+        <div id="articles2011" class="articles show">
           <ul class="article-index list-2011">
             {% for post in site.posts %}
               {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
