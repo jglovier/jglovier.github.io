@@ -2,6 +2,13 @@ $(function(){
 
   // Homepage | section.writing | article nav behavior
   // NOTE: this code is mad ghetto and in no wise to be held up as a standard of JavaScript brilliance; so sorry bout that; but It Works™
+  $("#articlesAllTrigger").on("click", function(event){
+    event.preventDefault();
+    $(".article-nav .year").removeClass("showing");
+    $(this).addClass("showing");
+    $("div.articles").addClass("show");
+  });
+
   $("#articles2014Trigger").on("click", function(event){
     event.preventDefault();
     $(".article-nav .year").removeClass("showing");
@@ -32,13 +39,6 @@ $(function(){
     $(this).addClass("showing");
     $("div.articles").removeClass("show");
     $("#articles2011").addClass("show");
-  });
-
-  $("#articlesAllTrigger").on("click", function(event){
-    event.preventDefault();
-    $(".article-nav .year").removeClass("showing");
-    $(this).addClass("showing");
-    $("div.articles").addClass("show");
   });
 
 });
