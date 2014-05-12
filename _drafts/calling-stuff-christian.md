@@ -6,11 +6,11 @@ permalink:
 categories: faith
 ---
 
-Recently I saw somebody tweet something about “top 10 Christian cartoons.” My first reaction was to ignore it completely. My next thought was, “why do I typically ignore stuff when it’s labeled ‘Christian’?”
+Recently I saw a tweet about “top 10 Christian cartoons.” My first reaction was to ignore it completely. My next thought was, “why do I typically ignore stuff when it’s labeled ‘Christian’?”
 
-I have a very good answer that has nothing to do with being ashamed of my own faith, the Gospel, or Jesus. I stand boldly for those things.
+I have a very good answer that has nothing to do with being ashamed of my own faith, the Gospel, or Jesus. I stand boldly for those things, but often when I see something labeled "Christian" I cringe a little bit inside.
 
-But the reason I instinctively ignore just about anything that slaps the word “Christian” before it is because I've found that typically it is a complete misuse of the word as an adjective for the noun to which it is being ascribed.
+The reason I instinctively ignore just about anything that slaps the word “Christian” before it is because I've found that typically it is a complete misuse of the word as an adjective for the noun to which it is being ascribed.
 
 There are only a very select group of things that can appropriately be labeled “Christian”, and it does not include the following cliche religious objects:
 
@@ -58,3 +58,7 @@ source: https://www.barna.org/barna-update/faith-spirituality/611-christians-mor
 *(Conclusion paragraph)*
 
 Whether the motives are pure, or more nefarious, using the term "Christian" to refer to anything other than people who are Jesus followers does a disservice to everybody. Let's just stop it.
+
+---
+reference:
+http://faithlikes.com/2014/04/05/this-is-why-switchfoot-wont-sing-christian-songs-anymore/
