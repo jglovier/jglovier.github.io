@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: Lessons learned from checking baggage
+subhead: Or, multiple points of success
 categories: design user-experience
 ---
 
