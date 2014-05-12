@@ -4,7 +4,11 @@ title: Lessons learned from checking baggage
 categories: design user-experience
 ---
 
-It's no secret that airlines have been trying to push their profit margin and increase ticket sales at the same time by a relatively common practice where travelers must pay an extra fee to check bags. Many travelers can get away with bringing only a carry on bag, and those who don't are often traveling on their company's dime, and don't have to think about the extra cost anyway. So as a whole the market has decided this practice can continue. No harm, no foul.
+It's no secret that airlines have been trying to push their profit margin and increase ticket sales at the same time by a relatively common practice where travelers must pay an extra fee to check bags. Many travelers can get away with bringing only a carry on bag, and those who don't are often traveling on their company's dime so don't have to think about the extra cost anyway.
+
+So, as a whole, the market has decided this practice can continue. No harm, no foul.
+
+## Delta and United: a personal story
 
 I used to travel Delta out of my small, local airport in Harrisburg, Pennsylvania. Delta has long offered what I feel is a quality service, worth the normally higher fare than other airlines. They were one of the first companies to offer an excellent mobile app, they've had newer planes, they had a credit card that allowed me to check bags for free and get priority boarding, and it's where my status was.
 
