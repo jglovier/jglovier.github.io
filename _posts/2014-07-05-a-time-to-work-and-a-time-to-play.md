@@ -54,9 +54,9 @@ What if when I apply myself to something fun, or recreational, I allowed it to b
 
 ## The Dead Sea
 
-Growing up I remember hearing an illustration that stuck with me. The illustration described a body of water that has a source, but no outlet. According to this analogy, such a body of water cannot sustain life. However, a pond with both a source and an outlet can have a flourishing ecosystem.
+I once heard an illustration that really stuck with me. The illustration describes a body of water that has a source, but no outlet, and according to this analogy, such a body of water cannot sustain life. However, a pond with both a source and an outlet can have a flourishing ecosystem.
 
-The point of the illustration is that we must not be only receivers, but we must also be givers.
+The point of the illustration is that if we are to flourish in life - both for our own benefit and for the benefit of those we have the priviledge of being in relationships with - we must not only be receivers, but we must also be givers.
 
 The reverse is also true. The idea that we can constantly output without a sufficient source of input is just as crazy as thinking we can go through life taking and never giving back.
 
@@ -66,19 +66,24 @@ My suspicion is that for many of us, not enough output is not our problem. Many 
 
 ## Easier Said Than Done
 
-Such a simple problem with such a simple answer and yet so complex.
+Such a simple problem with such a simple answer, and yet so complex.
 
-The question is, "*what things in my life fill me up proportionately to how I am spent on the things which take a toll on me?*" Or in other words, "*What refuels me?*"
+The question we must answer is, "*what things in my life fill me up proportionately to how I am spent on the things which take a toll on me?*" Or in other words, "*What refuels me?*"
 
-Answering such a question requires: 1) an acknowledgement of how much I spend myself daily, 2) an understanding of what measure I am spent, and 3) an understanding of what fills me up.
+Answering such a question requires:
+1. an acknowledgement of how much I spend myself daily
+2. an understanding of what measure I am spent
+3. an understanding of what fills me up.
 
-But a more simple way to look at it is to ask, "*What do I enjoy doing or like to think about when I'm not consumed with work?*"
+An even more simple way to look at it is to just ask, "*What do I enjoy doing or like to think about when I'm not consumed with work?*"
 
-For me it is quality time with my wife and kids, it is meditating on God and matters of faith, it is playing my SNES emulator, working on illustrations for my next tattoo, cooking dinner with the neighbors, and a handful of other things. For other people it might be coffee and a good book, rock climbing with friends, working on an engine, or crafting something with your hands.
+For me it is quality time with my wife and kids, it is meditating on God and matters of faith, it is playing my SNES emulator, working on illustrations for my next tattoo, writing blog posts, cooking dinner with the neighbors, and a handful of other things.
 
-Sometimes the lines blur a little. And that is okay.
+For other people it might be coffee and a good book, rock climbing with friends, working on an engine, or crafting something with your hands. The things that refuel us look different for each person.
 
-What refreshes you from your daily grind may look like work to someone else. But what's important is that you are stimulating a different part of your mind and using creative energy.
+And sometimes the lines blur a little, and that is okay. What refreshes you from your daily grind may look like work to someone else.
+
+What's important is that you are stimulating a different part of your mind and using creative energy that you don't normally get to engage in the course of where you are spending yourself.
 
 ## What And Who
 
