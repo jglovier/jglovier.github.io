@@ -9,9 +9,9 @@ categories:
 
 Design is not a feature.
 
-Some people treat design like it's a feature of their product. As in, "It has X, it can, Y, and it's looks great!" They tack design onto the end of a feature list as though having something that is well designed is just another feature in a list of positive aspects of the product.
+Some people treat design like it's a feature of their product. As in, "It has X, it can Y, and it's looks great!" They tack design onto the end of a feature list as though having something that is well designed is just another feature in a list of positive aspects of the product.
 
-To be fair, that is a legit aspect of design. But it's only one aspect of design (design as a feature), and to be FULLY fair it's an imcomplete perspective of design.
+To be fair, that is a legit aspect of design. But it's only one aspect of design (design as a feature), and to be FULLY fair it's an incomplete perspective of design.
 
 True design is is far more than a feature, it's about the way you approach what you are building in the first place.
 
