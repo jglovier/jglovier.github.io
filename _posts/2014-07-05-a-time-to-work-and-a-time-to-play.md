@@ -12,37 +12,45 @@ I grew up with parents who believed in a hard work ethic. They put everything th
 
 ## All Work And No Play
 
-As much as I admire and respect my parents for their work ethic, I knew they were not perfect people. Sometimes that dedication to work seemed to go too far. There were times when I wished my parents simply didn't work so much, both selfishly because I wished they were around more, and out of concern for them.
+As much as I admire and respect my parents for their work ethic, I also realized they were not perfect people. Sometimes that dedication to work seemed to go too far. There were times when I wished my parents simply didn't work so much, both selfishly because I wished they were around more, and also out of concern for their own well being.
 
-Ironically enough now, as an adult, I've found myself in that familiar scenario of being drawn toward working more than may be healthy, and also wishing I had not been so quick to judge my parents for similar behavior.
+Ironically enough now, as an adult, I've found myself in that familiar scenario of being drawn toward working more than may be healthy, and also wishing I had not been so quick to judge my parents for similar tendencies!
 
-But, I love what I do, and my work is more than just a job to me. It's a calling - I have a passion for honing my skills and putting my talents to work to do good in the world.
+But I love what I do, and my work is more than just a job to me. It's a calling - I have a passion for honing my skills and putting my talents to work to do good in the world.
 
-Still I find my natural tendency is to work more than is healthy. I struggle with finding that mythical unicorn thing called "work/life balance". I certainly believe in working hard and being diligent, yet I struggle to strike a balance between a healthy level of hard work, and being consumed with my work to the detriment of myself and those around me who need my attention (a.k.a. my family).
+And yet I find my natural tendency is to work more than is healthy. I struggle with finding that mythical unicorn called "work/life balance".
+
+I certainly believe in working hard and being diligent, yet I often fail to strike a balance between a healthy level of hard work, and being consumed with my work to the detriment of myself and those around me who need my attention (a.k.a. my family).
 
 ## A Balance There Must Be
 
 "Why can't I just work all the time?"
 
-I'd never actually say that, but my behavioral patterns reflect that that question is very much alive within me. Maybe I think that if I'd simply work more, I'd be more successful. Or that work is really the most important part of life.
+I'd never actually say that, but my behavioral patterns reflect that that question is very much alive within me.
 
-Diligence is certainly a critical component to success, but so is efficiency. Diligence without efficiency leads to mechanical failure.
+Maybe I think that if I'd simply work more, I'd be more successful. Or that work is really the most important part of life.
 
-We humans really are complex, living machines. From intellectual capacity, to cellular structure - any biologist will testify that the human body is one of the most brilliant feats of engineering on planet earth.
+While diligence is certainly a critical component to success, so is efficiency. Diligence without efficiency leads to mechanical failure.
 
-But, we are engineered for more than just work. And even machines built solely for work have their limits. As holistic beings when we lack balance we tend to suck in those overworked areas, not excel. Research has shown that people who work less can actually be more productive, so balance is a critical part of productivity.
+Human beings are like complex, living machines. From intellectual capacity, to cellular structure - any biologist will testify that the human body is one of the most brilliant specimens of engineering on planet earth.
+
+But we are engineered for more than just work. And even machines built solely for work have their limits. As holistic beings when we lack balance we tend to suck in those overworked areas, not excel. Research has shown that people who work less can actually be more productive, so balance is a critical part of productivity.
 
 ## Play Time
 
 In many non-western cultures, leisure and recreation are regarded quite differently than in America.
 
-Don't get me wrong - when we play, we play hard. But that is exactly my point. We often treat fun and recreation as just another thing to accomplish, to perfect, to compete at and to excel at. We treat it like work.
+Don't get me wrong - when we play, we play hard.
 
-Recently I was talking with a friend and about some of the deeper things of life that I had been struggling with. In the midst of my attempt to discern the correct course of action he reminded me of something I had not much considered. He reminded me that, "sometimes the journey is more important than the destination."
+But that is exactly my point. We often treat fun and recreation as just another thing to accomplish, to perfect, to compete at, and to excel at. In other words, we treat it like work.
 
-It's a reality that I'd certainly heard before, but somehow never taken very seriously. I started to think, what if I really took that advice to heart? What would it look like?
+Recently I was talking with a friend about some of the deeper things of life. In the midst of my attempt to discern the correct course of action in a certain scenario, he reminded me of something I had not truly considered. He reminded me that, "sometimes the journey is more important than the destination."
 
-What if I stopped always focusing so hard on results, and allowed space in my thinking, in my emotions, and in my behavior for the process to be just as important as the result? What if when I apply myself to something fun, or recreational, I allowed it to be the refreshing, refueling, inspiring thing that it is in that moment when I'm doing it, rather than being so focused on the end result that I do not truly experience it?
+It's a reality that I'd certainly heard before, but somehow never taken to heart. I started to think, what if I  truly took that perspective seriously? What if I actually valued my experience as much as the result of it?
+
+What if I stopped always focusing so hard on results, and allowed space in my thinking, in my emotions, and in my behavior for the process to be just as important as the result?
+
+What if when I apply myself to something fun, or recreational, I allowed it to be the refreshing, refueling, inspiring thing that it is in that moment when I'm doing it, rather than being so focused on the end result that I do not truly experience it?
 
 ## The Dead Sea
 
