@@ -6,17 +6,19 @@ imgclass: cultivating
 categories: life
 ---
 
-Growing up, I often heard people I respect say, "trust God, and work hard." That saying saying epitomizes the American dream: the idea that with a combination of hard work and providence we can accomplish whatever we set out to do.
+Growing up, I often heard people I respect say, "trust God, and work hard." That saying epitomizes the American dream: the idea that with a combination of hard work and providence we can accomplish whatever we set out to do.
 
 I grew up with parents who believed in a hard work ethic. They put everything they had into their work. My mom was a kindergarten teacher, and my dad was a chemist. But to them, their jobs were far more than just a paycheck - they were a calling - a venue at which to spend themselves in the service of others. And over the years I watched as they spent themselves fully on their work.
 
 ## All Work And No Play
 
-As much as I admire and respect my parents for their work ethic, still they weren't perfect people. Sometimes that dedication to work seemed to go too far. There were times when I wished my parents simply didn't work so much, both selfishly and out of concern.
+As much as I admire and respect my parents for their work ethic, I knew they were not perfect people. Sometimes that dedication to work seemed to go too far. There were times when I wished my parents simply didn't work so much, both selfishly because I wished they were around more, and out of concern for them.
 
-Ironically enough now, as an adult, I've found myself in that familiar scenario. I love what I do, and my work is more than just a job to me. It's a calling - I have a passion for honing my skills and putting my talents to work to do good in the world.
+Ironically enough now, as an adult, I've found myself in that familiar scenario of being drawn toward working more than may be healthy, and also wishing I had not been so quick to judge my parents for similar behavior.
 
-But often I find my natural tendency is to work more than is healthy. I struggle with that thing called "work/life balance". I certainly believe in working hard and being diligent, yet I struggle to strike a balance between a healthy level of hard work, and being consumed with my work to the detriment of myself and those around me who need my attention (a.k.a. my family).
+But, I love what I do, and my work is more than just a job to me. It's a calling - I have a passion for honing my skills and putting my talents to work to do good in the world.
+
+Still I find my natural tendency is to work more than is healthy. I struggle with finding that mythical unicorn thing called "work/life balance". I certainly believe in working hard and being diligent, yet I struggle to strike a balance between a healthy level of hard work, and being consumed with my work to the detriment of myself and those around me who need my attention (a.k.a. my family).
 
 ## A Balance There Must Be
 
