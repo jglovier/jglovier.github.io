@@ -16,7 +16,7 @@ As much as I admire and respect my parents for their work ethic, I also realized
 
 Ironically enough now, as an adult, I've found myself in that familiar scenario of being drawn toward working more than may be healthy, and also wishing I had not been so quick to judge my parents for similar tendencies!
 
-But I love what I do, and my work is more than just a job to me. It's a calling - I have a passion for honing my skills and putting my talents to work to do good in the world.
+I love what I do, and my work is more than just a job to me. It's a calling - I have a passion for honing my skills and putting my talents to work to do good in the world.
 
 And yet I find my natural tendency is to work more than is healthy. I struggle with finding that mythical unicorn called "work/life balance".
 
