@@ -1,0 +1,2999 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"blue_",
+				"blue_l1"
+			],
+			[
+				"blue",
+				"blue_l2"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"rig",
+				"right"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"le",
+				"left"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".ruby-version",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/a-github-based-workflow-for-shopify.md",
+			"settings":
+			{
+				"buffer_size": 719,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/redirects-in-jekyll.md",
+			"settings":
+			{
+				"buffer_size": 461,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/minimizing-http-requests.md",
+			"settings":
+			{
+				"buffer_size": 3468,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/emoji-in-photoshop.md",
+			"settings":
+			{
+				"buffer_size": 253,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/generating-link-to-next-article-with-jekyll.md",
+			"settings":
+			{
+				"buffer_size": 2151,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/what-ive-learned-from-selling-tshirts-to-developers.md",
+			"settings":
+			{
+				"buffer_size": 4062,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "_drafts/running-a-successful-kickstarter-campaign-md",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/calling-stuff-christian.md",
+			"settings":
+			{
+				"buffer_size": 5011,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/learning-resources.md",
+			"settings":
+			{
+				"buffer_size": 6187,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2013-10-11-making-gravlax-part-2.md",
+			"settings":
+			{
+				"buffer_size": 5585,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2013-10-08-making-gravlax-part-1.md",
+			"settings":
+			{
+				"buffer_size": 5953,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2012-01-06-faith-like-a-child-or-dependence-like-a-child.md",
+			"settings":
+			{
+				"buffer_size": 4161,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/solitude.md",
+			"settings":
+			{
+				"buffer_size": 729,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/running-a-successful-kickstarter-campaign.md",
+			"settings":
+			{
+				"buffer_size": 18506,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/kickstarter-post-outline.md",
+			"settings":
+			{
+				"buffer_size": 1690,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/why-there-is-so-much-money-in-software-design.md",
+			"settings":
+			{
+				"buffer_size": 2030,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/culture-wars.md",
+			"settings":
+			{
+				"buffer_size": 1588,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/simplification-vs-abstraction.md",
+			"settings":
+			{
+				"buffer_size": 1451,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/design-is-a-strategy.md",
+			"settings":
+			{
+				"buffer_size": 1290,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/design-is-a-descipline.md",
+			"settings":
+			{
+				"buffer_size": 426,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/secular-vs-sacred.md",
+			"settings":
+			{
+				"buffer_size": 324,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/smart-vs-good.md",
+			"settings":
+			{
+				"buffer_size": 386,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/mental-context-switching.md",
+			"settings":
+			{
+				"buffer_size": 158,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/being-part-of-something-bigger.md",
+			"settings":
+			{
+				"buffer_size": 430,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/disagreeing-well.md",
+			"settings":
+			{
+				"buffer_size": 597,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_drafts/things-ive-learned-at-github.md",
+			"settings":
+			{
+				"buffer_size": 1942,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 100,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 139.0,
+		"selected_items":
+		[
+			[
+				"project",
+				"Project: Save As"
+			]
+		],
+		"width": 360.0
+	},
+	"console":
+	{
+		"height": 162.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/in-defense-of-photoshop.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/looking-back-at-2013.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/scss/includes/_category.scss",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/scss/includes/_layout.scss",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_includes/header/blogpost.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_config.yml",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/index.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/scss/includes/_mq.scss",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_layouts/category.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/scss/includes/_page404.scss",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_includes/head.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/about/index.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/gifs/index.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/scss/includes/_variables.scss",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/scss/includes/_mixins.scss",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_layouts/blogpost.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_includes/categories.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_layouts/home.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/scss/includes/_base.scss",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_posts/2014-02-10-tiny-death-star-tips.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/writing/gaming/index.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/2014-02-10-tiny-death-star-tips.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/tiny-death-star-tips.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_includes/closing-tags.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/scss/main.scss",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_posts/2014-01-16-why-apple-is-wealthier-than-any-company-in-the-world.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_posts/2014-01-04-five-simple-goals-for-2014.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/five-simple-goals-for-2014/index.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_posts/2013-10-11-making-gravlax-part-2.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_posts/2013-10-08-making-gravlax-part-1.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_posts/2014-01-16-why-apple-has-more-money-than-any-company-in-the-world.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/writing/user-experience/index.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/why-apple-has-more-money-than-any-company-in-the-world.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_includes/footer.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/Gemfile",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/wallpaper/hellenic-a-black/index.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/wallpaper/hellenic-a/index.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/wallpaper/relationships/index.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/wallpaper/hacker/index.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/siui/index.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/wallpaper/freelancer/index.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/frontendconf/index.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/fonts/dubfresh/index.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/fonts/index.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_posts/2013-12-13-dat-low-carb-lifestyle.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/writing/sass/index.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/writing/design/index.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_posts/2013-12-4-my-scss-style-guide.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/wallpaper/dubfresh/index.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/wallpaper/index.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_posts/2013-12-23-sitemaps-for-jekyll-sites.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_layouts/page404.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/404.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/404.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_includes/header/404.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/asking-the-right-questions.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_includes/header/page.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_includes/header/home.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/scss/includes/_home.scss",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/quick-tip-breaking-a-favicon-cache-with-a-query-string.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/scss/includes/_about.scss",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/scss/includes/_blogpost.scss",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_posts/2012-12-19-are-domain-hacks-devaluing-coms.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_includes/next-article.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_posts/2014-1-4-five-simple-goals-for-2014.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/on-building-what-you-design.md",
+		"/Users/joelglovier/Library/Application Support/Sublime Text 2/Packages/CSScomb/README.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/js/site.js",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/devtees-big-cartel-shopify.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/README.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_layouts/about.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/CNAME",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/css/main.css",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_layouts/elsewhere.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/scss/includes/_page.scss",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_layouts/page.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_includes/header_blogpost.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_includes/header_404.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_includes/header",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_includes/header_page.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_includes/header_about.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/hacc/index.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_includes/header_home.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/about/index.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_includes/about/background.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_includes/site-nav.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_includes/elsewhere.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/why-i-switched-from-wordpress-to-tumblr.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/how-two-years-at-a-nonprofit-made-me-better-at-what-i-do.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/fascinated-by-silly-little-things.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/making-vs-creating.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/design-is-a-descipline.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/waiting-for-sex-until-marriage.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/overcomplicating-faith.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_posts/2013-11-12-improving-site-performance.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_posts/2013-12-20-rss-for-jekyll.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/index.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/learning-resources.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/great-design-involves-psychology.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/design-is-a-strategy.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/should-you-go-to-college.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/oocss-and-smacss.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/display-none-vs-visability-hidden.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/login-vs-signin.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/sitemap.xml",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_posts/sitemaps-for-jekyll-sites.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/generating-a-sitemap-with-jekyll.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_site/sitemap.xml",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_posts/2011-04-26-css-hack-for-creating-superscript.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/rss-for-jekyll.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/feed.xml",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/its-been-a-busy-year.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_site/feed.xml",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/typography.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/saying-no.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/why-im-a-feminist.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/my-tattoo-grace-and-truth.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/what-we-say-about-god-vs-what-he-says-about-himself.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/my-css-styleguide.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/hosting-your-site-for-free-with-github-pages.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/snap-a-jekyll-theme.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_posts/2013-12-13-dat-lowcarb-lifestyle.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_posts/2013-12-13-going-carb-free.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/going-carb-free.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/_drafts/christian-charity.md",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/wallpaper/popularity/index.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/good-news/index.html",
+		"/Users/joelglovier/code/github-jglovier/jglovier.github.io/hacc/2011/spring/web-authoring/index.html"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<current file>",
+			"*.scss",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"•",
+			"bucks",
+			".categories",
+			"header",
+			"</p>",
+			"<p>",
+			"#",
+			"span",
+			"}",
+			"{",
+			"highlight",
+			")",
+			"<p>",
+			"p",
+			"class=\"callout\"",
+			"div",
+			"deep_merge",
+			"foo",
+			"previous",
+			"filet",
+			"X",
+			"13",
+			"e30a0a",
+			"d4494f",
+			"X",
+			"<li>",
+			"</p>",
+			"</code>",
+			"<code>",
+			"pn",
+			"url",
+			"X",
+			"#"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"bux"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".ruby-version",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 26,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "_drafts/a-github-based-workflow-for-shopify.md",
+					"settings":
+					{
+						"buffer_size": 719,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								719,
+								719
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_drafts/redirects-in-jekyll.md",
+					"settings":
+					{
+						"buffer_size": 461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								461,
+								461
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_drafts/minimizing-http-requests.md",
+					"settings":
+					{
+						"buffer_size": 3468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								184,
+								184
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_drafts/emoji-in-photoshop.md",
+					"settings":
+					{
+						"buffer_size": 253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								253,
+								253
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_drafts/generating-link-to-next-article-with-jekyll.md",
+					"settings":
+					{
+						"buffer_size": 2151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2151,
+								2151
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_drafts/what-ive-learned-from-selling-tshirts-to-developers.md",
+					"settings":
+					{
+						"buffer_size": 4062,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "_drafts/running-a-successful-kickstarter-campaign-md",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "_drafts/calling-stuff-christian.md",
+					"settings":
+					{
+						"buffer_size": 5011,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "_drafts/learning-resources.md",
+					"settings":
+					{
+						"buffer_size": 6187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "_posts/2013-10-11-making-gravlax-part-2.md",
+					"settings":
+					{
+						"buffer_size": 5585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								494,
+								494
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "_posts/2013-10-08-making-gravlax-part-1.md",
+					"settings":
+					{
+						"buffer_size": 5953,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								172,
+								172
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "_posts/2012-01-06-faith-like-a-child-or-dependence-like-a-child.md",
+					"settings":
+					{
+						"buffer_size": 4161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								247,
+								247
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "_drafts/solitude.md",
+					"settings":
+					{
+						"buffer_size": 729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "_drafts/running-a-successful-kickstarter-campaign.md",
+					"settings":
+					{
+						"buffer_size": 18506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "_drafts/kickstarter-post-outline.md",
+					"settings":
+					{
+						"buffer_size": 1690,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "_drafts/why-there-is-so-much-money-in-software-design.md",
+					"settings":
+					{
+						"buffer_size": 2030,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "_drafts/culture-wars.md",
+					"settings":
+					{
+						"buffer_size": 1588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "_drafts/simplification-vs-abstraction.md",
+					"settings":
+					{
+						"buffer_size": 1451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "_drafts/design-is-a-strategy.md",
+					"settings":
+					{
+						"buffer_size": 1290,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "_drafts/design-is-a-descipline.md",
+					"settings":
+					{
+						"buffer_size": 426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "_drafts/secular-vs-sacred.md",
+					"settings":
+					{
+						"buffer_size": 324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "_drafts/smart-vs-good.md",
+					"settings":
+					{
+						"buffer_size": 386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "_drafts/mental-context-switching.md",
+					"settings":
+					{
+						"buffer_size": 158,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "_drafts/being-part-of-something-bigger.md",
+					"settings":
+					{
+						"buffer_size": 430,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "_drafts/disagreeing-well.md",
+					"settings":
+					{
+						"buffer_size": 597,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "_drafts/things-ive-learned-at-github.md",
+					"settings":
+					{
+						"buffer_size": 1942,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 100,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								99,
+								99
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.443474133901,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.markdown":
+	{
+		"height": 132.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"things",
+				"_drafts/things-ive-learned-at-github.md"
+			],
+			[
+				"disa",
+				"_drafts/disagreeing-well.md"
+			],
+			[
+				"being-part",
+				"_drafts/being-part-of-something-bigger.md"
+			],
+			[
+				"ment",
+				"_drafts/mental-context-switching.md"
+			],
+			[
+				"smart",
+				"_drafts/smart-vs-good.md"
+			],
+			[
+				"secu",
+				"_drafts/secular-vs-sacred.md"
+			],
+			[
+				"design",
+				"_drafts/design-is-a-descipline.md"
+			],
+			[
+				"simp",
+				"_drafts/simplification-vs-abstraction.md"
+			],
+			[
+				"cul",
+				"_drafts/culture-wars.md"
+			],
+			[
+				"why-there",
+				"_drafts/why-there-is-so-much-money-in-software-design.md"
+			],
+			[
+				"kic",
+				"_drafts/kickstarter-post-outline.md"
+			],
+			[
+				"runn",
+				"_drafts/running-a-successful-kickstarter-campaign.md"
+			],
+			[
+				"learnin",
+				"_drafts/learning-resources.md"
+			],
+			[
+				"head",
+				"_includes/head.html"
+			],
+			[
+				"category",
+				"scss/includes/_category.scss"
+			],
+			[
+				"vari",
+				"scss/includes/_variables.scss"
+			],
+			[
+				"mixin",
+				"scss/includes/_mixins.scss"
+			],
+			[
+				"confi",
+				"_config.yml"
+			],
+			[
+				"base",
+				"scss/includes/_base.scss"
+			],
+			[
+				"variab",
+				"scss/includes/_variables.scss"
+			],
+			[
+				"main",
+				"scss/main.scss"
+			],
+			[
+				"appl",
+				"_posts/2014-01-16-why-apple-is-wealthier-than-any-company-in-the-world.md"
+			],
+			[
+				"gravl",
+				"_posts/2013-10-08-making-gravlax-part-1.md"
+			],
+			[
+				"404",
+				"scss/includes/_page404.scss"
+			],
+			[
+				"mix",
+				"scss/includes/_mixins.scss"
+			],
+			[
+				"layout",
+				"scss/includes/_layout.scss"
+			],
+			[
+				"cateo",
+				"_includes/categories.html"
+			],
+			[
+				"blog",
+				"scss/includes/_blogpost.scss"
+			],
+			[
+				"home.s",
+				"scss/includes/_home.scss"
+			],
+			[
+				"lay",
+				"scss/includes/_layout.scss"
+			],
+			[
+				"blogp",
+				"scss/includes/_blogpost.scss"
+			],
+			[
+				"style-guide",
+				"_posts/2013-12-4-my-scss-style-guide.md"
+			],
+			[
+				"blogpost",
+				"_layouts/blogpost.html"
+			],
+			[
+				"five",
+				"_posts/2014-1-4-five-simple-goals-for-2014.md"
+			],
+			[
+				"",
+				"scss/includes/_blogpost.scss"
+			],
+			[
+				"footer",
+				"_includes/footer.html"
+			],
+			[
+				"header/blo",
+				"_includes/header/blogpost.html"
+			],
+			[
+				"about",
+				"about/index.md"
+			],
+			[
+				"dat",
+				"_posts/2013-12-13-dat-low-carb-lifestyle.md"
+			],
+			[
+				"header",
+				"_includes/header_blogpost.html"
+			],
+			[
+				"home",
+				"scss/includes/_home.scss"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"next",
+				"_includes/next-article.html"
+			],
+			[
+				"rss",
+				"_posts/2013-12-20-rss-for-jekyll.md"
+			],
+			[
+				"config",
+				"_config.yml"
+			],
+			[
+				"sitem",
+				"_site/sitemap.xml"
+			],
+			[
+				"sitemap",
+				"sitemap.xml"
+			],
+			[
+				"categories.html",
+				"_includes/categories.html"
+			],
+			[
+				"feed.",
+				"_site/feed.xml"
+			],
+			[
+				"va",
+				"scss/includes/_variables.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 194.0,
+	"status_bar_visible": true
+}
