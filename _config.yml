@@ -1,5 +1,5 @@
 lsi:            false
-pygments:       true
+highlighter:    pygments
 exclude:        ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md", "scss"]
 permalink:      /writing/:title
 markdown:       kramdown
@@ -11,3 +11,4 @@ gems:
   - jekyll-redirect-from
 sass:
   sass_dir: _sass
+  style: compressed
