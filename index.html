@@ -27,7 +27,7 @@ layout: home
                   {% if post.external_url %}
                   <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);">
                     <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
-                    <span class="article-title">{{ post.title }}</span>
+                    <span class="article-title">{{ post.title }} {% include icon-link.html %}</span>
                   </a>
                   {% else %}
                   <a href="{{ post.url }}">
@@ -50,7 +50,7 @@ layout: home
                   {% if post.external_url %}
                   <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);">
                     <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
-                    <span class="article-title">{{ post.title }}</span>
+                    <span class="article-title">{{ post.title }} {% include icon-link.html %}</span>
                   </a>
                   {% else %}
                   <a href="{{ post.url }}">
@@ -73,7 +73,7 @@ layout: home
                   {% if post.external_url %}
                   <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);">
                     <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
-                    <span class="article-title">{{ post.title }}</span>
+                    <span class="article-title">{{ post.title }} {% include icon-link.html %}</span>
                   </a>
                   {% else %}
                   <a href="{{ post.url }}">
@@ -96,7 +96,7 @@ layout: home
                   {% if post.external_url %}
                   <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);">
                     <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
-                    <span class="article-title">{{ post.title }}</span>
+                    <span class="article-title">{{ post.title }} {% include icon-link.html %}</span>
                   </a>
                   {% else %}
                   <a href="{{ post.url }}">

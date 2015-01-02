@@ -93,7 +93,18 @@
       font-size: 28px;
       color: $blue;
       font-weight: 400;
-      letter-spacing: -1px; }
+      letter-spacing: -1px;
+
+      .external-link-icon-svg {
+        margin-left: 5px;
+
+        path {
+          fill: #09f;
+          opacity: .5;
+        }
+      }
+
+    }
 
     .article-source { display: block; font-style: italic; color: $gray_2; }
 
