@@ -1,6 +1,4 @@
 source "https://rubygems.org"
 
 gem 'github-pages'
-gem 'jekyll-redirect-from'
-gem 'sass'
-gem 'jekyll'
+gem 'jekyll-redirect-from', '~> 0.6'
