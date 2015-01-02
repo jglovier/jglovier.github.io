@@ -9,3 +9,5 @@ description:    "The personal site of Joel Andrew Glovier, designer and front-en
 url:            http://joelglovier.com
 gems:
   - jekyll-redirect-from
+sass:
+  sass_dir: _sass
