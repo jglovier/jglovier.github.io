@@ -12,7 +12,7 @@
 
     .intro-copy { width: 525px;
 
-      h1 { width: 120%; margin: 20px 0 35px; font-weight: 300;
+      h1 { width: 120%; margin: 20px 0 25px; font-weight: 300;
 
         a { font-weight: 900; }
 
@@ -71,7 +71,9 @@
 
   }
 
-  .article-index { list-style: none; padding-left: 0;
+  .article-index {
+    list-style: none;
+    padding-left: 0;
 
     li { margin: 20px 0; }
 
@@ -84,9 +86,14 @@
       text-align: right;
       letter-spacing: 1px;
       width: 105px;
-      line-height: 46px; }
+      line-height: 46px;
+      font-weight: 300; }
 
-    .article-title { font-size: 28px; color: $blue; font-weight: 700; }
+    .article-title {
+      font-size: 28px;
+      color: $blue;
+      font-weight: 400;
+      letter-spacing: -1px; }
 
     .article-source { display: block; font-style: italic; color: $gray_2; }
 
