@@ -31,7 +31,7 @@
 }
 
 @mixin bg-img-classes {
-  background-image: image-url("bg-macbook.jpg");
+  background-image: url("../img/bg-macbook.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   background-color: $blue_l1;
@@ -40,44 +40,50 @@
   -o-background-size: cover;
   background-size: cover;
 
-  &.code { background-image: image-url("bg-css.jpg"); }
-  &.food { background-image: image-url("bg-forks.jpg"); }
-  &.book { background-image: image-url("bg-book.jpg"); }
-  &.chill { background-image: image-url("bg-chill.jpg"); }
-  &.clouds { background-image: image-url("bg-clouds.jpg"); }
-  &.css { background-image: image-url("bg-css.jpg"); }
-  &.cultivating { background-image: image-url("bg-cultivating.jpg"); }
-  &.droplets { background-image: image-url("bg-droplets.jpg"); }
-  &.externaldrive { background-image: image-url("bg-externaldrive.jpg"); }
-  &.hardware { background-image: image-url("bg-externaldrive.jpg"); }
+  &.code { background-image: url("../img/bg-css.jpg"); }
+  &.food { background-image: url("../img/bg-forks.jpg"); }
+  &.book { background-image: url("../img/bg-book.jpg"); }
+  &.chill { background-image: url("../img/bg-chill.jpg"); }
+  &.clouds { background-image: url("../img/bg-clouds.jpg"); }
+  &.css { background-image: url("../img/bg-css.jpg"); }
+  &.cultivating { background-image: url("../img/bg-cultivating.jpg"); }
+  &.droplets { background-image: url("../img/bg-droplets.jpg"); }
+  &.externaldrive { background-image: url("../img/bg-externaldrive.jpg"); }
+  &.hardware { background-image: url("../img/bg-externaldrive.jpg"); }
   &.faith {
-    background-image: image-url("bg-faith.jpg");
+    background-image: url("../img/bg-faith.jpg");
     background-position: center 40%; }
-  &.fence { background-image: image-url("bg-fence.jpg"); }
-  &.forks { background-image: image-url("bg-forks.jpg"); }
-  &.gaming { background-image: image-url("bg-gaming.jpg"); }
-  &.lightbulb { background-image: image-url("bg-lightbulb.jpg"); }
-  &.markerboard { background-image: image-url("bg-markerboard.jpg"); }
-  &.mountain { background-image: image-url("bg-mountain.jpg"); }
-  &.music { background-image: image-url("bg-music.jpg"); }
+  &.fence { background-image: url("../img/bg-fence.jpg"); }
+  &.forks { background-image: url("../img/bg-forks.jpg"); }
+  &.gaming { background-image: url("../img/bg-gaming.jpg"); }
+  &.lightbulb { background-image: url("../img/bg-lightbulb.jpg"); }
+  &.markerboard { background-image: url("../img/bg-markerboard.jpg"); }
+  &.mountain { background-image: url("../img/bg-mountain.jpg"); }
+  &.music { background-image: url("../img/bg-music.jpg"); }
   &.path {
-    background-image: image-url("bg-faith.jpg");
+    background-image: url("../img/bg-faith.jpg");
     background-position: center 40%; }
   &.road {
-    background-image: image-url("bg-road.jpg");
+    background-image: url("../img/bg-road.jpg");
     background-position: center bottom; }
-  &.sky { background-image: image-url("bg-sky.jpg"); }
-  &.speaking { background-image: image-url("bg-speaking.jpg"); }
-  &.ux { background-image: image-url("bg-markerboard.jpg"); }
-  &.worship { background-image: image-url("bg-worship.jpg"); }
-  &.quicktip { background-image: image-url("bg-lightbulb.jpg"); }
-  &.quicktips { background-image: image-url("bg-lightbulb.jpg"); }
-  &.solarsystem { background-image: image-url("bg-solarsystem.jpg"); }
-  &.jekyll { background-image: image-url("bg-jekyll.jpg"); }
+  &.sky { background-image: url("../img/bg-sky.jpg"); }
+  &.speaking { background-image: url("../img/bg-speaking.jpg"); }
+  &.ux { background-image: url("../img/bg-markerboard.jpg"); }
+  &.worship { background-image: url("../img/bg-worship.jpg"); }
+  &.quicktip { background-image: url("../img/bg-lightbulb.jpg"); }
+  &.quicktips { background-image: url("../img/bg-lightbulb.jpg"); }
+  &.solarsystem { background-image: url("../img/bg-solarsystem.jpg"); }
+  &.jekyll { background-image: url("../img/bg-jekyll.jpg"); }
 
   // post specific images
-  &.tinydeathstar { background-image: image-url("bg-tinydeathstar.jpg"); }
+  &.tinydeathstar { background-image: url("../img/bg-tinydeathstar.jpg"); }
 
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
 }
 
 // media querie tools
