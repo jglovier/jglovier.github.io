@@ -1,5 +1,5 @@
 lsi:            false
-pygments:       true
+highlighter:    pygments
 exclude:        ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md", "scss"]
 permalink:      /writing/:title
 markdown:       kramdown
@@ -9,3 +9,6 @@ description:    "The personal site of Joel Andrew Glovier, designer and front-en
 url:            http://joelglovier.com
 gems:
   - jekyll-redirect-from
+sass:
+  sass_dir: _sass
+  style: compressed

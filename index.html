@@ -24,10 +24,17 @@ layout: home
               {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
               {% if year == "2014" %}
                 <li class="{% cycle 'even', 'odd' %}">
+                  {% if post.external_url %}
+                  <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);">
+                    <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
+                    <span class="article-title">{{ post.title }} {% include icon-link.html %}</span>
+                  </a>
+                  {% else %}
                   <a href="{{ post.url }}">
                     <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
                     <span class="article-title">{{ post.title }}</span>
                   </a>
+                  {% endif %}
                 </li>
               {% endif %}
             {% endfor %}
@@ -40,10 +47,17 @@ layout: home
               {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
               {% if year == "2013" %}
                 <li class="{% cycle 'even', 'odd' %}">
+                  {% if post.external_url %}
+                  <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);">
+                    <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
+                    <span class="article-title">{{ post.title }} {% include icon-link.html %}</span>
+                  </a>
+                  {% else %}
                   <a href="{{ post.url }}">
                     <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
                     <span class="article-title">{{ post.title }}</span>
                   </a>
+                  {% endif %}
                 </li>
               {% endif %}
             {% endfor %}
@@ -56,10 +70,17 @@ layout: home
               {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
               {% if year == "2012" %}
                 <li class="{% cycle 'even', 'odd' %}">
+                  {% if post.external_url %}
+                  <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);">
+                    <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
+                    <span class="article-title">{{ post.title }} {% include icon-link.html %}</span>
+                  </a>
+                  {% else %}
                   <a href="{{ post.url }}">
                     <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
                     <span class="article-title">{{ post.title }}</span>
                   </a>
+                  {% endif %}
                 </li>
               {% endif %}
             {% endfor %}
@@ -72,10 +93,17 @@ layout: home
               {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
               {% if year == "2011" %}
                 <li class="{% cycle 'even', 'odd' %}">
+                  {% if post.external_url %}
+                  <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);">
+                    <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
+                    <span class="article-title">{{ post.title }} {% include icon-link.html %}</span>
+                  </a>
+                  {% else %}
                   <a href="{{ post.url }}">
                     <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
                     <span class="article-title">{{ post.title }}</span>
                   </a>
+                  {% endif %}
                 </li>
               {% endif %}
             {% endfor %}
@@ -83,28 +111,6 @@ layout: home
         </div>
 
         {% include categories.html %}
-
-        <h2 class="other-writing">My Writing Elsewhere</h2>
-
-        <ul class="article-index">
-
-          <li>
-            <a href="http://appendto.com/blog/2013/03/pure-css-triangles-explained/" target="_blank">
-              <span class="article-date">3/27/2013</span>
-              <span class="article-title">Pure CSS Triangles Explained</span>
-              <span class="article-source">appendto.com/blog</span>
-            </a>
-          </li>
-
-          <li>
-            <a href="http://www.slidedeck.com/blog/how-cure-org-increased-website-workflow-and-engagement-with-slidedeck/" target="_blank">
-              <span class="article-date">4/26/2011</span>
-              <span class="article-title">How a Non-Profit Increased User Engagement with Facebook API and CSS3</span>
-              <span class="article-source">http://www.slidedeck.com/blog</span>
-            </a>
-          </li>
-
-        </ul>
 
       </div>
 

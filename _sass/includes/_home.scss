@@ -3,7 +3,7 @@
 .page-home {
 
   .page-header {
-    background-image: image-url("default-intro-bg_201401101741.jpg");
+    background-image: url("../img/default-intro-bg_201401101741.jpg");
     padding: 60px 0;
 
     .my-avatar { width: pct( 341, 1284); }
@@ -32,7 +32,7 @@
     font-weight: 300;
     font-size: 48px;
     letter-spacing: -2px;
-    margin: 60px 0 10px;
+    margin: 40px 0 10px;
 
     &.other-writing { font-size: 36px; }
 
@@ -40,14 +40,14 @@
 
   .article-nav {
     font-weight: 300;
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 40px;
 
     > a {
       color: $blue;
       @include border-radius(5px);
-      margin-left: 20px;
-      padding: 0 15px;
+      margin-left: 10px;
+      padding: 0 10px;
       float: left;
       line-height: 1.25;
 
@@ -71,7 +71,9 @@
 
   }
 
-  .article-index { list-style: none; padding-left: 0;
+  .article-index {
+    list-style: none;
+    padding-left: 0;
 
     li { margin: 20px 0; }
 
@@ -84,9 +86,25 @@
       text-align: right;
       letter-spacing: 1px;
       width: 105px;
-      line-height: 46px; }
+      line-height: 46px;
+      font-weight: 300; }
 
-    .article-title { font-size: 28px; color: $blue; font-weight: 700; }
+    .article-title {
+      font-size: 28px;
+      color: $blue;
+      font-weight: 400;
+      letter-spacing: -1px;
+
+      .external-link-icon-svg {
+        margin-left: 5px;
+
+        path {
+          fill: #09f;
+          opacity: .5;
+        }
+      }
+
+    }
 
     .article-source { display: block; font-style: italic; color: $gray_2; }
 
