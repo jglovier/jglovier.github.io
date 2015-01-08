@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 title: "Five simple goals for 2015"
-subhead: "Themes for this year"
+subhead: "My personal themes for this year"
 imgclass: mountain
 categories: life
 ---
