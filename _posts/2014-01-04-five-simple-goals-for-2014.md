@@ -2,7 +2,6 @@
 layout: blogpost
 title: Five simple goals for 2014
 imgclass: mountain
-hnlink: "https://news.ycombinator.com/item?id=7023107"
 categories: life
 ---
 
