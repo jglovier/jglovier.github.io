@@ -12,11 +12,35 @@ layout: home
 
         <nav class="article-nav group">
           <a id="articlesAllTrigger" href="#" class="year showing">All</a>
+          <a id="articles2015Trigger" href="#" class="year">2015</a>
           <a id="articles2014Trigger" href="#" class="year">2014</a>
           <a id="articles2013Trigger" href="#" class="year">2013</a>
           <a id="articles2012Trigger" href="#" class="year">2012</a>
           <a id="articles2011Trigger" href="#" class="year">2011</a>
         </nav>
+
+        <div id="articles2015" class="articles show">
+          <ul class="article-index list-2015">
+            {% for post in site.posts %}
+              {% capture year %}{{post.date | date: "%Y"}}{% endcapture %}
+              {% if year == "2015" %}
+                <li class="{% cycle 'even', 'odd' %}">
+                  {% if post.external_url %}
+                  <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);">
+                    <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
+                    <span class="article-title">{{ post.title }} {% include icon-link.html %}</span>
+                  </a>
+                  {% else %}
+                  <a href="{{ post.url }}">
+                    <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
+                    <span class="article-title">{{ post.title }}</span>
+                  </a>
+                  {% endif %}
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
 
         <div id="articles2014" class="articles show">
           <ul class="article-index list-2014">

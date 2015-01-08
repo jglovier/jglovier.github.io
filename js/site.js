@@ -9,6 +9,14 @@ $(function(){
     $("div.articles").addClass("show");
   });
 
+  $("#articles2015Trigger").on("click", function(event){
+    event.preventDefault();
+    $(".article-nav .year").removeClass("showing");
+    $(this).addClass("showing");
+    $("div.articles").removeClass("show");
+    $("#articles2015").addClass("show");
+  });
+
   $("#articles2014Trigger").on("click", function(event){
     event.preventDefault();
     $(".article-nav .year").removeClass("showing");
