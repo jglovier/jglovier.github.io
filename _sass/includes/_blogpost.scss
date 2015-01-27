@@ -55,6 +55,11 @@
 
   img { max-width: 100%; @include border-radius(5px); }
 
+  hr {
+    border: none;
+    border-top: 2px solid $gray_1;
+  }
+
 }
 
 .discussion-link {
@@ -63,7 +68,6 @@
   @include pn_bold;
 
   a { text-decoration: none; }
-
 }
 
 /* next article styles */
