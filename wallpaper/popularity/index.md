@@ -1,4 +1,4 @@
 ---
 layout: redirect
-redirect: "http://2011.joelglovier.com/wallpaper/popularity/"
+external_url: "http://2011.joelglovier.com/wallpaper/popularity/"
 ---

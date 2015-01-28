@@ -1,4 +1,4 @@
 ---
 layout: redirect
-redirect: "http://joelglovier.com/writing/rss-for-jekyll"
+external_url: "http://joelglovier.com/writing/rss-for-jekyll"
 ---
