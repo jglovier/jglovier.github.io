@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 title: "Conservative vs. Liberal"
-subhead: "Paradigms that both consistently fall short"
+subhead: "Paradigms that consistently fall short"
 imgclass:
 permalink:
 categories:
