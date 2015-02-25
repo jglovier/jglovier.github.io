@@ -7,6 +7,7 @@
   top: 16px; right: 16px;
   @include border-radius(4px);
   background: $tan;
+  border: 1px solid $tan;
 
   .nav-trigger {
     @include border-radius(4px);
