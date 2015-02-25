@@ -30,7 +30,7 @@ layout: home
                   {% if post.external_url %}
                   <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);">
                     <h2 class="article-title">{{ post.title }} {% include icon-link.html %}</h2>
-                    <p class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</p>
+                    <p class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}{% if post.external_site %} • via <span class="external_site">{{ post.external_site }}</span>{% endif %}</p>
                     {% if post.excerpt %}
                     <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
                     {% endif %}
@@ -58,7 +58,7 @@ layout: home
                   {% if post.external_url %}
                   <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);">
                     <h2 class="article-title">{{ post.title }} {% include icon-link.html %}</h2>
-                    <p class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</p>
+                    <p class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}{% if post.external_site %} • via <span class="external_site">{{ post.external_site }}</span>{% endif %}</p>
                     {% if post.excerpt %}
                     <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
                     {% endif %}
@@ -86,7 +86,7 @@ layout: home
                   {% if post.external_url %}
                   <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);">
                     <h2 class="article-title">{{ post.title }} {% include icon-link.html %}</h2>
-                    <p class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</p>
+                    <p class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}{% if post.external_site %} • via <span class="external_site">{{ post.external_site }}</span>{% endif %}</p>
                     {% if post.excerpt %}
                     <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
                     {% endif %}
@@ -114,7 +114,7 @@ layout: home
                   {% if post.external_url %}
                   <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);">
                     <h2 class="article-title">{{ post.title }} {% include icon-link.html %}</h2>
-                    <p class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</p>
+                    <p class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}{% if post.external_site %} • via <span class="external_site">{{ post.external_site }}</span>{% endif %}</p>
                     {% if post.excerpt %}
                     <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
                     {% endif %}
@@ -142,7 +142,7 @@ layout: home
                   {% if post.external_url %}
                   <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);">
                     <h2 class="article-title">{{ post.title }} {% include icon-link.html %}</h2>
-                    <p class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</p>
+                    <p class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}{% if post.external_site %} • via <span class="external_site">{{ post.external_site }}</span>{% endif %}</p>
                     {% if post.excerpt %}
                     <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
                     {% endif %}
