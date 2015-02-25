@@ -69,7 +69,7 @@
 .discussion-link {
   font-size: 20px;
   text-transform: uppercase;
-  @include pn_bold;
+  @include sans_bold;
 
   a { text-decoration: none; }
 }
@@ -92,14 +92,14 @@
   .next-arrow {
     font-size: 18px;
     text-transform: uppercase;
-    @include pn_regular;
+    @include sans_regular;
     letter-spacing: 2px;
     margin: 0 0 10px; }
 
   .title {
     margin: 0 0 10px;
     font-size: 40px;
-    @include pn_extrabold;
+    @include sans_extrabold;
     line-height: 1;
 
     a:hover { opacity: .75; }
@@ -120,7 +120,7 @@
   .next-link {
     font-size: 14px;
     text-transform: uppercase;
-    @include pn_regular;
+    @include sans_regular;
     letter-spacing: 2px;
     margin: 10px 0 0;
     @include border-radius(5px);

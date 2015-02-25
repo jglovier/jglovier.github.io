@@ -16,7 +16,7 @@
   }
 
   .post-content {
-    @include pn_regular;
+    @include sans_regular;
     font-size: 24px;
 
     .lead {
@@ -25,7 +25,10 @@
       margin-bottom: 45px;
       margin-top: 10px; }
 
-    a { @include pn_bold; color: $gray_3; }
+    a {
+      @include sans_bold;
+      color: $gray_3;
+    }
 
   }
 
