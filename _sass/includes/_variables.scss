@@ -1,7 +1,9 @@
 /* @group Variables -------------------- */
 
+// v1 colors
+
 $white:           #fff;
-$black:           #000;
+$true_black:      #000;
 $blue:            #0099ff;
 $blue_d1:         #2a7ae2;    // dark blue
 $blue_l1:         #3fb2ff;    // light blue
@@ -18,5 +20,13 @@ $magenta:         #b400ff;    // magenta
 $purple:          #7653c1;    // purple
 $purple_l:        #f3f2ff;    // light purple
 $green:           #24ac00;    // green
+
+// v2 colors
+
+$black:           #333;
+$tan:             #f4f0ed;
+$tan_2:           #d9d4d0;
+$text_color:      $black;
+$border_color:    $tan_2;
 
 /* @end Variables */

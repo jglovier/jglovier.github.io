@@ -27,7 +27,11 @@
   font-weight: 900; }
 
 @mixin serif {
-  font-family: "Minion Pro", Palatino, Georgia, serif;
+  font-family: "Lora", "Minion Pro", Palatino, Georgia, serif;
+}
+
+@mixin sans {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 @mixin bg-img-classes {
