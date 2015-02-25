@@ -59,10 +59,7 @@
 .writing { padding-bottom: 80px;
 
   h2 {
-    font-weight: 300;
-    font-size: 48px;
-    letter-spacing: -2px;
-    margin: 40px 0 10px;
+    float: left;
 
     &.other-writing { font-size: 36px; }
 
@@ -71,25 +68,32 @@
   .article-nav {
     font-weight: 300;
     font-size: 24px;
-    margin-bottom: 40px;
+    float: right;
 
     > a {
-      color: $blue;
+      color: $text_color;
       @include border-radius(5px);
       margin-left: 10px;
-      padding: 0 10px;
+      padding: 3px 10px;
       float: left;
       line-height: 1.25;
+      letter-spacing: -1px;
+      outline: none;
 
-      &:first-child { margin-left: 0; }
+      &:first-child {
+        margin-left: 0;
+        padding: 3px 16px;
+      }
 
       &:hover { background-color: $blue_l3; }
 
     }
 
-    .showing { color: $gray_3; background-color: $gray_1; cursor: default;
+    .showing {
+      background-color: $tan;
+      cursor: default;
 
-      &:hover { background-color: $gray_1; }
+      &:hover { background-color: $tan; }
 
     }
 
@@ -133,7 +137,6 @@
           opacity: .5;
         }
       }
-
     }
 
     .article-source { display: block; font-style: italic; color: $gray_2; }
@@ -145,13 +148,9 @@
         .article-date { color: $gray_3; }
 
         .article-title { opacity: .8; background-color: $blue_l3; padding: 0 10px; margin: 0 -10px; @include border-radius(4px); }
-
       }
-
     }
-
   }
-
 }
 
 
