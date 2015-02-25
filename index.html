@@ -36,9 +36,10 @@ layout: home
                     {% endif %}
                   </a>
                   {% else %}
+                  {% include readingtime.html %}
                   <a href="{{ post.url }}">
                     <h2 class="article-title">{{ post.title }}</h2>
-                    <p class="article-date">{{ post.date | date: "%B %e, %Y" }}</p>
+                    <p class="article-date">{{ post.date | date: "%B %e, %Y" }} • {{ reading_time }} read</p>
                     <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
                   </a>
                   {% endif %}
@@ -63,9 +64,10 @@ layout: home
                     {% endif %}
                   </a>
                   {% else %}
+                  {% include readingtime.html %}
                   <a href="{{ post.url }}">
                     <h2 class="article-title">{{ post.title }}</h2>
-                    <p class="article-date">{{ post.date | date: "%B %e, %Y" }}</p>
+                    <p class="article-date">{{ post.date | date: "%B %e, %Y" }} • {{ reading_time }} read</p>
                     <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
                   </a>
                   {% endif %}
@@ -90,9 +92,10 @@ layout: home
                     {% endif %}
                   </a>
                   {% else %}
+                  {% include readingtime.html %}
                   <a href="{{ post.url }}">
                     <h2 class="article-title">{{ post.title }}</h2>
-                    <p class="article-date">{{ post.date | date: "%B %e, %Y" }}</p>
+                    <p class="article-date">{{ post.date | date: "%B %e, %Y" }} • {{ reading_time }} read</p>
                     <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
                   </a>
                   {% endif %}
@@ -117,9 +120,10 @@ layout: home
                     {% endif %}
                   </a>
                   {% else %}
+                  {% include readingtime.html %}
                   <a href="{{ post.url }}">
                     <h2 class="article-title">{{ post.title }}</h2>
-                    <p class="article-date">{{ post.date | date: "%B %e, %Y" }}</p>
+                    <p class="article-date">{{ post.date | date: "%B %e, %Y" }} • {{ reading_time }} read</p>
                     <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
                   </a>
                   {% endif %}
@@ -144,9 +148,10 @@ layout: home
                     {% endif %}
                   </a>
                   {% else %}
+                  {% include readingtime.html %}
                   <a href="{{ post.url }}">
                     <h2 class="article-title">{{ post.title }}</h2>
-                    <p class="article-date">{{ post.date | date: "%B %e, %Y" }}</p>
+                    <p class="article-date">{{ post.date | date: "%B %e, %Y" }} • {{ reading_time }} read</p>
                     <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
                   </a>
                   {% endif %}
