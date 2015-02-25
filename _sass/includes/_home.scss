@@ -58,7 +58,7 @@
 
 .writing { padding-bottom: 80px;
 
-  h2 {
+  .section-heading h2 {
     float: left;
 
     &.other-writing { font-size: 36px; }
@@ -69,6 +69,7 @@
     font-weight: 300;
     font-size: 24px;
     float: right;
+    margin-right: 60px;
 
     > a {
       color: $text_color;
@@ -108,26 +109,18 @@
   .article-index {
     list-style: none;
     padding-left: 0;
+    max-width: 672px;
+    margin-left: 176px;
 
-    li { margin: 20px 0; }
-
-    .article-date {
-      font-size: 18px;
-      color: $gray_2;
-      margin-left: -128px;
-      display: block;
-      float: left;
-      text-align: right;
-      letter-spacing: 1px;
-      width: 105px;
-      line-height: 46px;
-      font-weight: 300; }
+    li { margin: 60px 0; }
 
     .article-title {
+      @include sans_extrabold;
       font-size: 28px;
-      color: $blue;
-      font-weight: 400;
+      color: $text_color;
       letter-spacing: -1px;
+      margin-bottom: 4px;
+      line-height: 1.2;
 
       .external-link-icon-svg {
         margin-left: 5px;
@@ -139,16 +132,24 @@
       }
     }
 
+    .article-date {
+      font-size: 16px;
+      color: $tan_3;
+      margin: 0;
+
+    }
+
+    .article-excerpt {
+      color: $text_color;
+      @include serif_regular;
+      margin: 7px 0 0;
+    }
+
     .article-source { display: block; font-style: italic; color: $gray_2; }
 
     a { display: block;
 
-      &:hover {
-
-        .article-date { color: $gray_3; }
-
-        .article-title { opacity: .8; background-color: $blue_l3; padding: 0 10px; margin: 0 -10px; @include border-radius(4px); }
-      }
+      &:hover { opacity: .8; }
     }
   }
 }

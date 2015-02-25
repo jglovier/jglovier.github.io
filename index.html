@@ -29,13 +29,17 @@ layout: home
                 <li class="{% cycle 'even', 'odd' %}">
                   {% if post.external_url %}
                   <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);">
-                    <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
-                    <span class="article-title">{{ post.title }} {% include icon-link.html %}</span>
+                    <h2 class="article-title">{{ post.title }} {% include icon-link.html %}</h2>
+                    <p class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</p>
+                    {% if post.excerpt %}
+                    <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
+                    {% endif %}
                   </a>
                   {% else %}
                   <a href="{{ post.url }}">
-                    <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
-                    <span class="article-title">{{ post.title }}</span>
+                    <h2 class="article-title">{{ post.title }}</h2>
+                    <p class="article-date">{{ post.date | date: "%B %e, %Y" }}</p>
+                    <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
                   </a>
                   {% endif %}
                 </li>
@@ -52,13 +56,17 @@ layout: home
                 <li class="{% cycle 'even', 'odd' %}">
                   {% if post.external_url %}
                   <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);">
-                    <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
-                    <span class="article-title">{{ post.title }} {% include icon-link.html %}</span>
+                    <h2 class="article-title">{{ post.title }} {% include icon-link.html %}</h2>
+                    <p class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</p>
+                    {% if post.excerpt %}
+                    <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
+                    {% endif %}
                   </a>
                   {% else %}
                   <a href="{{ post.url }}">
-                    <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
-                    <span class="article-title">{{ post.title }}</span>
+                    <h2 class="article-title">{{ post.title }}</h2>
+                    <p class="article-date">{{ post.date | date: "%B %e, %Y" }}</p>
+                    <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
                   </a>
                   {% endif %}
                 </li>
@@ -75,13 +83,17 @@ layout: home
                 <li class="{% cycle 'even', 'odd' %}">
                   {% if post.external_url %}
                   <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);">
-                    <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
-                    <span class="article-title">{{ post.title }} {% include icon-link.html %}</span>
+                    <h2 class="article-title">{{ post.title }} {% include icon-link.html %}</h2>
+                    <p class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</p>
+                    {% if post.excerpt %}
+                    <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
+                    {% endif %}
                   </a>
                   {% else %}
                   <a href="{{ post.url }}">
-                    <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
-                    <span class="article-title">{{ post.title }}</span>
+                    <h2 class="article-title">{{ post.title }}</h2>
+                    <p class="article-date">{{ post.date | date: "%B %e, %Y" }}</p>
+                    <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
                   </a>
                   {% endif %}
                 </li>
@@ -98,13 +110,17 @@ layout: home
                 <li class="{% cycle 'even', 'odd' %}">
                   {% if post.external_url %}
                   <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);">
-                    <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
-                    <span class="article-title">{{ post.title }} {% include icon-link.html %}</span>
+                    <h2 class="article-title">{{ post.title }} {% include icon-link.html %}</h2>
+                    <p class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</p>
+                    {% if post.excerpt %}
+                    <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
+                    {% endif %}
                   </a>
                   {% else %}
                   <a href="{{ post.url }}">
-                    <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
-                    <span class="article-title">{{ post.title }}</span>
+                    <h2 class="article-title">{{ post.title }}</h2>
+                    <p class="article-date">{{ post.date | date: "%B %e, %Y" }}</p>
+                    <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
                   </a>
                   {% endif %}
                 </li>
@@ -121,13 +137,17 @@ layout: home
                 <li class="{% cycle 'even', 'odd' %}">
                   {% if post.external_url %}
                   <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);">
-                    <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
-                    <span class="article-title">{{ post.title }} {% include icon-link.html %}</span>
+                    <h2 class="article-title">{{ post.title }} {% include icon-link.html %}</h2>
+                    <p class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</p>
+                    {% if post.excerpt %}
+                    <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
+                    {% endif %}
                   </a>
                   {% else %}
                   <a href="{{ post.url }}">
-                    <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
-                    <span class="article-title">{{ post.title }}</span>
+                    <h2 class="article-title">{{ post.title }}</h2>
+                    <p class="article-date">{{ post.date | date: "%B %e, %Y" }}</p>
+                    <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
                   </a>
                   {% endif %}
                 </li>
