@@ -3,25 +3,55 @@
 .page-home {
 
   .page-header {
-    background-image: url("../img/default-intro-bg_201401101741.jpg");
-    padding: 60px 0;
+    background-color: $tan;
+    background-image: none;
+    padding: 0;
+    overflow: hidden;
 
-    .my-avatar { width: pct( 341, 1284); }
-
-    .joel-photo { margin-right: 40px; max-width: 245px; }
-
-    .intro-copy { width: 525px;
-
-      h1 { width: 120%; margin: 20px 0 25px; font-weight: 300;
-
-        a { font-weight: 900; }
-
-      }
-
+    .my-avatar {
+      width: 600px;
+      float: right;
+      margin-top: 40px;
+      margin-bottom: -10px;
     }
 
-  }
+    .joel-photo { max-width: 100%; }
 
+    .intro-copy {
+      width: 385px;
+      color: $text_color;
+      float: left;
+      margin-top: 90px;
+
+      h1 {
+        margin: 20px 0 25px;
+        letter-spacing: -3px;
+        font-weight: 800;
+        font-size: 4.4rem;
+        text-indent: 4px;
+
+        a {
+          font-weight: 700;
+          color: $text_color;
+        }
+      }
+
+      h2 {
+        font-weight: 300;
+        border-top: 3px solid $border_color;
+        border-bottom: 1px solid $border_color;
+        padding: 10px 0;
+        font-size: 1.46875rem;
+      }
+
+      .description {
+        font-size: 16px;
+        line-height: 28px;
+      }
+
+      a { text-decoration: underline; }
+    }
+  }
 }
 
 /* Writing (article index) */

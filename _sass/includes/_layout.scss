@@ -6,10 +6,9 @@
   position: fixed; z-index: 999;
   top: 16px; right: 16px;
   @include border-radius(4px);
-  color: $white;
+  background: $tan;
 
   .nav-trigger {
-    background: $blue;
     @include border-radius(4px);
     padding: 8px;
     display: block;
@@ -28,15 +27,15 @@
     display: none;
 
     > li:hover {
-      background-color: $blue_l2;
+      background-color: rgba($tan_2,.5);
       margin: 0 -15px;
       padding: 0 15px; }
 
-    a { color: #fff; }
+    a { color: $text_color; }
 
   }
 
-  &:hover { background: $blue;
+  &:hover { background: white;
 
     .links { display: block; }
 
@@ -57,8 +56,12 @@
   padding: 195px 0 65px;
   color: $white;
   @include bg-img-classes;
+  margin-bottom: 30px;
 
-  .intro-copy { width: pct( 1022, 1284); float: left; font-weight: 300;
+  .intro-copy {
+    width: pct( 1022, 1284);
+    float: left;
+    font-weight: 300;
 
     h1 {
       font-weight: 700;
@@ -69,13 +72,13 @@
 
     .subhead {
       font-size: 28px;
-      font-family: "Minion Pro", Palatino, Georgia, serif;
+      @include serif;
       font-style: italic;
       margin: 5px 0 0; }
 
     .article-date {
       font-size: 20px;
-      font-family: "pn_font";
+      @include sans;
       letter-spacing: 2px;
       margin: 0;
       color: $blue_l3; }
@@ -84,32 +87,21 @@
       font-size: 24px;
       margin: 10px 0 0;
 
-      a { font-weight: 700; }
+      a {
+        font-weight: 600;
+        letter-spacing: -1px;
+      }
 
     }
 
     a {
-      border-bottom: 2px solid rgba(255,255,255,.5);
-      padding:0 5px; margin: 0 -5px;
-      @include border-radius(4px 4px 0 0);
-      color: #fff;
+      padding:0 3px; margin: 0 -3px;
+      @include border-radius(4px);
+      color: $text_color;
 
-      &:hover { background-color: rgba(0,68,114,.4); }
+      &:hover { background-color: white; }
 
     }
-
-  }
-
-  .joel-photo {
-    display: inline-block;
-    width: pct( 245, 341);
-    max-width: 124px;
-    margin-right: 30px;
-    @include border-radius(100%); }
-
-  .my-avatar { width: pct( 237, 1284); text-align: right; float: left;
-
-    > a { display: block; height: 126px; }
 
   }
 
