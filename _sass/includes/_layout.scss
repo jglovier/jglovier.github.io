@@ -113,13 +113,21 @@
 
 .page-footer {
   text-align: center;
-  border-top: 1px solid #e8e8e8;
-  padding: 20px 0;
+  border-top: 1px solid $border_color;
+  padding: 30px 0;
+  @include serif;
 
   p { margin: 0; }
 
-  a { color: $blue; }
+  a {
+    color: $black;
+    @include serif_bold;
+    text-decoration: underline;
 
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 
 /* Utilities */
@@ -133,6 +141,7 @@
   border-top: 3px solid $border_color;
   border-bottom: 1px solid $border_color;
   padding: 18px 0;
+  margin-bottom: 30px;
 
   h2 {
     font-weight: 800;

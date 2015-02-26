@@ -46,7 +46,8 @@
 
       .description {
         font-size: 16px;
-        line-height: 28px;
+        line-height: 1.5;
+        @include serif;
       }
 
       a { text-decoration: underline; }
@@ -72,21 +73,20 @@
     margin-right: 60px;
 
     > a {
-      color: $text_color;
-      @include border-radius(5px);
+      @include link-w-bg;
+      background-color: transparent;
       margin-left: 10px;
-      padding: 3px 10px;
       float: left;
-      line-height: 1.25;
-      letter-spacing: -1px;
-      outline: none;
 
       &:first-child {
         margin-left: 0;
         padding: 3px 16px;
       }
 
-      &:hover { background-color: $blue_l3; }
+      &:hover {
+        background-color: $tan;
+        opacity: .6;
+      }
 
     }
 
@@ -146,7 +146,11 @@
       margin: 7px 0 0;
     }
 
-    .article-source { display: block; font-style: italic; color: $gray_2; }
+    .article-source {
+      display: block;
+      font-style: italic;
+      color: $gray_2;
+    }
 
     a { display: block;
 
