@@ -6,47 +6,47 @@ $(function(){
     event.preventDefault();
     $(".article-nav .year").removeClass("showing");
     $(this).addClass("showing");
-    $("div.articles").addClass("show");
+    $(".article-item").addClass("show");
   });
 
   $("#articles2015Trigger").on("click", function(event){
     event.preventDefault();
     $(".article-nav .year").removeClass("showing");
     $(this).addClass("showing");
-    $("div.articles").removeClass("show");
-    $("#articles2015").addClass("show");
+    $(".article-item").removeClass("show");
+    $(".article-item.article-2015").addClass("show");
   });
 
   $("#articles2014Trigger").on("click", function(event){
     event.preventDefault();
     $(".article-nav .year").removeClass("showing");
     $(this).addClass("showing");
-    $("div.articles").removeClass("show");
-    $("#articles2014").addClass("show");
+    $(".article-item").removeClass("show");
+    $(".article-item.article-2014").addClass("show");
   });
 
   $("#articles2013Trigger").on("click", function(event){
     event.preventDefault();
     $(".article-nav .year").removeClass("showing");
     $(this).addClass("showing");
-    $("div.articles").removeClass("show");
-    $("#articles2013").addClass("show");
+    $(".article-item").removeClass("show");
+    $(".article-item.article-2013").addClass("show");
   });
 
   $("#articles2012Trigger").on("click", function(event){
     event.preventDefault();
     $(".article-nav .year").removeClass("showing");
     $(this).addClass("showing");
-    $("div.articles").removeClass("show");
-    $("#articles2012").addClass("show");
+    $(".article-item").removeClass("show");
+    $(".article-item.article-2012").addClass("show");
   });
 
   $("#articles2011Trigger").on("click", function(event){
     event.preventDefault();
     $(".article-nav .year").removeClass("showing");
     $(this).addClass("showing");
-    $("div.articles").removeClass("show");
-    $("#articles2011").addClass("show");
+    $(".article-item").removeClass("show");
+    $(".article-item.article-2011").addClass("show");
   });
 
 });
