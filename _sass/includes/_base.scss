@@ -32,8 +32,12 @@ body{
   box-sizing: border-box; }
 
 a {
-  color: $blue;
-  text-decoration: none; }
+  font-weight: bold;
+  color: $black;
+
+  &:hover,
+  &:visited { text-decoration: none; }
+}
 
 ::-moz-selection {
     background: rgba(0,68,114,.8);

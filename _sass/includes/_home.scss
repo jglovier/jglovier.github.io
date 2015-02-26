@@ -19,7 +19,6 @@
 
     .intro-copy {
       width: 385px;
-      color: $text_color;
       float: left;
       margin-top: 90px;
 
@@ -50,8 +49,6 @@
         line-height: 1.5;
         @include serif;
       }
-
-      a { text-decoration: underline; }
     }
   }
 }
@@ -102,6 +99,8 @@
   }
 
   .article-item { display: none;
+
+    > a { text-decoration: none; }
 
     &.show { display: block; }
 

@@ -55,7 +55,7 @@
 .page-header {
   background-size: cover;
   padding: 195px 0 65px;
-  color: $white;
+  color: $text_color;
   @include bg-img-classes;
   margin-bottom: 30px;
 
@@ -65,24 +65,28 @@
     font-weight: 300;
 
     h1 {
-      font-weight: 700;
+      font-weight: 800;
+      letter-spacing: -3px;
       margin: 20px 0 0;
       width: auto;
       font-size: 60px;
-      line-height: 1; }
+      line-height: 1;
+    }
 
     .subhead {
       font-size: 28px;
       @include serif;
-      font-style: italic;
-      margin: 5px 0 0; }
+      letter-spacing: -1px;
+      margin: 5px 0 0;
+    }
 
     .article-date {
       font-size: 20px;
       @include sans;
-      letter-spacing: 2px;
       margin: 0;
-      color: $blue_l3; }
+      opacity: .6;
+      letter-spacing: -1px;
+    }
 
     .description {
       font-size: 24px;
@@ -92,7 +96,6 @@
         font-weight: 600;
         letter-spacing: -1px;
       }
-
     }
 
     a {
@@ -101,11 +104,8 @@
       color: $text_color;
 
       &:hover { background-color: white; }
-
     }
-
   }
-
 }
 
 
@@ -118,16 +118,6 @@
   @include serif;
 
   p { margin: 0; }
-
-  a {
-    color: $black;
-    @include serif_bold;
-    text-decoration: underline;
-
-    &:hover {
-      text-decoration: none;
-    }
-  }
 }
 
 /* Utilities */

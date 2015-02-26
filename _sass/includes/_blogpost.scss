@@ -1,11 +1,24 @@
 /* @group Blog Post Styles -------------------- */
 
+.blogpost {
+  .my-avatar {
+    max-width: 100px;
+    float: left;
+    margin-right: 40px;
+  }
+
+  .joel-photo {
+    max-width: 100%;
+    @include border-radius(100px);
+  }
+}
+
 .post-content {
-  margin-left: pct( 237, 1284);
-  padding: 40px 30px 80px 0;
-  max-width: 812px;
+  max-width: 672px;
+  margin-left: 176px;
+  padding: 40px 0 80px;
   @include serif;
-  font-size: 24px;
+  font-size: 20px;
 
   h1, h2, h3, h4, h5, h6, h7 {
     @include sans;
@@ -16,14 +29,6 @@
   h1, h2 { margin: 80px 0 30px; }
 
   h3, h4 { margin: 40px 0 20px; }
-
-  a { color: $blue; text-decoration: underline;
-
-    &:hover { text-decoration: none; }
-
-    &:visited { color: $navy; }
-
-  }
 
   .half { max-width: 50%; }
   .one-third { max-width: 33%; }
