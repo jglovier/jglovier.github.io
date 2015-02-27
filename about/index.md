@@ -4,7 +4,7 @@ title: About me
 imgclass: speaking
 ---
 
-<p class="lead" markdown="1">I’m **Joel Glovier**. I’m a designer at [GitHub](https://github.com/jglovier), where I’m currently doing design and front-end development for our creative department.</p>
+<p class="lead" markdown="1">I’m Joel Glovier. I’m a designer at [GitHub](https://github.com/jglovier), where I’m currently part of the Creative Team.</p>
 
 Prior to GitHub I was a visual design engineer at [appendTo](http://appendto.com/) (a front-end shop), where I worked on awesome client projects like the [TIME Magazine responsive redesign](http://appendto.com/case-study/responsive-design-time-com). Before that I was the principal designer at an amazing nonprofit called [CURE International](http://cure.org/). And prior still I did freelance graphic and web design full-time for several years. <!---<a href="#background" class="more-link">[read more about my background]</a>-->
 

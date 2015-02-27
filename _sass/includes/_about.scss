@@ -15,23 +15,18 @@
 
   }
 
-  .post-content {
-    @include sans_regular;
-    font-size: 24px;
+  .post-content { font-size: 20px;
 
     .lead {
+      @include sans_light;
       font-size: 32px;
       font-weight: 300;
       margin-bottom: 45px;
-      margin-top: 10px; }
+      margin-top: 10px;
 
-    a {
-      @include sans_bold;
-      color: $gray_3;
+      a { font-weight: inherit; }
     }
-
   }
-
 }
 
 /* @end about page styles */
