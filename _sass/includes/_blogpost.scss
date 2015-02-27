@@ -119,12 +119,13 @@
     max-width: 672px;
   }
 
-  .next-arrow {
+  .next-arrow,
+  .index-link {
     font-size: 14px;
     text-transform: uppercase;
     @include sans_bold;
     letter-spacing: 4px;
-    margin: 0 0 15px;
+    margin: 0 0 30px;
   }
 
   .title {
@@ -151,7 +152,7 @@
     letter-spacing: -1px;
   }
 
-  .nav { margin: 0; }
+  .nav { margin: 20px 0 0; }
 
   .next-link {
     font-size: 14px;
@@ -169,12 +170,7 @@
   }
 
   .index-link {
-    font-size: 12px;
-    text-transform: uppercase;
-    @include sans;
-    font-weight: 400;
-    letter-spacing: 2px;
-    margin: 20px 0 0;
+    margin: 0 0 0;
     display: inline-block;
 
     &:hover { opacity: .75; }

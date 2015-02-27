@@ -6,7 +6,6 @@
       <p class="next-arrow">Next Article:</p>
       <h3 class="title"><a href="{{ page.previous.url }}" class="next-article-link">{{ page.previous.title }}</a></h3>
       {% if page.previous.subhead %}<p class="subhead">{{ page.previous.subhead }}</p>{% endif %}
-      <p class="article-date">{{ page.previous.date | date: "%-m/%-d/%Y" }}</p>
     {% endif %}
       <p class="nav"><a href="{{ page.previous.url }}" class="next-link">Read Now &rarr;</a></p>
       <p class="nav"><a href="/" class="index-link">&larr; Article Index</a></p>
