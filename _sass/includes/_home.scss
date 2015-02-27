@@ -20,7 +20,7 @@
     .intro-copy {
       width: 385px;
       float: left;
-      margin-top: 90px;
+      margin-top: 80px;
 
       h1 {
         margin: 20px 0 25px;
@@ -48,6 +48,18 @@
         font-size: 16px;
         line-height: 1.5;
         @include serif;
+      }
+    }
+
+    .social-media-links { margin-top: 15px; }
+
+    .icon-link {
+      display: inline-block;
+      text-decoration: none;
+      margin-right: 6px;
+
+      &:hover {
+        background-color: transparent;
       }
     }
   }
