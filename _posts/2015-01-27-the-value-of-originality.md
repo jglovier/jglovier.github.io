@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 title: "The value of originality"
-subhead: "(Spoiler: it really just depends on your goals)"
+subhead: "Spoiler: it really just depends on your goals"
 imgclass:
 categories: design
 ---
