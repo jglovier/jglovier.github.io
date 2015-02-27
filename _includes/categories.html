@@ -6,7 +6,7 @@
 
   </div>
 
-  <ul class="category-list">
+  <ul class="category-list constrained">
     {% for category in site.categories %}
     <li><a href="/writing/{{ category | first }}/">{{ category | first }}</a></li>
     {% endfor %}

@@ -112,9 +112,10 @@
 
 /* Utilities */
 
-.wide-left-margin {
-  margin-left: pct( 341, 1284);
-  padding-right: 30px;
+.constrained {
+  max-width: 672px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-heading {

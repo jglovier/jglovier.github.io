@@ -24,7 +24,7 @@ layout: home
 
 
         <div class="articles">
-          <ul class="article-index">
+          <ul class="article-index constrained">
             {% for post in site.posts %}
             <li class="article-item show article-{{post.date | date: "%Y"}}">
               {% if post.external_url %}
