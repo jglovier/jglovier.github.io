@@ -48,6 +48,12 @@
     letter-spacing: -2px;
     letter-spacing: -1.5px;
     line-height: 1;
+
+    a {
+      font-weight: 800;
+      text-decoration: none;
+      color: $tan_4;
+    }
   }
 
   h1, h2 { margin: 80px 0 30px; }
@@ -64,9 +70,9 @@
   .right { float: right; margin-left: 20px; }
 
   .disclaimer {
-    color: $blue;
-    font-size: 22px;
-    background-color: $blue_l3;
+    color: $tan_4;
+    font-size: .9em;
+    background-color: $tan;
     padding: 20px;
     @include border-radius(5px); }
 
@@ -83,7 +89,7 @@
 
   code {
     font-size: 22px;
-    background-color: $gray_1;
+    background-color: $tan;
     padding: 4px 8px;
     @include border-radius(5px); }
 
@@ -93,6 +99,8 @@
     border: none;
     border-top: 2px solid $border_color;
   }
+
+  a { font-weight: 400; }
 
 }
 
@@ -196,7 +204,7 @@
 
     }
 
-    .html {
+    .language-html {
 
       .nt { color: $navy; background-color: $blue_l4; }
       .na { color: $blue; }
@@ -210,9 +218,8 @@
 
     }
 
-    .css {}
-
-    .scss {
+    .language-scss,
+    .language-css {
 
       .c1 { color: $gray_2; }   // comment
       .nc { color: $blue; }     // selector (class)

@@ -3,7 +3,7 @@
 body{
   background: $white;
   @include sans;
-  color: $gray_3;
+  color: $text_color;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -35,8 +35,10 @@ a {
   font-weight: bold;
   color: $black;
 
-  &:hover,
-  &:visited { text-decoration: none; }
+  &:hover {
+    text-decoration: none;
+    opacity: .8;
+  }
   &:active,
   &:focus { outline: none; }
 }

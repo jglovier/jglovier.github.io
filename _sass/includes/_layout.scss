@@ -26,13 +26,14 @@
     padding: 0 15px 8px;
     text-align: right;
     display: none;
+    letter-spacing: -1px;
 
     > li:hover {
       background-color: rgba($tan_2,.5);
       margin: 0 -15px;
       padding: 0 15px; }
 
-    a { color: $text_color; }
+    a { text-decoration: none; }
   }
 
   &:hover { background: white;
