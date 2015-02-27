@@ -1,30 +1,16 @@
 /* @group Media Queries -------------------- */
 
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 895px) {
 
   .page-home .page-header,
   .page-header { padding: 25px; text-align: center;
-
-    .my-avatar {
-      float: none;
-      width: auto;
-      text-align: center;
-      margin: 0 auto;
-
-      > a { height: auto; }
-
-      img { width: 80px; margin: 0 auto; }
-
-    }
 
     .intro-copy { width: auto; float: none; margin-bottom: 20px;
 
       h1 { width: auto; margin-bottom: 10px; }
 
       .article-date { font-size: 14px; }
-
     }
-
   }
 
   body.blogpost {
@@ -67,23 +53,25 @@
 
 @media screen and (max-width: 570px) {
 
+  .wrap {
+    padding: 0 15px;
+  }
+
+  .site-nav {
+    top: 0;
+    right: 0;
+  }
+
   .page-home .page-header,
-  .page-header { padding: 20px 10px;
+  .page-header {
+    padding: 0;
 
     .intro-copy {
-
-      h1 { font-size: 28px;
-
-        span { font-size: 44px; display: block; }
-
-      }
-
       .subhead { font-size: 18px; }
-
-      .description { font-size: 18px; }
-
+      .description { font-size: 14px; }
     }
 
+    .my-avatar.home { margin: 20px auto -40px; }
   }
 
   .page-header { padding-bottom: 5px; }
@@ -92,7 +80,12 @@
 
   .writing {
 
-    h2 { font-size: 34px; letter-spacing: -1px; margin: 40px 0 20px; line-height: 1; }
+    h2 {
+      font-size: 34px;
+      letter-spacing: -1px;
+      margin: 40px 0 20px;
+      line-height: 1;
+    }
 
     .article-nav { font-size: 20px;
 

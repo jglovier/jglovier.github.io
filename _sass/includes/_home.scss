@@ -8,6 +8,7 @@
     padding: 0;
     overflow: hidden;
     @media (max-width: 990px) { height: 420px; }
+    @media (max-width: 895px) { height: auto; }
 
     .my-avatar {
       width: pct( 600, 1024);
@@ -18,6 +19,12 @@
       margin-bottom: -10px;
 
       @media (max-width: 990px) { width: 450px; }
+      @media (max-width: 895px) {
+        max-width: 550px;
+        width: 100%;
+        margin: 40px auto -120px;
+        float: none;
+      }
     }
 
     .joel-photo { max-width: 100%; }
@@ -28,6 +35,10 @@
       margin-top: 80px;
 
       @media (max-width: 990px) { margin-top: 30px; }
+      @media (max-width: 990px) {
+        margin: 30px auto 0;
+        float: none;
+      }
 
       h1 {
         margin: 20px 0 25px;
@@ -35,6 +46,7 @@
         font-weight: 800;
         font-size: 4.4rem;
         text-indent: 4px;
+        @media (max-width: 570px) { font-size: 14vw; }
 
         a {
           font-weight: 700;
@@ -49,6 +61,10 @@
         padding: 10px 0;
         font-size: 1.46875rem;
         margin: 10px 0;
+        @media (max-width: 570px) {
+          font-size: 5vw;
+          letter-spacing: -1px;
+        }
       }
 
       .description {

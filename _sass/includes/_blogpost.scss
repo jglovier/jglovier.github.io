@@ -41,6 +41,17 @@
       right: 0;
       margin-left: 0;
     }
+    @media (max-width: 895px) {
+      float: none;
+      width: auto;
+      text-align: center;
+      margin: 0 auto;
+
+      > a { height: auto; }
+
+      img { width: 80px; margin: 0 auto; }
+    }
+    @media (max-width: 570px) { margin-top: 20px; }
   }
 
   .joel-photo {

@@ -69,6 +69,8 @@
       width: auto;
       font-size: 60px;
       line-height: 1;
+
+      @media (max-width: 570px) { font-size: 38px; }
     }
 
     .subhead {
