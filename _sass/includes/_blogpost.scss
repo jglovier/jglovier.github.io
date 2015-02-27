@@ -1,10 +1,32 @@
 /* @group Blog Post Styles -------------------- */
 
 .blogpost {
+
+  .page-header {
+    .intro-copy {
+      width: auto;
+      margin-left: 176px;
+    }
+
+    .article-date {
+      font-size: 18px;
+      @include sans_regular;
+      margin: 5px 0 0;
+      letter-spacing: -.5px;
+
+      a {
+        text-decoration: none;
+        @include sans_regular;
+      }
+    }
+  }
+
   .my-avatar {
     max-width: 100px;
     float: left;
-    margin-right: 40px;
+    margin-left: -100px;
+    position: relative;
+    right: -140px;
   }
 
   .joel-photo {
@@ -21,8 +43,10 @@
   font-size: 20px;
 
   h1, h2, h3, h4, h5, h6, h7 {
-    @include sans;
-    font-weight: 800;
+    @include sans_extrabold;
+    color: $text_color;
+    letter-spacing: -2px;
+    letter-spacing: -1.5px;
     line-height: 1;
   }
 
@@ -50,11 +74,12 @@
   del { text-decoration: line-through; color: $gray_2; }
 
   blockquote {
-    border-left: 6px solid $blue_l2;
+    border-left: 6px solid $tan_2;
     margin-left: 0;
     padding: 5px 40px;
-    background-color: $blue_l4;
-    @include border-radius(0 10px 10px 0); }
+    background-color: $tan;
+    @include border-radius(0 10px 10px 0);
+  }
 
   code {
     font-size: 22px;
@@ -66,7 +91,7 @@
 
   hr {
     border: none;
-    border-top: 2px solid $gray_1;
+    border-top: 2px solid $border_color;
   }
 
 }
@@ -82,43 +107,49 @@
 /* next article styles */
 
 .next-article {
-  color: $white;
+  color: $text_color;
   padding: 50px 0;
   @include bg-img-classes;
 
-  a { color: #fff; }
+  a { text-decoration: none; }
 
   .contents {
-    margin-left: pct( 237, 1284);
+    margin-left: 176px;
     padding-right: 30px;
-    /*width: pct( 812, 1284);*/
-    max-width: 812px; }
+    max-width: 672px;
+  }
 
   .next-arrow {
-    font-size: 18px;
+    font-size: 14px;
     text-transform: uppercase;
-    @include sans_regular;
-    letter-spacing: 2px;
-    margin: 0 0 10px; }
+    @include sans_bold;
+    letter-spacing: 4px;
+    margin: 0 0 15px;
+  }
 
   .title {
     margin: 0 0 10px;
     font-size: 40px;
     @include sans_extrabold;
     line-height: 1;
+    letter-spacing: -2px;
 
+    a { font-weight: 800; }
     a:hover { opacity: .75; }
 
   }
 
   .subhead {
     margin: 0 0 10px;
-    font-style: italic;
     font-size: 21px;
     line-height: 1;
-    font-family: "Minion Pro", Palatino, Georgia, serif; }
+    @include serif;
+  }
 
-  .article-date { margin: 0; letter-spacing: 2px; }
+  .article-date {
+    margin: 0;
+    letter-spacing: -1px;
+  }
 
   .nav { margin: 0; }
 
@@ -129,11 +160,11 @@
     letter-spacing: 2px;
     margin: 10px 0 0;
     @include border-radius(5px);
-    border: 2px solid white;
+    border: 2px solid;
     padding: 2px 12px;
     display: inline-block;
 
-    &:hover { background-color: rgba(255,255,255,.2); }
+    &:hover { background-color: rgba(51,51,51,.2); }
 
   }
 

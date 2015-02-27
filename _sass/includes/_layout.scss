@@ -33,7 +33,6 @@
       padding: 0 15px; }
 
     a { color: $text_color; }
-
   }
 
   &:hover { background: white;
@@ -45,9 +44,7 @@
       .menu-icon { display: inline-block; }
 
     }
-
   }
-
 }
 
 /* Page Header */
@@ -78,14 +75,6 @@
       @include serif;
       letter-spacing: -1px;
       margin: 5px 0 0;
-    }
-
-    .article-date {
-      font-size: 20px;
-      @include sans;
-      margin: 0;
-      opacity: .6;
-      letter-spacing: -1px;
     }
 
     .description {
@@ -141,31 +130,6 @@
     letter-spacing: -2px;
     color: $heading_color;
   }
-}
-
-/* WIP Notice */
-
-.wip-notice {
-  position: fixed;
-  top: 10px; left: 0;
-  width: 110px;
-  padding: 5px 5px;
-  background-color: $blue_l4;
-  border-radius: 0 3px 3px 0;
-  opacity: .6;
-
-  &:hover { opacity: 1; }
-
-  p {
-    margin: 0;
-    font-size: 12px;
-    text-align: center;
-    line-height: 1.25;
-
-    a { color: $blue; text-decoration: underline; }
-
-  }
-
 }
 
 /* @end Layout Styles */
