@@ -9,6 +9,7 @@
       float: none;
       width: auto;
       text-align: center;
+      margin: 0 auto;
 
       > a { height: auto; }
 
@@ -44,7 +45,7 @@
     overflow: hidden;
     font-size: 18px;
     margin: 0;
-    padding: 0 25px;
+    padding: 20px 0;
 
     h2 { margin: 40px 0 20px; }
 
@@ -124,6 +125,12 @@
     }
 
   }
+
+}
+
+@media screen and (max-width: 380px) {
+
+  .post-content { font-size: 16px; }
 
 }
 

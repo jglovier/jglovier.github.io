@@ -6,6 +6,14 @@
     .intro-copy {
       width: auto;
       margin-left: 176px;
+
+      @media (max-width: 1084px) { margin-left: 0; }
+    }
+
+    .wrap {
+      @media (max-width: 1084px) {
+        max-width: 732px;
+      }
     }
 
     .article-date {
@@ -27,6 +35,12 @@
     margin-left: -100px;
     position: relative;
     right: -140px;
+
+    @media (max-width: 1084px) {
+      float: none;
+      right: 0;
+      margin-left: 0;
+    }
   }
 
   .joel-photo {
