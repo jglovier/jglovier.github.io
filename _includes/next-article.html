@@ -1,7 +1,7 @@
 <div class="next-article {% if page.previous.imgclass %}{{ page.previous.imgclass }} {% else %}{{ page.previous.categories | join: " " }} {% endif %}">
   <div class="wrap">
 
-    <div class="contents">
+    <div class="contents constrained">
     {% if page.previous %}
       <p class="next-arrow">Next Article:</p>
       <h3 class="title"><a href="{{ page.previous.url }}" class="next-article-link">{{ page.previous.title }}</a></h3>

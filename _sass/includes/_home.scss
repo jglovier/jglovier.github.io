@@ -7,8 +7,7 @@
     background-image: none;
     padding: 0;
     overflow: hidden;
-    @media (max-width: 990px) { height: 420px; }
-    @media (max-width: 895px) { height: auto; }
+    @media (max-width: 990px) { height: auto; }
 
     .my-avatar {
       width: pct( 600, 1024);
@@ -17,9 +16,7 @@
       bottom: -5px;
       margin-top: 40px;
       margin-bottom: -10px;
-
-      @media (max-width: 990px) { width: 450px; }
-      @media (max-width: 895px) {
+      @media (max-width: 990px) {
         max-width: 550px;
         width: 100%;
         margin: 40px auto -120px;
@@ -86,6 +83,10 @@
       }
     }
   }
+
+  .writing {
+    .article-item { display: none; }
+  }
 }
 
 /* Writing (article index) */
@@ -94,6 +95,7 @@
 
   .section-heading h2 {
     float: left;
+    @media (max-width: 595px) { float: none; }
 
     &.other-writing { font-size: 36px; }
 
@@ -104,18 +106,28 @@
     font-size: 24px;
     float: right;
     margin-right: 60px;
-
     @media (max-width: 990px) { margin-right: 0; }
+    @media (max-width: 595px) {
+      float: none;
+      margin-top: 20px;
+    }
 
     > a {
       @include link-w-bg;
       background-color: transparent;
       margin-left: 10px;
       float: left;
+      @media (max-width: 750px) { margin-left: 4px; }
+      @media (max-width: 650px) {
+        padding: 3px 6px;
+        font-size: 22px;
+      }
+      @media (max-width: 450px) { font-size: 17px; }
 
       &:first-child {
         margin-left: 0;
         padding: 3px 16px;
+        @media (max-width: 450px) { padding: 3px 8px; }
       }
 
       &:hover {
@@ -135,8 +147,7 @@
 
   }
 
-  .article-item { display: none;
-
+  .article-item {
     > a { text-decoration: none; }
 
     &.show { display: block; }
@@ -169,6 +180,7 @@
       color: $tan_3;
       margin: 0;
       font-weight: 400;
+      @media (max-width: 450px) { font-size: 14px; }
     }
 
     .external_site { text-transform: capitalize; }

@@ -35,13 +35,8 @@
     margin-left: -100px;
     position: relative;
     right: -140px;
-
     @media (max-width: 1084px) {
-      float: none;
       right: 0;
-      margin-left: 0;
-    }
-    @media (max-width: 895px) {
       float: none;
       width: auto;
       text-align: center;
@@ -111,12 +106,17 @@
   }
 
   code {
-    font-size: 22px;
+    font-size: 18px;
+    line-height: 1.2;
     background-color: $tan;
     padding: 4px 8px;
-    @include border-radius(5px); }
+    @include border-radius(5px);
+  }
 
-  img { max-width: 100%; @include border-radius(5px); }
+  img {
+    max-width: 100%;
+    @include border-radius(5px);
+  }
 
   hr {
     border: none;
@@ -143,12 +143,6 @@
   @include bg-img-classes;
 
   a { text-decoration: none; }
-
-  .contents {
-    margin-left: 176px;
-    padding-right: 30px;
-    max-width: 672px;
-  }
 
   .next-arrow,
   .index-link {
@@ -222,9 +216,10 @@
 
       code {
         background-color: transparent;
-        font-size: 20px;
-        padding: 0; }
-
+        font-size: 18px;
+        line-height: 1.2;
+        padding: 0;
+      }
     }
 
     .language-html {
