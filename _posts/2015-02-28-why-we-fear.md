@@ -7,7 +7,7 @@ categories: life
 
 Today I got some news that scared the shit out of me. Someone very close to me was diagnosed with cancer rather unexpectedly. My heart sunk, and it was like getting punched in the gut. I felt mostly shock, and then lots of processing. 
 
-Then, a bunch of emotions all flooded through me, ranging from fear, to surprise, so sadness, to gratitude. 
+Then, a bunch of emotions all flooded through me ranging from fear, to surprise, to sadness, to gratitude. 
 
 And then after a while, the feeling that stuck with me most was that I was scared.
 
@@ -25,13 +25,13 @@ The unknown forces you to acknowledge and face all of those things.
 
 The unknown can be something like a cancer diagnosis, or the loss of a job, or challenges to your beliefs, or a person you meet. 
 
-The unknown is all around us because - lets face it - most of what the universe *is* is unknown. That's not just astrophyical meta speculation, it's a reality about the world in which we live. Our world is largely unknown, and we have only a small glimpse into very small parts of it.
+The unknown is all around us because - lets face it - most of what the universe *is* is unknown. That's not just astrophysical meta speculation, it's a reality about the world in which we live. Our world is largely unknown, and we have only a small glimpse into very small parts of it.
 
-For people of faith, even the Bible says as much when the New Testament writer says, "*for now we see through a glass darkly*," contrasting the abiguity with which we understand things now in this age with the clarity with which we will know in the age to come.
+For people of faith, even the Bible says as much when the New Testament writer says, "*for now we see through a glass darkly*," contrasting the ambiguity with which we understand things now in this age with the clarity with which we will know in the age to come.
 
 In fact, people of faith in ancient traditions were very comfortable with the mystery and ambiguity of life in ways that led them to a greater awe and wonder for God. Yet, in our culture saturated with knowledge and information, we loathe the unknown - even fear it.
 
-And I think that's pretty normal. In fact, I think it's healthy to fear the unknown. It's what makes faith and trusting such a healthy thing for our souls (not to mention what kept our ancient ancestors from being eaten by sabretooth tigers and poisened by beautiful-but-deadly plants). 
+And I think that's pretty normal. In fact, I think it's healthy to fear the unknown. It's what makes faith and trusting such a healthy thing for our souls (not to mention what kept our ancient ancestors from being eaten by sabertooth tigers and poisoned by beautiful-but-deadly plants). 
 
 Without the fear of the unknown, how would we realize the value of something worth trusting?
 
