@@ -30,12 +30,11 @@
       width: 385px;
       float: left;
       margin-top: 80px;
-
-      @media (max-width: 990px) { margin-top: 30px; }
       @media (max-width: 990px) {
         margin: 30px auto 0;
         float: none;
       }
+      @media (max-width: 700px) { width: auto; }
 
       h1 {
         margin: 20px 0 25px;
