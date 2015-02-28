@@ -3,13 +3,15 @@
 @media screen and (max-width: 990px) {
 
   .page-home .page-header,
-  .page-header { padding: 25px; text-align: center;
+  .page-header {
+    padding: 25px;
+    text-align: center;
 
     .intro-copy {
 
       h1 {
         width: auto;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
       }
 
       .article-date { font-size: 14px; }
