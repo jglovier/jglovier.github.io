@@ -5,9 +5,12 @@
   .page-home .page-header,
   .page-header { padding: 25px; text-align: center;
 
-    .intro-copy { width: auto; float: none; margin-bottom: 20px;
+    .intro-copy {
 
-      h1 { width: auto; margin-bottom: 10px; }
+      h1 {
+        width: auto;
+        margin-bottom: 10px;
+      }
 
       .article-date { font-size: 14px; }
     }

@@ -2,11 +2,21 @@
 
 body.category {
 
-  .page-header { margin-bottom: 20px;
+  .page-header {
+    margin-bottom: 20px;
+    padding: 100px 0 40px;
 
     .intro-copy { width: auto; }
 
     h1 { text-transform: capitalize; }
+
+    .subhead {
+      border-top: 3px solid;
+      border-bottom: 1px solid;
+      padding: 5px 0;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
 
   }
 }
