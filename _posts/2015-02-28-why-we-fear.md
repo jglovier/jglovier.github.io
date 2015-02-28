@@ -2,6 +2,7 @@
 layout: blogpost
 title: "Why we fear"
 subhead: "Usually, because of the unknown"
+imgclass: ocean
 categories: life
 ---
 
