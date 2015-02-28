@@ -38,7 +38,7 @@ Without the fear of the unknown, how would we realize the value of something wor
 
 I'm still pretty scared. The coming weeks and months hold much for me and my family that are far beyond what I can imagine, even after talking with friends who have walked this journey before. I'm not expecting fear to go away, because the unknown will not go away. 
 
-But what I am expecting to do is get more comfortable with the unknown, and trust that there is a purpose - and a God - who knows what I do not. Because the unknown is part of life, and I really think it's something that should both be feared, and cherished.
+But what I am expecting to do is get more comfortable with the unknown, trust that there is a purpose - and a God - who knows what I do not, and lean on the wonderful people around me who offer glimpses of hope in dark times. Because the unknown is part of life, and I really think it's something that should be feared as a reminder of our limitations, cherished as an opportunity to break through those limitations, and embraced as part of what unites us as humans.
 
 
 
