@@ -2,8 +2,8 @@
 
 body{
   background: $white;
-  font-family: "pn_font", Arial, sans-serif;
-  color: $gray_3;
+  @include sans;
+  color: $text_color;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -12,8 +12,8 @@ body{
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
 .wrap {
-  max-width: 1284px;
-  padding: 0;
+  max-width: 1084px;
+  padding: 0 30px;
   margin: 0 auto;
   zoom: 1; }
 
@@ -32,16 +32,24 @@ body{
   box-sizing: border-box; }
 
 a {
-  color: $blue;
-  text-decoration: none; }
+  font-weight: bold;
+  color: $black;
+
+  &:hover {
+    text-decoration: none;
+    opacity: .8;
+  }
+  &:active,
+  &:focus { outline: none; }
+}
 
 ::-moz-selection {
-    background: rgba(0,68,114,.8);
+    background: rgba(51,51,51,.8);
     color: #fff;
     text-shadow: none;
 }
 ::selection {
-    background: rgba(0,68,114,.8);
+    background: rgba(51,51,51,.8);
     color: #fff;
     text-shadow: none;
 }

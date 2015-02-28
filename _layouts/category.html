@@ -13,25 +13,32 @@
 
   <div class="wrap">
 
-    <div class="wide-left-margin">
-
-      <div class="articles show">
-          <!-- <h3 class="list-year">2013</h3> -->
-          <ul class="article-index">
+        <div class="articles">
+          <ul class="article-index constrained show">
             {% for post in site.categories[page.title] %}
-            <li class="{% cycle 'even', 'odd' %}">
-              <a href="{{ post.url }}">
-                <span class="article-date">{{ post.date | date: "%-m/%-d/%Y" }}</span>
-                <span class="article-title">{{ post.title }}</span>
+            <li class="article-item show article-{{post.date | date: "%Y"}}">
+              {% if post.external_url %}
+              <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);" target="_blank">
+                <h3 class="article-title">{{ post.title }} {% include icons/icon-link.html %}</h3>
+                <p class="article-date">{{ post.date | date: "%B %e, %Y" }}{% if post.external_site %} • via <span class="external_site">{{ post.external_site }}</span>{% endif %}</p>
+                {% if post.excerpt %}
+                <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
+                {% endif %}
               </a>
+              {% else %}
+              {% include readingtime.html %}
+              <a href="{{ post.url }}">
+                <h3 class="article-title">{{ post.title }}</h3>
+                <p class="article-date">{{ post.date | date: "%B %e, %Y" }} • {{ reading_time }} read</p>
+                <p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>
+              </a>
+              {% endif %}
             </li>
             {% endfor %}
           </ul>
         </div>
 
         {% include categories.html %}
-
-    </div>
 
   </div>
 

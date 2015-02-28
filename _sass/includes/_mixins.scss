@@ -10,31 +10,54 @@
   overflow: hidden;
   text-overflow: ellipsis; }
 
-@mixin pn_light {
-  font-family: "pn_font", Arial, sans-serif;
-  font-weight: 300; }
+@mixin sans {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
-@mixin pn_regular {
-  font-family: "pn_font", Arial, sans-serif;
-  font-weight: 400; }
+@mixin sans_light {
+  @include sans;
+  font-weight: 300;
+}
 
-@mixin pn_bold {
-  font-family: "pn_font", "Arial", Arial, sans-serif;
-  font-weight: 700; }
+@mixin sans_regular {
+  @include sans;
+  font-weight: 400;
+}
 
-@mixin pn_extrabold {
-  font-family: "pn_font", "Arial Black", Arial, sans-serif;
-  font-weight: 900; }
+@mixin sans_semibold {
+  @include sans;
+  font-weight: 600;
+}
+
+@mixin sans_bold {
+  @include sans;
+  font-weight: 700;
+}
+
+@mixin sans_extrabold {
+  @include sans;
+  font-weight: 800;
+}
 
 @mixin serif {
-  font-family: "Minion Pro", Palatino, Georgia, serif;
+  font-family: "Lora", "Minion Pro", Palatino, Georgia, serif;
+}
+
+@mixin serif_regular {
+  @include serif;
+  font-weight: 400;
+}
+
+@mixin serif_bold {
+  @include serif;
+  font-weight: 700;
 }
 
 @mixin bg-img-classes {
   background-image: url("../img/bg-macbook.jpg");
   background-position: center top;
   background-repeat: no-repeat;
-  background-color: $blue_l1;
+  background-color: $tan;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -84,6 +107,19 @@
   -webkit-border-radius: $radius;
   -moz-border-radius: $radius;
   border-radius: $radius;
+}
+
+@mixin link-w-bg {
+  @include sans_light;
+  color: $text_color;
+  font-size: 24px;
+  @include border-radius(5px);
+  padding: 3px 10px;
+  line-height: 1.25;
+  letter-spacing: -1px;
+  outline: none;
+  background-color: $tan;
+  text-decoration: none;
 }
 
 // media querie tools

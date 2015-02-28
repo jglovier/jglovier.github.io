@@ -4,6 +4,8 @@ body.page404 {
   background-color: #4b215f;
   color: #fff;
 
+  .site-nav a { color: $text_color; }
+
   .bg-img {
     background-image: url("../img/bg-404-sunset.jpg");
     background-position: center bottom;
@@ -36,22 +38,23 @@ body.page404 {
       width: auto;
       line-height: 170px;
 
-      a { color: #fff; }
-
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
     }
 
     .subhead {
       font-size: 50px;
       font-weight: 300;
       text-transform: uppercase;
-      letter-spacing: 3px;
       margin: 0;
       white-space: nowrap; }
 
   }
 
   .intro-right {
-    @include pn_bold;
+    @include sans_bold;
     font-size: 78px;
     line-height: 96.5px;
     margin: 15px 0 0;
@@ -97,8 +100,9 @@ body.page404 {
     .intro-right {
       width: 455px;
       font-size: 65px;
-      line-height: 70px;
-      margin-top: 19px; }
+      line-height: 65px;
+      margin-top: 34px;
+      letter-spacing: -3px; }
 
     .content { margin-top: 30px; }
 

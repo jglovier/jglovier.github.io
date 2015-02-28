@@ -6,10 +6,11 @@
   position: fixed; z-index: 999;
   top: 16px; right: 16px;
   @include border-radius(4px);
-  color: $white;
+  background: $tan;
+  border: 1px solid $tan;
+  @media (max-width: 570px) { top: 4px; right: 2px; }
 
   .nav-trigger {
-    background: $blue;
     @include border-radius(4px);
     padding: 8px;
     display: block;
@@ -26,17 +27,17 @@
     padding: 0 15px 8px;
     text-align: right;
     display: none;
+    letter-spacing: -1px;
 
     > li:hover {
-      background-color: $blue_l2;
+      background-color: rgba($tan_2,.5);
       margin: 0 -15px;
       padding: 0 15px; }
 
-    a { color: #fff; }
-
+    a { text-decoration: none; }
   }
 
-  &:hover { background: $blue;
+  &:hover { background: white;
 
     .links { display: block; }
 
@@ -45,9 +46,7 @@
       .menu-icon { display: inline-block; }
 
     }
-
   }
-
 }
 
 /* Page Header */
@@ -55,64 +54,48 @@
 .page-header {
   background-size: cover;
   padding: 195px 0 65px;
-  color: $white;
+  color: $text_color;
   @include bg-img-classes;
+  margin-bottom: 30px;
 
-  .intro-copy { width: pct( 1022, 1284); float: left; font-weight: 300;
+  .intro-copy {
 
     h1 {
-      font-weight: 700;
+      font-weight: 800;
+      letter-spacing: -3px;
       margin: 20px 0 0;
       width: auto;
       font-size: 60px;
-      line-height: 1; }
+      line-height: 1;
+
+      @media (max-width: 570px) { font-size: 38px; }
+    }
 
     .subhead {
       font-size: 28px;
-      font-family: "Minion Pro", Palatino, Georgia, serif;
-      font-style: italic;
-      margin: 5px 0 0; }
-
-    .article-date {
-      font-size: 20px;
-      font-family: "pn_font";
-      letter-spacing: 2px;
-      margin: 0;
-      color: $blue_l3; }
+      @include serif;
+      letter-spacing: -1px;
+      margin: 5px 0 0;
+    }
 
     .description {
       font-size: 24px;
       margin: 10px 0 0;
 
-      a { font-weight: 700; }
-
+      a {
+        font-weight: 600;
+        letter-spacing: -1px;
+      }
     }
 
     a {
-      border-bottom: 2px solid rgba(255,255,255,.5);
-      padding:0 5px; margin: 0 -5px;
-      @include border-radius(4px 4px 0 0);
-      color: #fff;
+      padding:0 3px; margin: 0 -3px;
+      @include border-radius(4px);
+      color: $text_color;
 
-      &:hover { background-color: rgba(0,68,114,.4); }
-
+      &:hover { background-color: white; }
     }
-
   }
-
-  .joel-photo {
-    display: inline-block;
-    width: pct( 245, 341);
-    max-width: 124px;
-    margin-right: 30px;
-    @include border-radius(100%); }
-
-  .my-avatar { width: pct( 237, 1284); text-align: right; float: left;
-
-    > a { display: block; height: 126px; }
-
-  }
-
 }
 
 
@@ -120,42 +103,37 @@
 
 .page-footer {
   text-align: center;
-  border-top: 1px solid #e8e8e8;
-  padding: 20px 0;
+  border-top: 1px solid $border_color;
+  padding: 30px 0;
+  @include serif;
+  @media (max-width: 450px) { font-size: 14px; }
 
   p { margin: 0; }
-
-  a { color: $blue; }
-
 }
 
 /* Utilities */
 
-.wide-left-margin { margin-left: pct( 341, 1284); padding-right: 30px; }
+.constrained {
+  max-width: 672px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-/* WIP Notice */
+.section-heading {
+  border-top: 3px solid $border_color;
+  border-bottom: 1px solid $border_color;
+  padding: 18px 0;
+  margin-bottom: 30px;
 
-.wip-notice {
-  position: fixed;
-  top: 10px; left: 0;
-  width: 110px;
-  padding: 5px 5px;
-  background-color: $blue_l4;
-  border-radius: 0 3px 3px 0;
-  opacity: .6;
-
-  &:hover { opacity: 1; }
-
-  p {
+  h2 {
+    font-weight: 800;
+    line-height: 1;
     margin: 0;
-    font-size: 12px;
-    text-align: center;
-    line-height: 1.25;
-
-    a { color: $blue; text-decoration: underline; }
-
+    font-size: 36px;
+    letter-spacing: -2px;
+    color: $heading_color;
+    @media (max-width: 450px) { font-size: 28px; }
   }
-
 }
 
 /* @end Layout Styles */
