@@ -24,7 +24,7 @@ The unknown is a scary thing. It forces you to confront reality and assumptions,
 
 The unknown forces you to acknowledge and face all of those things.
 
-The unknown can be something like a cancer diagnosis, or the loss of a job, or challenges to your beliefs, or a person you meet. 
+The unknown can be something like a cancer diagnosis, or the loss of a job, challenges to your beliefs, or a person you meet. 
 
 The unknown is all around us because - lets face it - most of what the universe *is* is unknown. That's not just astrophysical meta speculation, it's a reality about the world in which we live. Our world is largely unknown, and we have only a small glimpse into very small parts of it.
 
