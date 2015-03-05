@@ -1,0 +1,127 @@
+---
+layout: blogpost
+title: "Design advice for developers"
+subhead: "Five simple tips to help you become more design aware"
+imgclass: design
+categories: design
+---
+
+I often talk to developers who say they feel bad about their lack of design skills. In fact, a Redditor recently [posted as much](http://www.reddit.com/r/webdev/comments/2l2e8a/overcoming_being_bad_at_web_design/), seeking advice about how he could improve his command of the discipline of design. I've encountered this question enough times to have some thoughts that may be useful if it is your quest too.
+
+### Developer != Designer
+
+As a native designer and immigrant developer, I appreciate people in the reverse position who seek to enhance their cross-disciplinary skill levels. While it can feel safe to operate primarily in the area of your strength, pushing yourself to round out your abilities - even if just for competency, and not for mastery - can bring lots of benefit to your primary strengths, too.
+
+But one thing worth clearing up is that just because you are a good developer doesn't mean that you should also be a good designer. The two are in fact completely different skill sets - at least for the purpose of comparing whether designers and developers should be good at both disciplines. It can certainly be helpful to have some level of comptency in both areas, but very rare is the person who has achieved a mastery of both development and design (i.e. could make a career out of either discipline).
+
+That being said, if you really *want* to improve at design, there are a number of things that you can do to learn and grow in that skill set, just like you might with any other skill set. Cultivating a level of *competence* in parralell fields is certainly a noble, if not extreemly valuable, persuit.
+
+### So why does design matter to me?
+
+So why *should* you seek to improve your command of design as a developer? Because building software is a function of both disciplines. Even though it may not be your primary responsibility to execute the design for the things you build, that design work needs to happen eventually, and if you as a developer are aware of what goes into that process, it can make the overall process more efficient, and more successful in the same way that being a designer with programming competency helps the people responsible for design to design things that work well once built.
+
+For example, understanding the limitations or constraints of the codebase helps me know how to design things that won't create major problems for the engineers implementing a solution on the backend to what I've designed for the front end. It also helps me to be able to prototype in ways that are more efficient. 
+
+Likewise, a developer building a feature before a designer has touched it will make the overall process more efficient if they have an awareness of the design goals beyond their work.
+
+### Some basic advice
+
+In reflecting on how I've personally developed as a designer over the years, and what things have contributed the most to my growth as a designer, I can identify a handful of really basic things that could be helpful for anyone who wants to cultivate their own design skill level. These basic ideas are the things I think will help you most if you want to increase your design awarness.
+
+## 1. Learn what even is good design.
+
+Learn the basics of good design principles, look for them in action, and study them (a great resource for programmers is [Hack Design](https://hackdesign.org/)). There are [universal principles of design](http://en.wikipedia.org/wiki/Design_elements_and_principles) that are helpful to understand, and there are domain specific principles of design that are helpful to understand (such as product design, user experience design, marketing design, mobile design, responsive design, email design, etc). 
+
+If you are a developer at an agency, it might be worth your time to understand [web design](https://developers.google.com/web/fundamentals/principles/index?hl=en) and [marketing design](http://www.lukew.com/ff/entry.asp?785) best practices as it relates to the projects you are regularly working on. If you are an engineer at a product focused company, take some time to learn about and understand best practices for [user](http://www.usability.gov/what-and-why/user-experience.html) [experience](http://www.uxbooth.com/articles/making-and-breaking-ux-best-practices/) [design](http://www.smashingmagazine.com/usability-and-user-experience/), and [application design](). If you're building things that end up on mobile, take some time and understand what best practices for [mobile design](http://punchcut.com/perspectives/best-practices-mobile-design/) are.
+
+Clearly, you can spend lots of time reading (which I find very helpful). But you can also spend time looking at examples of great design and study what makes it great. Just start by studying stuff that stands out to you, or visit sites like [Dribbble](https://dribbble.com/) or even [CSS galleries](http://unmatchedstyle.com/) that showcase examples of great design work. 
+
+If you want to learn to recognize a counterfeit banknote from a real one, you spend your time studying the real thing so you can recognize when something isn't it. In the same way, studying examples of great design is a good way to recognize poor design practices when you see them, whether it's your own work or others.
+
+But whether you spend time reading about good design, or studying examples of good design (hint: do both!), the important point here is you need to first be able to recognize what good design even is. If that's the only thing you pick up, it will make a world of difference in increasing your design awareness.
+
+## 2. Practice. Practice. Practice.
+
+The order of this step is important. If you only know how to design poorly, your practice will generally only produce more poor design (unless you really are a natural designer). You need to first start by building a mental framework for what constitutes good design, as described above. 
+
+But once you have begun to cultivate a sense for what good design even is, then the next step is to practice making things that manifest that.
+
+Something I've done a lot to excercise and build my muscles (whether design muscles or development muscles) is take on a side project. It could be an open sournce project, some contracting work, or just something personal that nobody else ever sees. This gives you an opportunity to push your boundaries in a context where you feel safe exploring new territory (yeah, maybe not the contract setting yet).
+
+##  3. Seek out critique.
+
+Ask people who are good designers to helpfully criticize your work, pointing how how/where it can improve. Feedback from others is a really important part of the design process.
+
+Note: everyone takes feedback/criticism differently. For some who put more of themselves into their work and find it hard to deal with criticism, it can be helpful to complete an entire iteration of your work and then seek feedback on the whole, rather than cumulatively along the way when it's easier to dismiss aspects of criticism because of a false sense about how much more you can/will improve the work.
+
+Regardless of how or when you get critical input, seek it out, and make sure you get it from a reputable source. Getting off the cuff reactions from people who don't have a sense for good design is rarely helpful, but getting meaningful input from objective parties with a sense for design will always help you see things differently, and help you keep growing.
+
+## 4. Cultivate a style
+
+Design is a tool. Once you realize that you can start to understand what you need your tool to accomplish. If you are a generalist and you work on lots of different types of projects, like a mechanic who needs many tools nearby you may need many styles of design at your disposal. 
+
+However, if you are a specialist and can get away with focusing your work in a particular genre or category, you can focus on honing a particular style that ends up being your go to tool for solving design problems.
+
+Since we are specifically talking about cultivating a secondary skillset in this discussion, I would suggest sticking with the later. If you're primary work is not actually design, you might find it more helpful to focus on a specific style of design and hone that style while you grow your overall design competence. Then, if you find later that you're beginning to master some level of design you may want to explore new styles.
+
+Either way, it really helps to think about and cultivate a style that works well for you, and that you are good at.
+
+## 5. Cultivate your taste
+
+Much of design really is about taste. Design taste, much like food taste, is a combination of preference and sophistication. Some of what strikes people as good is about preference, and some of what strikes people as good is about learning to recognize good patterns and practices regardless of whether they are your own preference.
+
+Taste is different from style in that style is about execution, and taste is about appeal. Execution has unique characterists, and generally abides by a set of certain executional principles. Taste, however, is more about appealing to a more general, universal realm of design principles. Any style can be executed in good taste, or poor taste.
+
+Your own styles might not be the particular taste of everyone, but people should at least be able to look at your work and say it's in good taste. And as is the running theme, you need to cultivate that taste before you can demonstrate it.
+
+## More resources
+
+There really are a ton of great resources online for learning. So many that it can be hard to sift through and find the best ones. Here's a list of some that I like. I'll currate and maintain this list over time. If you have a great suggestion for something to add, [Tweet it to me](http://twitter.com/jglovier).
+
+### Web design & design in general
+
+- [HackDesign.org](https://hackdesign.org/) (design for programmers)
+- [Web Fundamentals](https://developers.google.com/web/fundamentals/)
+- [A List Apart](http://alistapart.com/topics/design)
+- [Web Design Elements: Examples And Best Practices](http://www.smashingmagazine.com/web-design-essentials-examples-and-best-practices/)
+- [Layout Principles](http://www.google.com/design/spec/layout/principles.html)
+- [Design Patterns](http://zurb.com/word/design-patterns)
+
+### Product design
+
+- [Material design](http://www.google.com/design/spec/material-design/introduction.html)
+
+### User experience & usability
+- [Don't Make Me Think](http://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515#) by Steve Krug
+- [The Design of Everyday Things](http://www.amazon.com/The-Design-Everyday-Things-Expanded/dp/0465050654) by Don Norman
+- [UXbooth.com](http://www.uxbooth.com/)
+- [A List Apart](http://alistapart.com/topics/user-experience)
+- [Nielsen Norman Group blog](http://www.nngroup.com/articles/)
+- [Usability 101: Introduction to Usability](http://www.nngroup.com/articles/usability-101-introduction-to-usability/)
+- [Usability.gov](http://www.usability.gov/)
+
+### Responsive design
+
+- [Ethan Marcotte's](http://ethanmarcotte.com/#writing)  stuff
+- [Responsive Web Design](http://abookapart.com/products/responsive-web-design) by Ethan Marcotte
+- [Brad Frost's](http://bradfrost.com/blog/) stuff
+- [This is Responsive](http://bradfrost.github.io/this-is-responsive/) (responsive UI patterns)
+- [Scott Jehl's](http://scottjehl.com/) stuff
+- [Responsible Responsive Design](http://abookapart.com/products/responsible-responsive-design) by Scott Jehl
+- [Trent Walton's stuff](http://trentwalton.com/category/articles/)
+- [Filament Group's blog](http://www.filamentgroup.com/lab/)
+- [A List Apart](http://alistapart.com/topic/responsive-design)
+
+### Mobile design
+- [Luke Wroblewski's](http://www.lukew.com/) stuff (all of it, basically)
+- [Best Practices for Mobile User Interface Design](http://punchcut.com/perspectives/best-practices-mobile-design/)
+- [Mobile UI Design Patterns 2014](http://www.uxpin.com/mobile-design-patterns.html) (book)
+- [A List Apart](http://alistapart.com/topic/mobile-multidevice)
+
+### Email design
+
+- [MailChimp Guides](http://mailchimp.com/resources/guides/)
+- [The Litmus blog](https://litmus.com/blog/)
+- [Create Stunning HTML Email That Just Works](http://www.amazon.com/Create-Stunning-HTML-Email-Works/dp/0980576865) by Matthew Patterson
+- [Professional Email Design](http://professionalemaildesign.com/) by Jason Rodriguez
+- [Rules for Best Practice Email Design: Layout](http://www.sitepoint.com/best-practice-email/)
