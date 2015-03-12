@@ -110,10 +110,13 @@ There really are a ton of great resources online for learning. So many that it c
 - [Web Design Elements: Examples And Best Practices](http://www.smashingmagazine.com/web-design-essentials-examples-and-best-practices/)
 - [Layout Principles](http://www.google.com/design/spec/layout/principles.html)
 - [Design Patterns](http://zurb.com/word/design-patterns)
+- [Design Is the Problem: The Future of Design Must be Sustainable](http://www.amazon.com/Design-Is-Problem-Future-Sustainable/dp/1933820004/ref=tmm_pap_title_0?ie=UTF8&qid=1426184103&sr=1-1) by Nathan Shredoff
+- [Prototyping: A Practitioner's Guide](http://www.amazon.com/Prototyping-Practitioners-Todd-Zaki-Warfel/dp/1933820217/ref=tmm_pap_title_0?ie=UTF8&qid=1426184160&sr=1-1) by Todd Zaki Warfel
 
 ### Product design
 
 - [Material design](http://www.google.com/design/spec/material-design/introduction.html)
+- [Card Sorting: Designing Usable Categories](http://www.amazon.com/Card-Sorting-Designing-Usable-Categories/dp/1933820020/ref=pd_sim_b_2?ie=UTF8&refRID=0E3ACEJQ8NMCHFVWKSAN) by Donna Spencer
 
 ### User experience & usability
 - [Don't Make Me Think](http://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515#) by Steve Krug
@@ -122,6 +125,10 @@ There really are a ton of great resources online for learning. So many that it c
 - [A List Apart](http://alistapart.com/topics/user-experience)
 - [Nielsen Norman Group blog](http://www.nngroup.com/articles/)
 - [Usability 101: Introduction to Usability](http://www.nngroup.com/articles/usability-101-introduction-to-usability/)
+- [Rosenfeld Media books](http://rosenfeldmedia.com/books/)
+- [The User Experience Team of One: A Research and Design Survival Guide](http://www.amazon.com/gp/product/1933820187/ref=pd_lpo_sbs_dp_ss_1?pf_rd_p=1944687602&pf_rd_s=lpo-top-stripe-1&pf_rd_t=201&pf_rd_i=1933820063&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1YB7M2ARKFB8SZSQGB0X) by Leah Buley
+- [Interviewing Users: How to Uncover Compelling Insights](http://www.amazon.com/gp/product/193382011X/ref=pd_lpo_sbs_dp_ss_2?pf_rd_p=1944687602&pf_rd_s=lpo-top-stripe-1&pf_rd_t=201&pf_rd_i=1933820063&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=1YB7M2ARKFB8SZSQGB0X) by Steve Portigal
+- [Mental Models: Aligning Design Strategy with Human Behavior](http://www.amazon.com/Mental-Models-Aligning-Strategy-Behavior/dp/1933820063) by Indi Young
 - [Usability.gov](http://www.usability.gov/)
 
 ### Responsive design
