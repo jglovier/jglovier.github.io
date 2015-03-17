@@ -7,7 +7,7 @@ categories: career
 
 <p class="disclaimer">I <a href="https://www.facebook.com/joelglovier/posts/10101931050277118" target="_blank">recently shared</a> an article on Facebook which garnered some discussion. Here's some further thoughts.</p>
 
-I'm not a huge Mark Cuban fan necessarily (watching him on Shark Tank is entertaining, of course), but he made some comments recently about the shifting higher education landscape that have made headlines in a few places. I think his comments deserve the attention, because they express a reality that I haven't heard a lot of people talking about.
+I'm not a huge Mark Cuban fan necessarily (watching him on Shark Tank is entertaining, of course), but [he made some comments recently](http://www.businessinsider.com/mark-cuban-sweet-briar-college-college-debt-bubble-crisis-2015-3#ixzz3Tu8lrn6S) about the shifting higher education landscape that have made headlines in a few places. I think his comments deserve the attention, because they express a reality that I haven't heard a lot of people talking about.
 
 ## What is the value of a college education?
 
