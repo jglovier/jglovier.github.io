@@ -12,7 +12,7 @@ I often talk to developers who say they feel bad about their level of design ski
 
 As a native designer and immigrant developer, I appreciate people in the reverse position who seek to enhance their cross-disciplinary skill levels. While it can feel safe to operate primarily in the area of your strength, pushing yourself to round out your abilities - even if just for competency, and not for mastery - can bring lots of benefit to your primary strengths, too.
 
-But one thing worth clearing up is that just because you are a good developer doesn't mean that you should also necessarily be a good designer. The two are in fact completely different skill sets - at least for the purpose of comparing whether designers and developers should be good at both disciplines. 
+But one thing worth clearing up is that just because you are a good developer doesn't mean that you should also necessarily be a good designer. The two are in fact completely different skill sets - at least for the purpose of comparing whether designers and developers should be good at both disciplines.
 
 It can certainly be helpful to have some level of competency in both areas, but very rare is the person who has achieved a mastery of both development and design (i.e. could make a career out of either discipline).
 
@@ -20,13 +20,13 @@ That being said, if you really *want* to improve at design, there are a number o
 
 ### Why does design matter to me?
 
-So why *should* you seek to improve your command of design as a developer? 
+So why *should* you seek to improve your command of design as a developer?
 
 **Because building software is a function of both disciplines.**
 
 Even though it may not be your primary responsibility to execute the design for the things you build, that design work needs to happen eventually, and if you as a developer are aware of what goes into that process, it can make the overall process more efficient, and more successful in the same way that being a designer with programming competency helps the people responsible for design to design things that work well once built.
 
-For example, understanding the limitations or constraints of the codebase helps me know how to design things that won't create major problems for the engineers implementing a solution on the backend to what I've designed for the front end. It also helps me to be able to prototype in ways that are more efficient. 
+For example, understanding the limitations or constraints of the codebase helps me know how to design things that won't create major problems for the engineers implementing a solution on the backend to what I've designed for the front end. It also helps me to be able to prototype in ways that are more efficient.
 
 Likewise, a developer building a feature before a designer has touched it will make the overall process more efficient if they have an awareness of the design goals beyond their work.
 
@@ -36,13 +36,13 @@ In reflecting on how I've personally developed as a designer over the years, and
 
 ## 1. Learn what even is good design.
 
-Learn the basics of good design principles, look for them in action, and study them (*see resources below*). 
+Learn the basics of good design principles, look for them in action, and study them (*see resources below*).
 
-There are [universal principles of design](http://en.wikipedia.org/wiki/Design_elements_and_principles) that are helpful to understand, and there are domain specific principles of design that are helpful to understand (e.g. product design, user experience design, marketing design, mobile design, responsive design, email design, etc). 
+There are [universal principles of design](http://en.wikipedia.org/wiki/Design_elements_and_principles) that are helpful to understand, and there are domain specific principles of design that are helpful to understand (e.g. product design, user experience design, marketing design, mobile design, responsive design, email design, etc).
 
 If you are a developer at an agency, it might be worth your time to understand [web design](https://developers.google.com/web/fundamentals/principles/index?hl=en) and [marketing design](http://www.lukew.com/ff/entry.asp?785) best practices as it relates to the projects you are regularly working on. If you are an engineer at a product focused company, take some time to learn about patterns and best practices for [user](http://www.usability.gov/what-and-why/user-experience.html) [experience](http://www.uxbooth.com/articles/making-and-breaking-ux-best-practices/) [design](http://www.smashingmagazine.com/usability-and-user-experience/), and [product design](http://www.google.com/design/spec/material-design/introduction.html). If you're building things that end up on mobile, take some time and understand what best practices for [mobile design](http://punchcut.com/perspectives/best-practices-mobile-design/) are.
 
-Clearly, you can spend lots of time reading (which I find very helpful). But you can also spend time looking at examples of great design and study what makes it great. Just start by studying stuff that stands out to you, or visit sites like [Dribbble](https://dribbble.com/) or even [CSS galleries](http://unmatchedstyle.com/) that showcase examples of great design work. 
+Clearly, you can spend lots of time reading (which I find very helpful). But you can also spend time looking at examples of great design and study what makes it great. Just start by studying stuff that stands out to you, or visit sites like [Dribbble](https://dribbble.com/) or even [CSS galleries](http://unmatchedstyle.com/) that showcase examples of great design work.
 
 Someone once told me if you want to learn to recognize a counterfeit banknote from a real one, you spend your time studying the real thing so you can recognize when something isn't it. In the same way, studying examples of great design is a good way to recognize poor design practices when you see them.
 
@@ -50,7 +50,7 @@ Whether you spend time reading about good design, or studying examples of good d
 
 ## 2. Practice. Practice. Practice.
 
-The order of this step is important. If you only know how to design poorly, your practice will generally only produce more poor design (unless you really are a natural designer). You need to start by building a mental framework for what constitutes good design, as described above. 
+The order of this step is important. If you only know how to design poorly, your practice will generally only produce more poor design (unless you really are a natural designer). You need to start by building a mental framework for what constitutes good design, as described above.
 
 But once you have begun to cultivate a sense for what good design even is, then the next step is to practice making things that manifest it.
 
@@ -64,27 +64,27 @@ Note: everyone takes feedback/criticism differently. For some who put more of th
 
 Regardless of how or when you get critical input, seek it out and make sure you get it from a respectable source. Getting off the cuff reactions from people who don't have a sense for good design is rarely helpful, but getting meaningful input from objective parties with a sense for design will always help you see things differently, and help you keep growing.
 
-## 4. Cultivate a style
+## 4. Cultivate a style.
 
-Design is a tool. Once you see it as such you can begin to think about what you need your tool to accomplish. 
+Design is a tool. Once you see it as such you can begin to think about what you need your tool to accomplish.
 
-If you are a generalist and you work on lots of different types of projects, like a mechanic who needs many tools nearby you may need many styles of design at your disposal. 
+If you are a generalist and you work on lots of different types of projects, like a mechanic who needs many tools nearby you may need many styles of design at your disposal.
 
 However, if you are a specialist and can get away with focusing your work in a specific area, you can focus on honing a particular style that ends up being your go to tool for solving design problems.
 
-Since we are specifically talking about cultivating a secondary skill set in this discussion, I would suggest sticking with the later. 
+Since we are specifically talking about cultivating a secondary skill set in this discussion, I would suggest sticking with the later.
 
 If you're primary work is not actually design, you might find it more helpful to focus on a specific style of design and hone that style while you grow your overall design competence. Then, if you find later that you're beginning to master some level of design you may want to explore new styles.
 
 Either way, it really helps to think about and cultivate a style that works well for you, and that you can become proficient with.
 
-## 5. Cultivate your taste
+## 5. Cultivate your taste.
 
 Much of design is really just about taste. Styles change, best practices evolve, but good taste is timeless.
 
 Design taste, much like food taste, is a combination of preference and sophistication. Some of what strikes people as good is about preference, and some of what strikes people as good is about learning to recognize good patterns and practices regardless of whether they are your own preference.
 
-Taste is different from style in that style is about execution, and taste is about appeal. Execution has unique characteristics, and generally abides by a set of certain executional principles. 
+Taste is different from style in that style is about execution, and taste is about appeal. Execution has unique characteristics, and generally abides by a set of certain executional principles.
 
 Taste, however, is more about appealing to a general, universal realm of design principles. Any style can be executed in good taste, or poor taste.
 
@@ -92,7 +92,7 @@ Your own styles might not be the particular taste of everyone, but people should
 
 ### Fin
 
-Design, of course, is far more than just how things look. It's how things are, why they are, where they are going, and what they are trying to solve. Design is a way of thinking about things, and it's also a practical approach to solving problems. 
+Design, of course, is far more than just how things look. It's how things are, why they are, where they are going, and what they are trying to solve. Design is a way of thinking about things, and it's also a practical approach to solving problems.
 
 Design is something I'm very passionate about because it's universal. I hope you'll invest some time expanding your design awareness and competence, and I hope these principles prove useful that endeavor.
 
