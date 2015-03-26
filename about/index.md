@@ -6,7 +6,7 @@ imgclass: speaking
 
 <p class="lead" markdown="1">I’m Joel Glovier. I’m a designer at [GitHub](https://github.com/jglovier), where I’m currently part of the Creative Team.</p>
 
-Prior to GitHub I was a visual design engineer at [appendTo](http://appendto.com/) (a front-end shop), where I worked on awesome client projects like the [TIME Magazine responsive redesign](http://appendto.com/case-study/responsive-design-time-com). Before that I was the principal designer at an amazing nonprofit called [CURE International](http://cure.org/). And prior still I did freelance graphic and web design full-time for several years. <!---<a href="#background" class="more-link">[read more about my background]</a>-->
+Prior to GitHub I was a visual design engineer at [appendTo](http://appendto.com/) (a front-end shop), where I worked on awesome client projects like the [TIME Magazine responsive redesign](http://appendto.com/case-study/responsive-design-time-com). Before that I was the principal designer at an amazing nonprofit called [CURE International](http://cure.org/), and I still stay involved with CURE in my free time as a core contributor to their open source project [HospitalRun](http://hospitalrun.io/). And prior still I did freelance graphic and web design full-time for several years. <!---<a href="#background" class="more-link">[read more about my background]</a>-->
 
 I enjoy [writing](/writing/) about things I learn, [speaking](https://lanyrd.com/profile/jglovier/) about stuff I’ve experienced, and collecting experiences in general. I also enjoy using [side projects](http://www.devte.es/) to learn new things, to stay fresh, and to collect said experiences. <!---<a href="#side-projects" class="more-link">[read more about my side projects]</a>-->
 
