@@ -14,7 +14,7 @@ I love [writing code](https://github.com/jglovier?tab=repositories) because it r
 
 I love [Jesus](http://2011.joelglovier.com/good-news/) because I know true freedom, peace and joy through Him. I’m not a religious person, but I’m a devoted and unashamed Jesus-follower. <!---<a href="/good-news" class="more-link">[read more about why I love Jesus]</a>-->
 
-I have a wonderful family and community where I live in central Pennsylvania (I work remotely for GitHub, as does approximately 80% of the company). I’m originally from the [Pittsburgh](http://en.wikipedia.org/wiki/Pittsburgh) area (shoutout [Greensburg](http://en.wikipedia.org/wiki/Greensburg,_Pennsylvania)), but currently reside in [Mechanicsburg](http://en.wikipedia.org/wiki/Mechanicsburg,_Pennsylvania), PA.
+I have a wonderful family and community where I live in central Pennsylvania (I work remotely for GitHub, as does approximately 50% of the company). I’m originally from the [Pittsburgh](http://en.wikipedia.org/wiki/Pittsburgh) area (shoutout [Greensburg](http://en.wikipedia.org/wiki/Greensburg,_Pennsylvania)), but currently reside in [Mechanicsburg](http://en.wikipedia.org/wiki/Mechanicsburg,_Pennsylvania), PA.
 
 In my spare time I get distracted by lots of things like [photography](http://www.flickr.com/photos/jglovier/), [bboying](/post-images/bboy-jag.jpg), [tattoos](http://instagram.com/p/LHhfW/), [cooking](http://joelglovier.com/writing/food/), the [Steelers](http://www.steelers.com/), [graffiti art](http://www.youtube.com/watch?v=Pv-Do30-P8A), [tuners](https://github.com/jglovier/2000_Honda_Civic_Si), [skateboarding](/post-images/kgrind.jpg) and [snowboarding](/post-images/boyceparkrail.jpg), electronic music, and traveling.
 
