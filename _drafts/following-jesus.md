@@ -7,3 +7,4 @@ permalink:
 categories:
 ---
 
+[brief: write about what it means to me to be a follower of Jesus.]
