@@ -115,6 +115,7 @@ There really are a ton of great resources online for learning. So many that it c
 
 ### Product design
 
+- [The Design of Everyday Things](http://www.amazon.com/The-Design-Everyday-Things-Expanded/dp/0465050654) by Don Norman
 - [Material design](http://www.google.com/design/spec/material-design/introduction.html)
 - [Card Sorting: Designing Usable Categories](http://www.amazon.com/Card-Sorting-Designing-Usable-Categories/dp/1933820020/ref=pd_sim_b_2?ie=UTF8&refRID=0E3ACEJQ8NMCHFVWKSAN) by Donna Spencer
 
