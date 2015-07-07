@@ -1,8 +1,9 @@
 ---
 layout: blogpost
-title: "Equality and the Gospel"
-subhead:
+title: "Why vocally supporting the LGBT community is important to me as a Christian"
 imgclass:
 permalink:
 categories:
 ---
+
+This week
