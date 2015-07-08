@@ -7,7 +7,7 @@
   top: 16px; right: 16px;
   @include border-radius(4px);
   background: $tan;
-  border: 1px solid $tan;
+  border: 1px solid rgba(#333,.2);
   @media (max-width: 570px) { top: 4px; right: 2px; }
 
   .nav-trigger {
