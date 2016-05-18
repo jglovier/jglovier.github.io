@@ -6,9 +6,11 @@ imgclass: mountain
 categories: life
 ---
 
+**NOTE: Ironically enough, I started writing this post around New Year's Day. However, I'm just getting around to publishing it now. But I promise I've been working on living out these themes the entire time.**
+
 Some folks think New Year's resolutions are for weak minded fools susceptible to Jedi mind tricks (or those who can't keep to healthy living and good habits year around). I'm not one of those people, although I don't disagree with that notion. Turns out most people can actually benefit from a motivational jump start from time to time, and I'm one of those people.
 
-I've been making goals for the year ahead since I was a teenager, and for the last few years I've started really narrowing them down to a [list of five](/writing/five-simple-goals-for-2014/) [themes for the year](/writing/five-simple-goals-for-2015/). 
+I've been making goals for the year ahead since I was a teenager, and for the last few years I've started really narrowing them down to a [list of five](/writing/five-simple-goals-for-2014/) [themes for the year](/writing/five-simple-goals-for-2015/).
 
 My lists used to be way longer and much more specific, but I found that keeping to a shorter list of vision-like themes was more helpful for me. The themes are parts of a picture that help drive me toward practicing the behaviors characteristic with the type of life I want to be living.
 
@@ -20,11 +22,11 @@ My natural tendency is not toward balance. I have to work hard at it. My natural
 
 I have an amazing job that I absolutely love, and I'm beyond grateful for that. However, that also means that it's all that much harder to not over do it when it comes to my work habits. Fortunately, I have an employer that does not place unreasonable expectations on me and makes ever affordance for me to have a work/life balance. Actually taking advantage of that, however, is still on me. And often I don't.
 
-So this year I'm really commited to improving my work/life balance. There are some tangible ways that I'm planning to achieve this, the most significant of which is going to be getting in the habit of stopping work for the day at a certain time. I think the time I stop is less important than the fact that I should actually stop. Often I tend to break at the end of the day and go back to work after the kids are fed and in bed, when really I should be putting off what didn't get done until tomorrow.
+So this year I'm really committed to improving my work/life balance. There are some tangible ways that I'm planning to achieve this, the most significant of which is going to be getting in the habit of stopping work for the day at a certain time. I think the time I stop is less important than the fact that I should actually stop. Often I tend to break at the end of the day and go back to work after the kids are fed and in bed, when really I should be putting off what didn't get done until tomorrow.
 
 To some, that may sound like procrastination. But that's not my battle. My battle overachieving and burnout, and to combat that I need to get more used to saying "it can get done tomorrow".
 
-There are several other ways that I'm going to address this as well. Some of the other areas are a bit less logistic and more on the side of aspiration goals. For example, making intentional, focused time for my kids daily; making more of an effort to take on household tasks, rather than leaving them to Ashley (which has resulted in her feeling unfairly overburdened with home/family responsibilies); and not being so attached to my phone/email/slack/etc when I'm not working. I.e. being more present.
+There are several other ways that I'm going to address this as well. Some of the other areas are a bit less logistic and more on the side of aspiration goals. For example, making intentional, focused time for my kids daily; making more of an effort to take on household tasks, rather than leaving them to Ashley (which has resulted in her feeling unfairly overburdened with home/family responsibilities); and not being so attached to my phone/email/slack/etc when I'm not working. I.e. being more present.
 
 Finally, there is one big supporting goal I have for this year that will dramatically help improve my work/life balance, and it's closing Dev Tees down. It's been a fun run, but I don't really want to be in the t-shirt business. It's not worth the cost of operation to me, and even though I don't put too much time/effort into it I'd much rather be putting that time/effort into my family at this stage of life.
 
@@ -38,7 +40,7 @@ So what this means for me this year is a handful of very intentional areas where
 
 #### Master my schedule
 
-As mentioned, I tend to be very good at having a laser focus on achieving a particular thing. However, many other things suffer when I do this. I tend to be fairly good at just staying on task with work goals, but I suck as basic things like having a set daily schedule. 
+As mentioned, I tend to be very good at having a laser focus on achieving a particular thing. However, many other things suffer when I do this. I tend to be fairly good at just staying on task with work goals, but I suck as basic things like having a set daily schedule.
 
 #### Eliminate distractions
 
@@ -47,4 +49,3 @@ As mentioned, I tend to be very good at having a laser focus on achieving a part
 #### Eat well, exercise consistently
 
 #### Prioritize my spiritual life
-
