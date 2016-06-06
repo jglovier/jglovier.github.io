@@ -14,7 +14,7 @@ Some folks think New Year's resolutions are for weak minded fools susceptible to
 
 I'm not one of those people. It turns out many of us can actually benefit from a motivational jump start from time to time, and I'm one of those people.
 
-I've been making goals for the coming year since I was a teenager, and for the last few years I've started really narrowing them down to a [list of five](/writing/five-simple-goals-for-2014/) [themes for the year](/writing/five-simple-goals-for-2015/).
+I've been making goals for the coming year since I was a teenager, and for the last few years I've started really narrowing them down to a [list of five](/writing/five-simple-goals-for-2014) [themes for the year](/writing/five-simple-goals-for-2015).
 
 My lists used to be way longer and much more specific, but I found that keeping to a shorter list of vision-like themes was more helpful for me. The themes are parts of a picture that help drive me toward practicing behaviors characteristic of the type of life I want to be living.
 
