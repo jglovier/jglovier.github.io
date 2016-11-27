@@ -36,12 +36,22 @@ It could become a part of your OS as a system level file, or something that brow
 
 Assuming the registry size - even as a text file or CSV - is quite large, it would increase the distribution size of browser packages on your machine several fold. Implications for increase those sizes are that browsers are much more cumbersome to download on anything other than high speed internet connections, and more costly to run on your machine on machines with smaller storage.
 
+Since I honestly have no clue how large the entire registry is, it might be that this is the fatal flaw in my logic. Or, maybe this would simply force a more realistic constraint, like only storing the top N records, where N criteria is something like most trafficked websites (even storing the top 5,000 records seems reasonable and would alleviate much of the frustration from widespread outages).
+
 ### How to keep the records up to date
 
-DNS records are being updated constantly, so how often would your machine have to realistically connect to the host to stay in sync? For this reason pinging the DNS hosts should still serve as the default way to find a server address, and the local records would just be a backup.
+On a daily basis, some number of DNS records are being updated constantly, so how often would your machine have to realistically connect to the host to stay in sync? For this reason pinging the DNS hosts could still serve as the default way to find a server address, and the local records would just be a backup that are synced weekly or some other reasonable period.
 
 ### Conflicts with DNS providers business model
 
 This might be the hardest problem to solve, or at least the most problematic. I assume there is a business interest reason that DNS providers may not be too keen to alter their existing hosting model to a distributed model.
+
+-
+
+In any case, it seems like keeping a registry of the most critical piece of infrastructure to the internet solved in a way that accounts for outages shouldn't be very hard to solve technically.
+
+Obviously, the scope of major changes would involve a lot of players from DNS hosts, to browser vendors, and traditionally major changes that involve this many players don't happen quickly.
+
+But for the future of the web, they are probably well worth the time and effort.
 
 So what do you think? Are these dumb ideas? Is there a fundamental flaw in my logic that I missing because I'm just a layman? Or is there any merit to this path forward?
