@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 title: "A layman's proposal for addressing the fragility of DNS"
-categories:
+categories: internets
 ---
 
 *Disclaimer: I am not an infrastructure expert. My basic knowledge of internet infrastructure has been absorbed through osmosis while being a developer for the last 12 years, so the ideas in this blog post may be completely stupid. If you continue reading, just don't blame me for wasting precious moments of your life that you will never get back.*
