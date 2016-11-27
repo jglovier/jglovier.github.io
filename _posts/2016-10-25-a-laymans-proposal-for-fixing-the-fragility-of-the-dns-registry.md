@@ -28,10 +28,21 @@ The DNS registry could still function as the centralized host where changes are 
 There are some key challenges to solve in making a solution like this workable, of course, and these are only the challenges on a conceptual level from the eyes of a internet infrastructure layman.
 
 Some of the key challenges I can identify:
-- **How to get the registry stored locally:** It could become a part of your OS as a system level file, or something that browser vendors include in their browser package.
-- **Storage size of the registry:** assuming the registry size - even as a text file or CSV - is quite large, it would increase the distribution size of browser packages on your machine several fold. Implications for increase those sizes are that browsers are much more cumbersome to download on anything other than high speed internet connections, and more costly to run on your machine on machines with smaller storage.
-- **How to keep the records up to date:** DNS records are being updated constantly, so how often would your machine have to realistically connect to the host to stay in sync? For this reason pinging the DNS hosts should still serve as the default way to find a server address, and the local records would just be a backup.
-- **Conflicts with DNS providers business model:** This might be the hardest problem to solve, or at least the most problematic. I assume there is a business interest reason that DNS providers may not be too keen to alter their existing hosting model to a distributed model.
 
-What do you think? Are these dumb ideas? Is there a fundamental flaw in my logic that I missing because I'm just a layman? Or is there any merit to this path forward?
+### How to get the registry stored locally
 
+It could become a part of your OS as a system level file, or something that browser vendors include in their browser package.
+
+### Storage size of the registry
+
+Assuming the registry size - even as a text file or CSV - is quite large, it would increase the distribution size of browser packages on your machine several fold. Implications for increase those sizes are that browsers are much more cumbersome to download on anything other than high speed internet connections, and more costly to run on your machine on machines with smaller storage.
+
+### How to keep the records up to date
+
+DNS records are being updated constantly, so how often would your machine have to realistically connect to the host to stay in sync? For this reason pinging the DNS hosts should still serve as the default way to find a server address, and the local records would just be a backup.
+
+### Conflicts with DNS providers business model
+
+This might be the hardest problem to solve, or at least the most problematic. I assume there is a business interest reason that DNS providers may not be too keen to alter their existing hosting model to a distributed model.
+
+So what do you think? Are these dumb ideas? Is there a fundamental flaw in my logic that I missing because I'm just a layman? Or is there any merit to this path forward?
