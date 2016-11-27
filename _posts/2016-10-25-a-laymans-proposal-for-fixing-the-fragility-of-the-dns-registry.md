@@ -48,7 +48,7 @@ This might be the hardest problem to solve, or at least the most problematic. I 
 
 -
 
-In any case, it seems like keeping a registry of the most critical piece of infrastructure to the internet solved in a way that accounts for outages shouldn't be very hard to solve technically.
+Despite the challenges, one would assume that keeping a registry of the most critical piece of infrastructure to the internet in such a way that accounts for outages shouldn't be very hard to solve, at least from a technical perspective. But perhaps that assumption just betrays my lack of knowledge about how DNS really works?
 
 Obviously, the scope of major changes would involve a lot of players from DNS hosts, to browser vendors, and traditionally major changes that involve this many players don't happen quickly.
 
