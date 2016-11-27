@@ -1,7 +1,6 @@
 ---
 layout: blogpost
-title: "A layman's proposal for addressing the fragility of the DNS"
-imgclass:
+title: "A layman's proposal for addressing the fragility of DNS"
 categories:
 ---
 
