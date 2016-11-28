@@ -2,7 +2,7 @@
 layout: blogpost
 title: Flat Design or Skeuomorphism - Wrong Question
 imgclass: chill
-categories: design
+categories: design product
 ---
 
 Like most designers, I've read more articles, blog posts, and tweets about <a href="http://fltdsgn.com/">Flat Design</a> versus <a href="http://en.wikipedia.org/wiki/Skeuomorph">Skeuomorphic design</a> over the past several months than I care to have. And to be clear - I'm not here to continue that discussion.
@@ -22,4 +22,3 @@ This whole debatroversy is about the wrong question. The question we as designer
 Then - and only then, once we have sufficiently addressed topics like "who is this project aimed at," "what are the unique needs of it's audience," "what characteristics of the medium which this design will be presented through do we need to consider" - can we begin to address any considerations of style itself.
 
 And in the end, that's all that flat-design or skeuomorphism really is: a style. So let's stay focused on the right question.
-

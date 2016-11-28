@@ -3,7 +3,7 @@ layout: blogpost
 title: Markerboard Mentality
 subhead: Originally published on <a href="http://stemmings.com/markerboard-mentality/">Stemmings Blog</a>.
 imgclass: markerboard
-categories: design
+categories: design product
 redirect_from:
   - /writing/2013/markerboard-mentality/
   - /markerboard-mentality/

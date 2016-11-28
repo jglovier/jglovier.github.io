@@ -2,7 +2,7 @@
 layout: blogpost
 title: "Lessons learned from checking baggage"
 subhead: "Or, multiple points of success"
-categories: design user-experience
+categories: design user-experience product
 hnlink: "https://news.ycombinator.com/item?id=7734749"
 ---
 

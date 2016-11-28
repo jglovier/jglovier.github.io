@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 title: On Usability and User Testing
-categories: design
+categories: design product
 redirect_from:
   - /writing/2012/on-usability-and-user-testing/
   - /on-usability-and-user-testing/
