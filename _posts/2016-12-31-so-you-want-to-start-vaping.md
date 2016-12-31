@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 title: "So you want to start vaping"
-imgclass:
+imgclass: clouds
 categories: life
 ---
 
