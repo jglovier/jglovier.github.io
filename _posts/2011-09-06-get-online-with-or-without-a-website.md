@@ -34,7 +34,7 @@ categories: business marketing
 <h4><a href="http://cargocollective.com/" target="_blank">Cargo Collective</a></h4>
 <p>While I'm not nearly as familiar with Cargo Collective (CC) as I am with Behance (because of personal experience with Behance), I can tell you a lot of really great graphic designers I know have their personal websites via CC.</p>
 <p>CC offers a portfolio oriented CMS for creatives where you can upload images from projects and use one of their plain themes, then customize it a bit more if you like.</p>
-<p>Like Behance, CC offers a basic free service which is quite sufficient for most designers to simply get online. But if you want your own domain name, higher online storage, and advanced HTML and CSS customization - there is also a <a href="http://support.cargocollective.com/discussion/7305/what-is-upgraded-memberships" target="_blank">premium account</a> for that.</p>
+<p>Like Behance, CC offers a basic free service which is quite sufficient for most designers to simply get online. But if you want your own domain name, higher online storage, and advanced HTML and CSS customization - there is also a <a href="http://support.cargocollective.com/customer/portal/articles/724224-site-upgrades" target="_blank">premium account</a> for that.</p>
 </li>
 
 <li>
