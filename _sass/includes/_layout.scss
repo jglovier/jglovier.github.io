@@ -1,51 +1,23 @@
 /* @group Layout Styles -------------------- */
 
-/* Site Nav */
+/* Site header */
 
-.site-nav {
-  position: fixed; z-index: 999;
-  top: 16px; right: 16px;
-  @include border-radius(4px);
-  background: $tan;
-  border: 1px solid rgba(#333,.2);
-  @media (max-width: 570px) { top: 4px; right: 2px; }
+.site-header {
+  background: $purple;
+  color: $white;
+  overflow: hidden;
 
-  .nav-trigger {
-    @include border-radius(4px);
-    padding: 8px;
-    display: block;
-    text-align: right;
-    line-height: 1;
-
-    .menu-icon { display: block; }
-
+  .site-title {
+    float: left;
   }
 
-  .links {
-    list-style: none;
-    margin: 0;
-    padding: 0 15px 8px;
-    text-align: right;
-    display: none;
-    letter-spacing: -1px;
+  .my-name { font-size: 34px; }
 
-    > li:hover {
-      background-color: rgba($tan_2,.5);
-      margin: 0 -15px;
-      padding: 0 15px; }
+  .descriptor { font-size: 18px}
 
-    a { text-decoration: none; }
-  }
-
-  &:hover { background: white;
-
-    .links { display: block; }
-
-    .nav-trigger {
-
-      .menu-icon { display: inline-block; }
-
-    }
+  .site-nav {
+    float: right;
+    @media (max-width: 570px) {  }
   }
 }
 
@@ -54,9 +26,8 @@
 .page-header {
   background-size: cover;
   padding: 195px 0 65px;
-  color: $text_color;
+  color: $white;
   @include bg-img-classes;
-  margin-bottom: 30px;
 
   .intro-copy {
 
@@ -91,7 +62,7 @@
     a {
       padding:0 3px; margin: 0 -3px;
       @include border-radius(4px);
-      color: $text_color;
+      color: $white;
 
       &:hover { background-color: white; }
     }
