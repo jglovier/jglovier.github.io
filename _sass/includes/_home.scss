@@ -22,11 +22,38 @@
         display: block;
       }
 
-      .cs1 { color: $cs1; }
-      .cs2 { color: $cs2; }
-      .cs3 { color: $cs3; }
-      .cs4 { color: $cs4; }
-      .cs5 { color: $cs5; }
+      .cs1, .cs2, .cs3, .cs4, .cs5 {
+        -webkit-animation: fadein 1s ease-in both;
+           -moz-animation: fadein 1s ease-in both;
+            -ms-animation: fadein 1s ease-in both;
+             -o-animation: fadein 1s ease-in both;
+                animation: fadein 1s ease-in both;
+      }
+
+      .cs1 {
+        color: $cs1;
+
+      }
+      .cs2 {
+        color: $cs2;
+        animation-delay: 2s;
+        -webkit-animation-delay: 2s;
+      }
+      .cs3 {
+        color: $cs3;
+        animation-delay: 4s;
+        -webkit-animation-delay: 4s;
+      }
+      .cs4 {
+        color: $cs4;
+        animation-delay: 6s;
+        -webkit-animation-delay: 6s;
+      }
+      .cs5 {
+        color: $cs5;
+        animation-delay: 8s;
+        -webkit-animation-delay: 8s;
+      }
     }
 
     .my-avatar {
@@ -86,8 +113,8 @@
         -webkit-animation-name: colorchange;
         animation-duration: 10s;
         -webkit-animation-duration: 10s;
-        animation-iteration-count: infinite;
-        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: 40;
+        -webkit-animation-iteration-count: 40;
       }
 
       &::after {
