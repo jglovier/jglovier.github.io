@@ -17,6 +17,15 @@ body{
   margin: 0 auto;
   zoom: 1; }
 
+.full-width-wrap:before,
+.full-width-wrap:after { content:""; display:table; }
+.full-width-wrap:after { clear: both; }
+.full-width-wrap {
+  max-width: 1400px;
+  padding: 0 30px;
+  margin: 0 auto;
+  zoom: 1; }
+
 .fixed{ position: fixed; }
 
 /* clearfix (now called group, via http://css-tricks.com/snippets/css/clear-fix/) */
