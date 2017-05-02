@@ -11,7 +11,7 @@
   text-overflow: ellipsis; }
 
 @mixin sans {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
 }
 
 @mixin sans_light {
@@ -46,6 +46,10 @@
 @mixin serif_bold {
   @include serif;
   font-weight: 700;
+}
+
+@mixin rounded {
+  font-family: "Varela Round", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
 }
 
 @mixin bg-img-classes {
@@ -130,4 +134,16 @@
 
 @mixin bp_main {
   @media (max-width: 1440px) { @content; }
+}
+
+// animations
+@keyframes colorchange {
+    0% { background-color: $green; }
+   50% { background-color: $purple; }
+  100% { background-color: $green; }
+}
+@-webkit-keyframes colorchange {
+    0% { background-color: $green; }
+   50% { background-color: $purple; }
+  100% { background-color: $green; }
 }

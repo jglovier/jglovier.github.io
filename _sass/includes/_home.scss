@@ -3,23 +3,30 @@
 .page-home {
 
   .page-header {
-    background-color: $purple;
+    background-color: $white;
     background-image: none;
-    padding: 80px 0;
+    padding: 0;
     overflow: hidden;
+    color: $text_color;
     @media (max-width: 990px) { height: auto; }
 
     .headline {
       text-align: center;
-      letter-spacing: -3px;
-      font-weight: 800;
-      font-size: 4.4rem;
-      text-indent: 4px;
+      letter-spacing: -4px;
+      font-weight: 700;
+      font-size: 72px;
+      line-height: 82px;
       @media (max-width: 570px) { font-size: 14vw; }
 
       .phrase {
         display: block;
       }
+
+      .cs1 { color: $cs1; }
+      .cs2 { color: $cs2; }
+      .cs3 { color: $cs3; }
+      .cs4 { color: $cs4; }
+      .cs5 { color: $cs5; }
     }
 
     .my-avatar {
@@ -40,7 +47,7 @@
     .intro-copy {
       overflow: hidden;
       padding-top: 40px;
-      border-top: 2px solid $purple_dark_1;
+      border-top: 2px solid rgba($black, .2);
       width: 700px;
       margin: 0 auto;
       @media (max-width: 990px) {
@@ -50,40 +57,60 @@
 
       }
 
-      h2 {
-        font-weight: 300;
-        border-top: 3px solid $border_color;
-        border-bottom: 1px solid $border_color;
-        padding: 10px 0;
-        font-size: 1.46875rem;
-        margin: 10px 0;
-        @media (max-width: 570px) {
-          font-size: 5vw;
-          letter-spacing: -1px;
-        }
-      }
-
       .description {
+        @include rounded;
         font-size: 18px;
-        line-height: 1.75;
-        @include serif;
+        line-height: 30px;
+        margin: 26px 0;
+
+        a { font-weight: normal; }
       }
     }
 
     .social-media-links {
-      margin-top: 20px;
+      margin: 20px 0 280px;
       text-align: center;
+      position: relative;
+
+      &::before,
+      &::after {
+        content: " ";
+        display: block;
+        position: absolute;
+        width: 4px;
+        height: 14px;
+        background-color: $purple;
+        bottom: -90px;
+        left: 50%;
+        animation-name: colorchange;
+        -webkit-animation-name: colorchange;
+        animation-duration: 10s;
+        -webkit-animation-duration: 10s;
+        animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: infinite;
+      }
+
+      &::after {
+        margin-left: -6px;
+        transform: rotate(45deg);
+      }
+
+      &::before {
+        left: 50%;
+        margin-left: -13px;
+        transform: rotate(-45deg);
+      }
 
 
       svg path {
-        fill: $purple_dark_1;
+        fill: rgba($purple_dark_1, .5);
       }
     }
 
     .icon-link {
       display: inline-block;
       text-decoration: none;
-      margin-right: 6px;
+      margin-right: 16px;
 
       &:hover {
         background-color: transparent;

@@ -3,21 +3,37 @@
 /* Site header */
 
 .site-header {
-  background: $purple;
-  color: $white;
+  background-color: $white;
+  color: $text_color;
   overflow: hidden;
 
   .site-title {
     float: left;
   }
 
-  .my-name { font-size: 34px; }
+  .my-name {
+    font-weight: bold;
+    font-size: 34px;
+    letter-spacing: -1px;
+  }
 
-  .descriptor { font-size: 18px}
+  .descriptor {
+    @include rounded;
+    font-size: 18px;
+    opacity: .5;
+  }
 
   .site-nav {
     float: right;
+    margin-top: 32px;
     @media (max-width: 570px) {  }
+
+    .site-nav-link {
+      @include rounded;
+      text-decoration: none;
+      display: inline-block;
+      margin-left: 28px;
+    }
   }
 }
 
@@ -49,20 +65,10 @@
       margin: 5px 0 0;
     }
 
-    .description {
-      font-size: 24px;
-      margin: 10px 0 0;
-
-      a {
-        font-weight: 600;
-        letter-spacing: -1px;
-      }
-    }
-
     a {
       padding:0 3px; margin: 0 -3px;
       @include border-radius(4px);
-      color: $white;
+      color: $text_color;
 
       &:hover { background-color: white; }
     }

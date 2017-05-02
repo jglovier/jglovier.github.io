@@ -3,8 +3,8 @@
 
 // "Reset" styles and SCSS reusable components
 @import "includes/normalize";
-@import "includes/mixins";
 @import "includes/variables";
+@import "includes/mixins";
 
 // Generic site base & layout styles
 @import "includes/base";
@@ -21,4 +21,3 @@
 
 // Media Queries
 @import "includes/mq";
-
