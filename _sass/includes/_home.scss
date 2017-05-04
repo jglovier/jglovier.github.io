@@ -273,6 +273,31 @@
     background-color: #24292e;
     color: $white;
   }
+
+  .section-employer-logo {
+    width: 33%;
+    text-align: center;
+    float: left;
+    margin-top: 50px;
+  }
+
+  .section-intro {
+    width: 66%;
+    float: left;
+    border-left: 1px solid rgba(255,255,255,.2);
+    padding-left: 15px;
+
+    .worked-dates {
+      padding: 0 15px;
+      margin: 15px 0 0;
+    }
+
+    p {
+      width: 50%;
+      float: left;
+      padding: 0 15px;
+    }
+  }
 }
 
 

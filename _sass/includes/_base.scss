@@ -63,4 +63,14 @@ a {
     text-shadow: none;
 }
 
+// hidden accessible text
+// https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+.hidden-accessible {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
 /* @end Base Styles */
