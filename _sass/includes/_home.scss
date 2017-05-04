@@ -23,11 +23,11 @@
       }
 
       .cs1, .cs2, .cs3, .cs4, .cs5 {
-        -webkit-animation: fadein 1s ease-in both;
-           -moz-animation: fadein 1s ease-in both;
-            -ms-animation: fadein 1s ease-in both;
-             -o-animation: fadein 1s ease-in both;
-                animation: fadein 1s ease-in both;
+        -webkit-animation: fadein .5s ease-in both;
+           -moz-animation: fadein .5s ease-in both;
+            -ms-animation: fadein .5s ease-in both;
+             -o-animation: fadein .5s ease-in both;
+                animation: fadein .5s ease-in both;
       }
 
       .cs1 {
@@ -36,23 +36,23 @@
       }
       .cs2 {
         color: $cs2;
-        animation-delay: 2s;
-        -webkit-animation-delay: 2s;
+        animation-delay: 1s;
+        -webkit-animation-delay: 1s;
       }
       .cs3 {
         color: $cs3;
-        animation-delay: 4s;
-        -webkit-animation-delay: 4s;
+        animation-delay: 2s;
+        -webkit-animation-delay: 2s;
       }
       .cs4 {
         color: $cs4;
-        animation-delay: 6s;
-        -webkit-animation-delay: 6s;
+        animation-delay: 3s;
+        -webkit-animation-delay: 3s;
       }
       .cs5 {
         color: $cs5;
-        animation-delay: 8s;
-        -webkit-animation-delay: 8s;
+        animation-delay: 4s;
+        -webkit-animation-delay: 4s;
       }
     }
 
@@ -95,7 +95,7 @@
     }
 
     .social-media-links {
-      margin: 10px 0 280px;
+      margin: 10px 0 180px;
       text-align: center;
       position: relative;
 
@@ -262,6 +262,16 @@
 
       &:hover { opacity: .8; }
     }
+  }
+}
+
+// home styling
+.home-section {
+  padding: 80px 0;
+
+  &.github {
+    background-color: #24292e;
+    color: $white;
   }
 }
 
