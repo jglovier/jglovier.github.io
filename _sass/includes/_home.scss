@@ -254,13 +254,14 @@
   &.github {
     background-color: #24292e;
     color: $white;
+
+    .section-employer-logo { margin-top: 34px; }
   }
 
   .section-employer-logo {
     width: 33%;
     text-align: center;
     float: left;
-    margin-top: 50px;
   }
 
   .section-intro {
@@ -278,6 +279,7 @@
       width: 50%;
       float: left;
       padding: 0 15px;
+      font-size: 14px;
     }
   }
 }
