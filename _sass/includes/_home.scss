@@ -65,8 +65,6 @@
 
     .my-avatar {
       width: 174px;
-      float: left;
-      margin-right: 24px;
       @media (max-width: 990px) {
 
       }
@@ -80,8 +78,7 @@
 
     .intro-copy {
       padding-top: 40px;
-      width: 700px;
-      margin: 0 auto;
+      width: 624px;
       @media (max-width: 990px) {
 
       }
@@ -91,8 +88,8 @@
 
       .description {
         @include rounded;
-        font-size: 18px;
-        line-height: 30px;
+        font-size: 26px;
+        line-height: 40px;
         margin: 26px 0;
 
         a { font-weight: normal; }
@@ -100,42 +97,11 @@
     }
 
     .social-media-links {
-      margin: 50px 0 120px;
-      text-align: center;
+      margin: 20px 0 120px;
       position: relative;
 
-      &::before,
-      &::after {
-        content: " ";
-        display: block;
-        position: absolute;
-        width: 4px;
-        height: 14px;
-        background-color: $purple;
-        bottom: -50px;
-        left: 50%;
-        animation-name: colorchange;
-        -webkit-animation-name: colorchange;
-        animation-duration: 10s;
-        -webkit-animation-duration: 10s;
-        animation-iteration-count: 40;
-        -webkit-animation-iteration-count: 40;
-      }
-
-      &::after {
-        margin-left: -6px;
-        transform: rotate(45deg);
-      }
-
-      &::before {
-        left: 50%;
-        margin-left: -13px;
-        transform: rotate(-45deg);
-      }
-
-
       svg path {
-        fill: rgba($purple_dark_1, .5);
+        fill: $main_color;
       }
     }
 
