@@ -7,10 +7,10 @@
     top: 0;
     background: $main_color;
     width: 3000px;
-    height: 575px;
+    height: 625px;
     transform:
       rotate(32deg)
-      translateY(610px);
+      translateY(510px);
   }
 
   .site-header {
@@ -39,25 +39,25 @@
                 animation: fadein .5s ease-in both;
       }
       .cs1 {
-        left: 10%;
+        left: 0;
       }
       .cs2 {
-        left: 20%;
+        left: 10%;
         animation-delay: 1s;
         -webkit-animation-delay: 1s;
       }
       .cs3 {
-        left: 30%;
+        left: 20%;
         animation-delay: 2s;
         -webkit-animation-delay: 2s;
       }
       .cs4 {
-        left: 40%;
+        left: 30%;
         animation-delay: 3s;
         -webkit-animation-delay: 3s;
       }
       .cs5 {
-        left: 50%;
+        left: 40%;
         animation-delay: 4s;
         -webkit-animation-delay: 4s;
       }
@@ -75,6 +75,7 @@
     .joel-photo {
       max-width: 100%;
       border-radius: 100px;
+      background: $main_color;
     }
 
     .intro-copy {
