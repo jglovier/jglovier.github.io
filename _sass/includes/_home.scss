@@ -1,6 +1,22 @@
 /* @group Home styles -------------------- */
 
 .page-home {
+  // background stipe in header
+  .home-header-bg {
+    position: absolute;
+    top: 0;
+    background: $main_color;
+    width: 3000px;
+    height: 575px;
+    transform:
+      rotate(32deg)
+      translateY(610px);
+  }
+
+  .site-header {
+    background-color: transparent;
+    color: $white;
+  }
 
   .page-header-home {
     color: $text_color;
@@ -11,37 +27,37 @@
       font-weight: 700;
       font-size: 72px;
       line-height: 82px;
+      text-align: left;
       @media (max-width: 570px) { font-size: 14vw; }
 
       .cs1, .cs2, .cs3, .cs4, .cs5 {
+        position: relative;
         -webkit-animation: fadein .5s ease-in both;
            -moz-animation: fadein .5s ease-in both;
             -ms-animation: fadein .5s ease-in both;
              -o-animation: fadein .5s ease-in both;
                 animation: fadein .5s ease-in both;
       }
-
       .cs1 {
-        color: $cs1;
-
+        left: 10%;
       }
       .cs2 {
-        color: $cs2;
+        left: 20%;
         animation-delay: 1s;
         -webkit-animation-delay: 1s;
       }
       .cs3 {
-        color: $cs3;
+        left: 30%;
         animation-delay: 2s;
         -webkit-animation-delay: 2s;
       }
       .cs4 {
-        color: $cs4;
+        left: 40%;
         animation-delay: 3s;
         -webkit-animation-delay: 3s;
       }
       .cs5 {
-        color: $cs5;
+        left: 50%;
         animation-delay: 4s;
         -webkit-animation-delay: 4s;
       }
