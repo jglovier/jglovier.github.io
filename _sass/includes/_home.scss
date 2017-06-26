@@ -114,6 +114,50 @@
   }
 }
 
+// header shapes
+.home-header-graphics {
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+
+  .block,
+  .circle {
+    border: 6px solid $black;
+    width: 50px;
+    height: 50px;
+  }
+  .line {
+    border-top: 4px dotted $black;
+    width: 400px;
+
+    &.l-white {
+      border-color: $white;
+    }
+  }
+
+  .c1 {
+    right: -50px;
+    top: 665px;
+    width: 165px;
+    height: 165px;
+  }
+  .c2 {
+    top: 1000px;
+    right: 400px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .b1 {
+    width: 72px;
+    height: 72px;
+    top: 600px;
+    right: 330px;
+    transform: rotate(-5deg);
+  }
+}
+
 /* Writing (article index) */
 
 .writing { padding-bottom: 80px;
