@@ -7,10 +7,10 @@
     top: 0;
     background: $main_color;
     width: 3000px;
-    height: 625px;
+    height: 585px;
     transform:
       rotate(32deg)
-      translateY(485px);
+      translateY(505px);
   }
 
   .site-header {
@@ -25,12 +25,11 @@
     .headline {
       letter-spacing: -4px;
       font-weight: 700;
-      font-size: 72px;
+      font-size: 64px;
       line-height: 82px;
-      text-align: left;
       @media (max-width: 570px) { font-size: 14vw; }
 
-      .cs1, .cs2, .cs3, .cs4, .cs5 {
+      .block {
         position: relative;
         -webkit-animation: fadein .5s ease-in both;
            -moz-animation: fadein .5s ease-in both;
@@ -42,22 +41,22 @@
         left: 0;
       }
       .cs2 {
-        left: 10%;
+        left: 11%;
         animation-delay: 1s;
         -webkit-animation-delay: 1s;
       }
       .cs3 {
-        left: 20%;
+        left: 23%;
         animation-delay: 2s;
         -webkit-animation-delay: 2s;
       }
       .cs4 {
-        left: 30%;
+        left: 35%;
         animation-delay: 3s;
         -webkit-animation-delay: 3s;
       }
       .cs5 {
-        left: 40%;
+        left: 46%;
         animation-delay: 4s;
         -webkit-animation-delay: 4s;
       }
