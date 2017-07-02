@@ -78,13 +78,34 @@
 /* Page Footer */
 
 .page-footer {
-  text-align: center;
-  border-top: 1px solid $border_color;
-  padding: 30px 0;
-  @include serif;
+  background: $main_color;
   @media (max-width: 450px) { font-size: 14px; }
 
-  p { margin: 0; }
+  .page-footer-nav {
+    margin-top: 1.45rem;
+
+    a:hover,
+    a:active {
+      color: $white;
+      opacity: 1;
+    }
+  }
+
+  .social-media-links {
+    svg {
+      path {
+        fill: $text_color;
+      }
+    }
+  }
+
+  .highlighted {
+    color: $white;
+
+    .regular {
+      color: $white;
+    }
+  }
 }
 
 /* Utilities */
