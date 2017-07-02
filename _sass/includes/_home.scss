@@ -1,6 +1,8 @@
 /* @group Home styles -------------------- */
 
 .page-home {
+  overflow-x: hidden;
+
   // background stipe in header
   .home-header-bg {
     position: absolute;
@@ -127,12 +129,47 @@
     height: 50px;
   }
   .line {
-    border-top: 4px dotted $black;
     width: 400px;
+    height: 0;
+    border-width: 6px 0 0 0;
+    border-image-source: url(/img/border.svg);
+    border-image-slice: 33%;
+    border-image-repeat: round;
 
     &.l-white {
-      border-color: $white;
+      border-image-source: url(/img/border-white.svg);
     }
+  }
+
+  .l1 {
+    width: 220px;
+    top: 674px;
+    right: 110px;
+    transform: rotate(21deg);
+  }
+  .l2 {
+    width: 118px;
+    top: 869px;
+    right: 50px;
+    transform: rotate(-54deg);
+  }
+  .l3 {
+    width: 500px;
+    top: 962px;
+    right: -361px;
+    transform: rotate(5deg);
+  }
+  .l4 {
+    width: 300px;
+    top: 770px;
+    right: 120px;
+    transform: rotate(-6deg);
+  }
+  .l5 {
+    width: 70px;
+    top: 850px;
+    right: 403px;
+    transform: rotate(81deg);
   }
 
   .c1 {
@@ -142,8 +179,8 @@
     height: 165px;
   }
   .c2 {
-    top: 1000px;
-    right: 400px;
+    top: 890px;
+    right: 380px;
     width: 80px;
     height: 80px;
   }
@@ -151,9 +188,23 @@
   .b1 {
     width: 72px;
     height: 72px;
-    top: 600px;
+    top: 588px;
     right: 330px;
     transform: rotate(-5deg);
+  }
+  .b2 {
+    width: 65px;
+    height: 65px;
+    top: 907px;
+    right: 145px;
+    transform: rotate(-18deg);
+  }
+  .b3 {
+    width: 40px;
+    height: 40px;
+    top: 773px;
+    right: 425px;
+    transform: rotate(7deg);
   }
 }
 
