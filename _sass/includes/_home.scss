@@ -77,8 +77,8 @@
     }
 
     .intro-copy {
-      padding-top: 40px;
-      width: 624px;
+      max-width: 595px;
+      margin-bottom: 250px;
       @media (max-width: 990px) {
 
       }
@@ -92,12 +92,13 @@
         line-height: 40px;
         margin: 26px 0;
 
+        &.left { margin-top: 0; }
+
         a { font-weight: normal; }
       }
     }
 
     .social-media-links {
-      margin: 20px 0 120px;
       position: relative;
 
       svg path {
@@ -171,7 +172,54 @@
     right: 403px;
     transform: rotate(81deg);
   }
-
+  .l6 {
+    width: 97px;
+    top: 776px;
+    right: 470px;
+    transform: rotate(13deg);
+  }
+  .l7 {
+    width: 337px;
+    top: 932px;
+    right: 513px;
+    transform: rotate(117deg);
+  }
+  .l9 {
+    width: 147px;
+    top: 175px;
+    right: 41px;
+    transform: rotate(29deg);
+  }
+  .l10 {
+    width: 94px;
+    top: 196px;
+    right: 140px;
+    transform: rotate(80deg);
+  }
+  .l11 {
+    width: 63px;
+    top: 648px;
+    left: 166px;
+    transform: rotate(15deg);
+  }
+  .l12 {
+    top: 586px;
+    left: 214px;
+    width: 120px;
+    transform: rotate(-69deg);
+  }
+  .l13 {
+    top: 475px;
+    left: 90px;
+    width: 180px;
+    transform: rotate(5deg);
+  }
+  .l14 {
+    width: 158px;
+    top: 392px;
+    left: 62px;
+    transform: rotate(-40deg);
+  }
   .c1 {
     right: -50px;
     top: 665px;
@@ -184,7 +232,36 @@
     width: 80px;
     height: 80px;
   }
-
+  .c3 {
+    top: 740px;
+    right: 570px;
+    width: 43px;
+    height: 43px;
+  }
+  .c4 {
+    top: 1087px;
+    right: 750px;
+    width: 40px;
+    height: 40px;
+  }
+  .c5 {
+    top: 111px;
+    right: 177px;
+    width: 38px;
+    height: 38px;
+  }
+  .c6 {
+    top: 450px;
+    left: 274px;
+    width: 80px;
+    height: 80px;
+  }
+  .c7 {
+    width: 38px;
+    height: 38px;
+    top: 448px;
+    left: 48px;
+  }
   .b1 {
     width: 72px;
     height: 72px;
@@ -205,6 +282,34 @@
     top: 773px;
     right: 425px;
     transform: rotate(7deg);
+  }
+  .b4 {
+    top: 190px;
+    right: -20px;
+    width: 68px;
+    height: 68px;
+    transform: rotate(5deg);
+  }
+  .b5 {
+    width: 40px;
+    height: 40px;
+    top: 248px;
+    right: 155px;
+    transform: rotate(7deg);
+  }
+  .b6 {
+    width: 40px;
+    height: 40px;
+    top: 646px;
+    left: 231px;
+    transform: rotate(7deg);
+  }
+  .b7 {
+    width: 38px;
+    height: 38px;
+    top: 320px;
+    left: 210px;
+    transform: rotate(11deg);
   }
 }
 
