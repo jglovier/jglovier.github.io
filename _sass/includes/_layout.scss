@@ -19,7 +19,7 @@
   .descriptor {
     @include rounded;
     font-size: 18px;
-    opacity: .5;
+    opacity: .75;
   }
 
   .site-nav {
@@ -79,7 +79,13 @@
 
 .page-footer {
   background: $main_color;
+  border-width: 6px 0 0 0;
+  border-style: dotted;
+  border-image-source: url(/img/footer-border-top.svg);
+  border-image-slice: 33%;
+  border-image-repeat: round;
   @media (max-width: 450px) { font-size: 14px; }
+
 
   .page-footer-nav {
     margin-top: 1.45rem;
