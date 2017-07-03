@@ -27,8 +27,10 @@
     .headline {
       letter-spacing: -4px;
       font-weight: 700;
-      font-size: 64px;
-      line-height: 82px;
+      font-size: 54px;
+      line-height: 72px;
+      padding-left: 36px;
+      margin-bottom: 70px;
       @media (max-width: 570px) { font-size: 14vw; }
 
       .block {
@@ -430,12 +432,10 @@
 
 // home styling
 .home-section {
-  padding: 80px 0;
+  padding: 0 0 80px;
 
   &.github {
     .section-employer-logo {
-      margin-top: 45px;
-
       svg path {
         fill: $text_color;
       }
