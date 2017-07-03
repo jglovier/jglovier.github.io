@@ -77,4 +77,12 @@ a {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
+.dotted-line-top-white {
+  border-width: 6px 0 0 0;
+  border-style: dotted;
+  border-image-source: url(/img/dotted-border-top-white.svg);
+  border-image-slice: 33%;
+  border-image-repeat: round;
+}
+
 /* @end Base Styles */

@@ -484,6 +484,18 @@
     font-size: 20px;
     margin-left: 26px;
   }
+
+  .work-story {
+    background: $main_color;
+
+    .story-title {
+      font-size: 48px;
+      line-height: 1;
+    }
+    .story-summary {
+      font-size: 20px;
+    }
+  }
 }
 
 
