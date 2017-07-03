@@ -125,7 +125,7 @@
 
   .block,
   .circle {
-    border: 6px solid $black;
+    border: 10px solid rgba($black, .35);
     width: 50px;
     height: 50px;
   }
@@ -458,6 +458,30 @@
 
   .copy {
     font-size: 24px;
+  }
+
+  .btn {
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 12px 24px;
+  }
+
+  .btn-dribbble {
+    border-color: $pink;
+
+    .highlight {
+      color: $pink;
+    }
+  }
+
+  .emoji {
+    top: 2px;
+  }
+
+  .read-on {
+    font-size: 20px;
+    margin-left: 26px;
   }
 }
 
