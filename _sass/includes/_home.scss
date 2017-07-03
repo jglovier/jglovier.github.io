@@ -433,34 +433,31 @@
   padding: 80px 0;
 
   &.github {
-    background-color: #24292e;
-    color: $white;
+    .section-employer-logo {
+      margin-top: 45px;
 
-    .section-employer-logo { margin-top: 45px; }
+      svg path {
+        fill: $text_color;
+      }
+    }
   }
 
-  .section-employer-logo {
-    width: 33%;
-    float: left;
-  }
-
-  .section-intro {
+  .section-header {
     width: 66%;
-    float: left;
-    border-left: 1px solid rgba(255,255,255,.2);
-    padding-left: 15px;
+  }
 
-    .worked-dates {
-      padding: 0 15px;
-      margin: 15px 0 0;
-    }
+  .job-title {
+    font-size: 28px;
+  }
 
-    p {
-      width: 50%;
-      float: left;
-      padding: 0 15px;
-      font-size: 14px;
-    }
+  .worked-dates {
+    font-size: 20px;
+    color: $main_color;
+    line-height: 1;
+  }
+
+  .copy {
+    font-size: 24px;
   }
 }
 
