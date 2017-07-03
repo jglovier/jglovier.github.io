@@ -77,7 +77,7 @@
     }
 
     .intro-copy {
-      max-width: 595px;
+      max-width: 500px;
       margin-bottom: 250px;
       @media (max-width: 990px) {
 
@@ -88,8 +88,8 @@
 
       .description {
         @include rounded;
-        font-size: 26px;
-        line-height: 40px;
+        font-size: 22px;
+        line-height: 36px;
         margin: 26px 0;
 
         &.left { margin-top: 0; }
@@ -465,7 +465,7 @@
     font-size: 20px;
     border: 2px solid;
     border-radius: 5px;
-    padding: 12px 24px;
+    padding: 8px 24px;
   }
 
   .btn-dribbble {
