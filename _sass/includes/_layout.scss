@@ -79,11 +79,7 @@
 
 .page-footer {
   background: $main_color;
-  border-width: 6px 0 0 0;
-  border-style: dotted;
   border-image-source: url(/img/footer-border-top.svg);
-  border-image-slice: 33%;
-  border-image-repeat: round;
   @media (max-width: 450px) { font-size: 14px; }
 
 
