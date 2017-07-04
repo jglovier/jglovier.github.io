@@ -516,8 +516,16 @@
 
   .col-6 {
     .work-story {
+      padding-right: 60px;
+
       .story-title {
         font-size: 28px;
+      }
+    }
+    &.dotted-border-left {
+      .work-story {
+        padding-right: 0;
+        padding-left: 60px;
       }
     }
   }
