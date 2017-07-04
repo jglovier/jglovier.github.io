@@ -77,12 +77,40 @@ a {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-.dotted-line-top-white {
-  border-width: 6px 0 0 0;
+// dotten line utilities
+
+.dotted-line-top,
+.dotted-line-top-white,
+.dotted-line-top-story,
+.dotted-border-left {
   border-style: dotted;
-  border-image-source: url(/img/dotted-border-top-white.svg);
   border-image-slice: 33%;
   border-image-repeat: round;
+}
+.dotted-line-top,
+.dotted-line-top-white,
+.dotted-line-top-story {
+  border-width: 6px 0 0 0;
+}
+
+.dotted-border-left {
+  border-width: 0 0 0 6px;
+}
+
+.dotted-line-top {
+  border-image-source: url(/img/dotted-border-top.svg);
+}
+
+.dotted-line-top-white {
+  border-image-source: url(/img/dotted-border-top-white.svg);
+}
+
+.dotted-line-top-story {
+  border-image-source: url(/img/dotted-border-top-black-orange-orange.svg);
+}
+
+.dotted-border-left {
+  border-image-source: url(/img/dotted-border-left-black-orange-orange.svg);
 }
 
 /* @end Base Styles */

@@ -443,7 +443,7 @@
   }
 
   .section-header {
-    width: 66%;
+    max-width: 680px;
   }
 
   .job-title {
@@ -457,7 +457,7 @@
   }
 
   .copy {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .btn {
@@ -485,15 +485,40 @@
     margin-left: 26px;
   }
 
-  .work-story {
+  .org-writing {
     background: $main_color;
+  }
 
+  .work-story {
     .story-title {
-      font-size: 48px;
+      font-size: 36px;
       line-height: 1;
+      color: $white;
     }
+
     .story-summary {
-      font-size: 20px;
+      font-size: 16px;
+      color: $white;
+    }
+
+    .btn {
+      color: $white;
+      border-color: $white;
+      font-size: 16px;
+
+      &:hover,
+      &:active {
+        background: $white;
+        color: $main_color;
+      }
+    }
+  }
+
+  .col-6 {
+    .work-story {
+      .story-title {
+        font-size: 28px;
+      }
     }
   }
 }
