@@ -139,6 +139,10 @@ a {
   border-left-width: 0;
 }
 
+.story-left-border {
+  border-left: $story_border;
+}
+
 // typography utilities
 
 .white {
