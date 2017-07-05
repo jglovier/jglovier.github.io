@@ -82,23 +82,33 @@ a {
 .dotted-line-top,
 .dotted-line-top-white,
 .dotted-line-top-story,
-.dotted-border-left {
+.dotted-border-left,
+.dotted-line-bottom {
   border-style: dotted;
   border-image-slice: 33%;
   border-image-repeat: round;
 }
+
 .dotted-line-top,
 .dotted-line-top-white,
 .dotted-line-top-story {
-  border-width: 6px 0 0 0;
+  border-top-width: 6px;
+}
+
+.dotted-line-bottom {
+  border-bottom-width: 6px;
 }
 
 .dotted-border-left {
-  border-width: 0 0 0 6px;
+  border-left-width: 6px;
 }
 
 .dotted-line-top {
   border-image-source: url(/img/footer-border-top.svg);
+}
+
+.dotted-line-bottom {
+  border-image-source: url(/img/dotted-border-bottom-black-orange-white.svg);
 }
 
 .dotted-line-top-white {
@@ -111,6 +121,22 @@ a {
 
 .dotted-border-left {
   border-image-source: url(/img/dotted-border-left-black-orange-orange.svg);
+}
+
+.border-t0 {
+  border-top-width: 0;
+}
+
+.border-r0 {
+  border-right-width: 0;
+}
+
+.border-b0 {
+  border-bottom-width: 0;
+}
+
+.border-l0 {
+  border-left-width: 0;
 }
 
 // typography utilities
