@@ -25,7 +25,8 @@
     @media (max-width: 990px) { height: auto; }
 
     .headline {
-      letter-spacing: -4px;
+      letter-spacing: -4px; // fallback for no negative subpixel rendering
+      letter-spacing: -.06em;
       font-weight: 700;
       font-size: 54px;
       line-height: 72px;
@@ -504,6 +505,8 @@
       font-size: 36px;
       line-height: 1;
       color: $white;
+      letter-spacing: -2px; // fallback for no negative subpixel rendering
+      letter-spacing: -.06em;
     }
 
     .story-summary {
