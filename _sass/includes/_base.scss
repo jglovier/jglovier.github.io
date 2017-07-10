@@ -145,8 +145,16 @@ a {
 
 // typography utilities
 
-.white {
+.text-white {
   color: $white;
+}
+
+.text-black {
+  color: $black;
+}
+
+.text-color {
+  color: $main_color;
 }
 
 /* @end Base Styles */

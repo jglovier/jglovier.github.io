@@ -1,0 +1,114 @@
+// articles
+.home-articles {
+  padding: 0 0 80px;
+
+  &.github {
+    .section-employer-logo {
+      svg path {
+        fill: $text_color;
+      }
+    }
+  }
+
+  .section-header {
+    max-width: 680px;
+  }
+
+  .job-title {
+    font-size: 28px;
+  }
+
+  .worked-dates {
+    font-size: 20px;
+    color: $main_color;
+    line-height: 1;
+  }
+
+  .copy {
+    font-size: 20px;
+  }
+
+  .btn {
+    @include rounded;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 8px 24px;
+  }
+
+  .btn-dribbble {
+    border-color: $pink;
+
+    .highlight {
+      color: $pink;
+    }
+  }
+
+  .emoji {
+    top: 2px;
+  }
+
+  .read-on {
+    font-size: 20px;
+    margin-left: 26px;
+  }
+
+  .org-writing {
+    background: $main_color;
+
+    > .clearfix {
+      border-bottom: $story_border;
+    }
+
+    > .clearfix:first-child {
+      border-top: $story_border;
+    }
+  }
+
+  .work-story {
+    padding: 60px 0;
+
+    .story-title {
+      font-size: 36px;
+      line-height: 1;
+      color: $white;
+      letter-spacing: -2px; // fallback for no negative subpixel rendering
+      letter-spacing: -.06em;
+    }
+
+    .story-summary {
+      font-size: 16px;
+      color: $white;
+    }
+
+    .btn {
+      background: $white;
+      color: $main_color;
+      font-size: 16px;
+      font-weight: bold;
+
+      &:hover,
+      &:active {
+        color: $white;
+        border-color: $white;
+        background: transparent;
+      }
+    }
+  }
+
+  .col-6 {
+    .work-story {
+      padding-right: 60px;
+
+      .story-title {
+        font-size: 28px;
+      }
+    }
+    &.story-left-border {
+      .work-story {
+        padding-right: 0;
+        padding-left: 60px;
+      }
+    }
+  }
+}
