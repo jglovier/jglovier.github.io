@@ -79,7 +79,12 @@
 
 .page-footer {
   background: $main_color;
+  color: $white;
   @media (max-width: 450px) { font-size: 14px; }
+
+  a {
+    color: $white;
+  }
 
 
   .page-footer-nav {
@@ -95,7 +100,7 @@
   .social-media-links {
     svg {
       path {
-        fill: $text_color;
+        fill: $white;
       }
     }
   }
