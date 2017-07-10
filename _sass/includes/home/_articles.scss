@@ -96,6 +96,7 @@
   }
 
   .col-6 {
+    min-height: 340px; //this is a shit fix that should not stay; I should really be using flexbox here to solve this
     .work-story {
       padding-right: 60px;
 
