@@ -1,0 +1,117 @@
+// utilities
+
+.wrap:before,
+.wrap:after { content:""; display:table; }
+.wrap:after { clear: both; }
+.wrap {
+  max-width: 1084px;
+  padding: 0 60px;
+  margin: 0 auto;
+  zoom: 1; }
+
+.full-width-wrap:before,
+.full-width-wrap:after { content:""; display:table; }
+.full-width-wrap:after { clear: both; }
+.full-width-wrap {
+  max-width: 1400px;
+  padding: 0 60px;
+  margin: 0 auto;
+  zoom: 1; }
+
+.fixed{ position: fixed; }
+
+// clearfix (now called group, via http://css-tricks.com/snippets/css/clear-fix/)
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both; }
+.group { zoom:1; /* For IE 6/7 (trigger hasLayout) */ }
+
+// hidden accessible text
+// https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+.hidden-accessible {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+// typography
+
+.text-white {
+  color: $white;
+}
+
+.text-black {
+  color: $black;
+}
+
+.text-color {
+  color: $main_color;
+}
+
+// dotten lines
+
+.dotted-line-top,
+.dotted-line-top-white,
+.dotted-line-top-story,
+.dotted-border-left,
+.dotted-line-bottom {
+  border-style: dotted;
+  border-image-slice: 33%;
+  border-image-repeat: round;
+}
+
+.dotted-line-top,
+.dotted-line-top-white,
+.dotted-line-top-story {
+  border-top-width: 6px;
+}
+
+.dotted-line-bottom {
+  border-bottom-width: 6px;
+}
+
+.dotted-border-left {
+  border-left-width: 6px;
+}
+
+.dotted-line-top {
+  border-image-source: url(/img/footer-border-top.svg);
+}
+
+.dotted-line-bottom {
+  border-image-source: url(/img/dotted-border-bottom-black-orange-white.svg);
+}
+
+.dotted-line-top-white {
+  border-image-source: url(/img/dotted-border-top-white.svg);
+}
+
+.dotted-line-top-story {
+  border-image-source: url(/img/dotted-border-top-black-orange-orange.svg);
+}
+
+.dotted-border-left {
+  border-image-source: url(/img/dotted-border-left-black-orange-orange.svg);
+}
+
+.border-t0 {
+  border-top-width: 0;
+}
+
+.border-r0 {
+  border-right-width: 0;
+}
+
+.border-b0 {
+  border-bottom-width: 0;
+}
+
+.border-l0 {
+  border-left-width: 0;
+}
+
+.story-left-border {
+  border-left: $story_border;
+}
