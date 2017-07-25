@@ -1,5 +1,16 @@
 // utilities
 
+// buttons
+
+.btn {
+  @include rounded;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 8px 24px;
+}
+
+// layout
+
 .wrap:before,
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
@@ -62,4 +73,17 @@
 
 .story-left-border {
   border-left: $story_border;
+}
+
+// css shapes
+
+.downward-arrow {
+  content: " ";
+  width: 16px;
+  height: 16px;
+  border-left: 4px solid $main_color;
+  border-bottom: 4px solid $main_color;
+  transform:
+    rotate(-45deg)
+    translateX(5px);
 }

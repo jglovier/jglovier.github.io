@@ -8,6 +8,8 @@
   }
 
   .page-header-home {
+    margin-bottom: 200px;
+
     .headline {
       letter-spacing: -4px; // fallback for no negative subpixel rendering
       letter-spacing: -.06em;
@@ -16,18 +18,11 @@
       line-height: 72px;
       margin-top: 112px;
       margin-bottom: 50px;
-      @media (max-width: 570px) { font-size: 14vw; }
     }
 
     .intro-copy {
       max-width: 720px;
       margin-bottom: 250px;
-      @media (max-width: 990px) {
-
-      }
-      @media (max-width: 700px) {
-
-      }
 
       .description {
         @include rounded;
@@ -41,12 +36,8 @@
       }
     }
 
-    .social-media-links {
-      position: relative;
-
-      svg path {
-        fill: $black_light;
-      }
+    .btn {
+      border-color: rgba($secondary_color, .5);
     }
 
     .icon-link {

@@ -29,11 +29,7 @@
   }
 
   .btn {
-    @include rounded;
     font-size: 20px;
-    border: 2px solid;
-    border-radius: 5px;
-    padding: 8px 24px;
   }
 
   .btn-dribbble {
@@ -54,7 +50,7 @@
   }
 
   .org-writing {
-    background: $main_color;
+    background: $secondary_color;
 
     > .clearfix {
       border-bottom: $story_border;
@@ -81,16 +77,16 @@
     }
 
     .btn {
-      background: $white;
-      color: $main_color;
+      color: $white;
+      border-color: $white;
+      background: transparent;
       font-size: 16px;
       font-weight: bold;
 
       &:hover,
       &:active {
-        color: $white;
-        border-color: $white;
-        background: transparent;
+        background: $white;
+        color: $black;
       }
     }
   }
