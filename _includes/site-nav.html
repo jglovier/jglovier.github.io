@@ -1,14 +1,28 @@
-<div class="sidebar fixed">
+<div class="sidebar fixed p3">
 
-  <p class="site-title relative"><span class="my-name">Joel Glovier</span> <span class="descriptor">designs software products.</span></p>
+  <a href="/" class="block">
+    <img class="joel-photo circle" src="/img/Joel-2015-transparent-bg.png" alt="Joel Andrew Glovier avatar" />
+  </a>
 
+  <h1 class="site-title mt2 mb0">
+    <span class="my-name block ln-height-1">Joel Glovier</span>
+    <span class="statement block">is a <del class="descriptor">product</del> person.</span>
+  </h1>
 
-  <nav class="site-nav">
-    {% unless page.layout == 'home' %}<li><a href="/">Home</a></li>{% endunless %}
-    <a class="site-nav-link" href="#work">Work</a>
-    <a class="site-nav-link" href="#projects">Projects</a>
-    <a class="site-nav-link" href="#writing">Writing</a>
-    <a class="site-nav-link" href="/about/">About</a>
+  <div class="social-media-links mt2 mb3">
+    <a href="http://github.com/jglovier" class="icon-link inline-block text-decoration-none" target="_blank">{% include icons/icon-github.html %}</a>
+    <a href="http://twitter.com/jglovier" class="icon-link inline-block text-decoration-none" target="_blank">{% include icons/icon-twitter.html %}</a>
+    <a href="http://dribbble.com/jag" class="icon-link inline-block text-decoration-none" target="_blank">{% include icons/icon-dribbble.html %}</a>
+    <a href="https://soundcloud.com/joelglovier/" class="icon-link inline-block text-decoration-none" target="_blank">{% include icons/icon-soundcloud.html %}</a>
+  </div>
+
+  <nav class="site-nav pt3">
+    <a class="block p1" href="#intro">Intro</a>
+    <a class="block p1" href="#work">Work</a>
+    <a class="block p1" href="#writing">Writing</a>
+    <a class="block p1" href="#projects">Projects</a>
+    <a class="block p1" href="/about/">About</a>
+    <a class="block p1" href="/stuff-i-sell/">Stuff I sell</a>
   </nav>
 
 </div>

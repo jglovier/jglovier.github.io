@@ -1,6 +1,6 @@
 /* @group Layout Styles -------------------- */
 
-/* Site header */
+/* Sidebar */
 
 .sidebar {
   background-color: $black;
@@ -10,38 +10,51 @@
   left: 0;
   bottom: 0;
 
-  .site-title {
-    float: left;
+  a {
+    color: $white;
+    text-decoration: none;
+  }
+
+  .joel-photo {
+    max-width: 74px;
+    background: $secondary_color;
   }
 
   .my-name {
     font-weight: bold;
-    font-size: 34px;
+    font-size: 32px;
     letter-spacing: -1px;
   }
 
-  .descriptor {
+  .statement {
     @include rounded;
     font-size: 18px;
-    opacity: .75;
+
+    .descriptor {
+      color: $secondary_color;
+    }
+  }
+
+  .icon-link {
+    margin-right: 4px;
+
+    svg {
+      path {
+        fill: $secondary_color;
+      }
+    }
   }
 
   .site-nav {
-    float: right;
-    margin-top: 32px;
-    @media (max-width: 570px) {  }
-
-    .site-nav-link {
-      @include rounded;
-      text-decoration: none;
-      display: inline-block;
-      margin-left: 28px;
-    }
+    @include rounded;
+    font-size: 20px;
+    border-top: 2px solid rgba($secondary_color, .2);
   }
 }
 
 .main-content {
-  margin-left: 300px;
+  margin-left: 280px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.15);
 }
 
 /* Page Header */
