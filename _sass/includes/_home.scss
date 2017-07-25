@@ -3,27 +3,24 @@
 
 // intro
 .page-home {
-  overflow-x: hidden;
-
   .site-header {
     background-color: transparent;
   }
 
   .page-header-home {
-    @media (max-width: 990px) { height: auto; }
-
     .headline {
       letter-spacing: -4px; // fallback for no negative subpixel rendering
       letter-spacing: -.06em;
       font-weight: 700;
-      font-size: 54px;
+      font-size: 72px;
       line-height: 72px;
-      margin-bottom: 70px;
+      margin-top: 112px;
+      margin-bottom: 50px;
       @media (max-width: 570px) { font-size: 14vw; }
     }
 
     .intro-copy {
-      max-width: 500px;
+      max-width: 720px;
       margin-bottom: 250px;
       @media (max-width: 990px) {
 
