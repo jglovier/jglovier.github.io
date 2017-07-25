@@ -87,3 +87,18 @@
     rotate(-45deg)
     translateX(5px);
 }
+
+// animation
+
+.floating {
+  animation: floating 3s ease-in-out infinite;
+}
+
+.waving {
+  animation: waving 2s ease-in-out 3;
+  transform-origin: 80% 80%;
+
+  &:hover {
+    animation-iteration-count: infinite;
+  }
+}
