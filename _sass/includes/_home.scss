@@ -5,24 +5,8 @@
 .page-home {
   overflow-x: hidden;
 
-  // background stipe in header
-  .home-header-bg {
-    position: absolute;
-    top: 0;
-    background: $main_color;
-    width: 3000px;
-    height: 585px;
-    transform:
-      rotate(32deg)
-      translateY(505px);
-  }
-
   .site-header {
     background-color: transparent;
-
-    .site-title {
-      color: $white;
-    }
   }
 
   .page-header-home {
@@ -34,41 +18,8 @@
       font-weight: 700;
       font-size: 54px;
       line-height: 72px;
-      padding-left: 36px;
       margin-bottom: 70px;
       @media (max-width: 570px) { font-size: 14vw; }
-
-      .block {
-        position: relative;
-        -webkit-animation: fadein .5s ease-in both;
-           -moz-animation: fadein .5s ease-in both;
-            -ms-animation: fadein .5s ease-in both;
-             -o-animation: fadein .5s ease-in both;
-                animation: fadein .5s ease-in both;
-      }
-      .cs1 {
-        left: 0;
-      }
-      .cs2 {
-        left: 11%;
-        animation-delay: 1s;
-        -webkit-animation-delay: 1s;
-      }
-      .cs3 {
-        left: 23%;
-        animation-delay: 2s;
-        -webkit-animation-delay: 2s;
-      }
-      .cs4 {
-        left: 35%;
-        animation-delay: 3s;
-        -webkit-animation-delay: 3s;
-      }
-      .cs5 {
-        left: 46%;
-        animation-delay: 4s;
-        -webkit-animation-delay: 4s;
-      }
     }
 
     .my-avatar {
