@@ -5,12 +5,18 @@
 
 <body class="page-home">
 
-{% include home/intro.html %}
+{% include site-nav.html %}
 
-{% include home/github.html %}
+<div class="main-content">
 
-{% include home/appendto.html %}
+  {% include home/intro.html %}
 
-{% include footer.html %}
+  {% include home/github.html %}
+
+  {% include home/appendto.html %}
+
+  {% include footer.html %}
+
+</div>
 
 {% include closing-tags.html %}

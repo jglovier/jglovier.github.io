@@ -2,9 +2,13 @@
 
 /* Site header */
 
-.site-header {
-  background-color: $white;
-  color: $text_color;
+.sidebar {
+  background-color: $black;
+  color: $white;
+  width: 280px;
+  top: 0;
+  left: 0;
+  bottom: 0;
 
   .site-title {
     float: left;
@@ -34,6 +38,10 @@
       margin-left: 28px;
     }
   }
+}
+
+.main-content {
+  margin-left: 300px;
 }
 
 /* Page Header */
