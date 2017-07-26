@@ -50,6 +50,14 @@
     font-size: 20px;
     border-top: 2px solid rgba($secondary_color, .2);
   }
+
+  .social-media-links {
+    border-top: 2px solid rgba($secondary_color, .2);
+    position: fixed;
+    bottom: 0;
+    width: 216px;
+    background: $black;
+  }
 }
 
 .main-content {
