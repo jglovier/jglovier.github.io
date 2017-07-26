@@ -48,11 +48,11 @@
   .site-nav {
     @include rounded;
     font-size: 20px;
-    border-top: 2px solid rgba($secondary_color, .2);
+    border-top: $border_light_2;
   }
 
   .social-media-links {
-    border-top: 2px solid rgba($secondary_color, .2);
+    border-top: $border_light_2;
     position: fixed;
     bottom: 0;
     width: 216px;

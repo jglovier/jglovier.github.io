@@ -16,8 +16,15 @@
       font-weight: 700;
       font-size: 72px;
       line-height: 72px;
-      margin-top: 112px;
-      margin-bottom: 50px;
+      margin-top: 118px;
+      margin-bottom: 68px;
+
+      &::after {
+        content: " ";
+        width: 2000px;
+        border-top: $border_light_2;
+
+      }
     }
 
     .intro-copy {
