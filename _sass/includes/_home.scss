@@ -22,8 +22,10 @@
       &::after {
         content: " ";
         width: 2000px;
+        display: block;
         border-top: $border_light_2;
-
+        position: relative;
+        bottom: -30px;
       }
     }
 
