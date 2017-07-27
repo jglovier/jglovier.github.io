@@ -29,10 +29,6 @@
   .statement {
     @include rounded;
     font-size: 18px;
-
-    .descriptor {
-      color: $secondary_color;
-    }
   }
 
   .icon-link {
