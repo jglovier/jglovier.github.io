@@ -1,69 +1,62 @@
 // Home styles
 // -------------------------------------
 
+.section {
+  .headline {
+    letter-spacing: -4px; // fallback for no negative subpixel rendering
+    letter-spacing: -.06em;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 72px;
+    margin-top: 118px;
+    margin-bottom: 68px;
+
+    &::after {
+      content: " ";
+      width: 2000px;
+      display: block;
+      border-top: $border_light_2;
+      position: relative;
+      bottom: -30px;
+    }
+  }
+}
+
 // intro
-.page-home {
-  .site-header {
-    background-color: transparent;
+.section-intro {
+  .intro-copy {
+    max-width: 720px;
+
+    .description {
+      @include rounded;
+      font-size: 22px;
+      line-height: 36px;
+      margin: 26px 0;
+
+      &.left { margin-top: 0; }
+
+      a { font-weight: normal; }
+    }
   }
 
-  .page-header-home {
-    margin-bottom: 200px;
+  .btn {
+    border-color: $pink;
+    color: $black;
+    background: linear-gradient(-74deg, $white 0%, $white 50%, $pink 50%, $pink 100%);
+    background-size: 400% 400%;
+    background-position: 100% 100%;
+    transition: background-position 0.4s ease-in-out;
 
-    .headline {
-      letter-spacing: -4px; // fallback for no negative subpixel rendering
-      letter-spacing: -.06em;
-      font-weight: 700;
-      font-size: 72px;
-      line-height: 72px;
-      margin-top: 118px;
-      margin-bottom: 68px;
-
-      &::after {
-        content: " ";
-        width: 2000px;
-        display: block;
-        border-top: $border_light_2;
-        position: relative;
-        bottom: -30px;
-      }
+    &:hover {
+      background-position: 0% 100%;
     }
+  }
 
-    .intro-copy {
-      max-width: 720px;
-      margin-bottom: 250px;
+  .icon-link {
+    margin-right: 16px;
 
-      .description {
-        @include rounded;
-        font-size: 22px;
-        line-height: 36px;
-        margin: 26px 0;
-
-        &.left { margin-top: 0; }
-
-        a { font-weight: normal; }
-      }
-    }
-
-    .btn {
-      border-color: $pink;
-      color: $black;
-      background: linear-gradient(-74deg, $white 0%, $white 50%, $pink 50%, $pink 100%);
-      background-size: 400% 400%;
-      background-position: 100% 100%;
-      transition: background-position 0.4s ease-in-out;
-
-      &:hover {
-        background-position: 0% 100%;
-      }
-    }
-
-    .icon-link {
-      margin-right: 16px;
-
-      &:hover {
-        background-color: transparent;
-      }
+    &:hover {
+      background-color: transparent;
     }
   }
 }
