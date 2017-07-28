@@ -49,18 +49,6 @@
     margin-left: 26px;
   }
 
-  .org-writing {
-    background: $secondary_color;
-
-    > .clearfix {
-      border-bottom: $story_border;
-    }
-
-    > .clearfix:first-child {
-      border-top: $story_border;
-    }
-  }
-
   .work-story {
     padding: 60px 0;
 
@@ -73,12 +61,9 @@
 
     .story-summary {
       font-size: 16px;
-      color: $white;
     }
 
     .btn {
-      color: $white;
-      border-color: $white;
       background: transparent;
       font-size: 16px;
       font-weight: bold;
