@@ -135,27 +135,3 @@
 @mixin bp_main {
   @media (max-width: 1440px) { @content; }
 }
-
-// animations
-
-// color change for arrow in home header
-@keyframes colorchange {
-    0% { background-color: $green; }
-   50% { background-color: $purple; }
-  100% { background-color: $green; }
-}
-@-webkit-keyframes colorchange {
-    0% { background-color: $green; }
-   50% { background-color: $purple; }
-  100% { background-color: $green; }
-}
-
-// animation of home page headline
-@keyframes fadein {
-    0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-@-webkit-keyframes fadein {
-    0% { opacity: 0; }
-  100% { opacity: 1; }
-}
