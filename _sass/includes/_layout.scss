@@ -59,6 +59,10 @@
 .main-content {
   margin-left: 280px;
   box-shadow: 0 2px 4px rgba(0,0,0,.15);
+
+  p > a {
+    color: $main_color;
+  }
 }
 
 /* Page Header */
@@ -103,13 +107,7 @@
 /* Page Footer */
 
 .page-footer {
-  background: $main_color;
-  color: $white;
   @media (max-width: 450px) { font-size: 14px; }
-
-  a {
-    color: $white;
-  }
 
 
   .page-footer-nav {
