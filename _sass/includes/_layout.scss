@@ -107,24 +107,14 @@
 /* Page Footer */
 
 .page-footer {
-  @media (max-width: 450px) { font-size: 14px; }
-
-
-  .page-footer-nav {
-    margin-top: 1.45rem;
-
-    a:hover,
-    a:active {
-      color: $white;
-      opacity: 1;
-    }
-  }
-
-  .social-media-links {
-    svg {
-      path {
-        fill: $white;
-      }
+  .full-width-wrap {
+    &::before {
+      content: " ";
+      width: 2000px;
+      display: block;
+      border-top: $border_light_2;
+      position: relative;
+      top: -30px;
     }
   }
 }
