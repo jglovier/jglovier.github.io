@@ -49,24 +49,50 @@
     margin-left: 26px;
   }
 
+  .org-writing {
+    margin: 0 -66px;
+  }
+
   .work-story {
-    padding: 60px 0;
+    border-radius: 3px;
+    width: 245px;
+    height: 344px;
+    float: left;
+
+    .article-top {
+      background-color: $main_color;
+      height: 145px;
+      border-radius: 5px 5px 0 0;
+    }
+
+    .article-bottom {
+      border: 1px solid $border_color;
+      border-top: 0;
+      border-radius: 0 0 5px 5px;
+      height: 200px;
+    }
 
     .story-title {
-      font-size: 36px;
-      line-height: 1;
-      letter-spacing: -2px; // fallback for no negative subpixel rendering
+      font-size: 22px;
+      line-height: 26px;
+      letter-spacing: -1px; // fallback for no negative subpixel rendering
       letter-spacing: -.06em;
+      bottom: 1rem;
     }
 
     .story-summary {
-      font-size: 16px;
+      font-size: 14px;
+      line-height: 17px;
     }
 
     .btn {
       background: transparent;
       font-size: 16px;
       font-weight: bold;
+      padding: 2px 16px;
+      border-color: $pink;
+      border-radius: 3px;
+      bottom: 1rem;
 
       &:hover,
       &:active {
