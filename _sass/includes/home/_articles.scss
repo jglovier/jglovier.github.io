@@ -2,20 +2,16 @@
 .home-articles {
   padding: 0 0 80px;
 
-  &.github {
-    .section-employer-logo {
-      svg path {
-        fill: $text_color;
-      }
-    }
-  }
-
   .section-header {
     max-width: 680px;
   }
 
-  .job-title {
-    font-size: 28px;
+  .work-employer {
+    font-size: 34px;
+  }
+
+  .work-title {
+    font-size: 22px;
   }
 
   .worked-dates {

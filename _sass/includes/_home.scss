@@ -1,27 +1,6 @@
 // Home styles
 // -------------------------------------
 
-.section {
-  .headline {
-    letter-spacing: -4px; // fallback for no negative subpixel rendering
-    letter-spacing: -.06em;
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 72px;
-    margin-top: 118px;
-    margin-bottom: 68px;
-
-    &::after {
-      content: " ";
-      width: 2000px;
-      display: block;
-      border-top: $border_light_2;
-      position: relative;
-      bottom: -30px;
-    }
-  }
-}
-
 // intro
 .section-intro {
   .intro-copy {

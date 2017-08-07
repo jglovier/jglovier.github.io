@@ -1,6 +1,6 @@
 /* @group Layout Styles -------------------- */
 
-/* Sidebar */
+// Sidebar
 
 .sidebar {
   background-color: $black;
@@ -65,7 +65,7 @@
   }
 }
 
-/* Page Header */
+// Page Header
 
 .page-header {
   background-size: cover;
@@ -103,8 +103,34 @@
   }
 }
 
+// Page Content
 
-/* Page Footer */
+.headline {
+  letter-spacing: -4px; // fallback for no negative subpixel rendering
+  letter-spacing: -.06em;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 72px;
+  margin-top: 118px;
+  margin-bottom: 68px;
+
+  &::after {
+    content: " ";
+    width: 2000px;
+    display: block;
+    border-top: $border_light_2;
+    position: relative;
+    bottom: -30px;
+  }
+
+  &.sub-headline {
+    font-size: 48px;
+  }
+}
+
+
+
+// Page Footer
 
 .page-footer {
   .full-width-wrap {
