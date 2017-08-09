@@ -46,7 +46,7 @@
   }
 
   .org-writing {
-    margin: 0 -66px;
+    margin: 0 -42px;
   }
 
   .article {
@@ -77,24 +77,13 @@
 
     .story-summary {
       font-size: 14px;
-      line-height: 17px;
+      line-height: 18px;
       opacity: .8;
     }
 
-    .btn {
-      background: transparent;
-      font-size: 16px;
-      font-weight: bold;
-      padding: 2px 16px;
-      border-color: $pink;
-      border-radius: 3px;
+    .action-indicator {
+      font-size: 18px;
       bottom: 1rem;
-
-      &:hover,
-      &:active {
-        background: $white;
-        color: $black;
-      }
     }
   }
 
