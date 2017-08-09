@@ -49,8 +49,7 @@
     margin: 0 -66px;
   }
 
-  .work-story {
-    border-radius: 3px;
+  .article {
     width: 245px;
     height: 344px;
     float: left;
@@ -79,6 +78,7 @@
     .story-summary {
       font-size: 14px;
       line-height: 17px;
+      opacity: .8;
     }
 
     .btn {
@@ -100,7 +100,7 @@
 
   .col-6 {
     min-height: 340px; //this is a shit fix that should not stay; I should really be using flexbox here to solve this
-    .work-story {
+    .article {
       padding-right: 60px;
 
       .story-title {
@@ -108,7 +108,7 @@
       }
     }
     &.story-left-border {
-      .work-story {
+      .article {
         padding-right: 0;
         padding-left: 60px;
       }
