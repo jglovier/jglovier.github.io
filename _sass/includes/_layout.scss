@@ -46,6 +46,22 @@
     @include rounded;
     font-size: 20px;
     border-top: $border_light_2;
+
+    a {
+      .hover-bg {
+        border-radius: 3px;
+        background: linear-gradient(-74deg, $black 0%, $black 50%, $main_color 50%, $main_color 100%);
+        background-size: 450% 400%;
+        background-position: 100% 100%;
+        transition: background-position 0.25s ease-in-out;
+      }
+
+      &:hover {
+        .hover-bg {
+          background-position: 0% 100%;
+        }
+      }
+    }
   }
 
   .social-media-links {
