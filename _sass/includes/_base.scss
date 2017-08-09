@@ -9,7 +9,8 @@ body{
   line-height: 1.5;
 }
 
-body p {
+body p,
+body ul {
   @include rounded;
 }
 

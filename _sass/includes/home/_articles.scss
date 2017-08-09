@@ -15,9 +15,9 @@
   }
 
   .worked-dates {
-    font-size: 20px;
-    color: $secondary_color;
+    font-size: 18px;
     line-height: 1;
+    @include rounded;
   }
 
   .copy {
@@ -28,21 +28,17 @@
     font-size: 20px;
   }
 
-  .btn-dribbble {
-    border-color: $pink;
-
-    .highlight {
-      color: $pink;
-    }
-  }
-
   .emoji {
     top: 2px;
   }
 
-  .read-on {
+  .work-links {
+    list-style: none;
+  }
+
+  .work-links {
     font-size: 20px;
-    margin-left: 26px;
+    padding-left: 26px;
   }
 
   .org-writing {
