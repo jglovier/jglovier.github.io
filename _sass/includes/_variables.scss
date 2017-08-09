@@ -46,16 +46,17 @@ $cs5:             $purple;
 
 // v3.1 Colors
 
-$salmon:          #ff7e5e;
-$dznrblue:        #0067ee;
-$main_color:      $dznrblue;
-$secondary_color: $salmon;
-$black:           #474747;
-$black_light:     rgba($black, .35);
-$text_color:      $black;
-$border_color:    $tan_2;
-$heading_color:   $black;
-$pink:            #ffbeae;
+$salmon:            #ff7e5e;
+$dznrblue:          #0067ee;
+$main_color:        $dznrblue;
+$secondary_color:   $salmon;
+$black:             #474747;
+$black_light:       rgba($black, .35);
+$text_color:        $black;
+$border_color:      #dEddd3;
+$heading_color:     $black;
+$pink:              #ffbeae;
+$main_color_lite:   rgba($main_color, .1);
 
 // Utility variables
 $story_border:    2px solid $white;

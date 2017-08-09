@@ -52,7 +52,7 @@
 
   .article {
     width: 245px;
-    height: 344px;
+    height: 314px;
     float: left;
     transition: all .1s ease-in-out;
 
@@ -65,13 +65,13 @@
     }
 
     .article-top {
-      background-color: $main_color;
-      height: 145px;
+      background-color: $main_color_lite;
+      height: 115px;
       border-radius: 5px 5px 0 0;
     }
 
     .article-bottom {
-      border: 1px solid $border_color;
+      border: 1px solid $main_color_lite;
       border-top: 0;
       border-radius: 0 0 5px 5px;
       height: 200px;
