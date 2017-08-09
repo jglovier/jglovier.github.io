@@ -34,6 +34,11 @@
 
   .work-links {
     list-style: none;
+
+    .highlight {
+      color: $main_color;
+      text-decoration: underline;
+    }
   }
 
   .work-links {
