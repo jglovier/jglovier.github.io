@@ -53,6 +53,15 @@
     width: 245px;
     height: 344px;
     float: left;
+    transition: all .1s ease-in-out;
+
+    &:hover {
+      &:hover {
+        opacity: 1;
+        transform: scale(1.05);
+        box-shadow: 0 7px 34px 0 rgba(0,0,0,0.11);
+      }
+    }
 
     .article-top {
       background-color: $main_color;
