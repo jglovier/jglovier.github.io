@@ -1,50 +1,35 @@
 <head>
   <meta charset="UTF-8">
-
-  <!--
-        $$$$$$$$$$  $$$$$$$$$$  $$$$$$$$$$
-                $$  $$      $$  $$
-        $$      $$  $$$$$$$$$$  $$      $$
-        $$$$$$$$$$  $$      $$  $$$$$$$$$$
-
-               ____==========_______
-    _--____   |    | ""  " "|       \
-   /  )8}  ^^^| 0  |  =     |  o  0  |
- </_ +-==B vvv|""  |  =     | '  "" "|
-    \_____/   |____|________|________|
-             (_(  )\________/___(  )__)
-               |\  \            /  /\
-               | \  \          /  /\ \
-               | |\  \        /  /  \ \
-               (  )(  )       (  \   (  )
-                \  / /        \  \   \  \
-                 \|  |\        \  \  |  |
-                  |  | )____    \  \ \  )___
-                  (  )  /  /    (  )  (/  /
-                 /___\ /__/     /___\ /__/
-                The AT-AT, By Core21
-                (ASCII Art from: http://www.chris.com/ascii/index.php?art=movies%2Fstar%20wars)
--->
   <title>{% if page.title %}{{ page.title }}{% else %}joelglovier.com{% endif %}</title>
 
+  <!-- css stuff -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Varela+Round" rel="stylesheet">
   <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/css/main.css" />
   {% if page.cssFile %}<link rel="stylesheet" type="text/css" href="/css/{{ cssFile }}" />{% endif %}
+
+  <!-- favicons -->
+
   <link rel="icon" type="image/x-icon" href="/favicon.png?v=3" />
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.png?v=3" />
+
+  <!-- for search engines and other machines -->
   <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}" />
   <link rel="author" href="https://plus.google.com/+JoelGlovier/posts">
   <link href='http://joelglovier.com/feed.xml' rel='alternate' type='application/rss+xml'>
   <meta name="copyright" content="Joel Andrew Glovier 2013" />
   <meta name="description" content="{{ site.description }}" />
   <meta name="robots" content="index, follow" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="google-site-verification" content="rfhW_LUYYbZ4kwHGGZqplNsGs5eFB1-H8UEfmF6lE9o" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- for jekyll generated page redirects -->
 
   {% if page.external_url %}
   <meta http-equiv="refresh" content="0;url={{ page.external_url }}" />
   {% endif %}
+
+  <!-- for social media -->
 
   {% if page.categories %}
   <meta property="og:image" content="http://joelglovier.com/img/ogimgs/{{ page.categories | first }}.jpg" />
@@ -73,9 +58,9 @@
   <meta name="twitter:creator" content="@jglovier">
   <meta property="og:site_name" content="Joel Glovier's blog" />
   <meta property="og:url" content="http://joelglovier.com{{ page.url | replace:'index.html','' }}/" />
-  <!--[if IE]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+  <!-- for JS stuffs -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="/js/site.js"></script>
+
 </head>

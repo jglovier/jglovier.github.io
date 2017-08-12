@@ -10,6 +10,8 @@
   top: 0;
   left: 0;
   bottom: 0;
+  overflow: hidden;
+  transition: width .1s ease-in;
 
   a {
     color: $white;
@@ -19,6 +21,18 @@
   .joel-photo {
     max-width: 74px;
     background: $secondary_color;
+  }
+
+  .site-title {
+    width: 210px;
+    transition: all .05s ease-in;
+  }
+
+  .site-title-collapsed {
+    transform: rotate(90deg) translateY(100px) translateX(-500px);
+    width: 200px;
+    transition: all .1s ease-in;
+    display: none;
   }
 
   .my-name {
@@ -53,7 +67,7 @@
         background: linear-gradient(-74deg, $black 0%, $black 50%, $main_color 50%, $main_color 100%);
         background-size: 450% 400%;
         background-position: 100% 100%;
-        transition: background-position 0.3s ease-in-out;
+        transition: background-position 0.3s ease-in;
       }
 
       &:hover {
@@ -73,9 +87,32 @@
   }
 }
 
+// styles for hiding animation
+.sidebar-collapsed {
+  .sidebar {
+    width: 60px;
+
+    .site-title,
+    .site-nav,
+    .social-media-links {
+      opacity: 0;
+      transform: translateX(-1000px);
+    }
+
+    .site-title-collapsed {
+      display: block;
+      transform: rotate(90deg) translateY(100px) translateX(-20px);
+    }
+  }
+
+  .main-content {
+    margin-left: 70px;
+  }
+}
+
 .main-content {
   margin-left: 280px;
-  box-shadow: 0 2px 4px rgba(0,0,0,.15);
+  transition: margin .1s ease-in;
 
   p > a {
     color: $main_color;
@@ -128,7 +165,7 @@
   font-weight: 700;
   font-size: 72px;
   line-height: 72px;
-  margin-top: 118px;
+  margin-top: 37px;
   margin-bottom: 30px;
   border-bottom: $border_light_2;
   padding-bottom: 30px;
