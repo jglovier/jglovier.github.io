@@ -51,6 +51,7 @@ $dznrblue:          #0067ee;
 $bg_navy:           #3f4956;
 $navy:              #506888;
 $litegray:          #eaf2fe;
+$gray:              #BFC8D4;
 $main_color:        $navy;
 $secondary_color:   $salmon;
 $bg_color:          $bg_navy;
@@ -58,7 +59,7 @@ $black:             #474747;
 $black:             $bg_navy;
 $black_light:       rgba($black, .35);
 $text_color:        $black;
-$border_color:      $litegray;
+$border_color:      $gray;
 $heading_color:     $black;
 $pink:              #ffbeae;
 $main_color_lite:   rgba($main_color, .1);
@@ -66,6 +67,6 @@ $secondary_color_lite: rgba($secondary_color,0.2);
 
 // Utility variables
 $color_border_lite:  1px solid rgba($secondary_color, .2);
-$color_border_gray: 1px solid $litegray;
+$color_border_gray: 1px solid $border_color;
 
 /* @end Variables */
