@@ -2,38 +2,21 @@
 .home-articles {
   padding: 0 0 80px;
 
-  .section-header {
-    max-width: 680px;
-  }
-
-  .work-employer {
-    font-size: 34px;
-  }
-
-  .work-title {
-    font-size: 22px;
-  }
-
+  .section-header { max-width: 680px; }
+  .work-employer { font-size: 34px; }
+  .work-title { font-size: 22px; }
   .worked-dates {
     font-size: 18px;
     line-height: 1;
     @include rounded;
   }
-
-  .copy {
-    font-size: 20px;
-  }
-
-  .btn {
-    font-size: 20px;
-  }
-
-  .emoji {
-    top: 2px;
-  }
-
+  .copy { font-size: 20px; }
+  .btn { font-size: 20px; }
+  .emoji { top: 2px; }
   .work-links {
     list-style: none;
+    font-size: 20px;
+    padding-left: 26px;
 
     .highlight {
       color: $main_color;
@@ -41,16 +24,7 @@
     }
   }
 
-  .work-links {
-    font-size: 20px;
-    padding-left: 26px;
-  }
-
   .org-writing {
-    &.l_3_up {
-      margin: 0 -42px;
-    }
-
     &.l_1_up {
       .article {
         width: 100%;
@@ -58,16 +32,22 @@
         margin-left: 0;
         margin-right: 0;
       }
-      .article-top {
-        height: 85px;
-      }
-      .article-bottom {
-        height: 130px;
-      }
+      .article-top { height: 85px; }
+      .article-bottom { height: 130px; }
+    }
+    &.l_2_up { margin: 0 -42px;
+      .article { width: 376px; }
+    }
+
+    &.l_3_up {
+      margin: 0 -42px;
     }
   }
 
   .article {
+    border: 1px solid $border_color;
+    border-radius: 5px;
+    overflow: hidden;
     width: 245px;
     height: 314px;
     float: left;
@@ -82,17 +62,11 @@
     }
 
     .article-top {
-      background-color: $border_color;
+      // background-color: $border_color;
       height: 115px;
-      border-radius: 5px 5px 0 0;
     }
 
-    .article-bottom {
-      border: 1px solid $border_color;
-      border-top: 0;
-      border-radius: 0 0 5px 5px;
-      height: 200px;
-    }
+    .article-bottom { height: 200px; }
 
     .story-title {
       font-size: 22px;
@@ -119,15 +93,10 @@
     .article {
       padding-right: 60px;
 
-      .story-title {
-        font-size: 28px;
-      }
+      .story-title { font-size: 28px; }
     }
     &.story-left-border {
-      .article {
-        padding-right: 0;
-        padding-left: 60px;
-      }
+      .article { padding-right: 0; padding-left: 60px; }
     }
   }
 }

@@ -48,10 +48,14 @@ $cs5:             $purple;
 
 $salmon:            #ff7e5e;
 $dznrblue:          #0067ee;
-$litegray:          #e8e6e6;
-$main_color:        $dznrblue;
+$bg_navy:           #3f4956;
+$navy:              #506888;
+$litegray:          #eaf2fe;
+$main_color:        $navy;
 $secondary_color:   $salmon;
+$bg_color:          $bg_navy;
 $black:             #474747;
+$black:             $bg_navy;
 $black_light:       rgba($black, .35);
 $text_color:        $black;
 $border_color:      $litegray;

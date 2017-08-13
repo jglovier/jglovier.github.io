@@ -1,0 +1,54 @@
+<section class="home-articles mt4">
+    <header class="section-header text-black">
+
+      <div class="section-intro">
+        <h2 class="work-employer m0 mb2">
+          <a href="https://cure.org/" class="text-decoration-none">
+            CURE
+          </a>
+        </h2>
+        <h3 class="work-title m0">Principal Designer</h3>
+        <h4 class="worked-dates mt0 regular">2009 – 2012</h4>
+
+        <div class="copy">
+          <p>CURE is a medical NGO that provides western quality healthcare to charitable patients in developing nations through a chartiable hospital network. I owned design for CURE.</p>
+        </div>
+
+        <ul class="work-links pt1 pb3 m0">
+          <li class="pt1 pb2">
+            <a
+              href="https://dribbble.com/jag/projects/540365-GitHub-work"
+              class="text-decoration-none block">
+              <span
+                class="emoji inline-block mr1 relative">&#127936;</span>
+                See some of my CURE work <span class="highlight">on dribbble</span>
+            </a>
+          </li>
+          <li class="pt1 pb2">
+            <a
+              href="#"
+              class="text-decoration-none block">
+              <span
+                class="emoji inline-block mr1 relative">&#128196;</span>
+                Read what I learned from <span class="highlight">working at CURE</span>
+            </a>
+          </li>
+          <li class="pt1 pb1">
+            <p class="m0">
+              <span
+                class="emoji inline-block mr1 relative">&#129300;</span>
+                Or, read about some of the problems I solved at CURE…
+            </p>
+          </li>
+        </ul>
+
+      </div>
+    </header>
+
+  <section class="org-writing clearfix l_2_up">
+    {% for article in site.data.articles_cure %}
+      {% include home/articles.html %}
+    {% endfor %}
+  </section>
+
+</section>
