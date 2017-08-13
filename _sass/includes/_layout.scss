@@ -3,15 +3,50 @@
 // Sidebar
 
 .sidebar {
-  background-color: $black;
   border-left: 6px solid $secondary_color;
   color: $white;
-  width: 280px;
   top: 0;
   left: 0;
   bottom: 0;
   overflow: hidden;
-  transition: width .1s ease-in;
+
+  .sidebar-toggle-btn {
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+  }
+
+  .content-collapsed,
+  .content-expanded {
+    background-color: $black;
+    top: 0;
+    left: 6px;
+    bottom: 0;
+  }
+
+  .content-expanded {
+    width: 280px;
+    z-index: 10;
+    transition: transform .3s ease-in;
+
+    .sidebar-toggle-btn {
+      top: 6px;
+      right: 6px;
+    }
+  }
+
+  .content-collapsed {
+    width: 60px;
+    z-index: 9;
+    transform: translateX(-150px);
+    transition: transform .5s ease-in;
+
+    .icon-kebab {
+      top: 20px;
+      right: 22px;
+      cursor: pointer;
+    }
+  }
 
   a {
     color: $white;
@@ -23,16 +58,9 @@
     background: $secondary_color;
   }
 
-  .site-title {
-    width: 210px;
-    transition: all .05s ease-in;
-  }
-
   .site-title-collapsed {
-    transform: rotate(90deg) translateY(100px) translateX(-500px);
+    transform: rotate(90deg) translateY(100px) translateX(70px);
     width: 200px;
-    transition: all .1s ease-in;
-    display: none;
   }
 
   .my-name {
@@ -88,31 +116,29 @@
 }
 
 // styles for hiding animation
-.sidebar-collapsed {
-  .sidebar {
-    width: 60px;
+.sidebar-closed {
+  .content-expanded {
+    transform: translateX(-800px);
+    transition: transform .3s ease-in;
+  }
 
-    .site-title,
-    .site-nav,
-    .social-media-links {
-      opacity: 0;
-      transform: translateX(-1000px);
-    }
-
-    .site-title-collapsed {
-      display: block;
-      transform: rotate(90deg) translateY(100px) translateX(-20px);
-    }
+  .content-collapsed {
+    transform: translateX(0);
+    transition: transform .3s ease-in;
+    transition-delay: .2s;
   }
 
   .main-content {
     margin-left: 70px;
+    transition: margin .1s ease-in;
+    transition-delay: .2s;
   }
 }
 
 .main-content {
   margin-left: 280px;
-  transition: margin .1s ease-in;
+  transition: margin .3s ease-in;
+  transition-delay: .1s;
 
   p > a {
     color: $main_color;
