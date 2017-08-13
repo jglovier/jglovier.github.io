@@ -4,7 +4,7 @@
 
 .btn {
   @include rounded;
-  border: 2px solid;
+  border: $color_border_gray;
   border-radius: 5px;
   padding: 8px 24px;
 }
