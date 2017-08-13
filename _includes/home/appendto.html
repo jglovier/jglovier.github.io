@@ -1,4 +1,4 @@
-<section class="home-articles github mt4">
+<section class="home-articles mt4">
     <header class="section-header text-black">
 
       <div class="section-intro">
@@ -45,8 +45,10 @@
       </div>
     </header>
 
-  <section class="org-writing">
-    {% include home/appendto/_story_time_responsive.html %}
+  <section class="org-writing l_1_up">
+    {% for article in site.data.articles_appendto %}
+      {% include home/articles.html %}
+    {% endfor %}
   </section>
 
 </section>

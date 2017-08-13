@@ -48,12 +48,13 @@ $cs5:             $purple;
 
 $salmon:            #ff7e5e;
 $dznrblue:          #0067ee;
+$litegray:          #e8e6e6;
 $main_color:        $dznrblue;
 $secondary_color:   $salmon;
 $black:             #474747;
 $black_light:       rgba($black, .35);
 $text_color:        $black;
-$border_color:      #dEddd3;
+$border_color:      $litegray;
 $heading_color:     $black;
 $pink:              #ffbeae;
 $main_color_lite:   rgba($main_color, .1);
@@ -61,6 +62,7 @@ $secondary_color_lite: rgba($secondary_color,0.2);
 
 // Utility variables
 $story_border:    2px solid $white;
-$border_light_2:  2px solid rgba($secondary_color, .2);
+$color_border_lite:  2px solid rgba($secondary_color, .2);
+$color_border_gray: 2px solid $litegray;
 
 /* @end Variables */

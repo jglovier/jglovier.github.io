@@ -87,7 +87,7 @@
   .site-nav {
     @include rounded;
     font-size: 20px;
-    border-top: $border_light_2;
+    border-top: $color_border_lite;
 
     a {
       .hover-bg {
@@ -107,7 +107,7 @@
   }
 
   .social-media-links {
-    border-top: $border_light_2;
+    border-top: $color_border_lite;
     position: fixed;
     bottom: 0;
     width: 216px;
@@ -193,7 +193,7 @@
   line-height: 72px;
   margin-top: 37px;
   margin-bottom: 30px;
-  border-bottom: $border_light_2;
+  border-bottom: $color_border_gray;
   padding-bottom: 30px;
 
   &.sub-headline {
@@ -207,7 +207,7 @@
 
 .page-footer {
   p:first-of-type {
-    border-top: $border_light_2;
+    border-top: $color_border_gray;
     padding-top: 30px;
   }
 }
