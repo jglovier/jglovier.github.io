@@ -61,8 +61,7 @@ $main_color_lite:   rgba($main_color, .1);
 $secondary_color_lite: rgba($secondary_color,0.2);
 
 // Utility variables
-$story_border:    2px solid $white;
-$color_border_lite:  2px solid rgba($secondary_color, .2);
-$color_border_gray: 2px solid $litegray;
+$color_border_lite:  1px solid rgba($secondary_color, .2);
+$color_border_gray: 1px solid $litegray;
 
 /* @end Variables */
