@@ -32,7 +32,6 @@
         margin-left: 0;
         margin-right: 0;
       }
-      .article-top { height: 85px; }
       .article-bottom { height: 130px; }
     }
     &.l_2_up { margin: 0 -42px;
@@ -46,11 +45,11 @@
 
   .article {
     border: 1px solid $border_color;
-    background-color: $litenavy_bg;
+    // background-color: $litenavy_bg;
     border-radius: 5px;
     overflow: hidden;
     width: 245px;
-    height: 314px;
+    height: 260px;
     float: left;
     transition: all .1s ease-in-out;
 
@@ -62,12 +61,7 @@
       }
     }
 
-    .article-top {
-      // background-color: $border_color;
-      height: 115px;
-    }
-
-    .article-bottom { height: 200px; }
+    .article-bottom { height: 180px; }
 
     .story-title {
       font-size: 22px;
