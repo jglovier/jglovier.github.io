@@ -36,6 +36,7 @@
     }
     &.l_2_up { margin: 0 -42px;
       .article { width: 376px; }
+      .article-bottom { height: 120px; }
     }
 
     &.l_3_up {
@@ -49,7 +50,6 @@
     border-radius: 5px;
     overflow: hidden;
     width: 245px;
-    height: 260px;
     float: left;
     transition: all .1s ease-in-out;
 
@@ -61,10 +61,10 @@
       }
     }
 
-    .article-bottom { height: 180px; }
+    .article-bottom { height: 150px; }
 
     .story-title {
-      font-size: 22px;
+      font-size: 20px;
       line-height: 26px;
       letter-spacing: -1px; // fallback for no negative subpixel rendering
       letter-spacing: -.06em;
@@ -80,6 +80,8 @@
     .action-indicator {
       font-size: 18px;
       bottom: 1rem;
+
+
     }
   }
 

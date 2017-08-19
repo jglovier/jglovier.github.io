@@ -8,9 +8,62 @@
       </span>
     </h2>
 
-    {% include home/github.html %}
-    {% include home/appendto.html %}
-    {% include home/cure.html %}
+    {% for employer in site.data.employers %}
+      <section class="home-articles mt4">
+          <header class="section-header text-black">
+
+            <div class="section-intro">
+              <h2 class="work-employer m0 mb2">
+                <a href="{{ employer.url }}" class="text-decoration-none">
+                  {{ employer.name }}
+                </a>
+              </h2>
+              <h3 class="work-title m0">{{ employer.role }}</h3>
+              <h4 class="worked-dates mt0 regular">{{ employer.timeframe }}</h4>
+
+              <div class="copy">
+                <p>{{ employer.summary }}</p>
+              </div>
+
+              <ul class="work-links pt1 pb3 m0">
+                <li class="pt1 pb2">
+                  <a
+                    href="{{ employer.dribbble }}"
+                    class="text-decoration-none block">
+                    <span
+                      class="emoji inline-block mr1 relative">&#128064;</span>
+                      See some of my {{ employer.name }} work <span class="highlight">on dribbble</span>
+                  </a>
+                </li>
+                <li class="pt1 pb2">
+                  <a
+                    href="{{ employer.learned }}"
+                    class="text-decoration-none block">
+                    <span
+                      class="emoji inline-block mr1 relative">&#128196;</span>
+                      Read what I learned from <span class="highlight">working at {{ employer.name }}</span>
+                  </a>
+                </li>
+                <li class="pt1 pb1">
+                  <p class="m0">
+                    <span
+                      class="emoji inline-block mr1 relative">&#129300;</span>
+                      Or, read a case study from my work…
+                  </p>
+                </li>
+              </ul>
+
+            </div>
+          </header>
+
+        <section class="org-writing {{ employer.articles_layout }} clearfix">
+          {% for article in employer.articles_list %}
+            {% include home/articles.html %}
+          {% endfor %}
+        </section>
+
+      </section>
+    {% endfor %}
 
   </div>
 </section>
