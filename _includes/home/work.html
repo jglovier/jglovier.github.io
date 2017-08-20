@@ -14,7 +14,7 @@
 
             <div class="section-intro">
               <h2 class="work-employer m0 mb2">
-                <a href="{{ employer.url }}" class="text-decoration-none">
+                <a href="{{ employer.url }}" class="text-decoration-none" target="_blank">
                   {{ employer.name }}
                 </a>
               </h2>
@@ -25,24 +25,18 @@
                 <p>{{ employer.summary }}</p>
               </div>
 
-              <ul class="work-links pt1 pb3 m0">
+              <ul class="work-links py0 my3 pl3">
                 <li class="pt1 pb2">
-                  <a
-                    href="{{ employer.dribbble }}"
-                    class="text-decoration-none block">
-                    <span
-                      class="emoji inline-block mr1 relative">&#128064;</span>
-                      See some of my {{ employer.name }} work <span class="highlight">on dribbble</span>
-                  </a>
+                  <p class="m0">
+                    <span class="emoji inline-block mr1 relative">&#128064;</span>
+                    See some of my {{ employer.name }} work <a href="{{ employer.dribbble }}" target="_blank">on dribbble</a>
+                  </p>
                 </li>
                 <li class="pt1 pb2">
-                  <a
-                    href="{{ employer.learned }}"
-                    class="text-decoration-none block">
-                    <span
-                      class="emoji inline-block mr1 relative">&#128196;</span>
-                      Read what I learned from <span class="highlight">working at {{ employer.name }}</span>
-                  </a>
+                  <p class="m0">
+                    <span class="emoji inline-block mr1 relative">&#128196;</span>
+                    Read what I learned from <a href="{{ employer.learned }}">working at {{ employer.name }}</a>
+                  </p>
                 </li>
                 <li class="pt1 pb1">
                   <p class="m0">

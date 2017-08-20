@@ -16,12 +16,7 @@
   .work-links {
     list-style: none;
     font-size: 20px;
-    padding-left: 26px;
-
-    .highlight {
-      color: $main_color;
-      text-decoration: underline;
-    }
+    border-left: $color_border_gray;
   }
 
   .col-6 {
@@ -44,6 +39,8 @@
       height: 185px;
       margin-left: 0;
       margin-right: 0;
+      border-top: 0;
+      border-left: 6px solid $secondary_color;
     }
     .article-bottom { height: 110px; }
   }
@@ -59,7 +56,6 @@
 }
 
 .article {
-  border: 1px solid $white;
   // background-color: $litenavy_bg;
   box-shadow: 0 0px 4px rgba($navy,.30);
   border-radius: 5px;
@@ -67,6 +63,7 @@
   width: 245px;
   float: left;
   transition: all .1s ease-in-out;
+  border-top: 6px solid $secondary_color;
 
   &:hover {
     opacity: 1;

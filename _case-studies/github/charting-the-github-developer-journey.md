@@ -1,6 +1,7 @@
 ---
 title: "Charting the GitHub developer journey"
 summary: "Why the animating power of story is such an effective tool for helping new users succeed."
+layout: casestudy
 ---
 
 - How do we craft the best software for people making software?

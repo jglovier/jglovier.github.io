@@ -1,6 +1,7 @@
 ---
 title: Improving the core GitHub workflow
 summary: Iterating on a software development workflow for the 20M power users by removing the friction and raising speed limits.
+layout: casestudy
 ---
 
 Now we know what they mean by 'advanced' tactical training. I've had twelve years to think about it.

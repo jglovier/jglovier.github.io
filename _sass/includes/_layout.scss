@@ -140,8 +140,17 @@
   transition: margin .3s ease-in;
   transition-delay: .1s;
 
+  h1 > a,
+  h2 > a,
+  h3 > a,
   p > a {
     color: $main_color;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+      color: $secondary_color;
+      transition: all .2s ease-in-out;
+    }
   }
 }
 
