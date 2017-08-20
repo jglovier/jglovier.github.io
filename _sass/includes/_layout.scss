@@ -195,6 +195,18 @@
   // border-bottom: $color_border_gray;
   padding-bottom: 30px;
 
+  &::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 1px;
+    border-bottom: $color_border_gray;
+    position: relative;
+    bottom: -30px;
+    transform: scale(2, 1);
+    transform-origin: left bottom;
+  }
+
   &.sub-headline {
     font-size: 48px;
   }
