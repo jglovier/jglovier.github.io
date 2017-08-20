@@ -69,11 +69,9 @@
   transition: all .1s ease-in-out;
 
   &:hover {
-    &:hover {
-      opacity: 1;
-      transform: scale(1.05);
-      box-shadow: 0 7px 34px 0 rgba($navy,0.20);
-    }
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow: 0 7px 34px 0 rgba($navy,0.20);
   }
 
   .article-bottom { height: 150px; }

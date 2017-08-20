@@ -4,9 +4,18 @@
 
 .btn {
   @include rounded;
-  border: $color_border_gray;
+  // border: $color_border_gray;
+  // background-color: $litenavy_bg;
   border-radius: 5px;
   padding: 8px 24px;
+  color: $black;
+  box-shadow: 0 0px 4px rgba($navy,.30);
+  transition: all .1s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 7px 34px 0 rgba($navy,0.20);
+  }
 }
 
 // layout

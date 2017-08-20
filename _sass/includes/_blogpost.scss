@@ -142,7 +142,9 @@
 .next-article {
   color: $text_color;
   padding: 50px 0;
-  @include bg-img-classes;
+  background-color: $litenavy_bg;
+  border-top: 1px solid $border_color;
+  border-bottom: 1px solid $border_color;
 
   a { text-decoration: none; }
 
