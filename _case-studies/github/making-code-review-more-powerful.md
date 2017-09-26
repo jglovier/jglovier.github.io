@@ -4,28 +4,15 @@ summary: "Why the animating power of story is such an effective tool for helping
 layout: casestudy
 ---
 
-Now we know what they mean by 'advanced' tactical training. I've had twelve years to think about it.
+When GitHub brought code review to the pull request workflow in 2016, it was not a random decision to try something new – it was the result of watching and listening to the people who use GitHub every day to build software (including ourselves).
 
-And if I had it to do over again, I would have grabbed the phaser and pointed it at you instead of them. When has justice ever been as simple as a rule book?
+The pull request workflow had always been intended to provide a forum for code review. The idea was that you open a "pull request" where a contributor requests their modified branch be merged back into the original codebase, and the pull request thread served as a forum to review and discuss the proposed changes.
 
-The look in your eyes, I recognize it. You used to have it for me.
+Getting thorough review of your code, however, had plenty of friction that third party integrations like Code Climate, Reviewable, and [others](https://github.com/works-with/category/code-review) had sprung up to remove.
 
-Is it my imagination, or have tempers become a little frayed on the ship lately? Yesterday I did not know how to eat gagh. Earl Grey tea, watercress sandwiches... and Bularian canapés? Are you up for promotion? Shields up! Rrrrred alert! What's a knock-out like you doing in a computer-generated gin joint like this?
+Seeing third party integrations solve a core problem with your product is both encouraging and discouraging. It means on the one hand that people care enough about your software to improve it, but on the other hand it often also means you're failing to do a fundamental job that your users are hiring you for.
 
-We know you're dealing in stolen ore. But I wanna talk about the assassination attempt on Lieutenant Worf. Besides, you look good in a dress. I recommend you don't fire until you're within 40,000 kilometers. Well, I'll say this for him - he's sure of himself.
-
-Some days you get the bear, and some days the bear gets you.
-
-Maybe if we felt any human loss as keenly as we feel one of those close to us, human history would be far less bloody.
-
-I'll be sure to note that in my log. The game's not big enough unless it scares you a little. Wait a minute - you've been declared dead. You can't give orders around here.
-
-Sorry, Data.
-
-Well, that's certainly good to know. For an android with no feelings, he sure managed to evoke them in others.
-
-Worf, It's better than music. It's jazz. That might've been one of the shortest assignments in the history of Starfleet. I can't. As much as I care about you, my first duty is to the ship. I'd like to think that I haven't changed those things, sir. Not if I weaken first.
-
-My oath is between Captain Kargan and myself. Your only concern is with how you obey my orders. Or do you prefer the rank of prisoner to that of lieutenant? How long can two people talk about nothing?
-
-I'm afraid I still don't understand, sir.
+Pull requests offered a forum for discussion of the PR itself (in the discussion timeline view), and a forum for commenting on code. But where it was lacking was:
+- a proper way to signal as the reviewer whether you approve or reject the changes
+- a way to group all of your line comments into a single unit that could be understood as your official code review
+- a way to know how many people had reviewed the code, and what their review status was
