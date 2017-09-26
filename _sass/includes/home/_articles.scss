@@ -4,11 +4,15 @@
 
   .section-header { max-width: 680px; }
   .work-employer { font-size: 34px; }
-  .work-title { font-size: 22px; }
+  .work-title {
+    font-size: 22px;
+    color: $main_color;
+  }
   .worked-dates {
     font-size: 18px;
     line-height: 1;
     @include rounded;
+    color: $main_color;
   }
   .copy { font-size: 20px; }
   .btn { font-size: 20px; }
