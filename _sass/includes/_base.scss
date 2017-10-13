@@ -2,7 +2,7 @@
 // -------------------------------------
 
 body{
-  background: $white;
+  background: $litenavy_bg;
   @include sans;
   color: $text_color;
   font-size: 16px;
@@ -23,7 +23,7 @@ body ul {
 
 a {
   color: $black;
-  
+
   &:active,
   &:focus { outline: none; }
 }

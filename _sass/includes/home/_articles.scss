@@ -5,7 +5,7 @@
   .section-header { max-width: 680px; }
   .work-employer { font-size: 34px; }
   .work-title {
-    font-size: 22px;
+    font-size: 20px;
     color: $main_color;
   }
   .worked-dates {
@@ -14,12 +14,12 @@
     @include rounded;
     color: $main_color;
   }
-  .copy { font-size: 20px; }
+  .copy { font-size: 18px; }
   .btn { font-size: 20px; }
   .emoji { top: 2px; }
   .work-links {
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .col-6 {
@@ -59,7 +59,7 @@
 }
 
 .article {
-  // background-color: $litenavy_bg;
+  background-color: $white;
   box-shadow: 0 0px 4px rgba($navy,.30);
   border-radius: 5px;
   overflow: hidden;

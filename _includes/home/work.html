@@ -10,15 +10,27 @@
           <header class="section-header text-black">
 
             <div class="section-intro">
-              <h2 class="work-employer m0 mb2">
+              <h2 class="work-employer m0">
                 <a href="{{ employer.url }}" class="text-decoration-none" target="_blank">
                   {{ employer.name }}
                 </a>
               </h2>
-              <h3 class="work-title m0">{{ employer.role }}</h3>
-              <h4 class="worked-dates mt0 regular">{{ employer.timeframe }}</h4>
+              <h3 class="work-title m0">
+                {{ employer.role }}
+                <span class="worked-dates regular">
+                  • {{ employer.timeframe }}
+                </span>
+              </h3>
+              {% if employer.role_2 %}
+              <h3 class="work-title m0">
+                {{ employer.role_2 }}
+                <span class="worked-dates regular">
+                  • {{ employer.timeframe_2 }}
+                </span>
+              </h3>
+              {% endif %}
 
-              <div class="copy">
+              <div class="copy mt3">
                 <p>{{ employer.summary }}</p>
               </div>
 

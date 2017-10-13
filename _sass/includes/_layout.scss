@@ -195,13 +195,14 @@
 
 .headline {
   letter-spacing: -4px; // fallback for no negative subpixel rendering
-  letter-spacing: -.06em;
+  letter-spacing: -.08em;
   font-weight: 700;
-  font-size: 64px;
-  line-height: 64px;
-  margin-top: 100px;
+  font-size: 80px;
+  line-height: 88px;
+  margin-top: 140px;
   margin-bottom: 30px;
   padding-bottom: 30px;
+  // color: $secondary_color;
 
   &::after {
     content: " ";
@@ -234,7 +235,7 @@
   }
 
   .border-mask {
-    background-color: white;
+    background-color: $litenavy_bg;
     position: relative;
     z-index: 2;
     padding-right: 10px;
