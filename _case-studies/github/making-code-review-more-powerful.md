@@ -1,6 +1,6 @@
 ---
 title: "Making code review more powerful"
-summary: "Why the animating power of story is such an effective tool for helping new users succeed."
+summary: "dummy text here replace with real summary"
 layout: casestudy
 ---
 
