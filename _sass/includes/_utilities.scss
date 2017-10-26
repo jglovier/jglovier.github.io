@@ -56,12 +56,24 @@
 
 // typography
 
+.text-sans {
+  @include sans;
+}
+
+.text-rounded {
+  @include rounded;
+}
+
 .text-white {
   color: $white;
 }
 
 .text-black {
   color: $black;
+}
+
+.text-gray {
+  color: $text_color;
 }
 
 .text-color {

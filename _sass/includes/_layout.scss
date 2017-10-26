@@ -12,7 +12,6 @@
   .statement {
     @include rounded;
     font-size: 18px;
-    color: #4E688B;
   }
 
   .icon-link {
@@ -163,7 +162,6 @@
     margin: 0;
     font-size: 36px;
     letter-spacing: -2px;
-    color: $heading_color;
     @media (max-width: 450px) { font-size: 28px; }
   }
 }

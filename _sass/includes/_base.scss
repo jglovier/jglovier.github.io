@@ -18,6 +18,14 @@ body p,
 body ul {
   @include rounded;
 }
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  @include sans;
+}
 
 /* apply a natural box layout model to all elements; see: http://paulirish.com/2012/box-sizing-border-box-ftw/; */
 /* ...also, dont' be concerned about the everything selector here, as it's not being used as a compound selector, so it's performance impact is very nominal */

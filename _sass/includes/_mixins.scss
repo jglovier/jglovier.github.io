@@ -12,6 +12,7 @@
 
 @mixin sans {
   font-family: "Montserrat", Arial, sans-serif;
+  color: $black;
 }
 
 @mixin sans_light {
@@ -50,6 +51,7 @@
 
 @mixin rounded {
   font-family: "Varela Round", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  color: $text_color;
 }
 
 @mixin bg-img-classes {
