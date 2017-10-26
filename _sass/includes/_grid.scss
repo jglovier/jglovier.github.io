@@ -1,0 +1,51 @@
+.row {
+  margin: 0 auto;
+  max-width: 1080px;
+  overflow: hidden;
+  zoom: 1;
+
+  &::before,
+  &::after {
+    content: "";
+    display: table;
+    line-height: 0;
+  }
+
+  &:after {
+    clear: both;
+  }
+
+  .column {
+    float: left;
+    padding: 12px;
+    width: 100%;
+  }
+
+}
+
+.column {
+  &.col-two {
+    width: 16.66667;
+  }
+  &.col-three {
+    width: 25%;
+  }
+  &.col-four {
+    width: 33.33333%;
+  }
+  &.col-five {
+    width: 41.66667%;
+  }
+  &.col-six {
+    width: 50%;
+  }
+  &.col-seven {
+    width: 58.33333%;
+  }
+  &.col-eight {
+    width: 66.66667%;
+  }
+  &.col-nine {
+    width: 75%;
+  }
+}

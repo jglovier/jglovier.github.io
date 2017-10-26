@@ -24,7 +24,6 @@
 .wrap:after { clear: both; }
 .wrap {
   max-width: 1084px;
-  padding: 0 60px;
   margin: 0 auto;
   zoom: 1; }
 
@@ -104,3 +103,13 @@
     animation-iteration-count: infinite;
   }
 }
+
+// border
+
+.border-top { border-top: $color_border_gray; }
+
+.border-right { border-right: $color_border_gray; }
+
+.border-bottom { border-bottom: $color_border_gray; }
+
+.border-left { border-left: $color_border_gray; }
