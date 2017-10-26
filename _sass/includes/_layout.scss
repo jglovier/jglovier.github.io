@@ -3,7 +3,6 @@
 // Site header
 
 .site-header {
-
   .my-name {
     font-weight: bold;
     font-size: 28px;
@@ -21,7 +20,7 @@
 
     svg {
       path {
-        fill: $secondary_color;
+        fill: #A8BBD4;
       }
     }
   }
@@ -91,24 +90,10 @@
   letter-spacing: -4px; // fallback for no negative subpixel rendering
   letter-spacing: -.08em;
   font-weight: 700;
-  font-size: 54px;
-  line-height: 58px;
-  margin-top: 140px;
+  font-size: 40px;
+  line-height: 44px;
+  margin-top: 80px;
   margin-bottom: 30px;
-  padding-bottom: 30px;
-  // color: $secondary_color;
-
-  &::after {
-    content: " ";
-    display: block;
-    width: 100%;
-    height: 1px;
-    border-bottom: $color_border_gray;
-    position: relative;
-    bottom: -30px;
-    transform: scale(2, 1);
-    transform-origin: left bottom;
-  }
 }
 
 .section-headline {
