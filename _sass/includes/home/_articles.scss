@@ -2,7 +2,6 @@
 .home-articles {
   padding: 0 0 80px;
 
-  .section-header { max-width: 680px; }
   .work-employer { font-size: 34px; }
   .work-title {
     font-size: 20px;
@@ -47,14 +46,13 @@
     }
     .article-bottom { height: 110px; }
   }
-  &.l_2_up { margin: 0 -42px;
+  &.l_2_up {
     .article { width: 376px; }
     .article-top { height: 96px; }
     .article-bottom { height: 100px; }
   }
 
   &.l_3_up {
-    margin: 0 -42px;
   }
 }
 
