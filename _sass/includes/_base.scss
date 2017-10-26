@@ -9,7 +9,11 @@ body{
   line-height: 1.5;
   overflow-x: hidden;
 }
-
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 body p,
 body ul {
   @include rounded;
@@ -22,10 +26,16 @@ body ul {
   box-sizing: border-box; }
 
 a {
-  color: $black;
+  color: $blue;
+  text-decoration: none;
 
   &:active,
   &:focus { outline: none; }
+
+  &:visited {
+    // need a better pattern here
+    // text-decoration: none;
+  }
 }
 
 ::-moz-selection {
