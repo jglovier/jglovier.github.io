@@ -1,77 +1,19 @@
 /* @group Layout Styles -------------------- */
 
-// Sidebar
+// Site header
 
-.sidebar {
-  border-left: 6px solid $secondary_color;
-  color: $white;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
-
-  .sidebar-toggle-btn {
-    cursor: pointer;
-    border: 0;
-    background: transparent;
-  }
-
-  .content-collapsed,
-  .content-expanded {
-    background-color: $bg_color;
-    top: 0;
-    left: 6px;
-    bottom: 0;
-  }
-
-  .content-expanded {
-    width: 280px;
-    z-index: 10;
-    transition: transform .3s ease-in;
-
-    .sidebar-toggle-btn {
-      top: 6px;
-      right: 6px;
-    }
-  }
-
-  .content-collapsed {
-    width: 60px;
-    z-index: 9;
-    transform: translateX(-150px);
-    transition: transform .5s ease-in;
-
-    .icon-kebab {
-      top: 20px;
-      right: 22px;
-      cursor: pointer;
-    }
-  }
-
-  a {
-    color: $white;
-    text-decoration: none;
-  }
-
-  .joel-photo {
-    max-width: 74px;
-    background: $secondary_color;
-  }
-
-  .site-title-collapsed {
-    transform: rotate(90deg) translateY(100px) translateX(70px);
-    width: 200px;
-  }
+.site-header {
 
   .my-name {
     font-weight: bold;
-    font-size: 32px;
+    font-size: 28px;
     letter-spacing: -1px;
   }
 
   .statement {
     @include rounded;
     font-size: 18px;
+    color: #4E688B;
   }
 
   .icon-link {
@@ -85,66 +27,18 @@
   }
 
   .site-nav {
-    @include rounded;
-    font-size: 20px;
-    border-top: $color_border_lite;
-
-    a {
-      .hover-bg {
-        border-radius: 3px;
-        background: linear-gradient(-74deg, $black 0%, $black 50%, $main_color 50%, $main_color 100%);
-        background-size: 450% 400%;
-        background-position: 100% 100%;
-        transition: background-position 0.3s ease-in;
-      }
-
-      &:hover {
-        .hover-bg {
-          background-position: 0% 100%;
-        }
-      }
-    }
+    font-size: 14px;
   }
 
   .social-media-links {
-    border-top: $color_border_lite;
-    position: fixed;
-    bottom: 0;
-    width: 216px;
-    background: $black;
-  }
-}
-
-// styles for hiding animation
-.sidebar-closed {
-  .content-expanded {
-    transform: translateX(-800px);
-    transition: transform .3s ease-in;
-  }
-
-  .content-collapsed {
-    transform: translateX(0);
-    transition: transform .3s ease-in;
-    transition-delay: .2s;
-  }
-
-  .main-content {
-    margin-left: 70px;
-    transition: margin .1s ease-in;
-    transition-delay: .2s;
   }
 }
 
 .main-content {
-  margin-left: 280px;
-  transition: margin .3s ease-in;
-  transition-delay: .1s;
-
   h1 > a,
   h2 > a,
   h3 > a,
   p > a {
-    color: $black;
     transition: all .2s ease-in-out;
 
     &:hover {
