@@ -1,6 +1,10 @@
 // Home styles
 // -------------------------------------
 
+body.page-home {
+  background-image: linear-gradient(to bottom, $litenavy_bg, white 600px);
+}
+
 // intro
 .section-intro {
   .intro-copy {
