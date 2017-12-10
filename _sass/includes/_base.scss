@@ -36,6 +36,12 @@ body h6 {
 a {
   color: $blue;
   text-decoration: none;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    color: $secondary_color;
+    transition: all .2s ease-in-out;
+  }
 
   &:active,
   &:focus { outline: none; }
