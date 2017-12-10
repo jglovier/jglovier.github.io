@@ -1,17 +1,23 @@
 // Home styles
 // -------------------------------------
 
-body.page-home {
-  background-image: linear-gradient(to bottom, $litenavy_bg, white 600px);
-}
+// body.page-home {
+//  background-image: linear-gradient(to bottom, $litenavy_bg, white 600px);
+// }
 
 // intro
 .section-intro {
+  margin-bottom: 60px;
+
   .intro-copy {
+    .headline {
+      font-size: 56px;
+      line-height: 60px;
+    }
 
     .description {
       @include rounded;
-      font-size: 16px;
+      font-size: 18px;
       line-height: 24px;
       margin: 26px 0;
 
@@ -31,6 +37,10 @@ body.page-home {
 
   .leading-indicator {
     margin: 20px 0;
+  }
+
+  .border-left {
+    padding-left: 48px;
   }
 }
 
