@@ -7,8 +7,6 @@
 
 // intro
 .section-intro {
-  margin-bottom: 60px;
-
   .intro-copy {
     .headline {
       font-size: 56px;
@@ -38,4 +36,8 @@
 
 .intro-illustration {
   max-width: 100%;
+
+  &.how-i-work {
+    max-width: 600px
+  }
 }
