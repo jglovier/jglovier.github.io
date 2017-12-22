@@ -13,7 +13,6 @@
     @include rounded;
     color: $main_color;
   }
-  .copy { font-size: 18px; }
   .btn { font-size: 20px; }
   .emoji { top: 2px; }
   .work-links {
@@ -61,7 +60,6 @@
   box-shadow: 0 0px 4px rgba($navy,.30);
   border-radius: 5px;
   overflow: hidden;
-  width: 245px;
   float: left;
   transition: all .1s ease-in-out;
   border-top: 6px solid $secondary_color;
@@ -71,8 +69,6 @@
     transform: scale(1.05);
     box-shadow: 0 7px 34px 0 rgba($navy,0.20);
   }
-
-  .article-bottom { height: 150px; }
 
   .story-title {
     font-size: 20px;

@@ -1,12 +1,11 @@
 <section class="row section-work relative text-black" id="work">
 
-    <h2 class="section-headline left-align caps">
+    <!--<h2 class="section-headline left-align caps">
       <span class="border-mask">Work</span>
-    </h2>
+    </h2>-->
 
     {% for employer in site.data.employers %}
       <section class="home-articles mt4">
-        <div class="row">
 
           <header class="section-header text-black column col-six">
             <div class="section-intro">
@@ -59,9 +58,7 @@
             </div>
           </header>
 
-        </div>
-
-        <section class="org-writing {{ employer.articles_layout }} clearfix">
+        <section class="org-writing {{ employer.articles_layout }} clearfix column col-six">
           {% for article in employer.articles_list %}
             {% include home/articles.html %}
           {% endfor %}

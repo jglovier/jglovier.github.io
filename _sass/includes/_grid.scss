@@ -23,6 +23,9 @@
 }
 
 .column {
+  &.col-one {
+    width: 8.33333%;
+  }
   &.col-two {
     width: 16.66667%;
   }
