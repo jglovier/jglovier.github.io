@@ -12,22 +12,6 @@
       font-size: 48px;
       line-height: 50px;
     }
-
-    .description {
-      @include rounded;
-
-      &.left { margin-top: 0; }
-
-      a { font-weight: normal; }
-    }
-  }
-
-  .leading-indicator {
-    margin: 20px 0;
-  }
-
-  .border-left {
-    padding-left: 48px;
   }
 }
 
