@@ -25,6 +25,7 @@ body h4,
 body h5,
 body h6 {
   @include sans;
+  color: $black;
 }
 
 /* apply a natural box layout model to all elements; see: http://paulirish.com/2012/box-sizing-border-box-ftw/; */

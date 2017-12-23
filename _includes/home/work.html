@@ -10,7 +10,7 @@
           <header class="section-header text-black column col-six">
             <div class="section-intro">
               <h2 class="work-employer m0">
-                <a href="{{ employer.url }}" class="text-decoration-none" target="_blank">
+                <a href="{{ employer.url }}" class="text-decoration-none text-black" target="_blank">
                   {{ employer.name }}
                 </a>
               </h2>
@@ -33,7 +33,14 @@
                 <p>{{ employer.summary }}</p>
               </div>
 
-              <ul class="work-links py0 my3 pl0">
+              <ul class="work-links py0 my2 pl0">
+                <li class="py1">
+                  <p class="m0">
+                    <span
+                      class="emoji inline-block mr1 relative">&#128196;</span>
+                      Or, read a case study from my work <span class="emoji inline-block mr1 relative">&#128073;</span>
+                  </p>
+                </li>
                 <li class="py1">
                   <p class="m0">
                     <span class="emoji inline-block mr1 relative">&#128064;</span>
@@ -46,13 +53,6 @@
                     Read what I learned from <a href="{{ employer.learned }}">working at {{ employer.name }}</a>
                   </p>
                 </li-->
-                <li class="py1">
-                  <p class="m0">
-                    <span
-                      class="emoji inline-block mr1 relative">&#129300;</span>
-                      Or, read a case study from my work…
-                  </p>
-                </li>
               </ul>
 
             </div>

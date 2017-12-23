@@ -77,7 +77,11 @@
 }
 
 .text-color {
-  color: $main_color;
+  color: $text_color;
+}
+
+.text-black {
+  color: $black;
 }
 
 .text-color-secondary {
