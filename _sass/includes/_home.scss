@@ -1,9 +1,9 @@
 // Home styles
 // -------------------------------------
 
-// body.page-home {
-//  background-image: linear-gradient(to bottom, $litenavy_bg, white 600px);
-// }
+body.page-home {
+  background-image: linear-gradient(to bottom, $litenavy_bg, white 600px);
+}
 
 // intro
 .section-intro {
@@ -32,24 +32,15 @@
   height: 224px
 }
 
+// woof...but yeah quick and dirty solution
+// need to refactor this for responsive
 .pdc-step-item {
   top: 92px;
-
-  &.first {
-    left: 7px;
-  }
-  &.second {
-    left: 255px;
-  }
-  &.third {
-    left: 454px;
-  }
-  &.fourth {
-    left: 705px;
-  }
-  &.fifth {
-    left: 928px;
-  }
+  &.first {left: 7px;}
+  &.second {left: 255px;}
+  &.third {left: 454px;}
+  &.fourth {left: 705px;}
+  &.fifth {left: 928px;}
 
   p { line-height: 20px; }
 }
