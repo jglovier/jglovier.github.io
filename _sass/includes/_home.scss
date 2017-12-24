@@ -18,3 +18,38 @@
 .intro-illustration {
   max-width: 100%;
 }
+
+.pdc-title-graphic {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 92px;
+}
+
+.pdc-steps {
+  background-image: url(/img/how-i-work.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 224px
+}
+
+.pdc-step-item {
+  top: 92px;
+
+  &.first {
+    left: 7px;
+  }
+  &.second {
+    left: 255px;
+  }
+  &.third {
+    left: 454px;
+  }
+  &.fourth {
+    left: 705px;
+  }
+  &.fifth {
+    left: 928px;
+  }
+
+  p { line-height: 20px; }
+}

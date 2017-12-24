@@ -111,18 +111,6 @@
 .page-footer {
   p:first-of-type {
     padding-top: 30px;
-
-    &:before {
-      content: " ";
-      display: block;
-      width: 100%;
-      height: 1px;
-      border-top: $color_border_gray;
-      position: relative;
-      top: -30px;
-      transform: scale(2, 1);
-      transform-origin: left bottom;
-    }
   }
 }
 
