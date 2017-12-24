@@ -92,6 +92,10 @@
   line-height: 1;
 }
 
+.neg-letter-spacing {
+  letter-spacing: $neg_letter_spacing;
+}
+
 // css shapes
 
 .downward-arrow {

@@ -4,6 +4,7 @@
 
   .work-employer {
     font-size: 34px;
+    letter-spacing: $neg_letter_spacing;
   }
   .work-title {
     font-size: 20px;
@@ -53,7 +54,6 @@
   .story-title {
     font-size: 20px;
     line-height: 26px;
-    letter-spacing: -.05em;
     bottom: 1rem;
   }
 
