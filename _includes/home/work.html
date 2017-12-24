@@ -1,8 +1,9 @@
 <section class="row" id="work">
 
   <div class="column col-twelve mb4">
-    <img class="border-image block" src="/img/dashed-pink-border.png" alt="border image" />
-    <h2 class="headline">Where I've worked...</h2>
+    <h2 class="section-headline mt0 mb3">
+      <span class="bg-mask pr2 inline-block">Where I've worked</span>
+    </h2>
   </div>
 
     {% for employer in site.data.employers %}
@@ -34,6 +35,7 @@
                 <p>{{ employer.summary }}</p>
               </div>
 
+<!-- don't need this right now b/c most articles aren't setup yet
               <ul class="work-links py0 my2 pl0">
                 {% if employer.has_case_studies != false %}
                 <li class="py1">
@@ -50,13 +52,18 @@
                     See some of my {{ employer.name }} work <a href="{{ employer.dribbble }}" target="_blank">on dribbble</a>
                   </p>
                 </li>
-                <!--li class="py1">
+-->
+<!--
+                <li class="py1">
                   <p class="m0">
                     <span class="emoji inline-block mr1 relative">&#128196;</span>
                     Read what I learned from <a href="{{ employer.learned }}">working at {{ employer.name }}</a>
                   </p>
-                </li-->
+                </li>
+-->
+<!--
               </ul>
+-->
 
             </div>
           </header>

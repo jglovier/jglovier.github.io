@@ -81,27 +81,18 @@
 }
 
 .section-headline {
-  font-size: 20px;
-  margin-top: 100px;
+  font-size: 36px;
+  line-height: 46px;
+  z-index: 2;
+  background-color: white;
+  letter-spacing: $neg_letter_spacing;
+  background-image: url(/img/jagged-blue-border.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 10px center;
 
-  &::after {
-    content: " ";
-    display: block;
-    width: 100%;
-    height: 1px;
-    border-bottom: $color_border_gray;
-    position: relative;
-    z-index: 1;
-    bottom: 17px;
-    transform: scale(2, 1);
-    transform-origin: left bottom;
-  }
-
-  .border-mask {
-    background-color: $white;
-    position: relative;
-    z-index: 2;
-    padding-right: 10px;
+  .bg-mask {
+    background-color: white;
   }
 }
 
@@ -109,6 +100,11 @@
 // Page Footer
 
 .page-footer {
+  background-image: url(/img/jagged-blue-border.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+
   p:first-of-type {
     padding-top: 30px;
   }
