@@ -68,7 +68,7 @@
             </div>
           </header>
 
-        <section class="org-writing {% if employer.articles_layout %}{{ employer.articles_layout }}{% endif %} clearfix column col-six">
+        <section class="{% if employer.articles_layout %}{{ employer.articles_layout }}{% endif %} clearfix column col-six">
           {% for article in employer.articles_list %}
             {% include home/articles.html %}
           {% endfor %}
