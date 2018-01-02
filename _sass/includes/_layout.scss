@@ -106,13 +106,18 @@
 // Page Footer
 
 .page-footer {
-  background-image: url(/img/jagged-blue-border.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: top center;
+  background-color: $black;
+  // background-image: url(/img/jagged-blue-border.png);
+  // background-size: 100%;
+  // background-repeat: no-repeat;
+  // background-position: top center;
 
   p:first-of-type {
     padding-top: 30px;
+  }
+
+  p {
+    color: $litenavy_bg;
   }
 }
 
