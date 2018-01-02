@@ -6,7 +6,6 @@
   summary: "GitHub is a collaboration platform at the center of the software development industry. I design experiences for the millions of people who use GitHub every day. I've been at GitHub for over 4 years and worked with several departments to help design product solutions."
   dribbble: "https://dribbble.com/jag/projects/540365-GitHub-work"
   learned: "#"
-  articles_layout: "l_3_up"
   articles_list:
     - title: "Improving the core GitHub workflow"
       summary: "Iterating on a software development workflow for the 20M power users by removing the friction and raising speed limits."
@@ -37,7 +36,6 @@
   summary: "CURE is a medical NGO that provides western quality healthcare to charitable patients in developing nations through a chartiable hospital network. I owned design for CURE."
   dribbble: "https://dribbble.com/jag/projects/560305-CURE-International-work"
   learned: "#"
-  articles_layout: "l_2_up"
   articles_list:
     - title: "Re-imagining an international brand for an organization in transition"
       summary: "When a brand re-alignment is a more effective approach than a brand redesign."
