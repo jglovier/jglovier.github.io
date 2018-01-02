@@ -14,9 +14,6 @@
     - title: "Making code review more powerful"
       summary: "How we improved code review on GitHub by introducing review requests and team reviews."
       url: "/case-studies/github/making-code-review-more-powerful/"
-    - title: "Empowering new users through story"
-      summary: "Why the animating power of story is such an effective tool for helping new users succeed."
-      url: "#"
 
 - name: "AppendTo"
   url: "https://appendto.com/"
