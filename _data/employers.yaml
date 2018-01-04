@@ -3,12 +3,12 @@
   url: "https://github.com/jglovier"
   role: "Product Design Lead"
   timeframe: "2013 – Present"
-  summary: "GitHub is a collaboration platform at the center of the software development industry. I design experiences for the millions of people who use GitHub every day. I've been at GitHub for over 4 years and worked with several departments to help design product solutions."
+  summary: "GitHub is a collaboration platform at the center of the software development industry where I've worked with several departments to design product solutions. I design experiences for the millions of people who use GitHub every day."
   dribbble: "https://dribbble.com/jag/projects/540365-GitHub-work"
   learned: "#"
   articles_list:
     - title: "Improving the core GitHub workflow"
-      summary: "Iterating on a software development workflow for the 20M power users by removing the friction and raising speed limits."
+      summary: "Iterating on a software development workflow for 20M users by removing friction and barriers."
       url: "#"
     - title: "Making code review more powerful"
       summary: "How we improved code review on GitHub by introducing review requests and team reviews."
@@ -24,7 +24,7 @@
   articles_layout: "l_1_up"
   articles_list:
     - title: "Implementing the responsive design of Time.com"
-      summary: "Working with the TIME.com web team, Doug Neiner and I implemented a complete responsive redesign of TIME.com to help make their content more accessible to readers across devices. Read about some of the challenges and opportunities we discovered in implementing responsive design."
+      summary: "Working with the TIME.com web team, Doug Neiner and I implemented a complete responsive redesign of TIME.com to help make content more accessible to readers across devices. Read about some of the challenges and opportunities we discovered in implementing responsive design."
       url: "#"
 
 - name: "CURE International"
@@ -37,10 +37,10 @@
   dribbble: "https://dribbble.com/jag/projects/560305-CURE-International-work"
   learned: "#"
   articles_list:
-    - title: "Re-imagining an international brand for an organization in transition"
+    - title: "Redesigning a brand for an organization in transition"
       summary: "When a brand re-alignment is a more effective approach than a brand redesign."
       url: "#"
-    - title: "Designing a software platform for social good"
+    - title: "Designing a software platform for social impact"
       summary: "Using social media integrations to personalize an online giving experience."
       url: "#"
 
