@@ -108,10 +108,12 @@
 
 .page-footer {
   background-color: $black;
-  // background-image: url(/img/jagged-blue-border.png);
-  // background-size: 100%;
-  // background-repeat: no-repeat;
-  // background-position: top center;
+  background-image: url(/img/footer-bg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 80px;
+  padding-bottom: 40px;
 
   p:first-of-type {
     padding-top: 30px;
