@@ -41,9 +41,8 @@
   box-shadow: 0 0px 4px rgba($navy,.30);
   border-radius: 5px;
   overflow: hidden;
-  float: left;
   transition: all .1s ease-in-out;
-  border-left: 4px solid $secondary_color;
+  border-top: 4px solid $secondary_color;
 
   &:hover {
     opacity: 1;
@@ -52,16 +51,13 @@
   }
 
   .story-title {
-    font-size: 20px;
-    line-height: 26px;
-    bottom: 1rem;
+    font-size: 18px;
+    line-height: 22px;
   }
 
   .story-summary {
     font-size: 14px;
     line-height: 18px;
-    opacity: .8;
-    color: $main_color;
   }
 
   .action-indicator {

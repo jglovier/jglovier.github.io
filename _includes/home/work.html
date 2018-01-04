@@ -31,7 +31,7 @@
               </h3>
               {% endif %}
 
-              <div class="copy mt3">
+              <div class="copy mt3 pr4">
                 <p>{{ employer.summary }}</p>
               </div>
 
@@ -70,7 +70,11 @@
 
         <section class="{% if employer.articles_layout %}{{ employer.articles_layout }}{% endif %} clearfix column col-six">
           {% for article in employer.articles_list %}
-            {% include home/articles.html %}
+            {% if employer.articles_layout == "l_1_up" %}
+              {% include home/articles-1-up.html %}
+            {% else %}
+              {% include home/articles.html %}
+            {% endif %}
           {% endfor %}
         </section>
 
