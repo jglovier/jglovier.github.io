@@ -1,23 +1,26 @@
 // articles
 .home-articles {
-  padding: 0 0 80px;
-
   .work-employer {
-    font-size: 30px;
+    font-size: 26px;
     letter-spacing: $neg_letter_spacing;
   }
+
   .work-title {
-    font-size: 20px;
+    font-size: 18px;
     color: $main_color;
   }
+
   .worked-dates {
     font-size: 18px;
     line-height: 1;
     @include rounded;
     color: $main_color;
   }
+
   .btn { font-size: 20px; }
+
   .emoji { top: 2px; }
+
   .work-links {
     list-style: none;
     font-size: 18px;
