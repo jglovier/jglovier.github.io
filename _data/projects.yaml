@@ -1,8 +1,36 @@
 ---
-- name: "HospitalRun"
-  url: "https://hospitalrun.io"
-  role: "Core Maintainer, Design Lead"
-  timeframe: "2014 – Present"
-  summary: "HospitalRun is an open source, offline first EMR designed for hospitals in resource constrained locations, using Ember.js, Couch, Pouch, and Node. I'm responsible for all project product design and CSS, branding, and marketing design."
-  dribbble: "https://dribbble.com/jag/projects/213165-HospitalRun"
-  project_image: "/img/projects/hospitalrun.jpg"
+- name: HospitalRun
+  url: https://hospitalrun.io
+  role: Core maintainer, design lead
+  timeframe: 2014 – Present
+  summary: |
+    HospitalRun is an open source, offline first EMR designed for hospitals in resource constrained locations, using Ember.js, Couch, Pouch, and Node. I'm responsible for all project product design and CSS, branding, and marketing design.
+  dribbble: https://dribbble.com/jag/projects/213165-HospitalRun
+  project_image: /img/projects/hospitalrun.jpg
+
+- name: Dev Tees
+  url: https://devtees.com
+  role: Founder, designer
+  timeframe: 2012 – Present
+  summary: |
+    Dev Tees is a line of t-shirts for developers started with the help of nearly 500 <a href="https://www.kickstarter.com/projects/jag/dev-tees">Kickstarter backers</a> in 2013. I design the shirts and maintain the business and website.
+  dribbble: https://dribbble.com/jag/projects/89915-Dev-Tees
+  project_image: /img/projects/devtees.jpg
+
+- name: Minima
+  url: https://github.com/jekyll/minima
+  role: Designer, developer
+  timeframe: 2014 – Present
+  summary: |
+    HospitalRun is an open source, offline first EMR designed for hospitals in resource constrained locations, using Ember.js, Couch, Pouch, and Node. I'm responsible for all project product design and CSS, branding, and marketing design.
+  dribbble: https://dribbble.com/jag/projects/213165-HospitalRun
+  project_image: /img/projects/minima.jpg
+
+- name: RemoteJobs.io
+  url: https://remotejobs.io
+  role: Founder
+  timeframe: 2014 – Present
+  summary: |
+    HospitalRun is an open source, offline first EMR designed for hospitals in resource constrained locations, using Ember.js, Couch, Pouch, and Node. I'm responsible for all project product design and CSS, branding, and marketing design.
+  dribbble: https://dribbble.com/jag/projects/213165-HospitalRun
+  project_image: /img/projects/remotejobs.jpg
