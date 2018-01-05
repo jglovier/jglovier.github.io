@@ -1,0 +1,26 @@
+<section class="row mb4" id="built">
+
+  <div class="column col-twelve mb3">
+    <h2 class="section-headline mt0 mb3">
+      <span class="bg-mask pr2 inline-block">What colleages say</span>
+    </h2>
+  </div>
+
+  <div class="column col-twelve mb3">
+    {% for quote in site.data.quotes %}
+
+      <div class="column col-six">
+        <div class="column col-three">
+          <a href="{{ quote.url }}"><img src="{{ quote.image }}" alt="Profile photo of {{ quote.name }}" class="img-full-width" /></a>
+        </div>
+        <div class="column col-nine">
+          <p class="mb2">{{ quote.quote }}</p>
+          <h3 class="text-sans"><a href="{{ quote.url }}">{{ quote.name }}</a></h3>
+          <p>{{ quote.title }}</p>
+        </div>
+      </div>
+
+    {% endfor %}
+  </div>
+
+</section>
