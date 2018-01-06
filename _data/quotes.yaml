@@ -1,10 +1,10 @@
 ---
-- name: Jialee Chau
-  url: https://www.linkedin.com/in/jialeechau/
-  image: /img/quotes/jialeechau.jpg
+- name: Elizabeth Barron
+  url: https://www.linkedin.com/in/elizabethn/
+  image: /img/quotes/elizabethbarron.jpg
   quote: |
-    “ Joel is not just a gifted product designer, he also has the patience, dedication and work ethic that motivates the rest of the team. He is one of those colleagues that you wish you could have on every project.”
-  title: Former colleage at GitHub
+    “ Watching Joel's design process unfold was a delight, and the care and mindfulness he infused in every step was inspirational. He is supremely talented, but even above that, he is a thoughtful, conscientious, open minded, positive individual that makes the work environment more inclusive and welcoming for everyone.”
+  title: Colleage at GitHub
 
 - name: Cameron McEfee
   url: https://www.linkedin.com/in/cameronmcefee/
@@ -13,19 +13,19 @@
     “ What stands out most about Joel is that he is an exceptional person to have on a team. People love working with him. Joel communicates well, articulates himself clearly, provides objective feedback, praises when people do well, and speaks up when things aren’t great.”
   title: Former manager at GitHub
 
+- name: Jialee Chau
+  url: https://www.linkedin.com/in/jialeechau/
+  image: /img/quotes/jialeechau.jpg
+  quote: |
+    “ Joel is not just a gifted product designer, he also has the patience, dedication and work ethic that motivates the rest of the team. He is one of those colleagues that you wish you could have on every project.”
+  title: Former colleage at GitHub
+
 - name: Joel Worrall
   url: https://www.linkedin.com/in/jworrall/
   image: /img/quotes/joelworrall.png
   quote: |
     “ I consider Joel a rare and genuine soul, an incredibly capable teammate, and strong project leader. I'm thankful to continue to work with him in a volunteer capacity and would be glad to collaborate professionally once again.”
   title: Former manager at CURE & HospitalRun co-maintainer
-
-- name: Elizabeth Barron
-  url: https://www.linkedin.com/in/elizabethn/
-  image: /img/quotes/elizabethbarron.jpg
-  quote: |
-    “ Watching Joel's design process unfold was a delight, and the care and mindfulness he infused in every step was inspirational. He is supremely talented, but even above that, he is a thoughtful, conscientious, open minded, positive individual that makes the work environment more inclusive and welcoming for everyone.”
-  title: Colleage at GitHub
 
 - name: John Kleinschmidt
   url: https://www.linkedin.com/in/johnkleinschmidt/
