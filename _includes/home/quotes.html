@@ -1,4 +1,4 @@
-<section class="row mb4" id="built">
+<section class="row mb4" id="quotes">
 
   <div class="column col-twelve mb3">
     <h2 class="section-headline mt0 mb3">
@@ -6,17 +6,17 @@
     </h2>
   </div>
 
-  <div class="column col-twelve mb3">
+  <div class="column col-twelve flex flex-wrap mb4">
     {% for quote in site.data.quotes %}
 
-      <div class="column col-six">
-        <div class="column col-three">
-          <a href="{{ quote.url }}"><img src="{{ quote.image }}" alt="Profile photo of {{ quote.name }}" class="img-full-width" /></a>
+      <div class="column col-six mb3">
+        <div class="column col-two">
+          <a href="{{ quote.url }}"><img src="{{ quote.image }}" alt="Profile photo of {{ quote.name }}" class="img-full-width img-circle default-shadow" /></a>
         </div>
-        <div class="column col-nine">
-          <p class="mb2">{{ quote.quote }}</p>
-          <h3 class="text-sans"><a href="{{ quote.url }}">{{ quote.name }}</a></h3>
-          <p>{{ quote.title }}</p>
+        <div class="column col-ten">
+          <p class="mb2 mt0 neg-text-indent">{{ quote.quote }}</p>
+          <h3 class="text-large m0 ln-height-1"><a href="{{ quote.url }}" class="text-black">{{ quote.name }}</a></h3>
+          <p class="m0 text-sm-subtext">{{ quote.title }}</p>
         </div>
       </div>
 
