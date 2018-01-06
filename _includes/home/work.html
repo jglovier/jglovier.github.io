@@ -68,6 +68,14 @@
           </div>
         </header>
 
+      {% if employer.has_case_studies == false %}
+
+        <section class="clearfix column col-six">
+          <img class="img-full-width" alt="{{ employer.image_alt }}" src="{{ employer.image }}" />
+        </section>
+
+      {% else %}
+
       <section class="{% if employer.articles_layout %}{{ employer.articles_layout }}{% endif %} clearfix column col-six">
         {% for article in employer.articles_list %}
           {% if employer.articles_layout == "l_1_up" %}
@@ -77,6 +85,8 @@
           {% endif %}
         {% endfor %}
       </section>
+
+      {% endif %}
 
     </section>
   {% endfor %}
