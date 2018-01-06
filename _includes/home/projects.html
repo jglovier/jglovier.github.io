@@ -18,18 +18,10 @@
             </h2>
             <h3 class="work-title m0">
               {{ project.role }}
-              <span class="worked-dates regular">
+              <span class="worked-dates regular text-rounded">
                 • {{ project.timeframe }}
               </span>
             </h3>
-            {% if project.role_2 %}
-            <h3 class="work-title m0">
-              {{ project.role_2 }}
-              <span class="worked-dates regular">
-                • {{ project.timeframe_2 }}
-              </span>
-            </h3>
-            {% endif %}
 
             <div class="copy mt2 pr4">
               <p>{{ project.summary }}</p>
