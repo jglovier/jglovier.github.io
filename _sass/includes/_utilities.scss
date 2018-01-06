@@ -100,6 +100,21 @@
   letter-spacing: $neg_letter_spacing;
 }
 
+.neg-text-indent {
+  text-indent: -11px;
+}
+
+.text-sm-subtext {
+  font-size: 14px;
+  opacity: .8;
+}
+
+.text-lrg {
+  @include sans;
+  font-weight: bold;
+  font-size: 18px;
+}
+
 // images
 
 .img-full-width {
@@ -109,6 +124,10 @@
 .img-screenshot {
   border-radius: 5px;
   box-shadow: 0 4px 24px 0 rgba($navy,0.25);
+}
+
+.img-circle {
+  border-radius: 50%;
 }
 
 // css shapes
@@ -148,3 +167,9 @@
 .border-bottom { border-bottom: $color_border_gray; }
 
 .border-left { border-left: $color_border_gray; }
+
+// general styling
+
+.default-shadow {
+  box-shadow: 0 0px 4px rgba($navy,.30);
+}
