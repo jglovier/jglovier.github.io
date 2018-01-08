@@ -1,6 +1,6 @@
-<section class="row mb4" id="built">
+<section class="max-width-4 mx-auto clearfix mb4" id="built">
 
-  <div class="column col-twelve mb3">
+  <div class="col col-12 mb3">
     <h2 class="section-headline mt0 mb3">
       <span class="bg-mask pr2 inline-block">Projects</span>
     </h2>
@@ -9,7 +9,7 @@
   {% for project in site.data.projects %}
     <section class="mt4 clearfix">
 
-        <header class="section-header column col-six mt3">
+        <header class="section-header col col-6 mt3">
           <div class="section-intro">
             <h2 class="work-project m0">
               <a href="{{ project.url }}" class="text-decoration-none" target="_blank">
@@ -29,7 +29,7 @@
           </div>
         </header>
 
-      <section class="clearfix column col-six">
+      <section class="clearfix col col-6">
         <img alt="{{ project.name }} screenshot" src="{{ project.project_image }}" width="600" class="img-full-width img-screenshot" />
       </section>
 
