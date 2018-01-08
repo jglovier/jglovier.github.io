@@ -34,12 +34,12 @@ body.page-home {
 // woof...but yeah quick and dirty solution
 // need to refactor this for responsive
 .pdc-step-item {
-  top: 92px;
-  &.first {left: 7px;}
-  &.second {left: 255px;}
-  &.third {left: 454px;}
-  &.fourth {left: 705px;}
-  &.fifth {left: 928px;}
+  top: 82px;
+  &.first {left: 3px;}
+  &.second {left: 244px;}
+  &.third {left: 434px;}
+  &.fourth {left: 675px;}
+  &.fifth {left: 887px;}
 
   p { line-height: 20px; }
 }
