@@ -4,3 +4,5 @@ rvm:
 script: bundle exec jekyll build
 install: bundle install
 sudo: false
+notifications:
+  email: false
