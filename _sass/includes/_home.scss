@@ -8,16 +8,13 @@ body.page-home {
 // intro
 .section-intro {
   .intro-copy {
+    width: 512px;
+
     .headline {
       font-size: 48px;
       line-height: 56px;
     }
   }
-}
-
-.what-i-do-illustration {
-  position: relative;
-  left: -66px;
 }
 
 .pdc-title-graphic {
@@ -28,7 +25,7 @@ body.page-home {
   background-image: url(/img/how-i-work.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 224px
+  height: 224px;
 }
 
 // woof...but yeah quick and dirty solution
@@ -42,4 +39,25 @@ body.page-home {
   &.fifth {left: 887px;}
 
   p { line-height: 20px; }
+}
+
+.wid-labels {
+  background-image: url(/img/what-i-do.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 348px;
+  left: -70px;
+}
+
+.wid-item {
+  &.first,
+  &.second,
+  &.third { top: 105px; }
+  &.fourth,
+  &.fifth { top: 245px; }
+  &.first { left: 100px; }
+  &.second { left: 300px; }
+  &.third { left: 488px; }
+  &.fourth { left: 207px; }
+  &.fifth { left: 410px; }
 }
