@@ -1,32 +1,38 @@
-<div class="site-header max-width-4 mx-auto clearfix mb4">
+{% if page.layout == 'home' %}
 
+<div class="site-header mb3">
   <h1 class="site-title mt0 mb1">
     <span class="my-name">Joel Glovier</span>
     <span class="statement regular">is a product designer at GitHub.</span>
   </h1>
 
   <nav class="site-nav text-rounded">
-    <a class="inline-block mr2" href="#intro">
-      Intro
-    </a>
-    <a class="inline-block mr2" href="#">
-      Process
-    </a>
-    <a class="inline-block mr2" href="#">
-      Principles
-    </a>
-    <a class="inline-block mr2" href="#work">
-      Work
-    </a>
-    <a class="inline-block mr2" href="#projects">
-      Projects
-    </a>
-    <a class="inline-block mr2" href="/about/">
-      About
-    </a>
-    <a class="inline-block" href="#writing">
-      Writing
-    </a>
+    <a class="inline-block mr2" href="#work">Work</a>
+    <a class="inline-block mr2" href="#projects">Projects</a>
+    <a class="inline-block mr2" href="/about/">About</a>
+    <a class="inline-block mr2" href="/resume.pdf">Resume</a>
+    <a class="inline-block mr2" href="/speaking/">Speaking</a>
+    <a class="inline-block" href="/writing/">Writing</a>
   </nav>
-
 </div>
+
+{% else %}
+
+<div class="site-header max-width-3 mx-auto clearfix my3">
+  <h1 class="site-title mt0 mb1">
+    <span class="my-name">Joel Glovier</span>
+    <span class="statement regular">is a product designer at GitHub.</span>
+  </h1>
+
+  <nav class="site-nav text-rounded">
+    <a class="inline-block mr2" href="/">Home</a>
+    <a class="inline-block mr2" href="/#work">Work</a>
+    <a class="inline-block mr2" href="/#projects">Projects</a>
+    <a class="inline-block mr2" href="/about/">About</a>
+    <a class="inline-block mr2" href="/resume.pdf">Resume</a>
+    <a class="inline-block mr2" href="/speaking/">Speaking</a>
+    <a class="inline-block" href="/writing/">Writing</a>
+  </nav>
+</div>
+
+{% endif %}

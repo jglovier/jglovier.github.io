@@ -1,21 +1,7 @@
 <section class="max-width-4 mx-auto clearfix section-intro" id="intro">
     <div class="intro-copy col col-6 my4">
 
-      <div class="site-header mb3">
-        <h1 class="site-title mt0 mb1">
-          <span class="my-name">Joel Glovier</span>
-          <span class="statement regular">is a product designer at GitHub.</span>
-        </h1>
-
-        <nav class="site-nav text-rounded">
-          <a class="inline-block mr2" href="#work">Work</a>
-          <a class="inline-block mr2" href="#projects">Projects</a>
-          <a class="inline-block mr2" href="/about/">About</a>
-          <a class="inline-block mr2" href="/resume.pdf">Resume</a>
-          <a class="inline-block mr2" href="/speaking/">Speaking</a>
-          <a class="inline-block" href="/writing/">Writing</a>
-        </nav>
-      </div>
+      {% include site-nav.html %}
 
 
       <h2 class="headline pt2">
@@ -32,13 +18,8 @@
         <span class="inline-block mx1">|</span>
         <a href="https://www.quora.com/profile/Joel-Glovier">Ask me something on Quora</a>
       </p>
-      <div class="pt2">
-        <a href="http://github.com/jglovier" class="icon-link inline-block text-decoration-none mr1" target="_blank">{% include icons/icon-github.html %}</a>
-        <a href="http://twitter.com/jglovier" class="icon-link inline-block text-decoration-none mr1" target="_blank">{% include icons/icon-twitter.html %}</a>
-        <a href="http://dribbble.com/jag" class="icon-link inline-block text-decoration-none mr1" target="_blank">{% include icons/icon-dribbble.html %}</a>
-        <a href="#" class="icon-link inline-block text-decoration-none mr1" target="_blank">{% include icons/icon-linkedin.html %}</a>
-        <a href="#" class="icon-link inline-block text-decoration-none" target="_blank">{% include icons/icon-quora.html %}</a>
-      </div>
+
+      {% include social-icons.html %}
 
       <!--<span class="floating inline-block leading-indicator mt4">
         <span class="downward-arrow inline-block"></span>
