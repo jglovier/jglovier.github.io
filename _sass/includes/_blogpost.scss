@@ -3,19 +3,6 @@
 .blogpost {
 
   .page-header {
-    .intro-copy {
-      width: auto;
-      margin-left: 176px;
-
-      @media (max-width: 1084px) { margin-left: 0; }
-    }
-
-    .wrap {
-      @media (max-width: 1084px) {
-        max-width: 732px;
-      }
-    }
-
     .article-date {
       font-size: 18px;
       @include sans_regular;
@@ -24,31 +11,6 @@
 
       a { @include sans_regular; }
     }
-  }
-
-  .my-avatar {
-    max-width: 100px;
-    float: left;
-    margin-left: -100px;
-    position: relative;
-    right: -140px;
-    @media (max-width: 1084px) {
-      right: 0;
-      float: none;
-      width: auto;
-      text-align: center;
-      margin: 0 auto;
-
-      > a { height: auto; }
-
-      img { width: 80px; margin: 0 auto; }
-    }
-    @media (max-width: 570px) { margin-top: 20px; }
-  }
-
-  .joel-photo {
-    max-width: 100%;
-    @include border-radius(100px);
   }
 }
 
@@ -66,7 +28,6 @@
     a {
       font-weight: 800;
       text-decoration: none;
-      color: $tan_4;
     }
   }
 
@@ -139,33 +100,20 @@
 /* next article styles */
 
 .next-article {
-  color: $text_color;
   padding: 50px 0;
-  background-color: $litenavy_bg;
-  border-top: 1px solid $border_color;
-  border-bottom: 1px solid $border_color;
 
   a { text-decoration: none; }
 
   .next-arrow,
   .index-link {
-    font-size: 14px;
-    text-transform: uppercase;
     @include sans_bold;
-    letter-spacing: 4px;
-    margin: 0 0 30px;
   }
 
   .title {
     margin: 0 0 10px;
-    font-size: 40px;
-    @include sans_extrabold;
+    font-size: 32px;
     line-height: 1;
-    letter-spacing: -2px;
-
-    a { font-weight: 800; }
-    a:hover { opacity: .75; }
-
+    letter-spacing: $neg_letter_spacing;
   }
 
   .subhead {
@@ -181,21 +129,6 @@
   }
 
   .nav { margin: 20px 0 0; }
-
-  .next-link {
-    font-size: 14px;
-    text-transform: uppercase;
-    @include sans_regular;
-    letter-spacing: 2px;
-    margin: 10px 0 0;
-    @include border-radius(5px);
-    border: 2px solid;
-    padding: 2px 12px;
-    display: inline-block;
-
-    &:hover { background-color: rgba(51,51,51,.2); }
-
-  }
 
   .index-link {
     margin: 0 0 0;

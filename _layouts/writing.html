@@ -14,8 +14,8 @@
   <div class="wrap">
 
         <div class="articles">
-          <ul class="article-index constrained show">
-            {% for post in site.categories[page.title] %}
+          <ul class="article-index constrained">
+            {% for post in site.posts %}
             <li class="article-item show article-{{post.date | date: "%Y"}}">
               {% if post.external_url %}
               <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);" target="_blank">

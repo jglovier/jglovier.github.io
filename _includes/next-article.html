@@ -1,14 +1,18 @@
-<div class="next-article {% if page.previous.imgclass %}{{ page.previous.imgclass }} {% else %}{{ page.previous.categories | join: " " }} {% endif %}">
+<div class="next-article">
   <div class="wrap">
 
     <div class="contents constrained">
     {% if page.previous %}
       <p class="next-arrow">Next Article:</p>
-      <h3 class="title"><a href="{{ page.previous.url }}" class="next-article-link">{{ page.previous.title }}</a></h3>
-      {% if page.previous.subhead %}<p class="subhead">{{ page.previous.subhead }}</p>{% endif %}
+
+      <h3 class="title">
+        <a href="{{ page.previous.url }}" class="text-black">{{ page.previous.title }}</a></h3>
+        {% if page.previous.subhead %}
+          <p class="subhead">{{ page.previous.subhead }}</p>
+        {% endif %}
     {% endif %}
-      <p class="nav"><a href="{{ page.previous.url }}" class="next-link">Read Now &rarr;</a></p>
-      <p class="nav"><a href="/" class="index-link">&larr; Article Index</a></p>
+
+      <p class="nav"><a href="/" class="index-link">Writing Index</a></p>
     </div>
 
   </div>
