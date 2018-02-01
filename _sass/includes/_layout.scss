@@ -36,12 +36,11 @@
   }
 }
 
-// Site navy
+// Site nav
 
 .site-nav-menu {
   @include border-radius(3px);
   background: $white;
-  border: 1px solid rgba($dznrblue, .2);
   position: absolute;
   right: 0;
   top: 12px;
