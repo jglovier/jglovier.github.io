@@ -41,9 +41,8 @@
   .right { float: right; margin-left: 20px; }
 
   .disclaimer {
-    color: $tan_4;
     font-size: .9em;
-    background-color: $tan;
+    background-color: $light_blue_bg;
     padding: 20px;
     @include border-radius(5px);
     margin-bottom: 40px;
@@ -53,17 +52,17 @@
   del { text-decoration: line-through; color: $gray_2; }
 
   blockquote {
-    border-left: 6px solid $tan_2;
+    border-left: 6px solid rgba($dznrblue, 1);
     margin-left: 0;
     padding: 5px 40px;
-    background-color: $tan;
+    background-color: $light_blue_bg;
     @include border-radius(0 10px 10px 0);
   }
 
   code {
     font-size: 18px;
     line-height: 1.2;
-    background-color: $tan;
+    background-color: $light_blue_bg;
     padding: 4px 8px;
     @include border-radius(5px);
   }
