@@ -3,16 +3,17 @@
 
     <div class="contents constrained">
     {% if page.previous %}
-      <p class="next-arrow">Next Article:</p>
 
-      <h3 class="title">
-        <a href="{{ page.previous.url }}" class="text-black">{{ page.previous.title }}</a></h3>
+      <p><a href="/writing/">&larr; Writing Index</a> <span class="px2">|</span> Next Article:</p>
+
+      <h3 class="title mb0">
+        <a href="{{ page.previous.url }}" class="text-black">{{ page.previous.title }}</a>
+      </h3>
         {% if page.previous.subhead %}
           <p class="subhead">{{ page.previous.subhead }}</p>
         {% endif %}
+        <p>{{ page.previous.date | date: "%B %Y" }}</p>
     {% endif %}
-
-      <p class="nav"><a href="/" class="index-link">Writing Index</a></p>
     </div>
 
   </div>

@@ -36,6 +36,51 @@
   }
 }
 
+// Site navy
+
+.site-nav-menu {
+  @include border-radius(3px);
+  background: $white;
+  border: 1px solid rgba($dznrblue, .2);
+  position: absolute;
+  right: 0;
+  top: 8px;
+
+  &:hover {
+
+    .links { display: block; }
+
+    .nav-trigger {
+      .menu-icon {
+        display: inline-block;
+      }
+    }
+
+  }
+
+  .nav-trigger {
+    @include border-radius(3px);
+    padding: 8px;
+    display: block;
+    text-align: right;
+    line-height: 1;
+
+    .menu-icon { display: block; }
+  }
+
+  .links {
+    list-style: none;
+    margin: 0;
+    padding: 0 15px 8px;
+    text-align: right;
+    display: none;
+
+    > li:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 // Page Header
 
 .page-header {
@@ -47,7 +92,7 @@
 
     h1 {
       font-weight: 800;
-      letter-spacing: -3px;
+      letter-spacing: $neg_letter_spacing;
       margin: 20px 0 0;
       width: auto;
       font-size: 60px;
@@ -58,17 +103,7 @@
 
     .subhead {
       font-size: 28px;
-      @include serif;
-      letter-spacing: -1px;
-      margin: 5px 0 0;
-    }
-
-    a {
-      padding:0 3px; margin: 0 -3px;
-      @include border-radius(4px);
-      color: $text_color;
-
-      &:hover { background-color: white; }
+      letter-spacing: $neg_letter_spacing;
     }
   }
 }

@@ -4,12 +4,7 @@
 
   .page-header {
     .article-date {
-      font-size: 18px;
-      @include sans_regular;
-      margin: 5px 0 0;
-      letter-spacing: -.5px;
-
-      a { @include sans_regular; }
+      letter-spacing: $neg_letter_spacing;
     }
   }
 }
@@ -104,13 +99,7 @@
 
   a { text-decoration: none; }
 
-  .next-arrow,
-  .index-link {
-    @include sans_bold;
-  }
-
   .title {
-    margin: 0 0 10px;
     font-size: 32px;
     line-height: 1;
     letter-spacing: $neg_letter_spacing;
@@ -122,22 +111,6 @@
     line-height: 1;
     @include serif;
   }
-
-  .article-date {
-    margin: 0;
-    letter-spacing: -1px;
-  }
-
-  .nav { margin: 20px 0 0; }
-
-  .index-link {
-    margin: 0 0 0;
-    display: inline-block;
-
-    &:hover { opacity: .75; }
-
-  }
-
 }
 
 .wrap {
