@@ -11,7 +11,6 @@
 
 .post-content {
   padding: 40px 0 80px;
-  @include serif;
   font-size: 20px;
 
   h1, h2, h3, h4, h5, h6, h7 {
@@ -77,7 +76,7 @@
   hr {
     border: none;
     border-top: 2px solid $border_color;
-    margin: 80px 0;
+    margin: 40px 0;
   }
 
   a { font-weight: 400; }
@@ -95,10 +94,6 @@
 /* next article styles */
 
 .next-article {
-  padding: 50px 0;
-
-  a { text-decoration: none; }
-
   .title {
     font-size: 32px;
     line-height: 1;
@@ -106,10 +101,8 @@
   }
 
   .subhead {
-    margin: 0 0 10px;
-    font-size: 21px;
+    font-size: 18px;
     line-height: 1;
-    @include serif;
   }
 }
 

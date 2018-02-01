@@ -44,10 +44,9 @@
   border: 1px solid rgba($dznrblue, .2);
   position: absolute;
   right: 0;
-  top: 8px;
+  top: 12px;
 
   &:hover {
-
     .links { display: block; }
 
     .nav-trigger {
@@ -60,12 +59,18 @@
 
   .nav-trigger {
     @include border-radius(3px);
-    padding: 8px;
+    padding: 6px;
     display: block;
     text-align: right;
     line-height: 1;
 
-    .menu-icon { display: block; }
+    .menu-icon {
+      display: block;
+
+      path {
+        fill: rgba($text_color, 1);
+      }
+    }
   }
 
   .links {

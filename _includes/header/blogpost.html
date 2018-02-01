@@ -10,10 +10,10 @@
         {% if page.subhead %}
           <p class="subhead m0 mt1">{{ page.subhead }}</p>
         {% endif %}
-        <p class="article-date m0">{{ page.date | date: "%B %e, %Y" }} {% if page.categories %} in <a href="/writing/{{ page.categories | first }}">{{ page.categories | first }}</a>{% endif %} • {{ reading_time }} read</p>
+        <p class="article-date m0">{{ page.date | date: "%B %e, %Y" }} {% if page.categories %} in <a href="/writing/{{ page.categories | first }}">{{ page.categories | first }}</a>{% endif %} • {{ reading_time }} read • <a href="/writing/">Back to article index</a></p>
       </div>
     </div>
 
-    <img src="/img/blog-default-pencil.jpg" class="right mr2" width="480px" />
+    <img src="/img/blog-default-pencil.jpg" class="right px3" width="480px" />
 
   </header>
