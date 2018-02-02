@@ -5,6 +5,7 @@ postLink: http://www.evotech.net/blog/2007/04/named-html-entities-in-numeric-ord
 postLinkText: Named HTML entities in numeric order
 imgclass: code
 categories: code
+featured: code
 redirect_from:
   - /writing/2011/the-secret-to-using-html-character-entities-as-content-in-css/
   - /the-secret-to-using-html-character-entities-as-content-in-css/

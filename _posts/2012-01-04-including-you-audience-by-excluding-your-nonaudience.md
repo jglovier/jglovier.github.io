@@ -4,6 +4,7 @@ title: Including You Audience by Excluding your Nonaudience
 subhead: Creating a “judgement free zone” for your customers by judging your non-customers.
 imgclass: markerboard
 categories: design
+featured: business
 ---
 
 <p>So recently I decided to get back into the gym and get myself back in shape after about a 2 year gym workout hiatus <em>(courtesy of getting adjusted to parenthood)</em>.</p>

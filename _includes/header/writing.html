@@ -1,0 +1,17 @@
+{% include site-nav.html %}
+
+  <header class="page-header {% if page.imgclass %}{{ page.imgclass }} {% else %}{{ page.categories | join: " " }} {% endif %} clearfix p0 pb2">
+
+    <div class="ml4 max-width-4 mx-auto clearfix center">
+
+      <img src="/img/writing-header-bg.png" class="block mx-auto mt2 mb3" width="600" />
+
+      <div class="intro-copy">
+        <h1 class="my2">{{ page.title }}</h1>
+        {% if page.subhead %}
+          <p class="subhead m0">{{ page.subhead }}</p>
+        {% endif %}
+      </div>
+    </div>
+
+  </header>

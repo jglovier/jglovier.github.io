@@ -3,6 +3,7 @@ layout: blogpost
 title: Browser-based CSS Authoring FTW
 imgclass: mountain
 categories: design code internets
+featured: resources
 ---
 
 <p>So I write my stylesheets in the browser. Or at least - I prefer to. I have been doing this for a few years now, ever since I discovered <a href="http://chrispederick.com/">Chris Pederick's</a> amazingly useful <a href="http://chrispederick.com/work/web-developer/">Web Developer Toolbar</a> addon for Firefox back around 2008.</p>

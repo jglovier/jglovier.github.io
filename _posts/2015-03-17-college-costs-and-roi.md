@@ -3,6 +3,7 @@ layout: blogpost
 title: "College costs and ROI"
 subhead: "TL;DR: It might be worth it for you, but don't assume."
 categories: career
+featured: business
 ---
 
 <p class="disclaimer">I <a href="https://www.facebook.com/joelglovier/posts/10101931050277118" target="_blank">recently shared</a> an article on Facebook which garnered some discussion. Here's some further thoughts.</p>
@@ -15,7 +16,7 @@ I'm thankful for my degree for many reasons, but if I had it to do over, I'm cer
 
 I don't even have a design degree, I have a Communications (with PR specialization) degree. What I did learn that has been helpful tertiarily is about advertising and marketing. That's certainly helped in my broader job function, but nearly everything I do as my specific job function (design, code) I learned after college via blog posts, tutorials (shout out [Tuts+](http://tutsplus.com/) and [Treehouse](http://teamtreehouse.com/)), personal projects, etc.
 
-I did have a very positive experience at my college, and overall I value my college education for helping me develop my ability to learn. 
+I did have a very positive experience at my college, and overall I value my college education for helping me develop my ability to learn.
 
 A good friend and mentor once told me that the value in college is really just learning how to learn. I think that was very true of my experience, and it was certainly helpful to the end of teaching me how to research topics, seek out information, think critically about subject matter, and hone communication skills like writing and speaking.
 
@@ -31,6 +32,6 @@ I was fortunate enough to get a decent amount of financial aid and scholarships,
 
 Specifically, if I had it to do over again I would likely take a few years to gain some real world working experience first, and save some money toward school, hoping to have a better sense for what I should study, and some money to pay it with. I would most likely pick a state school, or one with more affordable tuition than most private schools.
 
-What about you? Do you have a college degree that has deemed invaluable in your line of work? Or do you have a college degree that is largely ceremonial? Will you encourage your kids, or the young people in your life to attend college? 
+What about you? Do you have a college degree that has deemed invaluable in your line of work? Or do you have a college degree that is largely ceremonial? Will you encourage your kids, or the young people in your life to attend college?
 
 [Hollar at me on Twitter](http://twitter.com/jglovier) with your thoughts.
