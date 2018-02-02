@@ -10,8 +10,12 @@
   }
 
   .article-index {
+    .article-item {
+      border-left: 2px solid $border_color;
+    }
+
     .article-title {
-      font-size: 24px;
+      font-size: 22px;
 
       .external-link-icon-svg {
         margin-left: 5px;
@@ -36,11 +40,6 @@
       display: block;
       font-style: italic;
       color: $gray_2;
-    }
-
-    a { display: block;
-
-      &:hover { opacity: .8; }
     }
   }
 }
