@@ -38,6 +38,35 @@
 
 .fixed{ position: fixed; }
 
+// for pages with a full width header image
+.absolute-site-header {
+  .site-header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 50%;
+    margin-left: -25%;
+  }
+
+  .page-header {
+    padding-top: 0px;
+
+    .max-width-4 {
+      width: 100%;
+      max-width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    img {
+      margin-top: 0;
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+    }
+  }
+}
+
 // clearfix (now called group, via http://css-tricks.com/snippets/css/clear-fix/)
 .group:before,
 .group:after { content:""; display:table; }
