@@ -27,7 +27,7 @@
   articles_list:
     - title: Implementing the responsive design of Time.com
       summary: Working with the TIME.com web team, Doug Neiner and I implemented a complete responsive redesign of TIME.com to help make content more accessible to readers across devices. Read about some of the challenges and opportunities we discovered in implementing responsive design.
-      url: #
+      url: /case-studies/appendto/implementing-the-responsive-redesign-of-time-com/
 
 - name: CURE International
   url: https://cure.org/
