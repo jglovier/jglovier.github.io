@@ -4,6 +4,7 @@ title: "A time to work and a time to play"
 subhead: "Striking a true work/life balance"
 imgclass: cultivating
 categories: life
+featured: misc
 ---
 
 Growing up, I often heard people I respect say, "trust God, and work hard." That saying epitomizes the American dream: the idea that with a combination of hard work and providence we can accomplish whatever we set out to do.
