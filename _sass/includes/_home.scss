@@ -17,26 +17,36 @@ body.page-home {
   }
 }
 
-.pdc-title-graphic {
-  margin-top: 60px;
-}
-
-.pdc-steps {
-  background-image: url(/img/how-i-work.png);
+.pdc-graphic {
+  background-image: url(/img/product-development-cycle.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 224px;
+  height: 546px;
 }
 
 // woof...but yeah quick and dirty solution
 // need to refactor this for responsive
 .pdc-step-item {
-  top: 82px;
-  &.first {left: 3px;}
-  &.second {left: 244px;}
-  &.third {left: 434px;}
-  &.fourth {left: 675px;}
-  &.fifth {left: 887px;}
+  &.first {
+    top: 72px;
+    left: 246px;
+  }
+  &.second {
+    top: 222px;
+    left: 487px;
+  }
+  &.third {
+    top: 430px;
+    left: 354px;
+  }
+  &.fourth {
+    top: 430px;
+    left: 105px;
+  }
+  &.fifth {
+    top: 222px;
+    left: 8px;
+  }
 
   p { line-height: 20px; }
 }
