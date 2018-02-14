@@ -41,23 +41,6 @@ body.page-home {
   p { line-height: 20px; }
 }
 
-.wid-labels {
-  background-image: url(/img/what-i-do.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 348px;
+.wid-graphic {
   left: -70px;
-}
-
-.wid-item {
-  &.first,
-  &.second,
-  &.third { top: 105px; }
-  &.fourth,
-  &.fifth { top: 245px; }
-  &.first { left: 100px; }
-  &.second { left: 300px; }
-  &.third { left: 488px; }
-  &.fourth { left: 207px; }
-  &.fifth { left: 410px; }
 }
