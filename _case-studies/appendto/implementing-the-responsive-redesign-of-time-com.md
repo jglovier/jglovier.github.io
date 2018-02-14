@@ -3,7 +3,7 @@ title: "Implementing the responsive redesign of TIME.com"
 summary: "Working with the TIME.com web team, Doug Neiner and I implemented a complete responsive redesign of TIME.com to help make their content more accessible to readers across multiple devices."
 layout: casestudy
 banner-image: /img/case-studies/case-study-time-responsive-redesign.png
-thumnail:
+thumnail: /img/case-studies/case-study-time-responsive-redesign-thumbnail.png
 bodyclass: absolute-site-header
 ---
 
