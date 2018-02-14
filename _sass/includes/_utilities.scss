@@ -65,6 +65,16 @@
       width: 100%;
     }
   }
+
+  &.casestudy {
+    .page-header {
+      .intro-copy {
+        max-width: 64rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
 }
 
 // clearfix (now called group, via http://css-tricks.com/snippets/css/clear-fix/)
