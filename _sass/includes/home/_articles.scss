@@ -11,31 +11,7 @@
   }
 
   .worked-dates {
-    font-size: 18px;
-    line-height: 1;
-    @include rounded;
-    color: $main_color;
-  }
 
-  .btn { font-size: 20px; }
-
-  .emoji { top: 2px; }
-
-  .work-links {
-    list-style: none;
-    font-size: 18px;
-  }
-
-  .col-6 {
-    min-height: 340px; //this is a shit fix that should not stay; I should really be using flexbox here to solve this
-    .article {
-      padding-right: 60px;
-
-      .story-title { font-size: 28px; }
-    }
-    &.story-left-border {
-      .article { padding-right: 0; padding-left: 60px; }
-    }
   }
 }
 
