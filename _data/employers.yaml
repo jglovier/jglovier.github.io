@@ -7,15 +7,12 @@
     I design and build experiences for the millions of people who use GitHub every day, including recent hits such as Checks, Requested Reviews, and the GitHub Package Registry.
   dribbble: https://dribbble.com/jag/projects/540365-GitHub-work
   learned: #
+  articles_layout: l_1_up
   articles_list:
-    - title: Improving the core GitHub workflow
+    - title: Improving code review on GitHub
       summary: Iterating on a software development workflow for 20M users by removing friction and barriers.
-      url: #
-      image: /img/case-studies/case-study-time-responsive-redesign-thumbnail.png
-    - title: Making code review more powerful
-      summary: How we improved code review on GitHub by introducing review requests and team reviews.
-      url: /case-studies/github/making-code-review-more-powerful/
-      image: /img/case-studies/case-study-time-responsive-redesign-thumbnail.png
+      url: /case-studies/github/improving-code-review-on-github
+      image: /img/case-studies/case-study-github-improving-code-review-banner-thumbnail.png
 
 - name: AppendTo
   url: https://appendto.com/
@@ -42,15 +39,16 @@
     I owned design for an 1500 person international NGO that operated a network of charitable hospitals around the world.
   dribbble: https://dribbble.com/jag/projects/560305-CURE-International-work
   learned: #
+  articles_layout: l_1_up
   articles_list:
-    - title: Redesigning a brand for an organization in transition
-      summary: When a brand re-alignment is a more effective approach than a brand redesign.
-      url: /case-studies/cure/redesigning-a-brand-for-an-organization-in-transition/
-      image: /img/case-studies/case-study-time-responsive-redesign-thumbnail.png
+#    - title: Redesigning a brand for an organization in transition
+#      summary: When a brand re-alignment is a more effective approach than a brand redesign.
+#      url: /case-studies/cure/redesigning-a-brand-for-an-organization-in-transition/
+#      image: /img/case-studies/case-study-time-responsive-redesign-thumbnail.png
     - title: Designing a software platform for social impact
       summary: Using social media integrations to personalize an online giving experience.
-      url: #
-      image: /img/case-studies/case-study-time-responsive-redesign-thumbnail.png
+      url: /case-studies/cure/designing-a-software-platform-for-social-impact/
+      image: /img/case-studies/improving-code-review-banner-thumbnail.png
 
 - name: JAG Design Ideas
   url: #
