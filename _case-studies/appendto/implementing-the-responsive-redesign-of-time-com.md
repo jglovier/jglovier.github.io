@@ -36,3 +36,11 @@ We also took inspiration from Nicolle Sullivan's [teaching](https://www.slidesha
 ## Shipping to real people
 
 ## Measuring results & iterating
+
+---
+- in the news:
+  - http://responsivedesignweekly.com/archive/responsive-design-weekly-28/
+  - http://techland.time.com/2012/10/22/the-new-time-com-a-responsive-global-news-site/
+  - https://responsivedesign.is/news/2012/10/case-study-responsive-design-for-time-com/
+- Stats:
+  - Time.com General Manager, Craig Ettinger, revealed that their pages per visit increased 23% following their move to a responsive site.
