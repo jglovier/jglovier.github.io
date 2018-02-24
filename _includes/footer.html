@@ -2,27 +2,36 @@
   <div class="mx2">
     <section class="max-width-4 mx-auto clearfix">
       <div class="col col-6">
-        <p class="my2">
+
+        <nav class="site-nav text-rounded mb2 text-small">
+          <a class="inline-block mr2" href="#work">Work</a>
+          <a class="inline-block mr2" href="#projects">Projects</a>
+          <a class="inline-block mr2" href="/about/">About</a>
+          <a class="inline-block mr2" href="/resume.pdf">Resume</a>
+          <a class="inline-block mr2" href="/speaking/">Speaking</a>
+          <a class="inline-block" href="/writing/">Writing</a>
+        </nav>
+
+        {% include social-icons.html %}
+
+      </div>
+
+      <div class="col col-6">
+        <p class="mt0 mb2">
           Site content ©{{ site.time | date: "%Y" }} Joel Andrew Glovier. All rights reserved. <br>
           Site design and code are public and open source <a href="https://github.com/jglovier/jglovier.github.io" target="_blank">on GitHub</a>.
         </p>
 
-        <p>
+        <p class="mt0 mb2">
           Think something could be better on this site?<br> <a href="https://github.com/jglovier/jglovier.github.io/issues/new" target="_blank">Open an issue</a> and share your feedback! &#128591;
         </p>
 
-        <p>
+        <p class="my0">
           <!--<a href="#">Read about the process</a> behind the current site design.<br>-->
           See the <a href="https://github.com/jglovier/jglovier.github.io/pull/70" target="_blank">pull request</a> for this site, or read the <a
             href="/site-credits"
             class="regular">credits</a>.
         </p>
-      </div>
-
-      <div class="col col-2"></div>
-
-      <div class="col col-4">
-        {% include social-icons.html %}
       </div>
     </section>
   </div>
