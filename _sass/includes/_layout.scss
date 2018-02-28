@@ -4,6 +4,25 @@
   padding: .5rem;
 }
 
+.icon-link {
+  margin-right: 4px;
+
+  svg {
+    path {
+      fill: #A8BBD4;
+      transition: fill .4s ease;
+    }
+  }
+
+  &:hover {
+    svg {
+      path {
+        fill: $salmon;
+      }
+    }
+  }
+}
+
 // Site header
 
 .site-header {
@@ -16,16 +35,6 @@
   .statement {
     @include rounded;
     font-size: 18px;
-  }
-
-  .icon-link {
-    margin-right: 4px;
-
-    svg {
-      path {
-        fill: #A8BBD4;
-      }
-    }
   }
 
   .social-media-links {
@@ -155,10 +164,10 @@
 
   p {
     color: $litenavy_bg;
+  }
 
-    a {
-      color: $secondary_color;
-    }
+  a {
+    color: $secondary_color;
   }
 }
 
