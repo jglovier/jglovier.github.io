@@ -38,6 +38,9 @@ We also took inspiration from Nicolle Sullivan's [teaching](https://www.slidesha
 ## Measuring results & iterating
 
 ---
+URLs
+- [Case study from AppendTo's old website](http://web.archive.org/web/20130328070350/https://appendto.com/case-study/responsive-design-time-com)
+- [Case study from AppendTo's redesigned website](https://web.archive.org/web/20150307022946/http://appendto.com:80/work/time-com-responsive-redesign/)
 - in the news:
   - http://responsivedesignweekly.com/archive/responsive-design-weekly-28/
   - http://techland.time.com/2012/10/22/the-new-time-com-a-responsive-global-news-site/
