@@ -44,3 +44,18 @@ GitHub already provided a powerful tool for maintainer organization with the tea
 ## Shipping to real people
 
 ## Measuring results & iterating
+
+---
+
+URLs
+- [GitHub features](https://github.com/features)
+- [Code Review on GitHub features overview](https://github.com/features/code-review)
+- [Pull request reviews Help doc](https://help.github.com/articles/about-pull-request-reviews/)
+
+GitHub Blog
+- [More code review tools](https://github.com/blog/2123-more-code-review-tools)
+- [Review requests](https://github.com/blog/2291-introducing-review-requests)
+- [Filtering pull request reviews and review requests](https://github.com/blog/2306-filter-pull-request-reviews-and-review-requests)
+- [Protected branches review dismissal restrictions](https://github.com/blog/2330-restrict-review-dismissals-with-protected-branches)
+- [Team review requests](https://github.com/blog/2389-requesting-reviews-from-repository-teams)
+- [Code Owners](https://github.com/blog/2392-introducing-code-owners)
