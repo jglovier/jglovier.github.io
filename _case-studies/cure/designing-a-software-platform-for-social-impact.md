@@ -6,3 +6,6 @@ banner-image: /img/case-studies/case-study-cure-designing-curekids.png
 thumnail: /img/case-studies/case-study-cure-designing-curekids-banner-thumbnail.png
 bodyclass: absolute-site-header
 ---
+
+URLs:
+- [CUREKids](https://cure.org/curekids/?country=kenya#updates)
