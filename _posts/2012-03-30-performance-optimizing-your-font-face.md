@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 title: Performance optimizing your @font-face
-categories: performance css
+categories: performance css code
 ---
 
 <p>If you're like any modern web designer worth their salt, you love you some @font-face. And with the <a href="http://arstechnica.com/apple/news/2012/03/signs-in-mountain-lion-point-to-retina-display-coming-this-summer.ars">coming of the retina display</a> to laptops (still rumored of course), you know that @font-face will save us all. <a href="http://www.zeldman.com/2012/03/23/web-type-will-save-us/">You do know that, right</a>?</p>
@@ -37,4 +37,3 @@ categories: performance css
 <p>Plus, if you are using a service like Tumblr, or even a CDN where your stylesheet is referencing assets held on a server that your site doesn't live on, Firefox does't like that (without designated accepts headers anyway) and you have to use this method if you want your webfonts to show up in Firefox. So it's a win-win.</p>
 
 <p>But for it to really be performance positive (and not neutral or negative) I suggest using only the Data URI, and removing the previous declaration in the generated stylesheets for the linked font versions.</p>
-

@@ -1,15 +1,12 @@
 ---
 layout: blogpost
-title: User Testing & A Trip To The Eye Doctor
+title: User Experience & A Trip To The Eye Doctor
 categories: design life
 ---
 
-<img class="tumblr-post-img" src="http://media.tumblr.com/tumblr_ljtb6b6ErH1qh12k4.png" />
-
-
 <p>Recently I had a very interested experience at the eye doctor. I wear contacts, so I have to go in once a year to get a new prescription just so they can continue to sell me the exact same product (*not bitter*). I went the other day to get said yearly checkup...</p>
 
-<p>The interesting thing about my visit was when the first lady - let's call her Jan - gave me that test where they make you read decreasingly smaller rows of text on a paper. You know, the one with a ginormous "E" at the top?</p>
+<p>The interesting thing about my visit was when the optometric assistant gave me the test where they make you read decreasingly smaller rows of text on a paper. You know, the one with a ginormous "E" at the top?</p>
 
 <p>Well I was making my way down the rows, which she was able to selectively reveal with her machine, and when she got to the row which was about the smallest on the chart, she said, "How about that one?"</p>
 
@@ -19,13 +16,13 @@ categories: design life
 
 <p>I stopped her and I said what I was thinking: "I don't understand why I should have to read something that is so small that I would need a microscope to read it in real life? I never read or look at any text that is that small."</p>
 
-<p>Jan said, "Well this is to check your 20/20 vision. This simulates text that is 20 feet away."</p>
+<p>The assistant said, "Well this is to check your 20/20 vision. This simulates text that is 20 feet away."</p>
 
 <p>To which I naturally replied, "Well any text that is that small at 20 feet away is not intended to be read by me."</p>
 
-<p>Jan became noticeably frustrated and I take it she thought I was just trying to give her a hard time. She said, "You're missing the point. But let's just move on."</p>
+<p>The assistant became noticeably frustrated and I take it she thought I was just trying to give her a hard time. She said, "You're missing the point. But let's just move on."</p>
 
-<p>I felt a little bad that I had frustrated this nice woman who was just doing her job - the same thing she does with every patient. And yet here comes one smart-face guy who decides to be different...</p>
+<p>I felt a little bad that I had frustrated this nice person who was just doing her job - the same thing she does with every patient who probably doesn't resist the simple request to read text on a card as a matter of principle.</p>
 
 <p>But in all honesty, I hadn't decided ahead of time that I was going to just be different, or try to be stubborn with my eye doctors that day. And that's when I realized, I had decided ahead of time that I'm <em><strong>not going to do something I don't think I need to do, or that is unusually difficult to do.</strong></em></p>
 

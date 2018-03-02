@@ -3,7 +3,7 @@ layout: blogpost
 title: Optimizing your performance in Photoshop
 postLink: http://helpx.adobe.com/photoshop/kb/optimize-performance-photoshop-cs4-cs5.html
 postLinkText: Optimize performance | Photoshop CS4, CS5, CS6
-categories: workflow performance
+categories: workflow performance design quicktips
 redirect_from:
   - /writing/2012/optimizing-your-performance-in-photoshop/
   - /optimizing-your-performance-in-photoshop/

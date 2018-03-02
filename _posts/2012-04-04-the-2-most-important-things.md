@@ -1,16 +1,16 @@
 ---
 layout: blogpost
-title: The 2 Most Important Things
-categories: life
+title: Two fundamental realities
+categories: life code
 ---
 
-<p>In working at CURE the past two and a half years, I've had the chance to work alongside two of the most brilliant and talented programmer/developers I've ever known: <a href="https://twitter.com/tangollama">Joel Worrall</a> and <a href="https://twitter.com/jkleinsc">John Kleinschmidt</a>.</p>
+<p>In working at CURE the past two and a half years, I've had the chance to work alongside two of the brightest software developers I've ever known: <a href="https://twitter.com/tangollama">Joel Worrall</a> and <a href="https://twitter.com/jkleinsc">John Kleinschmidt</a>.</p>
 
-<p>Being that my background is in design and marketing, and development is an addon, I value every tidbit of expertise I can absorb. And I've gotten lots from Joel and John (aka, <b><i>J-Dub</i></b> and <b><i>JK</i></b>, respectively).
+<p>Being that my background is in design and marketing, and coding is an late add, I value every tidbit of expertise I can absorb, and I've absorb a lot from working with Joel and John.
 
 <h3>2 Things</h3>
 
-<p>But there are two primary things I've learned that stick out - one from each of my esteemed colleagues. These are really more like mantras I've heard preached over and over and over again...time after time. They are forever embedded in that corner of my brain that is labelled "developer skills and knowledge".</p>
+<p>The two primary things I've learned that stick out are really more like mantras I've heard preached over and over and over again...time after time.</p>
 
 
 <h3>"Computers only do what you tell them to."</h3>
@@ -24,4 +24,3 @@ categories: life
 <p>This is JK's mantra. LOLz a bit, but it's so true. Such a simple issue that is often overlooked. Or more accurately, the once or twice you end up overlooking that issue it is most likely going to be the problem.</p>
 <p>JK is a very talented developer and this simple advice is really epitomizing of the fact that true talent often boils down to having the discipline to remember and practice very simple axioms.</p>
 <p>So in honor of JK, don't forget to clear your cache.</p>
-
