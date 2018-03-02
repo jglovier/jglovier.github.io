@@ -1,6 +1,6 @@
 <section class="max-width-4 mx-auto clearfix mb4" id="quotes">
 
-  <div class="col col-12 mb3">
+  <div class="col col-12 mb4 pb4">
     <h2 class="section-headline mt0 mb3">
       <span class="bg-mask pr2 inline-block">What colleagues say</span>
     </h2>
@@ -9,7 +9,7 @@
   <div class="col col-12 flex flex-wrap">
     {% for quote in site.data.quotes %}
 
-      <div class="col col-6 mb3">
+      <div class="col col-6 mb4 pb4 {% cycle 'odd', 'even' %}">
         <div class="col col-2">
           <a href="{{ quote.url }}"><img src="{{ quote.image }}" alt="Profile photo of {{ quote.name }}" class="img-full-width img-circle default-shadow" /></a>
         </div>
