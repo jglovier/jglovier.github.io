@@ -13,11 +13,6 @@ body.category {
 
     li {
       text-transform: capitalize;
-
-      > a {
-        font-size: 20px;
-        @media (max-width: 450px) { font-size: 16px; }
-      }
     }
   }
 }

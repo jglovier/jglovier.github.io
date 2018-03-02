@@ -1,8 +1,6 @@
 <div class="categories mt4 pt4">
 
-  <div class="section-heading mb4">
-    <h2>Articles {% if page.layout == 'home' %}by category{% else%}in other categories{% endif %}</h2>
-  </div>
+  <h2 class="mb3 mt3 text-rounded regular">Articles {% if page.layout == 'home' %}by category{% else%}in other categories{% endif %}</h2>
 
   <ul class="category-list constrained p0 list-reset">
     {% for category in site.categories %}
