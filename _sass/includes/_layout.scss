@@ -23,9 +23,9 @@
   }
 }
 
-// Site header
+// Site nav
 
-.site-header {
+.site-nav {
   .my-name {
     font-weight: bold;
     font-size: 28px;
@@ -40,8 +40,6 @@
   .social-media-links {
   }
 }
-
-// Site nav
 
 .site-nav-menu {
   @include border-radius(3px);
@@ -121,10 +119,8 @@
 .headline {
   letter-spacing: -4px; // fallback for no negative subpixel rendering
   letter-spacing: -.06em;
-  font-weight: 700;
   font-size: 36px;
   line-height: 36px;
-  margin-bottom: 30px;
 }
 
 .section-headline {
