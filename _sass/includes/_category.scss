@@ -2,7 +2,10 @@
 
 body.category {
   .page-header {
-    h1 { text-transform: capitalize; }
+    h1 {
+      text-transform: capitalize;
+      font-size: 48px;
+    }
   }
 }
 
