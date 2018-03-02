@@ -5,13 +5,13 @@ imgclass: clouds
 categories: life
 ---
 
-Recently, a friend told me he wanted to quit dipping, and get into vaping. He asked me for some basic info on where to get started, so I wrote out some of the stuff I thought was the essential info for getting started. 
+Recently, a friend told me he wanted to quit dipping, and get into vaping. He asked me for some basic info on where to get started, so I wrote out some of the stuff I thought was the essential info for getting started.
 
 Since I hate to do something more than once I figured I'd share this here so I can point anyone else who asks me the same question to this as a resource.
 
 # Why vape?
 
-Everyone vapes for different reasons, but the most common is because it's a safer altenative to smoking. 
+Everyone vapes for different reasons, but the most common is because it's a safer altenative to smoking.
 
 But it's also something that I find value in for many other reasons.
 
@@ -31,13 +31,13 @@ More than smoking or dipping? Absolutely. More than not vaping at all? Unlikely,
 
 This is still a hot topic of debate as legislators and the medical community try to figure out what to do with this whole new industry that has exploded on the scene in just the span of a few years.
 
-The most important thing to understand about vaping and your personal health is that traditional smoking of tobacco involves combustion (the actual burning process), which is where virtually all of the carcinogens come from. 
+The most important thing to understand about vaping and your personal health is that traditional smoking of tobacco involves combustion (the actual burning process), which is where virtually all of the carcinogens come from.
 
 Vaping, however, does not involve combustion. Instead, vaping is the process of heating the material high enough to be turned into a vapor, but not hot enough to burn.
 
 Removing the combustion process from the delivery method entirely is what has led to [studies](https://www.gov.uk/government/news/e-cigarettes-around-95-less-harmful-than-tobacco-estimates-landmark-review) [finding](http://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-14-18) vaping to be 99% safer than smoking. Even the FDA [testified to it's saftey](http://motherboard.vice.com/read/the-fda-says-e-cigarettes-are-less-harmful-than-smoking) before congress.
 
-However, others have warned that it's [not as safe](http://www.telegraph.co.uk/science/2016/03/12/e-cigarettes-are-no-safer-than-smoking-tobacco-scientists-warn/) [as it seems](https://www.sciencenews.org/article/vaping-linked-host-new-health-risks). 
+However, others have warned that it's [not as safe](http://www.telegraph.co.uk/science/2016/03/12/e-cigarettes-are-no-safer-than-smoking-tobacco-scientists-warn/) [as it seems](https://www.sciencenews.org/article/vaping-linked-host-new-health-risks).
 
 The truth is that while vaping is almost certainly safer than smoking, the full healthy effects of vaping are really unknown because there is relatively little research yet on the long term effects of vaping given it's young age as a presence in our collective attention.
 
@@ -67,7 +67,7 @@ The downside to drip setups is that you use much more juice, and you use it way 
 
 It's really a matter of preference and what you value in your vaping experience. If you want ease of use and convenience, you probably want to get a decent atomizer setup. If you want huge clouds of vapor and the fun of building your own setup, you'll want to go with a drip setup.
 
-The price difference in vaping between the two setup styles is not really a factor. With a drip setup, you'll spend more money on juice since it uses it up faster, but with an atomizer setup you'll spend more money on buying your coil replacements regularly since building your own coils for a drip setup is cheaper. 
+The price difference in vaping between the two setup styles is not really a factor. With a drip setup, you'll spend more money on juice since it uses it up faster, but with an atomizer setup you'll spend more money on buying your coil replacements regularly since building your own coils for a drip setup is cheaper.
 
 So I'd say the price differences largely cancel out.
 
@@ -77,7 +77,7 @@ I've been vaping for about two and a half years, and have tried a lot of what va
 
 ## Hardware
 
-I started out with an atomizer setup, and eventually got into the drip setup because I was really interested in the clouds, and the build aspect. After a while, however, the novelty of custom building my coils, wicks, etc wore off, and it just felt annoying. 
+I started out with an atomizer setup, and eventually got into the drip setup because I was really interested in the clouds, and the build aspect. After a while, however, the novelty of custom building my coils, wicks, etc wore off, and it just felt annoying.
 
 So these days for convenience I'm using an Atomizer setup most of the time.
 
@@ -85,7 +85,7 @@ Both setups will let you use the same battery box, so you can always try out dif
 
 I've tried a few tanks, and my favorite (which I use exclusively now) is the Cubis Pro from Joyetech. You can [pick one up here](http://sweet-vapes.com/tanks/joyetech/joyetech/joyetech-cubis-pro-4ml-tank.html) for about $17, and I use the 15-30w coils (usually set on 25w), which you can [find here](http://sweet-vapes.com/tanks/joyetech/joyetech-coils.html).
 
-As for your battery box, I've had several of these, and currently I'm using the IPV mini d3. It's adjustable up to 75w (for atomizers, you'll want to set it at the range the coils specify, but if you're vaping 50vg/50pg blend juice, you'll probably want to keep it around 25w). This one holds a single battery. You'll need [some batteries](https://www.amazon.com/gp/product/B00NUI46HM/ref=oh_aui_search_detailpage?ie=UTF8&psc=1) and [a charger](https://www.amazon.com/gp/product/B0096U26QQ/ref=oh_aui_search_detailpage?ie=UTF8&psc=1), too.
+As for your battery box, I've had several of these, and currently I'm using the IPV mini d3. It's adjustable up to 75w (for atomizers, you'll want to set it at the range the coils specify, but if you're vaping 50vg/50pg blend juice, you'll probably want to keep it around 25w). This one holds a single battery. You'll need [some batteries](http://amzn.to/2FLOW46) and [a charger](http://amzn.to/2FL7z8k), too.
 
 You can get the [IPV mini d3 here](http://www.wakeandvape.com/ipv-d3-80w-tc-box-mod) for about $40. I got mine at a local vape shop for about $30 and didn't have to pay shipping, so def check the deals at your local vape store.
 

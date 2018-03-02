@@ -1,16 +1,10 @@
 ---
 layout: blogpost
 title: CSS3 Vendor Prefix Crisis Solutions
-postLink: http://www.sitepoint.com/css3-vendor-prefix-crisis-solutions/
-postLinkText: CSS3 Vendor Prefix Crisis Solutions
 categories: code css
 ---
 
-<div class="media link">
-  <a href="{{ post.postLink }}">{{ post.postLinkText }}</a>
-</div>
-
-<p>So the above link is to an article over at Sitepoint.com talking about the "CSS3 vendor prefix crisis" and some proposed solutions.</p>
+<p>Sitepoint.com <a href="http://www.sitepoint.com/css3-vendor-prefix-crisis-solutions/">recently wrote about</a>  the "CSS3 vendor prefix crisis" We're living in treacherous times, indeed.</p>
 
 <p>If you're not familiar with the "crisis", it looks something like this:</p>
 

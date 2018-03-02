@@ -2,7 +2,7 @@
 layout: blogpost
 title: Solution For CSS Transitions Crashing Safari
 imgclass: code
-categories: code css
+categories: code css quicktips
 ---
 
 A few weeks ago I discovered a bug with my newly launched site <a href="http://remotejobs.io">Remote Jobs</a>. The site is fully responsive, and I happened to be at a Verizon store upgrading my wife's phone when I decided to take a glance at Remote Jobs on one of their iPads.
