@@ -4,6 +4,8 @@ title: Google+ - End of the Rise of Facebook?
 categories: internets
 ---
 
+<p class="disclaimer">Update 3/2/18: I was wrong!!!! LOLOLOL It happens. A lot.</p>
+
 <p>So Google release Google+ (Google Plus) the other day. And no one seems to be making too much of a fuss. LOL, jk, but seriously.</p>
 
 <p>Of course all the tech people are talking about it, but nobody really does seem to be taking it very seriously...Yet?</p>

@@ -4,7 +4,7 @@ title: What makes Trello different?
 postLink: http://www.joelonsoftware.com/items/2012/01/06.html
 postLinkText: How Trello is different
 imgclass: ux
-categories: workflow product
+categories: workflow product quicktips
 redirect_from:
   - /writing/2012/what-makes-trello-different/
   - /what-makes-trello-different/

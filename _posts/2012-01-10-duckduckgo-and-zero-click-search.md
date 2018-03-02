@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 title: DuckDuckGo and "Zero-click" search
-categories: internets
+categories: internets misc
 redirect_from:
   - /writing/2012/duckduckgo-and-zero-click-search/
   - /duckduckgo-and-zero-click-search/

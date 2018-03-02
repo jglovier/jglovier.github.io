@@ -2,7 +2,7 @@
 layout: blogpost
 title: Solution For CSS Transitions Crashing Safari
 imgclass: code
-categories: code css
+categories: code css quicktips
 featured: code
 ---
 

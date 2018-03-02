@@ -85,7 +85,7 @@ Both setups will let you use the same battery box, so you can always try out dif
 
 I've tried a few tanks, and my favorite (which I use exclusively now) is the Cubis Pro from Joyetech. You can [pick one up here](http://sweet-vapes.com/tanks/joyetech/joyetech/joyetech-cubis-pro-4ml-tank.html) for about $17, and I use the 15-30w coils (usually set on 25w), which you can [find here](http://sweet-vapes.com/tanks/joyetech/joyetech-coils.html).
 
-As for your battery box, I've had several of these, and currently I'm using the IPV mini d3. It's adjustable up to 75w (for atomizers, you'll want to set it at the range the coils specify, but if you're vaping 50vg/50pg blend juice, you'll probably want to keep it around 25w). This one holds a single battery. You'll need [some batteries](https://www.amazon.com/gp/product/B00NUI46HM/ref=oh_aui_search_detailpage?ie=UTF8&psc=1) and [a charger](https://www.amazon.com/gp/product/B0096U26QQ/ref=oh_aui_search_detailpage?ie=UTF8&psc=1), too.
+As for your battery box, I've had several of these, and currently I'm using the IPV mini d3. It's adjustable up to 75w (for atomizers, you'll want to set it at the range the coils specify, but if you're vaping 50vg/50pg blend juice, you'll probably want to keep it around 25w). This one holds a single battery. You'll need [some batteries](http://amzn.to/2FLOW46) and [a charger](http://amzn.to/2FL7z8k), too.
 
 You can get the [IPV mini d3 here](http://www.wakeandvape.com/ipv-d3-80w-tc-box-mod) for about $40. I got mine at a local vape shop for about $30 and didn't have to pay shipping, so def check the deals at your local vape store.
 
