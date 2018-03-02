@@ -115,19 +115,6 @@
   border-radius: $radius;
 }
 
-@mixin link-w-bg {
-  @include sans_light;
-  color: $text_color;
-  font-size: 24px;
-  @include border-radius(5px);
-  padding: 3px 10px;
-  line-height: 1.25;
-  letter-spacing: -1px;
-  outline: none;
-  background-color: $tan;
-  text-decoration: none;
-}
-
 // media querie tools
 @mixin bp($screen_width) {
   @media (max-width: $screen_width) { @content; }

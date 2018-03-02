@@ -1,14 +1,5 @@
 // writing (article index)
 .writing { padding-bottom: 80px;
-
-  .section-heading h2 {
-    float: left;
-    @media (max-width: 595px) { float: none; }
-
-    &.other-writing { font-size: 36px; }
-
-  }
-
   .article-index {
     .article-item {
       border-left: 2px solid $border_color;
