@@ -38,6 +38,13 @@
 
 .fixed{ position: fixed; }
 
+
+// flexbox
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
 // for pages with a full width header image
 .absolute-site-header {
   .site-nav.header-site-nav {
