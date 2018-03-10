@@ -39,6 +39,8 @@ GitHub already provided a powerful tool for maintainer organization with the tea
 
 ## Exploring solutions
 
+![review requests workflow sketch](/img/case-studies/code-review-requested-reviews-workflow-sketch.png)
+
 ## Testing, gathering feedback, and iterating
 
 ## Shipping to real people
