@@ -17,6 +17,22 @@
   dribbble: https://dribbble.com/jag/projects/89915-Dev-Tees
   project_image: /img/projects/devtees.jpg
 
+- name: RemoteJobs.io
+  url: http://remotejobs.io
+  role: Founder, designer, developer
+  status: Acquired by LiftUX in 2015
+
+- name: Fizzy syntax them for Atom
+  url: https://atom.io/themes/fizzy
+  role: Creator, OS maintainer
+  timeframe:
+  summary: |
+  project_image: https://i.github-camo.com/3042cd39c1212df5614f08b6362cf07b528d5fd8/687474703a2f2f662e636c2e6c792f6974656d732f32513159303231373348335a334a317a323530522f66697a7a792e706e67
+
+- name: GitHub Pages resume template
+
+- name: Jekyll Minima theme
+
 #- name: Minima
 #  url: https://github.com/jekyll/minima
 #  role: Designer, developer
