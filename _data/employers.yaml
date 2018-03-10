@@ -24,7 +24,7 @@
   learned: #
   articles_layout: l_1_up
   articles_list:
-    - title: Implementing the responsive design of Time.com
+    - title: Implementing the responsive redesign of Time.com
       summary: Working with the TIME.com web team, Doug Neiner and I implemented a complete responsive redesign of TIME.com to help make content more accessible to readers across devices. Read about some of the challenges and opportunities we discovered in implementing responsive design.
       url: /case-studies/appendto/implementing-the-responsive-redesign-of-time-com/
       image: /img/case-studies/case-study-time-responsive-redesign-thumbnail.png
