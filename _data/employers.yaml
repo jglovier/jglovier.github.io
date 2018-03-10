@@ -11,7 +11,7 @@
   articles_list:
     - title: Improving code review on GitHub
       summary: Iterating on a software development workflow for 20M users by removing friction and barriers.
-      url: /case-studies/github/improving-code-review-on-github
+      url: /case-studies/github/improving-code-review-on-github/
       image: /img/case-studies/case-study-github-improving-code-review-banner-thumbnail.png
 
 - name: AppendTo
