@@ -54,3 +54,21 @@ body.page-home {
 .wid-graphic {
   left: -70px;
 }
+
+.quote-item {
+  z-index: 2;
+
+  &::before {
+    background-image: url(/img/quotes/quotes-bg.png);
+    background-size: 117px 239px;
+    background-repeat: no-repeat;
+    content: " ";
+    display: block;
+    width: 117px;
+    height: 239px;
+    position: absolute;
+    z-index: -1;
+    top: -10px;
+    left: -25px;
+  }
+}

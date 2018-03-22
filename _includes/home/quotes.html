@@ -8,7 +8,7 @@
 
 {% for quote in site.data.quotes %}
   <div class="col col-12 flex flex-wrap {% cycle '', 'flex-row-reverse' %}">
-      <div class="col col-6 pb2">
+      <div class="col col-6 pb2 quote-item relative">
         <div class="col col-2">
           <a href="{{ quote.url }}"><img src="{{ quote.image }}" alt="Profile photo of {{ quote.name }}" class="img-full-width img-circle default-shadow" /></a>
         </div>
