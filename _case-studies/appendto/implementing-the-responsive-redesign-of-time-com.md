@@ -51,7 +51,9 @@ We reset styles with [Normalize.css](https://github.com/necolas/normalize.css), 
 
 ## Responsive approach
 
-## Unique challenges
+Given the design approach by TIME.com's team utilizing consistent spacing between layout elements throughout the design's breakpoints, we used margin and padding in set pixel values for most spacing, and allowed percentage based widths with a fixed max width of 1122px to handle the responsive content flow.
+
+To handle the sidebar which appeared on many of the template layouts and appeared at a consistent width until a much smaller breakpoint, we used a negative margin the same width as the element which effectively removed it from the block flow, allowing it to remain at it's full width while the rest of the layout around it fluidly responded to the viewport width.
 
 Implementing TIME's design presented a few unique problems to solve.
 
