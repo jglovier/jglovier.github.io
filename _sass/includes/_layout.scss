@@ -119,7 +119,7 @@
 }
 
 .section-headline {
-  font-size: 28px;
+  font-size: 22px;
   line-height: 46px;
   z-index: 2;
   background-color: white;
@@ -130,12 +130,7 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 10px center;
-  // alt styles ---
-  // font-size: 18px;
-  // font-weight: normal;
-  // letter-spacing: .15em;
-  // text-transform: uppercase;
-  // color: $light_blue_text;
+  color: $main_color;
 
   .bg-mask {
     background-color: white;
