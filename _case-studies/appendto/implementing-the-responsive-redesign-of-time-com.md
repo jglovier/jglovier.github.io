@@ -7,17 +7,15 @@ thumnail: /img/case-studies/case-study-time-responsive-redesign-thumbnail.png
 bodyclass: absolute-site-header
 ---
 
-In 2012 the online home of global news publisher TIME Magazine, [time.com](http://time.com/), was not easy to read on a phone's web browser. In fact, most news media wasn't easy to access on a phone's web browser at that time.
+In 2012 the online home of global news publisher [TIME Magazine](http://time.com/) was not easy to read on a phone's web browser. In fact, most news media wasn't easy to access on a phone's web browser at the time.
 
-The Boston Globe, however, helped to usher in a new era of responsive web design by being the first major news outlet to feature a responsive web design – meaning it's content adapted to the device viewing it for an optimized reading and browsing experience for that device, regardless of screen dimensions.
+The Boston Globe, however, helped to usher in a new era of responsive web design by being the first major news outlet to feature a responsive web design – meaning it's content adapted to the device viewing it for an optimized reading and browsing experience for that device, regardless of screen dimensions (an experienced which has since become assumed for any modern website).
 
 On October 22, 2012, TIME Magazine followed suit by becoming the [first global news publisher](http://techland.time.com/2012/10/22/the-new-time-com-a-responsive-global-news-site/) to launch a responsive web design.
 
-As part of the team at consulting agency [AppendTo](https://appendto.com/) (contracted by TIME for the project), I implemented a responsive design for TIME.com along with [Doug Neiner](https://twitter.com/dougneiner) (technical lead) and [Ralph Whitbeck](https://twitter.com/RedWolves) (project manager).
+As part of the team at consulting agency [AppendTo](https://appendto.com/) contracted by TIME for the project, I implemented a responsive design for TIME.com along with [Doug Neiner](https://twitter.com/dougneiner) (technical lead) and [Ralph Whitbeck](https://twitter.com/RedWolves) (project manager).
 
 We partnered with TIME.com's in house design team, led by [Davina Anthony](https://www.linkedin.com/in/dmacreative), who provided the design for AppendTo's implementation, consisting of more than 200 PSD comps of the various TIME.com screens at each major responsive breakpoint ranging from 1122px down to 320px.
-
->We wanted to embrace our existing advertisers, not limit them – so we set a guideline for the use of traditional advertising sizes. The ads, however, needed to work in a fully responsive environment. appendTo produced a custom wrapper around TIME.com’s existing advertising solutions. This made the ad regions aware of the available real estate so the correct advertisement could be loaded on all devices. We’re happy and our advertisers are really happy. – Davina Anthony, Time.com Design Lead
 
 ## Background
 
@@ -59,7 +57,11 @@ Implementing TIME's design presented a few unique problems to solve.
 
 ### Transforming site header and footer navigation menus
 
+
+
 ### Pseudo responsive advertising
+
+>We wanted to embrace our existing advertisers, not limit them – so we set a guideline for the use of traditional advertising sizes. The ads, however, needed to work in a fully responsive environment. appendTo produced a custom wrapper around TIME.com’s existing advertising solutions. This made the ad regions aware of the available real estate so the correct advertisement could be loaded on all devices. We’re happy and our advertisers are really happy. – Davina Anthony, Time.com Design Lead
 
 ## Results
 
