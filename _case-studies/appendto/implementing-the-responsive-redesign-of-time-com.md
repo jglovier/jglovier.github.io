@@ -5,6 +5,7 @@ layout: casestudy
 banner-image: /img/case-studies/case-study-time-responsive-redesign.png
 thumnail: /img/case-studies/case-study-time-responsive-redesign-thumbnail.png
 bodyclass: absolute-site-header
+last_updated: March 24th, 2017
 ---
 
 In 2012 the online home of global news publisher [TIME Magazine](http://time.com/) was not easy to read on a phone's web browser. In fact, most news media wasn't easy to access on a phone's web browser at the time.

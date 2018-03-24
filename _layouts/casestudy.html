@@ -26,6 +26,12 @@
       <p class="discussion-link"><a href="{{ page.dnlink }}">Discuss on Designer News. &rarr;</a></p>
 {% endif %}
 
+      {% if page.last_updated %}
+      <p class="text-small">
+        Last updated on {{ page.last_updated }} • <a href="/writing/">Go to article index</a>
+      </p>
+      {% endif %}
+
     </footer>
 
   </article>
