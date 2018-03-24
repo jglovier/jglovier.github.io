@@ -18,13 +18,13 @@
         <a href="https://twitter.com/share" class="twitter-share-button" data-via="jglovier" data-size="large" data-related="jglovier">Tweet</a>
       </div>
 
-{% if page.hnlink %}
+      {% if page.hnlink %}
       <p class="discussion-link"><a href="{{ page.hnlink }}">Discuss on Hacker News. &rarr;</a></p>
-{% endif %}
+      {% endif %}
 
-{% if page.dnlink %}
+      {% if page.dnlink %}
       <p class="discussion-link"><a href="{{ page.dnlink }}">Discuss on Designer News. &rarr;</a></p>
-{% endif %}
+      {% endif %}
 
       {% if page.last_updated %}
       <p class="text-small">
