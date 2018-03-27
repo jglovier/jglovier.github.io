@@ -1,4 +1,9 @@
+{% if post %}
 {% assign words = post.content | number_of_words %}
+{% else %}
+{% assign words = page.content | number_of_words %}
+{% endif %}
+
 {% if words <= 90 %}
 {% assign reading_time = "30 sec" %}
 {% elsif words < 270 %}
