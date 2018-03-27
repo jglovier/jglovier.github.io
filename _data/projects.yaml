@@ -26,13 +26,24 @@
 - name: Fizzy syntax them for Atom
   url: https://atom.io/themes/fizzy
   role: Creator, OS maintainer
-  timeframe:
+  timeframe: 2014 - Present
   summary: |
   project_image: https://i.github-camo.com/3042cd39c1212df5614f08b6362cf07b528d5fd8/687474703a2f2f662e636c2e6c792f6974656d732f32513159303231373348335a334a317a323530522f66697a7a792e706e67
 
 - name: GitHub Pages resume template
+  url: https://github.com/jglovier/resume-template
+  role: Creator, OS maintainer
+  timeframe: 2015 - Present
+  summary: |
+    A forkable Jekyll powered resume template.
+  project_image: /img/projects/github-pages-resume-template.png
 
 - name: Jekyll Minima theme
+  url:
+  role:
+  timeframe:
+  summary: |
+  project_image:
 
 #- name: Minima
 #  url: https://github.com/jekyll/minima
