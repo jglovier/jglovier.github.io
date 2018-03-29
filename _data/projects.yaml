@@ -43,7 +43,7 @@
   role:
   timeframe:
   summary: |
-  project_image:
+  project_image: /img/projects/minima.png
 
 #- name: Minima
 #  url: https://github.com/jekyll/minima
