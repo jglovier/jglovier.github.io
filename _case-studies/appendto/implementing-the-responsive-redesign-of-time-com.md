@@ -7,9 +7,11 @@ thumnail: /img/case-studies/case-study-time-responsive-redesign-thumbnail.png
 bodyclass: absolute-site-header
 ---
 
-In 2012 the online home of global news publisher [TIME Magazine](http://time.com/) was not easy to read on a phone's web browser. In fact, most news media wasn't easy to access on a phone's web browser at the time.
+[TIME Magazine](http://time.com/) has a rich history of content dating back to 1923. They've chronicled world events for decades, and their website is a treasure trove of news and history.
 
-The Boston Globe, however, helped to usher in a new era of responsive web design by being the first major news outlet to feature a responsive web design – meaning it's content adapted to the device viewing it for an optimized reading and browsing experience for that device, regardless of screen dimensions (an experienced which has since become assumed for any modern website).
+But in 2012 that content was optimized primarily for a desktop computing experience. In fact, the full archive of content back to 1923 was only available to desktop visitors, and visitors to TIME's website were inceasingly arriving at content from mobile and tablet devices which were not being served an experience on par with desktop browsers.
+
+The Boston Globe, however, helped to usher in a new era of responsive web design by being the first major news outlet to feature a responsive web design – meaning it's content adapted to the device viewing it for an optimized reading and browsing experience for that device, regardless of screen dimensions – an experienced which has since become assumed for modern websites.
 
 On October 22, 2012, TIME Magazine followed suit by becoming the [first global news publisher](http://techland.time.com/2012/10/22/the-new-time-com-a-responsive-global-news-site/) to launch a responsive web design.
 
@@ -53,24 +55,59 @@ Given the design decision by TIME.com's team to utilize consistent spacing betwe
 
 To handle the sidebar which appeared on many of the template layouts and appeared at a consistent width until a much smaller breakpoint, we used a negative margin the same width as the element which effectively removed it from the block flow, allowing it to remain at it's full width while the rest of the layout around it fluidly adapted to the viewport width.
 
+An important guiding principal we followed during implementation in order to ensure a performant experience was to lean on CSS solutions over JavaScript as much as was reasonably possible, leveraging the browser's CSS processing power.
+
 Implementing TIME's design also presented a few unique problems to solve.
 
 ### Transforming site header and footer navigation menus
 
-The design of the site header and footer called for main news category menu's that transformed at major breakpoints, reducing columns as the width shrunk down.
+The design of the site header and footer called for news section menus that transformed at major breakpoints between 1122px and 320px, reducing columns as the width shrunk down. 
 
-In the header, the horizontally displayed menu turned into a hidden dropdown menu at smaller widths.
+At full width, for example, the footer had a menu which displayed all items horizontally. At the next breakpoint down, the horizontal menu transformed into four columns, which then became three, and so on, down to a single column at mobile width.
 
-The challenge with this design was that 
+This challenge could easily be solved today using media-queries to adjust a CSS columns property declaration, but at the time the property was not yet widely supported. So instead, we created psuedo-columns using percentage based widths and negative margins to offset the columns, selectively adjusting styles at each breakpoint to create the required columns and preserve Section ordering as defined in the design comps.
+
+**[insert graphic showing footer transformations]**
+
+A similar approach was utilitized in the site header menu which displayed horizontally at full width and collapsed into a hidden dropdown menu containing a similar column structure at smaller widths.
+
+**[insert graphic showing header transformations]**
+
+An important consideration that the TIME.com design team made to help eliminate back and forth over design discrepancies and make implementation more efficient was to provide us with permission to make judgement calls about how to resolve inconsistencies. This allowed us to keep an aggressive pace of development and achieve the deadlines we committed to.
+
+Most of the decisions we made in this context were related to design comps that left gaps in the design between break points. To resolve these issues, our approach was typically to insert additional breakpoints wherever the design broke at the current width, and apply styling to match the design comps at the next smallest breakpoint.
+
+This was an important consideration for both TIME and our team, allowing us to ensure the design didn't break at any given screen size. 
+
+With this approach, we were able to create a truly responsive experience that adapted to not only the most popular devices at the time, but would also be reliable for devices that would be released in years to come.
 
 ### Pseudo responsive advertising
+
+Another challenge we faced on the implementation was solving for a key business requirement of the redesign – responsive ads. 
+
+TIME needed to allow existing advertisers to continue using their existing ad creatives, which meant the responsive implementation needed to be flexible enough to accommodate traditional ad sizes.
+
+To solve for this requirement, we created a wrapper around TIME's existing advertising solution that allowed the ad regions to adapt to the available screen real estate and serve the correct ad format.
+
+TIME also wanted to serve targeted ads for mobile, tablet, and desktop browsers with device specific creatives. Since our implementation was device agnostic, Doug Neiner took the lead on solving for this requirement by porting an existing server-side solution to a JavaScript implementation that could determine the correct ad to serve at render time in the browser.
+
+The final requirement for TIME's responsive ads was the ability to swap out ad creatives if the layout changed based on a browser resize (such as a device change in orientation) without triggering a page reload or inflating ad impression metrics. We worked together with the TIME.com web team to implement a solution based on some existing functionality from TIME's site.
+
+TIME was pleased with our approach and it's advertisers were as well.
 
 >We wanted to embrace our existing advertisers, not limit them – so we set a guideline for the use of traditional advertising sizes. The ads, however, needed to work in a fully responsive environment. appendTo produced a custom wrapper around TIME.com’s existing advertising solutions. This made the ad regions aware of the available real estate so the correct advertisement could be loaded on all devices. We’re happy and our advertisers are really happy. – Davina Anthony, Time.com Design Lead
 
 ## Results
 
+The team at TIME.com was thrilled with our work on the implementation, and Time.com General Manager, Craig Ettinger, [said](http://www.magazine.org/timecom-gm-craig-ettinger-bringing-responsive-web-design-iconic-brand) they saw a 23% increase in pages per visit following the move to a responsive site.
+
 ## In retrospect
+
+- personal insights
+- keys to success
+- what could have worked better?
 - why didn't we develop mobile first?
+- what did we learn?
 
 ---
 
@@ -78,8 +115,8 @@ The challenge with this design was that
 - [Case study from AppendTo's old website](http://web.archive.org/web/20130328070350/https://appendto.com/case-study/responsive-design-time-com)
 - [Case study from AppendTo's redesigned website](https://web.archive.org/web/20150307022946/http://appendto.com:80/work/time-com-responsive-redesign/)
 - In the news:
-  - [Responsive Design Weekly #28](http://responsivedesignweekly.com/archive/responsive-design-weekly-28/)
   - [The New TIME.com: A Responsive Global News Site](http://techland.time.com/2012/10/22/the-new-time-com-a-responsive-global-news-site/)
+  - [Time Moves to Responsive Design](http://www.adweek.com/digital/time-moves-responsive-design-144666/)
+  - [If you’re not doing Responsive Web Design, you’re doing it wrong](https://blog.red-badger.com/blog/if-youre-not-doing-responsive-web-design-youre-doing-it-wrong)
+  - [Responsive Design Weekly #28](http://responsivedesignweekly.com/archive/responsive-design-weekly-28/)
   - [Case Study: Responsive Design for Time.com](https://responsivedesign.is/news/2012/10/case-study-responsive-design-for-time-com/)
-- Stats:
-  - Time.com General Manager, Craig Ettinger, revealed that their pages per visit increased 23% following their move to a responsive site.
