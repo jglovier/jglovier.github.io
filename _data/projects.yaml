@@ -20,14 +20,18 @@
 - name: RemoteJobs.io
   url: http://remotejobs.io
   role: Founder, designer, developer
+  timeframe: 2012-2015
   status: Acquired by LiftUX in 2015
+  summary: |
+    RemoteJobs was a job board and job seeker site for connecting remote employees with new opportunities build as on a custom Wordpress install. It was acquired by LiftUX in 2015.
   project_image: /img/projects/remotejobs-io.png
 
-- name: Fizzy syntax them for Atom
+- name: Fizzy syntax theme for Atom
   url: https://atom.io/themes/fizzy
   role: Creator, OS maintainer
   timeframe: 2014 - Present
   summary: |
+    Fizzy is a custom syntax theme for the Atom text editor with bright and bubbly colors, inspired by syntax highlighting in the Espresso web editor for Mac.
   project_image: https://i.github-camo.com/3042cd39c1212df5614f08b6362cf07b528d5fd8/687474703a2f2f662e636c2e6c792f6974656d732f32513159303231373348335a334a317a323530522f66697a7a792e706e67
 
 - name: GitHub Pages resume template
@@ -35,14 +39,15 @@
   role: Creator, OS maintainer
   timeframe: 2015 - Present
   summary: |
-    A forkable Jekyll powered resume template.
+    I created a basic Jekyll-powered resume template for GitHub Pages sites that is as simple to setup as forking a repository.
   project_image: /img/projects/github-pages-resume-template.png
 
 - name: Jekyll Minima theme
-  url:
-  role:
-  timeframe:
+  url: https://github.com/jekyll/minima
+  role: Designer, Developer
+  timeframe: 2014
   summary: |
+    I designed and build the default Jekyll theme for the release of Jekyll 2.0. It has since become it's own project called Minima with a thriving community of contributors.
   project_image: /img/projects/minima.png
 
 #- name: Minima
