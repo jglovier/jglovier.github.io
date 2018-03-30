@@ -1,0 +1,78 @@
+// styles for TIME responsive redesign case study
+
+.time-csfigure-devices {
+
+}
+
+.csfigure-device {
+  border: 2px solid $device_color;
+  border-radius: 5px;
+  background: $white;
+  position: relative;
+
+  .csfigure-device-image {
+    border-radius: 0;
+  }
+}
+
+.csfigure-device-browser {
+  width: 500px;
+  height: 330px;
+  overflow: hidden;
+
+  .csfigure-device-screen {
+    height: 308px;
+  }
+}
+
+.csfigure-device-browser-header {
+  height: 22px;
+  width: 100%;
+  border-bottom: 1px solid $device_color;
+
+  .circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: $device_color;
+    margin-right: 4px;
+    margin-top: 7px;
+  }
+
+  .address-bar {
+    width: 422px;
+    height: 11px;
+    border: 1px solid $device_color;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 3px;
+  }
+}
+
+.csfigure-device-tablet {
+  width: 195px;
+  height: 246px;
+  padding: 19px 16px;
+  top: 46px;
+
+  .csfigure-device-screen {
+    border: 1px solid $device_color;
+    height: 204px;
+  }
+}
+
+.csfigure-device-mobile {
+  width: 64px;
+  height: 111px;
+  padding: 8px 4px 14px;
+  top: 113px;
+
+  .csfigure-device-screen {
+    border: 1px solid $device_color;
+    height: 85px;
+  }
+}
+
+.csfigure-device-screen {
+  overflow: scroll;
+}
