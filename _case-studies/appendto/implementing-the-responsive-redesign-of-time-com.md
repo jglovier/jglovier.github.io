@@ -11,7 +11,7 @@ bodyclass: absolute-site-header
 
 But in 2012 that content was optimized primarily for a desktop browsing experience.
 
-In fact, the full archive of content back to 1923 was only available to desktop visitors, and visitors to TIME's website were inceasingly arriving at content from mobile and tablet devices which were not being served an experience on par with desktop browsers.
+In fact, the full archive of content back to 1923 was only available to desktop visitors, and visitors to TIME's website were increasingly arriving at content from mobile and tablet devices which were not being served an experience on par with desktop browsers.
 
 The Boston Globe, however, helped to usher in a new era of responsive web design by being the first major news outlet to feature a responsive web design – meaning it's content adapted to the device viewing it for an optimized reading and browsing experience for that device, regardless of screen dimensions – an experienced which has since become assumed for modern websites.
 
@@ -95,11 +95,11 @@ The design of the site header and footer called for news section menus that tran
 
 At full width, for example, the footer had a menu which displayed all items horizontally. At the next breakpoint down, the horizontal menu transformed into four columns, which then became three, and so on, down to a single column at mobile width.
 
-This challenge could easily be solved today using media-queries to adjust a CSS columns property declaration, but at the time the property was not yet widely supported. So instead, we created psuedo-columns using percentage based widths and negative margins to offset the columns, selectively adjusting styles at each breakpoint to create the required columns and preserve Section ordering as defined in the design comps.
+This challenge could easily be solved today using media-queries to adjust a CSS columns property declaration, but at the time the property was not yet widely supported. So instead, we created pseudo-columns using percentage based widths and negative margins to offset the columns, selectively adjusting styles at each breakpoint to create the required columns and preserve Section ordering as defined in the design comps.
 
 ![time's responsive footer implementation](/img/case-studies/time-footer.png)
 
-A similar approach was utilitized in the site header menu which displayed horizontally at full width and collapsed into a hidden dropdown menu containing a similar column structure at smaller widths.
+A similar design approach was utilized in the site header menu which displayed horizontally at full width and collapsed into a hidden dropdown menu containing a similar column structure at smaller widths.
 
 **[insert graphic showing header transformations]**
 
