@@ -21,7 +21,7 @@ As part of the team at consulting agency [AppendTo](https://appendto.com/) contr
 
 We partnered with TIME.com's in house design team, led by [Davina Anthony](https://www.linkedin.com/in/dmacreative), who provided the design for AppendTo's implementation, consisting of more than 200 PSD comps of the various TIME.com screens at each major responsive breakpoint ranging from 1122px down to 320px.
 
-<div class="content-breakout clearfix time-csfigure-devices">
+<div class="clearfix time-csfigure-devices">
   <div class="csfigure-device csfigure-device-browser left mr4">
     <div class="csfigure-device-browser-header">
       <span class="circle left inline-block ml1"></span>
@@ -35,12 +35,14 @@ We partnered with TIME.com's in house design team, led by [Davina Anthony](https
   </div>
 
   <div class="csfigure-device csfigure-device-tablet left mr4">
+    <span class="csfigure-device-button"></span>
     <div class="csfigure-device-screen">
       <img src="/img/case-studies/time/time-device-tablet.png" alt="" class="csfigure-device-image block img-full-width" />
     </div>
   </div>
 
   <div class="csfigure-device csfigure-device-mobile left mr0">
+    <span class="csfigure-device-button"></span>
     <div class="csfigure-device-screen">
       <img src="/img/case-studies/time/time-device-mobile.png" alt="" class="csfigure-device-image block img-full-width" />
     </div>

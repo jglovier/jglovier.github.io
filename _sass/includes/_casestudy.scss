@@ -1,7 +1,7 @@
 // styles for TIME responsive redesign case study
 
 .time-csfigure-devices {
-
+  margin: 100px -108px
 }
 
 .csfigure-device {
@@ -59,6 +59,10 @@
     border: 1px solid $device_color;
     height: 204px;
   }
+
+  .csfigure-device-button {
+    bottom: 5px;
+  }
 }
 
 .csfigure-device-mobile {
@@ -71,8 +75,23 @@
     border: 1px solid $device_color;
     height: 85px;
   }
+
+  .csfigure-device-button {
+    bottom: 3px;
+  }
 }
 
 .csfigure-device-screen {
   overflow: scroll;
+}
+
+.csfigure-device-button {
+  width: 8px;
+  height: 8px;
+  border: 1px solid $device_color;
+  position: absolute;
+  left: 50%;
+  margin-left: -4px;
+  display: block;
+  border-radius: 50%;
 }
