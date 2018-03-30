@@ -9,7 +9,9 @@ bodyclass: absolute-site-header
 
 [TIME Magazine](http://time.com/) has a rich history of content dating back to 1923. They've chronicled world events for decades, and their website is a treasure trove of news and history.
 
-But in 2012 that content was optimized primarily for a desktop computing experience. In fact, the full archive of content back to 1923 was only available to desktop visitors, and visitors to TIME's website were inceasingly arriving at content from mobile and tablet devices which were not being served an experience on par with desktop browsers.
+But in 2012 that content was optimized primarily for a desktop browsing experience. 
+
+In fact, the full archive of content back to 1923 was only available to desktop visitors, and visitors to TIME's website were inceasingly arriving at content from mobile and tablet devices which were not being served an experience on par with desktop browsers.
 
 The Boston Globe, however, helped to usher in a new era of responsive web design by being the first major news outlet to feature a responsive web design – meaning it's content adapted to the device viewing it for an optimized reading and browsing experience for that device, regardless of screen dimensions – an experienced which has since become assumed for modern websites.
 
@@ -67,7 +69,7 @@ At full width, for example, the footer had a menu which displayed all items hori
 
 This challenge could easily be solved today using media-queries to adjust a CSS columns property declaration, but at the time the property was not yet widely supported. So instead, we created psuedo-columns using percentage based widths and negative margins to offset the columns, selectively adjusting styles at each breakpoint to create the required columns and preserve Section ordering as defined in the design comps.
 
-**[insert graphic showing footer transformations]**
+![time's responsive footer implementation](/img/case-studies/time-footer.png)
 
 A similar approach was utilitized in the site header menu which displayed horizontally at full width and collapsed into a hidden dropdown menu containing a similar column structure at smaller widths.
 
