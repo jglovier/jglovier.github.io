@@ -9,7 +9,7 @@ bodyclass: absolute-site-header
 
 [TIME Magazine](http://time.com/) has a rich history of content dating back to 1923. They've chronicled world events for decades, and their website is a treasure trove of news and history.
 
-But in 2012 that content was optimized primarily for a desktop browsing experience. 
+But in 2012 that content was optimized primarily for a desktop browsing experience.
 
 In fact, the full archive of content back to 1923 was only available to desktop visitors, and visitors to TIME's website were inceasingly arriving at content from mobile and tablet devices which were not being served an experience on par with desktop browsers.
 
@@ -63,7 +63,7 @@ Implementing TIME's design also presented a few unique problems to solve.
 
 ### Transforming site header and footer navigation menus
 
-The design of the site header and footer called for news section menus that transformed at major breakpoints between 1122px and 320px, reducing columns as the width shrunk down. 
+The design of the site header and footer called for news section menus that transformed at major breakpoints between 1122px and 320px, reducing columns as the width shrunk down.
 
 At full width, for example, the footer had a menu which displayed all items horizontally. At the next breakpoint down, the horizontal menu transformed into four columns, which then became three, and so on, down to a single column at mobile width.
 
@@ -79,13 +79,13 @@ An important consideration that the TIME.com design team made to help eliminate 
 
 Most of the decisions we made in this context were related to design comps that left gaps in the design between break points. To resolve these issues, our approach was typically to insert additional breakpoints wherever the design broke at the current width, and apply styling to match the design comps at the next smallest breakpoint.
 
-This was an important consideration for both TIME and our team, allowing us to ensure the design didn't break at any given screen size. 
+This was an important consideration for both TIME and our team, allowing us to ensure the design didn't break at any given screen size.
 
 With this approach, we were able to create a truly responsive experience that adapted to not only the most popular devices at the time, but would also be reliable for devices that would be released in years to come.
 
 ### Pseudo responsive advertising
 
-Another challenge we faced on the implementation was solving for a key business requirement of the redesign – responsive ads. 
+Another challenge we faced on the implementation was solving for a key business requirement of the redesign – responsive ads.
 
 TIME needed to allow existing advertisers to continue using their existing ad creatives, which meant the responsive implementation needed to be flexible enough to accommodate traditional ad sizes.
 
