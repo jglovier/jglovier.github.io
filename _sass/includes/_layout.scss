@@ -44,8 +44,7 @@
 .site-nav-menu {
   @include border-radius(3px);
   background: $white;
-  position: absolute;
-  right: 0;
+  position: relative;
   top: 12px;
 
   &:hover {
