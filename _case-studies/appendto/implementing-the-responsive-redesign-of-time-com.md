@@ -1,6 +1,6 @@
 ---
-title: "Implementing the responsive redesign of TIME.com"
-summary: "Working with the TIME.com web team, Doug Neiner and I implemented a complete responsive redesign of TIME.com to help make their content more accessible to readers across multiple devices."
+title: Implementing the responsive redesign of TIME.com
+summary: Working with the TIME.com web team, Doug Neiner and I implemented a complete responsive redesign of TIME.com to help make their content more accessible to readers across multiple devices.
 layout: casestudy
 banner-image: /img/case-studies/case-study-time-responsive-redesign.png
 thumnail: /img/case-studies/case-study-time-responsive-redesign-thumbnail.png
@@ -21,30 +21,30 @@ As part of the team at consulting agency [AppendTo](https://appendto.com/) contr
 
 We partnered with TIME.com's in house design team, led by [Davina Anthony](https://www.linkedin.com/in/dmacreative), who provided the design for AppendTo's implementation, consisting of more than 200 PSD comps of the various TIME.com screens at each major responsive breakpoint ranging from 1122px down to 320px.
 
-<div class="clearfix time-csfigure-devices">
-  <div class="csfigure-device csfigure-device-browser left mr4">
-    <div class="csfigure-device-browser-header">
+<div class="clearfix time-cs-figure-devices">
+  <div class="cs-figure-device cs-figure-device-browser left mr4">
+    <div class="cs-figure-device-browser-header">
       <span class="circle left inline-block ml1"></span>
       <span class="circle left inline-block"></span>
       <span class="circle left inline-block"></span>
       <span class="address-bar left"></span>
     </div>
-    <div class="csfigure-device-screen">
-      <img src="/img/case-studies/time/time-device-browser.png" alt="" class="csfigure-device-image block img-full-width" />
+    <div class="cs-figure-device-screen">
+      <img src="/img/case-studies/time/time-device-browser.png" alt="" class="cs-figure-device-image block img-full-width" />
     </div>
   </div>
 
-  <div class="csfigure-device csfigure-device-tablet left mr4">
-    <span class="csfigure-device-button"></span>
-    <div class="csfigure-device-screen">
-      <img src="/img/case-studies/time/time-device-tablet.png" alt="" class="csfigure-device-image block img-full-width" />
+  <div class="cs-figure-device cs-figure-device-tablet left mr4">
+    <span class="cs-figure-device-button"></span>
+    <div class="cs-figure-device-screen">
+      <img src="/img/case-studies/time/time-device-tablet.png" alt="" class="cs-figure-device-image block img-full-width" />
     </div>
   </div>
 
-  <div class="csfigure-device csfigure-device-mobile left mr0">
-    <span class="csfigure-device-button"></span>
-    <div class="csfigure-device-screen">
-      <img src="/img/case-studies/time/time-device-mobile.png" alt="" class="csfigure-device-image block img-full-width" />
+  <div class="cs-figure-device cs-figure-device-mobile left mr0">
+    <span class="cs-figure-device-button"></span>
+    <div class="cs-figure-device-screen">
+      <img src="/img/case-studies/time/time-device-mobile.png" alt="" class="cs-figure-device-image block img-full-width" />
     </div>
   </div>
 </div>
@@ -101,7 +101,7 @@ This challenge could easily be solved today using media-queries to adjust a CSS 
 
 A similar design approach was utilized in the site header menu which displayed horizontally at full width and collapsed into a hidden dropdown menu containing a similar column structure at smaller widths.
 
-**[insert graphic showing header transformations]**
+<img src="/img/case-studies/time/time-header.png" alt="an image of TIME's header menu design at various responsive breakpoints" class="my4">
 
 An important consideration that the TIME.com design team made to help eliminate back and forth over design discrepancies and make implementation more efficient was to provide us with permission to make judgement calls about how to resolve inconsistencies. This allowed us to keep an aggressive pace of development and achieve the deadlines we committed to.
 
@@ -125,19 +125,44 @@ The final requirement for TIME's responsive ads was the ability to swap out ad c
 
 TIME was pleased with our approach and it's advertisers were as well.
 
->We wanted to embrace our existing advertisers, not limit them – so we set a guideline for the use of traditional advertising sizes. The ads, however, needed to work in a fully responsive environment. appendTo produced a custom wrapper around TIME.com’s existing advertising solutions. This made the ad regions aware of the available real estate so the correct advertisement could be loaded on all devices. We’re happy and our advertisers are really happy. – Davina Anthony, Time.com Design Lead
+<blockquote class="cs-quote">
+  <p class="cs-quote-copy mb3 pb1">We wanted to embrace our existing advertisers, not limit them – so we set a guideline for the use of traditional advertising sizes. The ads, however, needed to work in a fully responsive environment. appendTo produced a custom wrapper around TIME.com’s existing advertising solutions. This made the ad regions aware of the available real estate so the correct advertisement could be loaded on all devices. We’re happy and our advertisers are really happy.</p>
+  <p class="cs-quote-author">&mdash; <a href="http://dmacreative.com/" class="text-sans">Davina Anthony</a>, TIME.com Design Lead</p>
+</blockquote>
 
-## Results
+When the redesign landed in October of 2012, it was a big success. Craig Ettinger, General Manager of TIME.com,  [said they saw a 23% increase in pages per visit](http://www.magazine.org/timecom-gm-craig-ettinger-bringing-responsive-web-design-iconic-brand) following the move to a responsive site.
 
-The team at TIME.com was thrilled with our work on the implementation, and Time.com General Manager, Craig Ettinger, [said](http://www.magazine.org/timecom-gm-craig-ettinger-bringing-responsive-web-design-iconic-brand) they saw a 23% increase in pages per visit following the move to a responsive site.
+The responsive redesign was a strong move from a global leader in online media content, contributing to the momentum of a significant movement in the progressing history of the web. It was only a matter of time until many other major news and media websites followed suit, and I'm proud to have been a part of that work.
 
 ## In retrospect
 
-- personal insights
-- keys to success
-- what could have worked better?
-- why didn't we develop mobile first?
-- what did we learn?
+Looking back some six years later (as of this writing in 2018), I've identified a few key insights from working on the project. Asking questions like "what did I learn" or "what could we have done differently" reveal a few things worth sharing.
+
+### What did we learn?
+
+Doug and I both learned a lot from the process. Coming in to the project, we had both built responsive websites before, but not quite to the scale of a project like TIME.com.
+
+To accomplish the project effectively, we knew we'd need to lean on expertise beyond our own, so we spent time digging into a few key resources prior to engaging in the build process. The one's we drew the most influence from were:
+- Ethan Marcotte's book [Responsive Web Design](https://abookapart.com/products/responsive-web-design)
+- Nicole Sullivan's [Object Oriented CSS ideology](https://github.com/stubbornella/oocss/wiki)
+- Jonatha Snook's [Scalable and Modular Architecture for CSS](https://smacss.com/)
+
+Still, despite our experience, and thorough research and preparation, few things can fully prepare you for the realities of real use. The project gave us many opportunities to encounter use cases that simply weren't covered in prior art, and project requirements that pushed us to explore new territory (such as the responsive header and footer menus, and responsive ad approach discussed above).
+
+I also learned about the dynamics of consulting with a large organization.
+
+While Doug had worked for appendTo for some time prior to this project, consulting with organizations like the Walmart.com team, this was my first project after joining appendTo. Prior, I'd worked on an in-house team at an NGO, and been a consultant for several years to much smaller organizations.
+
+The chance to work on a project with a tightly organized team like TIME was a new experience that introduced me to workflow dynamics at a new scale.
+
+### Keys to success
+
+### What could have worked better?
+
+### Why didn't we develop mobile first?
+
+### Personal insights
+
 
 ---
 
@@ -150,3 +175,4 @@ The team at TIME.com was thrilled with our work on the implementation, and Time.
   - [If you’re not doing Responsive Web Design, you’re doing it wrong](https://blog.red-badger.com/blog/if-youre-not-doing-responsive-web-design-youre-doing-it-wrong)
   - [Responsive Design Weekly #28](http://responsivedesignweekly.com/archive/responsive-design-weekly-28/)
   - [Case Study: Responsive Design for Time.com](https://responsivedesign.is/news/2012/10/case-study-responsive-design-for-time-com/)
+{:.references-list .mb4}
