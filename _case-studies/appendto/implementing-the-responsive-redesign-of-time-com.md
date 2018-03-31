@@ -157,12 +157,43 @@ The chance to work on a project with a tightly organized team like TIME was a ne
 
 ### Keys to success
 
-### What could have worked better?
+A few things the TIME team did really well that helped make us more effective as their consulting agency:
+- TIME had a well defined stakeholder and project communicator. While we maintained communication with various members of the team at TIME, Davina Anthony was our primary point of contact person. She was able to make project decisions clearly and definitively on TIME's behalf, which mean we weren't at risk of scope creep or conflicting signals.
+- They providing well defined design comps, and allowing us the freedom to make judgement calls on implementing them. This kept us from wasting time in development seeking clarification or approval on minor decisions.
+- In addition to regular stand ups with TIME, they were available for regular communication when needed. This meant that when we did need clarification, we weren't blocked awaiting responses for excessive amounts of time.
 
-### Why didn't we develop mobile first?
+On our end, some things that helped us work efficiently and effectively were:
+- Taking time for technical research prior to diving into the work. As mentioned above, we invested a meaningful amount of time in breaking the technical problem wide open and exploring approaches, intentionally selecting the best approach for the project.
+- Having just enough team members but not too many. For a project of this size (over 200 design comps to match), a single individual contributor would not have been sufficient. But likewise, adding too many people would have only yielded incremental results while introducing the added cost of team coordination. In our case, a team of three – a project manager responsible for client communication, a technical lead responsible for technical decisions and more technically complex requirements, and an individual contributor focused on broader implementation – turned out to be just right.
+- Treating the work as if we were building a framework for someone else to maintain (because we were!). That requirement provided an important constraint that we embraced, helping guide key decisions from build configuration to source code management.
 
-### Personal insights
+### What could we have done differently?
 
+At the time of the implementation, the mobile first movement had just begun, and was younger than even responsive web design. We considered a mobile first approach, but ultimately decided on a desktop first approach to implementation.
+
+I'm not sure how the design process went on the actual design and layout of the site, so I can't speak to whether TIME designed the work from a mobile first perspective, but in our approach to implementation and communication around the implementation, we didn't give much thought to a mobile first mindset.
+
+This was largely because the requirements for mobile and desktop were basically the same. The same content had to appear in both places as a requirement, so there didn't seem to be much reason to consider mobile first practices in the implementation.
+
+In our implementation, we started at desktop width and added `max-width` media queries to adjust styles accordingly at each smaller breakpoint, a practice we used consistently when approaching the overall site structural elements and individual page layouts.
+
+In hindsight, however, I don't know that it was a mistake to take this approach.
+
+We gained a lot of efficiency from working in a way that we were already familiar with, and workflow efficiency was critical to achieving the necessary deadlines for the project, and it's not clear that we would have gained much in the technical implementation by a mobile first approach.
+
+## Final thoughts
+
+The TIME.com project was an incredible experience in implementing a responsive web design for a large scale content website.
+
+Today, there are a large number of tools for responsive design, from [responsive boilerplates](https://github.com/search?utf8=%E2%9C%93&q=responsive+boilerplate&type=) and [grid frameworks](http://cobyism.com/gridism/), to [preprocessor](https://responsivedesign.is/articles/helpful-sass-mixins/) [mixins](https://medium.com/developing-with-sass/creating-a-dead-simple-sass-mixin-to-handle-responsive-breakpoints-889927b37740), and [build tools](https://gruntjs.com/), many of which were not available to us in 2012.
+
+If you are implementing a responsive design today, do some research to discover the best tools for your project, look to voices in the industry and listen for new trends and best practices to adopt, identify the constraints that will help guide decisions based on your project requirements.
+
+Balance technical perfection with practical sufficiency, and find the sweet spot between solving the problem and engineering a perfect solution.
+
+Oh, and remember to test on more than just Apple devices.
+
+😊🖥📱
 
 ---
 
