@@ -16,9 +16,10 @@
       content: "“";
       display: block;
       font-size: 258px;
+      position: absolute;
       opacity: .15;
       top: 0;
-      left: -41px;
+      left: -28px;
       line-height: 442px;
     }
   }
@@ -27,6 +28,11 @@
     font-size: 24px;
     line-height: 38px;
     color: $dark_navy;
+  }
+
+  .references-list {
+    font-size: 16px;
+    padding-left: 20px;
   }
 }
 
