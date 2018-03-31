@@ -97,7 +97,7 @@ At full width, for example, the footer had a menu which displayed all items hori
 
 This challenge could easily be solved today using media-queries to adjust a CSS columns property declaration, but at the time the property was not yet widely supported. So instead, we created pseudo-columns using percentage based widths and negative margins to offset the columns, selectively adjusting styles at each breakpoint to create the required columns and preserve Section ordering as defined in the design comps.
 
-![time's responsive footer implementation](/img/case-studies/time-footer.png)
+<img src="/img/case-studies/time/time-footer.png" alt="an image of TIME's footer design at various responsive breakpoints" class="my4">
 
 A similar design approach was utilized in the site header menu which displayed horizontally at full width and collapsed into a hidden dropdown menu containing a similar column structure at smaller widths.
 

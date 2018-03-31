@@ -1,31 +1,63 @@
+// case study blockquote
+
+.casestudy {
+  .cs-quote {
+    border: none;
+    background-color: $pink_light;
+    border-radius: 3px;
+    margin: 100px -100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 140px;
+    padding-right: 110px;
+    position: relative;
+
+    &::before {
+      content: "“";
+      display: block;
+      font-size: 258px;
+      opacity: .15;
+      top: 0;
+      left: -41px;
+      line-height: 442px;
+    }
+  }
+
+  .cs-quote-copy {
+    font-size: 24px;
+    line-height: 38px;
+    color: $dark_navy;
+  }
+}
+
 // styles for TIME responsive redesign case study
 
-.time-csfigure-devices {
+.time-cs-figure-devices {
   margin: 100px -108px
 }
 
-.csfigure-device {
+.cs-figure-device {
   border: 2px solid $device_color;
   border-radius: 5px;
   background: $white;
   position: relative;
 
-  .csfigure-device-image {
+  .cs-figure-device-image {
     border-radius: 0;
   }
 }
 
-.csfigure-device-browser {
+.cs-figure-device-browser {
   width: 500px;
   height: 330px;
   overflow: hidden;
 
-  .csfigure-device-screen {
+  .cs-figure-device-screen {
     height: 308px;
   }
 }
 
-.csfigure-device-browser-header {
+.cs-figure-device-browser-header {
   height: 22px;
   width: 100%;
   border-bottom: 1px solid $device_color;
@@ -49,43 +81,43 @@
   }
 }
 
-.csfigure-device-tablet {
+.cs-figure-device-tablet {
   width: 195px;
   height: 246px;
   padding: 19px 16px;
   top: 46px;
 
-  .csfigure-device-screen {
+  .cs-figure-device-screen {
     border: 1px solid $device_color;
     height: 204px;
   }
 
-  .csfigure-device-button {
+  .cs-figure-device-button {
     bottom: 5px;
   }
 }
 
-.csfigure-device-mobile {
+.cs-figure-device-mobile {
   width: 64px;
   height: 111px;
   padding: 8px 4px 14px;
   top: 113px;
 
-  .csfigure-device-screen {
+  .cs-figure-device-screen {
     border: 1px solid $device_color;
     height: 85px;
   }
 
-  .csfigure-device-button {
+  .cs-figure-device-button {
     bottom: 3px;
   }
 }
 
-.csfigure-device-screen {
+.cs-figure-device-screen {
   overflow: scroll;
 }
 
-.csfigure-device-button {
+.cs-figure-device-button {
   width: 8px;
   height: 8px;
   border: 1px solid $device_color;
