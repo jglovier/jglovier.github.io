@@ -127,7 +127,7 @@ TIME was pleased with our approach and it's advertisers were as well.
 
 <blockquote class="cs-quote">
   <p class="cs-quote-copy mb3 pb1">We wanted to embrace our existing advertisers, not limit them – so we set a guideline for the use of traditional advertising sizes. The ads, however, needed to work in a fully responsive environment. appendTo produced a custom wrapper around TIME.com’s existing advertising solutions. This made the ad regions aware of the available real estate so the correct advertisement could be loaded on all devices. We’re happy and our advertisers are really happy.</p>
-  <p class="cs-quote-author">&mdash; <a href="http://dmacreative.com/" class="text-sans">Davina Anthony</a>, TIME.com Design Lead</p>
+  <p class="cs-quote-author"><a href="http://dmacreative.com/" class="text-sans"><b>Davina Anthony</b></a>, TIME.com Design Lead</p>
 </blockquote>
 
 When the redesign landed in October of 2012, it was a big success. Craig Ettinger, General Manager of TIME.com,  [said they saw a 23% increase in pages per visit](http://www.magazine.org/timecom-gm-craig-ettinger-bringing-responsive-web-design-iconic-brand) following the move to a responsive site.
