@@ -12,6 +12,7 @@
     padding-right: 110px;
     position: relative;
 
+    // hanging left quote char
     &::before {
       content: "“";
       display: block;
@@ -20,7 +21,7 @@
       opacity: .15;
       top: 0;
       left: -28px;
-      line-height: 442px;
+      line-height: 365px;
     }
   }
 
