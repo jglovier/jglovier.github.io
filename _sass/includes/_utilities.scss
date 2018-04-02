@@ -152,6 +152,10 @@
   font-size: 14px;
 }
 
+.text-large {
+  font-size: 18px;
+}
+
 .text-sm-subtext {
   font-size: 14px;
   opacity: .8;
@@ -231,4 +235,33 @@
 
 .default-shadow {
   box-shadow: 0 0px 4px rgba($navy,.30);
+}
+
+.quote {
+  background-color: $pink_light;
+  border-radius: 3px;
+
+  &.pl-quote {
+    padding-left: 90px;
+  }
+
+  // hanging left quote char
+  &::before {
+    content: "“";
+    display: block;
+    font-size: 200px;
+    position: absolute;
+    opacity: .15;
+    top: 0;
+    left: -22px;
+    line-height: 278px;
+  }
+
+  p {
+    color: $dark_navy;
+  }
+
+  .quote-avatar {
+    width: 64px;
+  }
 }

@@ -8,16 +8,14 @@
 
 {% for quote in site.data.quotes %}
   <div class="col col-12 flex flex-wrap {% cycle '', 'flex-row-reverse' %} my4">
-      <div class="col col-8 pb2">
-        <div class="col col-2 pr3">
-          <a href="{{ quote.url }}"><img src="{{ quote.image }}" alt="Profile photo of {{ quote.name }}" class="img-full-width img-circle default-shadow" /></a>
-        </div>
-        <div class="col col-10">
-          <p class="mb2 mt0 neg-text-indent">{{ quote.quote }}</p>
-          <h3 class="text-large m0"><a href="{{ quote.url }}" class="text-black">{{ quote.name }}</a></h3>
-          <p class="m0 text-sm-subtext">{{ quote.title }}</p>
-        </div>
+    <div class="col col-8 pb2 quote pl-quote py4 px4 relative">
+      <p class="mb2 mt0 text-large">{{ quote.quote }}</p>
+      <div class="clearfix">
+        <a href="{{ quote.url }}"><img src="{{ quote.image }}" alt="Profile photo of {{ quote.name }}" class="img-circle quote-avatar left mr2" /></a>
+        <h3 class="mb0 mt1"><a href="{{ quote.url }}" class="text-black">{{ quote.name }}</a></h3>
+        <p class="m0 text-sm-subtext">{{ quote.title }}</p>
       </div>
+    </div>
   </div>
 {% endfor %}
 
