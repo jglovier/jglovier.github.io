@@ -212,6 +212,11 @@
   }
 }
 
+.flying-ball {
+  animation: flying-ball 1s ease-in-out;
+  transform-origin: 560px 320px;
+}
+
 // border
 
 .border-top { border-top: $color_border_gray; }
