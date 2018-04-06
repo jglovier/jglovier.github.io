@@ -121,19 +121,8 @@
   font-size: 22px;
   line-height: 46px;
   z-index: 2;
-  background-color: white;
   letter-spacing: $neg_letter_spacing;
-  // background-image: url(/img/border-star-pink.png);
-  // background-image: url(/img/border-star-yellow.png);
-  background-image: url(/img/border-stars-clouds.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: 10px center;
   color: $main_color;
-
-  .bg-mask {
-    background-color: white;
-  }
 }
 
 
