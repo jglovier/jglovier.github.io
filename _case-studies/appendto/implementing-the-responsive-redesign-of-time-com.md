@@ -187,7 +187,7 @@ The TIME.com project was an incredible experience in implementing a responsive w
 
 Today, there are a large number of tools for responsive design, from [responsive boilerplates](https://github.com/search?utf8=%E2%9C%93&q=responsive+boilerplate&type=) and [grid frameworks](http://cobyism.com/gridism/), to [preprocessor](https://responsivedesign.is/articles/helpful-sass-mixins/) [mixins](https://medium.com/developing-with-sass/creating-a-dead-simple-sass-mixin-to-handle-responsive-breakpoints-889927b37740), and [build tools](https://gruntjs.com/), many of which were not available to us in 2012.
 
-If you are implementing a responsive design today, do some research to discover the best tools for your project, look to voices in the industry and listen for new trends and best practices to adopt, identify the constraints that will help guide decisions based on your project requirements.
+If you are implementing a responsive design today, do some research to discover the best tools for your project, look to voices in the industry and listen for new trends and best practices to adopt, and identify the constraints that will help guide decisions based on your project requirements.
 
 Balance technical perfection with practical sufficiency, and find the sweet spot between solving the problem and engineering a perfect solution.
 
