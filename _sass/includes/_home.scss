@@ -17,6 +17,12 @@ body.page-home {
   }
 }
 
+.description {
+  &.primary {
+    max-width: 326px;
+  }
+}
+
 .pdc-graphic {
   background-image: url(/img/product-development-cycle.png);
   background-size: 100%;
