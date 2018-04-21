@@ -143,6 +143,27 @@
   a {
     color: $secondary_color;
   }
+
+  .col-6 {
+    @media (max-width: 900px) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+.footer-illustration {
+  width: 293px;
+  height: 265px;
+
+  @media (max-width: 900px) {
+    margin-top: 3rem;
+  }
+
+  .absolute {
+    left: 0;
+    top: 0;
+  }
 }
 
 /* Utilities */
