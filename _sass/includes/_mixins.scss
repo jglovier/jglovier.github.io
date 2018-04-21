@@ -123,3 +123,15 @@
 @mixin bp_main {
   @media (max-width: 1440px) { @content; }
 }
+
+@mixin media_lg {
+  @media (max-width: 64em) { @content; }
+}
+
+@mixin media_md {
+  @media (max-width: 52em) { @content; }
+}
+
+@mixin media_sm {
+  @media (max-width: 40em) { @content; }
+}
