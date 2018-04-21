@@ -32,7 +32,7 @@
   timeframe: 2014 - Present
   summary: |
     Fizzy is a custom syntax theme for the Atom text editor with bright and bubbly colors, inspired by syntax highlighting in the Espresso web editor for Mac.
-  project_image: https://i.github-camo.com/3042cd39c1212df5614f08b6362cf07b528d5fd8/687474703a2f2f662e636c2e6c792f6974656d732f32513159303231373348335a334a317a323530522f66697a7a792e706e67
+  project_image: /img/projects/fizzy.png
 
 - name: GitHub Pages resume template
   url: https://github.com/jglovier/resume-template
