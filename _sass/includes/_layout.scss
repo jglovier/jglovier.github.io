@@ -113,16 +113,13 @@
 .headline {
   letter-spacing: -4px; // fallback for no negative subpixel rendering
   letter-spacing: -.06em;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 36px;
 }
 
-.section-headline {
-  font-size: 22px;
-  line-height: 46px;
-  z-index: 2;
-  letter-spacing: $neg_letter_spacing;
-  color: $main_color;
+.section-heading {
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 

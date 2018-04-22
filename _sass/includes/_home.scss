@@ -15,6 +15,10 @@ body.page-home {
       line-height: 60px;
     }
   }
+
+  .intro-illustration {
+    width: calc(100% - 512px;)
+  }
 }
 
 .description {
@@ -63,4 +67,41 @@ body.page-home {
 
 .wid-graphic {
   left: -70px;
+}
+
+// quotes section
+
+.quote {
+  background-color: $pink_light;
+  border-radius: 80px;
+
+  &.pl-quote {
+    padding-left: 90px;
+  }
+
+  // hanging left quote char
+  &::before {
+    content: "“";
+    display: block;
+    font-size: 200px;
+    position: absolute;
+    opacity: .15;
+    top: 0;
+    left: -22px;
+    line-height: 295px;
+  }
+
+  p {
+    color: $dark_navy;
+  }
+
+  .quote-avatar {
+    width: 64px;
+  }
+}
+
+.flex-row-reverse {
+  .quote {
+    background-color: $light_blue_bg;
+  }
 }

@@ -237,31 +237,12 @@
   box-shadow: 0 0px 4px rgba($navy,.30);
 }
 
-.quote {
-  background-color: $pink_light;
-  border-radius: 3px;
+.work-title {
+  font-size: 26px;
+  letter-spacing: $neg_letter_spacing;
+}
 
-  &.pl-quote {
-    padding-left: 90px;
-  }
-
-  // hanging left quote char
-  &::before {
-    content: "“";
-    display: block;
-    font-size: 200px;
-    position: absolute;
-    opacity: .15;
-    top: 0;
-    left: -22px;
-    line-height: 295px;
-  }
-
-  p {
-    color: $dark_navy;
-  }
-
-  .quote-avatar {
-    width: 64px;
-  }
+.work-subhead {
+  font-size: 16px;
+  color: $main_color;
 }
