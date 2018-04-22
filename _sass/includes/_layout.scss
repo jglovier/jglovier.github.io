@@ -136,6 +136,17 @@
 .section-heading {
   font-size: 20px;
   text-transform: uppercase;
+  position: relative;
+
+  &::before {
+    content: " ";
+    display: block;
+    width: 140px;
+    position: absolute;
+    top: 14px;
+    left: -155px;
+    border-top: 2px solid $pink;
+  }
 }
 
 
