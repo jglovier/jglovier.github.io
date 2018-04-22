@@ -30,14 +30,29 @@
     font-weight: bold;
     font-size: 28px;
     letter-spacing: -1px;
+
+    @media (max-width: 580px) {
+      font-size: 22px;
+    }
   }
 
   .statement {
     @include rounded;
     font-size: 18px;
+
+    @media (max-width: 580px) {
+      font-size: 16px;
+    }
+
+    @media (max-width: 475px) {
+      display: none;
+    }
   }
 
-  .social-media-links {
+  .site-title {
+    @media (max-width: 580px) {
+      line-height: 1.2;
+    }
   }
 }
 
@@ -166,9 +181,11 @@
 /* Utilities */
 
 .constrained {
-  max-width: 672px;
+  max-width: 732px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .section-heading {
