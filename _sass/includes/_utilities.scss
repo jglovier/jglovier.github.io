@@ -71,13 +71,11 @@
     }
   }
 
-  &.casestudy {
-    .page-header {
-      .intro-copy {
-        max-width: 64rem;
-        margin-left: auto;
-        margin-right: auto;
-      }
+  .page-header {
+    .intro-copy {
+      max-width: 64rem;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 }

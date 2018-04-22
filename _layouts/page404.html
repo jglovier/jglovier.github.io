@@ -3,28 +3,8 @@
 
 {% include head.html %}
 
-<body class="page404">
+<body class="page404 {% if page.bodyclass %}{{ page.bodyclass }}{% endif %}">
 
-  <div class="page-content">
-
-    {% include site-nav.html %}
-
-    <header>
-      <div class="wrap">
-        <div class="intro-copy">
-          <h1>404: page not found</h1>
-          <p class="subhead">It looks like you've discovered a hole in my website. I'm really sorry about that!</p>
-        </div>
-      </div>
-    </header>
-
-    <div class="content">
-      <div class="wrap">
-    {{ content }}
-      </div>
-    </div>
-  </div>
-
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+{% include header/404.html %}
 
 {% include closing-tags.html %}
