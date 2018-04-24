@@ -15,14 +15,10 @@
 .page404 {
   .intro-copy {
     h1 {
-      font-size: 56px;
-
-      @media (max-width: 800px) {
-        font-size: 48px;
-      }
+      font-size: 36px;
 
       @media (max-width: 700px) {
-        font-size: 32px;
+        font-size: 28px;
       }
     }
   }
