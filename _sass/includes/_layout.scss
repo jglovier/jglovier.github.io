@@ -153,41 +153,7 @@
 // Page Footer
 
 .page-footer {
-  background-color: $deep_blue;
-  //background-image: url(/img/footer-bg.png);
-  background-size: 35%;
-  background-repeat: repeat-x;
-  background-position: top center;
   margin-top: 160px;
-
-  p {
-    color: $litenavy_bg;
-  }
-
-  a {
-    color: $secondary_color;
-  }
-
-  .col-6 {
-    @media (max-width: 900px) {
-      width: 100%;
-      text-align: center;
-    }
-  }
-}
-
-.footer-illustration {
-  width: 293px;
-  height: 265px;
-
-  @media (max-width: 900px) {
-    margin-top: 3rem;
-  }
-
-  .absolute {
-    left: 0;
-    top: 0;
-  }
 }
 
 /* Utilities */
