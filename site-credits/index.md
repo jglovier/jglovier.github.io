@@ -22,7 +22,9 @@ I'd like to take a moment to acknowledge those who have offered their work for t
 ## Inspiration
 
 - [Illustration inspiration](https://dribbble.com/jag/likes) (lots of [Megdraws](https://dribbble.com/megdraws), [Asana](https://dribbble.com/asana), and [Dropbox](https://dribbble.com/dropbox))
-- Layout & design inspiration from [Emily Richard's](https://dribbble.com/emrichard) work at GitHub
+- Layout & design inspiration from:
+  - [Emily Richard's](https://dribbble.com/emrichard) work at GitHub
+  - [Kathy Simpson's](http://www.kathy.pm/) website
 
 ## Etc
 
