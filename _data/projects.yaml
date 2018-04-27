@@ -1,7 +1,7 @@
 ---
 - name: HospitalRun
   url: https://hospitalrun.io
-  role: Core maintainer, design lead
+  role: Core maintainer
   timeframe: 2014 – Present
   summary: |
     HospitalRun is an open source, offline first EMR designed for hospitals in resource constrained locations, using Ember.js, Couch, Pouch, and Node. I'm responsible for all project product design and CSS, branding, and marketing design.
@@ -10,7 +10,7 @@
 
 - name: Dev Tees
   url: https://devtees.com
-  role: Founder, designer
+  role: Creator
   timeframe: 2012 – Present
   summary: |
     Dev Tees is a line of t-shirts for developers started with the help of nearly 500 <a href="https://www.kickstarter.com/projects/jag/dev-tees">Kickstarter backers</a> in 2013. I designed the products, built a shop to sell them, and managed the entire business from marketing to product fulfillment.
@@ -19,7 +19,7 @@
 
 - name: RemoteJobs.io
   url: http://remotejobs.io
-  role: Founder, designer, developer
+  role: Creator
   timeframe: 2012-2015
   status: Acquired by LiftUX in 2015
   summary: |
@@ -28,7 +28,7 @@
 
 - name: Fizzy syntax theme for Atom
   url: https://atom.io/themes/fizzy
-  role: Creator, OS maintainer
+  role: Creator
   timeframe: 2014 - Present
   summary: |
     Fizzy is a custom syntax theme for the Atom text editor with bright and bubbly colors, inspired by syntax highlighting in the Espresso web editor for Mac.
@@ -36,7 +36,7 @@
 
 - name: GitHub Pages resume template
   url: https://github.com/jglovier/resume-template
-  role: Creator, OS maintainer
+  role: Creator
   timeframe: 2015 - Present
   summary: |
     I created a basic Jekyll-powered resume template for GitHub Pages sites that is as simple to setup as forking a repository.
@@ -44,7 +44,7 @@
 
 - name: Jekyll Minima theme
   url: https://github.com/jekyll/minima
-  role: Designer, Developer
+  role: Creator
   timeframe: 2014
   summary: |
     I designed and build the default Jekyll theme for the release of Jekyll 2.0. It has since become it's own project called Minima with a thriving community of contributors.
