@@ -53,6 +53,13 @@
   color: $text_color;
 }
 
+@mixin rooney_sans {
+  font-family: "Rooney Sans", rooney-sans, "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -.015em;
+}
+
 @mixin bg-img-classes {
   background-image: url("../img/bg-macbook.jpg");
   background-position: center top;

@@ -10,12 +10,17 @@
 }
 
 .post-content {
-  font-size: 20px;
+  @include rooney_sans;
+  font-size: 18px;
+
+  p, ul {
+    @include rooney_sans;
+  }
 
   h1, h2, h3, h4, h5, h6, h7 {
     @include sans_bold;
     letter-spacing: -2px;
-    letter-spacing: -1.5px;
+    letter-spacing: -.03em;
     line-height: 1;
 
     a {
@@ -76,6 +81,12 @@
 
   a { font-weight: 400; }
 
+  li { margin-top: 1rem; }
+
+  strong,
+  b {
+    color: $black;
+  }
 }
 
 .discussion-link {
