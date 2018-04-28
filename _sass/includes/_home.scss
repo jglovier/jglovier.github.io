@@ -6,7 +6,7 @@ body.page-home {
 }
 
 .intro-banner-section {
-  @media (max-width:970px) {
+  @media (max-width:825px) {
     .col-6 {
       width: 100%;
     }
@@ -15,18 +15,33 @@ body.page-home {
 
 // intro
 .intro-copy {
-  &.intro-copy-banner {
+  &.intro-copy-container {
     @media (min-width: 1030px) {
       width: calc(100% - 512px)
     }
-    @media (min-width:970px) and (max-width: 1030px) {
-      min-width: 450px;
+    @media (min-width:825px) and (max-width: 1030px) {
+      width: 460px;
+    }
+    @media (max-width: 960px) {
+      margin-top: 2rem;
+    }
+    @media (max-width: 900px) {
+      margin-top: 0;
     }
   }
 
   .headline {
     font-size: 52px;
     line-height: 60px;
+
+    @media (max-width: 920px) {
+      margin-top: 3rem;
+      font-size: 46px;
+      line-height: 48px;
+    }
+    @media (max-width: 890px) {
+      margin-top: 2rem;
+    }
   }
 }
 
@@ -36,24 +51,33 @@ body.page-home {
   }
 }
 
-.intro-illustration-banner {
-  @media (min-width: 1030px) {
-    min-width: 512px;
-  }
-  @media (min-width:970px) and (max-width: 1030px) {
-    min-width: none;
+.intro-illustration {
+  &.intro-illustration-container {
+    @media (min-width: 1030px) {
+      min-width: 512px;
+    }
+    @media (min-width:825px) and (max-width: 1030px) {
+      min-width: auto;
+      width: calc(100% - 460px)
+    }
   }
 }
 
 .intro-img-primary {
   top: -30px;
-  @media (max-width: 970px) {
+  @media (max-width: 920px) {
+    //top: 30px;
+  }
+  @media (max-width: 890px) {
+    //top: 50px;
+  }
+  @media (max-width: 825px) {
     display: none;
   }
 }
 
 .intro-illustration-banner-sm {
-  @media (min-width: 971px) {
+  @media (min-width: 826px) {
     display: none;
   }
 }
