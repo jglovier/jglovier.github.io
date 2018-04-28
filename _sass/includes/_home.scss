@@ -5,19 +5,28 @@ body.page-home {
 //  background-image: linear-gradient(to bottom, $litenavy_bg, white 600px);
 }
 
-// intro
-.section-intro {
-  .intro-copy {
-    width: 512px;
+.intro-banner-section {
+  @media (max-width:970px) {
+    .col-6 {
+      width: 100%;
+    }
+  }
+}
 
-    .headline {
-      font-size: 52px;
-      line-height: 60px;
+// intro
+.intro-copy {
+  &.intro-copy-banner {
+    @media (min-width: 1030px) {
+      width: calc(100% - 512px)
+    }
+    @media (min-width:970px) and (max-width: 1030px) {
+      min-width: 450px;
     }
   }
 
-  .intro-illustration {
-    width: calc(100% - 512px;)
+  .headline {
+    font-size: 52px;
+    line-height: 60px;
   }
 }
 
@@ -27,8 +36,26 @@ body.page-home {
   }
 }
 
+.intro-illustration-banner {
+  @media (min-width: 1030px) {
+    min-width: 512px;
+  }
+  @media (min-width:970px) and (max-width: 1030px) {
+    min-width: none;
+  }
+}
+
 .intro-img-primary {
   top: -30px;
+  @media (max-width: 970px) {
+    display: none;
+  }
+}
+
+.intro-illustration-banner-sm {
+  @media (min-width: 971px) {
+    display: none;
+  }
 }
 
 .pdc-graphic {
