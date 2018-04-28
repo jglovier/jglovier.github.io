@@ -83,12 +83,25 @@
   }
 }
 
+// what I do section
+
 .wid-graphic {
   @media (max-width: $mobile) {
     margin-left: 0;
     max-width: 400px;
   }
 }
+
+.wid-content {
+  @media (min-width: $mobile) {
+    max-width: 342px;
+  }
+  @media (min-width: $mobile) and (max-width: 960px) {
+    float: right;
+  }
+}
+
+// how I work section
 
 .pdc-graphic {
   background-image: url(/img/product-development-cycle.png);
@@ -122,10 +135,6 @@
   }
 
   p { line-height: 20px; }
-}
-
-.wid-graphic {
-  left: -70px;
 }
 
 // quotes section
