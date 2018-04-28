@@ -14,17 +14,19 @@ I'd like to take a moment to acknowledge those who have offered their work for t
 - Illustrations for this site were drawn with the [Apple iPad Pro](https://amzn.to/2G25JTT) and [Apple Pencil](https://amzn.to/2G5h69G) using the [ProCreate](https://itunes.apple.com/us/app/procreate/id425073498?mt=8) app.
 - Typography courtesy of Google Fonts:
   - [Montserrat](https://fonts.google.com/specimen/Montserrat) (headings)
-  - [Varela Round](https://fonts.google.com/specimen/Varela+Round) (body copy)
-  - [Lora](https://fonts.google.com/specimen/Lora) (where serif was needed)
+  - [Varela Round](https://fonts.google.com/specimen/Varela+Round) (short body copy)
+  - [Rooney Sans](https://typekit.com/fonts/rooney-sans) (long form body copy)
+  - [Lora](https://fonts.google.com/specimen/Lora) (where serif is used)
 - [Social media icons](https://creativemarket.com/gedy/21158-Vector-Social-Media-Icons-Bundle) by [Gedy Leon](https://creativemarket.com/gedy)
-- [Basscss](http://basscss.com/) framework by [Jxnblk](http://jxnblk.com/)
+- [Basscss](http://basscss.com/) utility classes by [Jxnblk](http://jxnblk.com/)
 
 ## Inspiration
 
 - [Illustration inspiration](https://dribbble.com/jag/likes) (lots of [Megdraws](https://dribbble.com/megdraws), [Asana](https://dribbble.com/asana), and [Dropbox](https://dribbble.com/dropbox))
 - Layout & design inspiration from:
   - [Emily Richard's](https://dribbble.com/emrichard) work at GitHub
-  - [Kathy Simpson's](http://www.kathy.pm/) website
+
+- Principles page inspired by [Kathy Simpson's personal philosophy page](http://www.kathy.pm/philosophy)
 
 ## Etc
 

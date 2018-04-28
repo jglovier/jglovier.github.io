@@ -1,25 +1,13 @@
 // Home styles
 // -------------------------------------
 
-body.page-home {
-//  background-image: linear-gradient(to bottom, $litenavy_bg, white 600px);
-}
-
-.intro-banner-section {
-  @media (max-width:825px) {
-    .col-6 {
-      width: 100%;
-    }
-  }
-}
-
 // intro
 .intro-copy {
   &.intro-copy-container {
     @media (min-width: 1030px) {
       width: calc(100% - 512px)
     }
-    @media (min-width:825px) and (max-width: 1030px) {
+    @media (min-width: $mobile) and (max-width: 1030px) {
       width: 460px;
     }
     @media (max-width: 960px) {
@@ -42,12 +30,19 @@ body.page-home {
     @media (max-width: 890px) {
       margin-top: 2rem;
     }
+    @media (max-width: $mobile) {
+      padding-top: 0;
+      margin-top: 1rem;
+    }
   }
 }
 
 .description {
   &.primary {
     max-width: 320px;
+    @media (max-width: $mobile) {
+      max-width: none;
+    }
   }
 }
 
@@ -56,7 +51,7 @@ body.page-home {
     @media (min-width: 1030px) {
       min-width: 512px;
     }
-    @media (min-width:825px) and (max-width: 1030px) {
+    @media (min-width: $mobile) and (max-width: 1030px) {
       min-width: auto;
       width: calc(100% - 460px)
     }
@@ -71,14 +66,21 @@ body.page-home {
   @media (max-width: 890px) {
     //top: 50px;
   }
-  @media (max-width: 825px) {
+  @media (max-width: $mobile) {
     display: none;
   }
 }
 
 .intro-illustration-banner-sm {
-  @media (min-width: 826px) {
+  @media (min-width: $mobile) {
     display: none;
+  }
+}
+
+.wid-graphic {
+  @media (max-width: $mobile) {
+    margin-left: 0;
+    max-width: 400px;
   }
 }
 

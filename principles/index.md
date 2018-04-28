@@ -3,12 +3,12 @@ layout: page
 title: Principles
 ---
 
-Over the course of my career I've had the opportunity to work with lots of very smart people in a range of organizational contexts on some really incredible projects. I've learned a lot from each of these experiences.
+I've had the opportunity to work with lots of very smart people in a range of organizational contexts on some really incredible projects. I've learned a lot from each of these experiences that have profoundly shaped how I think about my work.
 
-These are the core principles I've developed from my experience. Of course there are always situations that warrant coloring outside the lines, so they are more like maxims than rules.
+These principles represent some of the lessons I've learned:
 
-## Collaboration
-- Favor blocking over unblocking. If a decision can be made or action taken that unblocks, default to that option over remaining blocked.
+## Collaborating with others
+- Favor unblocking over blocking. If a decision can be made or action taken that unblocks, default to that option over remaining blocked.
 
 ### Communication
 - In writing be clear and concise. Aim for the least amount of words necessary to clearly communicate context and response.
@@ -54,4 +54,4 @@ These are the core principles I've developed from my experience. Of course there
 
 ### Teaching, mentorship, and coaching
 - Tell what, explain why, show how, follow up.
-- If a team member takes the initiative to ask you what they can do to support you, or the team, or go above and beyond their responsiblities to be a leader, don't just tell them to keep doing a good job, or their basic responsiblities. Give them a vision for what it looks like to be a leader, and tangible things they can do to practice and perform that way in your current team environment.
+- If a team member takes the initiative to ask you what they can do to support you, or the team, or go above and beyond their responsibilities to be a leader, don't just tell them to keep doing a good job, or their basic responsibilities. Give them a vision for what it looks like to be a leader, and tangible things they can do to practice and perform that way in your current team environment.

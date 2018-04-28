@@ -2,11 +2,12 @@
   <meta charset="UTF-8">
   <title>{% if page.title %}{{ page.title }}{% else %}joelglovier.com{% endif %}</title>
 
-  <!-- css stuff -->
+  <!-- styling -->
+  
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Varela+Round" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/bku1iac.css">
-  <link rel="stylesheet" type="text/css" href="/css/main.css" />
   <link href="/css/basscss.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/css/main.css" />
   {% if page.cssFile %}<link rel="stylesheet" type="text/css" href="/css/{{ cssFile }}" />{% endif %}
 
   <!-- favicons -->
@@ -24,9 +25,9 @@
   <meta name="google-site-verification" content="rfhW_LUYYbZ4kwHGGZqplNsGs5eFB1-H8UEfmF6lE9o" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  {% if page.external_url %}
   <!-- for jekyll generated page redirects -->
 
-  {% if page.external_url %}
   <meta http-equiv="refresh" content="0;url={{ page.external_url }}" />
   {% endif %}
 

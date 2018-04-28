@@ -1,4 +1,4 @@
-/* @group Variables -------------------- */
+// Variables --------------------
 
 // v1 colors
 
@@ -77,7 +77,8 @@ $device_color:      #dae3ef;
 // Utility variables
 $color_border_lite: 1px solid rgba($secondary_color, .2);
 $color_border_gray: 1px solid $border_color;
-
 $neg_letter_spacing: -.04em;
 
-/* @end Variables */
+// Media query vars
+
+$mobile:            860px;     

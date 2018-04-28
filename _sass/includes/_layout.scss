@@ -1,7 +1,12 @@
 /* @group Layout Styles -------------------- */
 
-.col {
-  padding: .5rem;
+body {
+  .col {
+    @media (max-width: $mobile) {
+      width: 100%;
+      float: none;
+    }
+  }
 }
 
 .icon-link {

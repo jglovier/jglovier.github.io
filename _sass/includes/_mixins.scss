@@ -26,12 +26,12 @@
 
 @mixin sans_bold {
   @include sans;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 @mixin sans_extrabold {
   @include sans;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 @mixin serif {
