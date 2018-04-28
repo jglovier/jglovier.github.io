@@ -88,7 +88,6 @@
 .wid-graphic {
   @media (max-width: $mobile) {
     margin-left: 0;
-    max-width: 400px;
   }
 }
 
@@ -103,38 +102,34 @@
 
 // how I work section
 
-.pdc-graphic {
-  background-image: url(/img/product-development-cycle.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 546px;
+@media (min-width: $mobile) and (max-width: 1020px) {
+  .pdc-section {
+    .col-4 {
+      width: 317px;
+    }
+    .col-8 {
+      width: calc(100% - 317px);
+    }
+  }
 }
 
-// woof...but yeah quick and dirty solution
-// need to refactor this for responsive
-.pdc-step-item {
-  &.first {
-    top: 72px;
-    left: 246px;
+.pdc-content {
+  @media (min-width: $mobile) {
+    max-width: 342px;
   }
-  &.second {
-    top: 222px;
-    left: 487px;
+  @media (min-width: $mobile) and (max-width: 960px) {
+    float: left;
   }
-  &.third {
-    top: 430px;
-    left: 354px;
-  }
-  &.fourth {
-    top: 430px;
-    left: 105px;
-  }
-  &.fifth {
-    top: 222px;
-    left: 8px;
-  }
+}
 
-  p { line-height: 20px; }
+.pdc-graphic {
+  @media (max-width: 1020px) {
+    margin-right: 0;
+  }
+  @media (max-width: $mobile) {
+    float: none;
+    margin-top: 2rem;
+  }
 }
 
 // quotes section
