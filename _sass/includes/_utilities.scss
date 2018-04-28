@@ -244,3 +244,20 @@
   font-size: 16px;
   color: $main_color;
 }
+
+// responsive utilities
+
+@media (max-width: $mobile) {
+  .mob-mt0 { margin-top: 0; }
+  .mob-pt0 { padding-top: 0; }
+  .mob-mb0 { margin-bottom: 0; }
+  .mob-pb0 { padding-bottom: 0; }
+  .mob-my0 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .mob-py0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}

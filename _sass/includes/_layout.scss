@@ -108,6 +108,24 @@ body {
   }
 }
 
+.page-home {
+  @media (min-width: $mobile) {
+    .site-nav-menu {
+      display: none;
+    }
+  }
+  @media (max-width: $mobile) {
+    .site-nav-for-intro {
+      display: none;
+    }
+    .site-nav-menu {
+      position: absolute;
+      top: 46px;
+      right: 0px;
+    }
+  }
+}
+
 // Page Header
 
 .page-header {
@@ -140,6 +158,11 @@ body {
   letter-spacing: -.06em;
   font-size: 30px;
   line-height: 36px;
+
+  @media (max-width: $mobile) {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
 }
 
 .section-heading {

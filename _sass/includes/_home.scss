@@ -20,15 +20,17 @@
 
   .headline {
     font-size: 52px;
-    line-height: 60px;
+    line-height: 1.1;
 
     @media (max-width: 920px) {
       margin-top: 3rem;
       font-size: 46px;
-      line-height: 48px;
     }
     @media (max-width: 890px) {
       margin-top: 2rem;
+    }
+    @media (max-width: 745px) {
+      font-size: 36px;
     }
     @media (max-width: $mobile) {
       padding-top: 0;
@@ -55,6 +57,10 @@
       min-width: auto;
       width: calc(100% - 460px)
     }
+  }
+
+  @media (max-width: $mobile) {
+    text-align: center;
   }
 }
 
@@ -156,5 +162,13 @@
 .flex-row-reverse {
   .quote {
     background-color: $light_blue_bg;
+  }
+}
+
+// media queries
+
+@media (max-width: $mobile) {
+  .intro-section {
+    margin-bottom: 0;
   }
 }
