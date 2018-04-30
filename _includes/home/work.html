@@ -1,7 +1,7 @@
 <section class="max-width-4 mx-auto clearfix pb4 mb4" id="work">
 
-  <div class="col col-12 pb4 mob-pb0">
-    <h2 class="section-heading mt0 mb3 text-color-secondary">
+  <div class="col col-12 pb4 m-pb0">
+    <h2 class="section-heading mt0 mb3 m-mb0">
       Work
     </h2>
   </div>
@@ -11,9 +11,9 @@
 -->
 
   {% for employer in site.data.employers %}
-    <section class="mt4 clearfix home-articles my4 py2 mob-my0">
+    <section class="mt4 clearfix home-articles my4 py2 m-my0">
 
-        <header class="section-header col col-6 pt4">
+        <header class="section-header col col-6 pt4 pb3">
           <div class="section-intro">
             <h2 class="work-title m0">
               <a href="{{ employer.url }}" class="text-decoration-none" target="_blank">
@@ -22,15 +22,15 @@
             </h2>
             <h3 class="work-subhead m0">
               {{ employer.role }}
-              <span class="worked-dates regular text-rounded">
-                • {{ employer.timeframe }}
+              <span class="worked-dates regular text-rounded m-block">
+                <span class="m-hide"> • </span>{{ employer.timeframe }}
               </span>
             </h3>
             {% if employer.role_2 %}
             <h3 class="work-subhead m0">
               {{ employer.role_2 }}
-              <span class="worked-dates regular text-rounded">
-                • {{ employer.timeframe_2 }}
+              <span class="worked-dates regular text-rounded m-block">
+                <span class="m-hide"> • </span>{{ employer.timeframe_2 }}
               </span>
             </h3>
             {% endif %}
@@ -75,7 +75,7 @@
       {% if employer.has_case_studies == false %}
 
         <section class="clearfix col col-6">
-          <img class="img-full-width" alt="{{ employer.image_alt }}" src="{{ employer.image }}" />
+          <img class="img-full-width mx-auto block" alt="{{ employer.image_alt }}" src="{{ employer.image }}" width="512" />
         </section>
 
       {% else %}

@@ -248,16 +248,25 @@
 // responsive utilities
 
 @media (max-width: $mobile) {
-  .mob-mt0 { margin-top: 0; }
-  .mob-pt0 { padding-top: 0; }
-  .mob-mb0 { margin-bottom: 0; }
-  .mob-pb0 { padding-bottom: 0; }
-  .mob-my0 {
+  .m-mt0 { margin-top: 0; }
+  .m-pt0 { padding-top: 0; }
+  .m-mb0 { margin-bottom: 0; }
+  .m-pb0 { padding-bottom: 0; }
+  .m-my0 {
     margin-top: 0;
     margin-bottom: 0;
   }
-  .mob-py0 {
+  .m-py0 {
     padding-top: 0;
     padding-bottom: 0;
+  }
+  .m-pt4 {
+    padding-top: 4rem;
+  }
+  .m-hide {
+    display: none;
+  }
+  .m-block {
+    display: block
   }
 }

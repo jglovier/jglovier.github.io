@@ -166,18 +166,31 @@ body {
 }
 
 .section-heading {
-  font-size: 20px;
+  font-size: 22px;
   text-transform: uppercase;
   position: relative;
+  color: $main_color;
+
+  @media (max-width: $mobile) {
+    font-size: 16px;
+  }
 
   &::before {
     content: " ";
     display: block;
     width: 140px;
     position: absolute;
-    top: 14px;
+    top: 16px;
     left: -155px;
-    border-top: 2px solid $pink;
+    border-top: 2px solid $light_blue;
+
+    @media (max-width: 1140px) {
+      left: -145px;
+    }
+
+    @media (max-width: $mobile) {
+      top: 11px;
+    }
   }
 }
 

@@ -161,11 +161,30 @@
   .quote-avatar {
     width: 64px;
   }
+
+  @media (max-width: 660px) {
+    &.pl-quote {
+      padding-top: 2rem;
+      padding-right: 3rem;
+      padding-bottom: 2rem;
+      padding-left: 65px;
+    }
+    .text-large {
+      font-size: 16px;
+    }
+    &::before {
+      line-height: 230px;
+    }
+  }
 }
 
 .flex-row-reverse {
   .quote {
     background-color: $light_blue_bg;
+
+    &::before {
+      color: $secondary_color;
+    }
   }
 }
 
