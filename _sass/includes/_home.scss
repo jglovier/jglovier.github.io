@@ -193,20 +193,25 @@
 
 // personal projects
 
+.card-project-wrap.col {
+  float: right;
+}
+
 .card-project {
   h2 {
     font-size: 22px;
     line-height: 1.1;
   }
 }
-.card-project-left {
+
+.card-project-right {
   margin-top: 10rem;
 
   @media (max-width: $mobile) {
     margin-top: 3rem;
   }
 }
-.card-project-right {
+.card-project-left {
   margin-top: -10rem;
 
   @media (max-width: $mobile) {
