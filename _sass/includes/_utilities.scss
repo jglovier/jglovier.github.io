@@ -38,6 +38,10 @@
 
 .fixed{ position: fixed; }
 
+.content-breakout {
+  margin: 100px -200px;
+}
+
 
 // flexbox
 
@@ -180,12 +184,6 @@
   border-radius: 50%;
 }
 
-// content Utilities
-
-.content-breakout {
-  margin: 100px -200px;
-}
-
 // css shapes
 
 .downward-arrow {
@@ -268,5 +266,25 @@
   }
   .m-block {
     display: block
+  }
+}
+
+// components
+
+.card {
+  @extend .default-shadow;
+  background-color: $white;
+  border-radius: 3px;
+  overflow: hidden;
+  transition: all .1s ease-in-out;
+
+  &:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow: 0 7px 34px 0 rgba($navy,0.20);
+  }
+
+  &.card-project {
+    max-width: 336px;
   }
 }

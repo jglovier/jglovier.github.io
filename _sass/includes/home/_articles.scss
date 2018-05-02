@@ -1,17 +1,8 @@
 // articles
 
 .article {
-  background-color: $white;
-  border-radius: 3px;
-  overflow: hidden;
-  transition: all .1s ease-in-out;
+  @extend .card;
   border-top: 4px solid $secondary_color;
-
-  &:hover {
-    opacity: 1;
-    transform: scale(1.05);
-    box-shadow: 0 7px 34px 0 rgba($navy,0.20);
-  }
 
   .story-title {
     font-size: 18px;

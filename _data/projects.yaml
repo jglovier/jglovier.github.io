@@ -26,7 +26,7 @@
     RemoteJobs was a job board and job seeker site for connecting remote employees with new opportunities build as on a custom Wordpress install. It was acquired by LiftUX in 2015.
   project_image: /img/projects/remotejobs-io.png
 
-- name: Fizzy syntax theme for Atom
+- name: Fizzy syntax
   url: https://atom.io/themes/fizzy
   role: Creator
   timeframe: 2014 - Present
@@ -34,7 +34,7 @@
     Fizzy is a custom syntax theme for the Atom text editor with bright and bubbly colors, inspired by syntax highlighting in the Espresso web editor for Mac.
   project_image: /img/projects/fizzy.png
 
-- name: GitHub Pages resume template
+- name: Resume template
   url: https://github.com/jglovier/resume-template
   role: Creator
   timeframe: 2015 - Present
@@ -42,7 +42,7 @@
     I created a basic Jekyll-powered resume template for GitHub Pages sites that is as simple to setup as forking a repository.
   project_image: /img/projects/github-pages-resume-template.png
 
-- name: Jekyll Minima theme
+- name: Minima
   url: https://github.com/jekyll/minima
   role: Creator
   timeframe: 2014

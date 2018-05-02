@@ -7,33 +7,33 @@
   </div>
 
   {% for project in site.data.projects %}
-    <section class="mt4 clearfix">
+  <div class="col col-6 {% cycle 'card-project-left', 'card-project-right' %}">
+    <div class="card card-project mt4 clearfix mx-auto">
 
-        <header class="section-header col col-6 mt4">
-          <div class="section-intro">
-            <h2 class="work-title m0">
-              <a href="{{ project.url }}" class="text-decoration-none" target="_blank">
-                {{ project.name }}
-              </a>
-            </h2>
-            <h3 class="work-subhead m0">
-              {{ project.role }}
-              <span class="worked-dates regular text-rounded m-block">
-                <span class="m-hide"> • </span>{{ project.timeframe }}
-              </span>
-            </h3>
+      <a href="{{ project.url }}" class="text-decoration-none block" target="_blank">
+        <img alt="{{ project.name }} screenshot" src="{{ project.project_image }}" width="336" class="img-full-width block" />
+      </a>
 
-            <div class="text-small mt2 pr4">
-              <p>{{ project.summary }}</p>
-            </div>
-          </div>
-        </header>
+      <div class="p3">
+        <h2 class="neg-letter-spacing my1">
+          <a href="{{ project.url }}" class="text-decoration-none" target="_blank">
+            {{ project.name }}
+          </a>
+        </h2>
+        <h3 class="work-subhead m0">
+          {{ project.role }}
+          <span class="worked-dates regular text-rounded m-block">
+            <span class="m-hide"> • </span>{{ project.timeframe }}
+          </span>
+        </h3>
 
-      <section class="clearfix col col-6">
-        <img alt="{{ project.name }} screenshot" src="{{ project.project_image }}" width="600" class="img-full-width img-screenshot" />
-      </section>
+        <div class="text-small mt2 pt1">
+          <p class="m0">{{ project.summary }}</p>
+        </div>
+      </div>
 
-    </section>
+    </div>
+  </div>
   {% endfor %}
 
 </section>
