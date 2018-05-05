@@ -132,66 +132,17 @@
   }
 }
 
-// quotes section
-
-.quote {
-  background-color: $pink_light;
-  border-radius: 5px;
-
-  &.pl-quote {
-    padding-left: 90px;
-  }
-
-  // hanging left quote char
-  &::before {
-    content: "“";
-    display: block;
-    font-size: 200px;
-    position: absolute;
-    opacity: .15;
-    top: 0;
-    left: -22px;
-    line-height: 295px;
-  }
-
-  p {
-    color: $dark_navy;
-  }
-
-  .quote-avatar {
-    width: 64px;
-  }
-
-  @media (max-width: 660px) {
-    &.pl-quote {
-      padding-top: 2rem;
-      padding-right: 3rem;
-      padding-bottom: 2rem;
-      padding-left: 65px;
-    }
-    .text-large {
-      font-size: 16px;
-    }
-    &::before {
-      line-height: 230px;
-    }
-    .quote-avatar {
-      width: 48px;
-    }
-  }
-}
-
-.flex-row-reverse {
-  .quote {
-    background-color: $light_blue_bg;
-
-    &::before {
-      color: $secondary_color;
-    }
-  }
-}
-
 // personal projects
+
+.projects-illustration {
+  margin-bottom: -8rem;
+
+  @media (max-width: $mobile) {
+    margin-top: 4rem;
+    margin-bottom: -4rem;
+    text-align: center;
+  }
+}
 
 .card-project-wrap.col {
   float: right;
@@ -201,6 +152,10 @@
   h2 {
     font-size: 22px;
     line-height: 1.1;
+  }
+
+  .default-shadow {
+    box-shadow: 0 0px 12px rgba($navy,.30);
   }
 }
 

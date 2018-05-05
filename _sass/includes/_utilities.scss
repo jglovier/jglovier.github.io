@@ -243,6 +243,16 @@
   color: $main_color;
 }
 
+.bg-light-blue {
+  background-color: $light_blue_bg;
+}
+.bg-light-red {
+  background-color: $pink_light;
+}
+.bg-light-yellow {
+  background-color: $light_yellow;
+}
+
 // responsive utilities
 
 @media (max-width: $mobile) {
@@ -286,5 +296,63 @@
 
   &.card-project {
     max-width: 336px;
+  }
+}
+
+.quote {
+  border-radius: 5px;
+
+  &.pl-quote {
+    padding-left: 90px;
+  }
+
+  // hanging left quote char
+  &::before {
+    content: "“";
+    display: block;
+    font-size: 200px;
+    position: absolute;
+    opacity: .15;
+    top: 0;
+    left: -22px;
+    line-height: 295px;
+  }
+
+  p {
+    color: $dark_navy;
+  }
+
+  .quote-avatar {
+    width: 64px;
+  }
+
+  @media (max-width: 660px) {
+    &.pl-quote {
+      padding-top: 2rem;
+      padding-right: 3rem;
+      padding-bottom: 2rem;
+      padding-left: 65px;
+    }
+    .text-large {
+      font-size: 16px;
+    }
+    &::before {
+      line-height: 230px;
+    }
+    .quote-avatar {
+      width: 48px;
+    }
+  }
+
+  &.bg-light-red {
+    &::before {
+      color: $secondary_color;
+    }
+  }
+
+  &.bg-light-yellow {
+    &::before {
+      color: $dark_yellow;
+    }
   }
 }
