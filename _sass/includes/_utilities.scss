@@ -230,7 +230,8 @@
 // general styling
 
 .default-shadow {
-  box-shadow: 0 0px 4px rgba($navy,.30);
+  box-shadow: 0 0px 6px rgba($navy,.30),
+  0 7px 34px 0 rgba($litenavy_bg,1);
 }
 
 .work-title {
