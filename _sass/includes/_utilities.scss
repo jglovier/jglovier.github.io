@@ -100,6 +100,12 @@
   clip: rect(1px, 1px, 1px, 1px);
 }
 
+// spacing - used in addition to basscss utils
+
+.mb-sm {
+  margin-bottom: .25rem;
+}
+
 // typography
 
 .text-sans {
@@ -138,6 +144,10 @@
   color: $text_link_color;
 }
 
+.text-color-navy-light {
+  color: $main_color;
+}
+
 .ln-height-1 {
   line-height: 1;
 }
@@ -152,6 +162,10 @@
 
 .text-small {
   font-size: 14px;
+}
+
+.text-default {
+  font-size: 16px;
 }
 
 .text-large {
@@ -239,11 +253,6 @@
   letter-spacing: $neg_letter_spacing;
 }
 
-.work-subhead {
-  font-size: 16px;
-  color: $main_color;
-}
-
 .bg-light-blue {
   background-color: $light_blue_bg;
 }
@@ -297,6 +306,15 @@
 
   &.card-project {
     max-width: 336px;
+  }
+
+  .icon {
+    color: $text_link_color;
+
+    &.icon-star {
+      position: relative;
+      top: -1px;
+    }
   }
 }
 

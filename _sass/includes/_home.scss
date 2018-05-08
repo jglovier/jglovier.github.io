@@ -157,6 +157,14 @@
   .default-shadow {
     box-shadow: 0 0px 12px rgba($navy,.30);
   }
+
+  .icon {
+    vertical-align: middle;
+  }
+
+  .card-project-integer {
+    margin-left: 2px;
+  }
 }
 
 .card-project-right {

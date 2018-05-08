@@ -4,18 +4,21 @@
   role: Core maintainer
   timeframe: 2014 – Present
   summary: |
-    HospitalRun is an open source, offline first EMR designed for hospitals in resource constrained locations, using Ember.js, Couch, Pouch, and Node. I'm responsible for all project product design and CSS, branding, and marketing design.
+    An open source, offline first EMR designed for hospitals in resource constrained locations using Ember.js, Couch, Pouch, and Node.
   dribbble: https://dribbble.com/jag/projects/213165-HospitalRun
-  project_image: /img/projects/hospitalrun.jpg
+  project_image: /img/projects/hospitalrun.png
+  stars: "4,172"
+  forks: "1,240"
+  contributors: "124"
 
 - name: Dev Tees
   url: https://devtees.com
   role: Creator
   timeframe: 2012 – Present
   summary: |
-    Dev Tees is a line of t-shirts for developers started with the help of nearly 500 <a href="https://www.kickstarter.com/projects/jag/dev-tees">Kickstarter backers</a> in 2013. I designed the products, built a shop to sell them, and managed the entire business from marketing to product fulfillment.
+    A line of t-shirts for developers started with the help of nearly 500 <a href="https://www.kickstarter.com/projects/jag/dev-tees">Kickstarter backers</a> in 2013.
   dribbble: https://dribbble.com/jag/projects/89915-Dev-Tees
-  project_image: /img/projects/devtees.jpg
+  project_image: /img/projects/devtees.png
 
 - name: RemoteJobs.io
   url: http://remotejobs.io
@@ -23,29 +26,37 @@
   timeframe: 2012-2015
   status: Acquired by LiftUX in 2015
   summary: |
-    RemoteJobs was a job board and job seeker site for connecting remote employees with new opportunities build as on a custom Wordpress install. It was acquired by LiftUX in 2015.
+    A job board and job seeker site for connecting remote employees with new opportunities. Acquired by <a href="https://liftux.com/">LiftUX</a>, 2015.
   project_image: /img/projects/remotejobs-io.png
 
-- name: Fizzy syntax
+- name: Fizzy syntax theme
   url: https://atom.io/themes/fizzy
   role: Creator
   timeframe: 2014 - Present
   summary: |
-    Fizzy is a custom syntax theme for the Atom text editor with bright and bubbly colors, inspired by syntax highlighting in the Espresso web editor for Mac.
+    A custom syntax theme for <a href="https://atom.io/" target="_blank">Atom</a> with bright and bubbly colors.
   project_image: /img/projects/fizzy.png
+  downloads: "61,336"
+  contributors: "6"
 
 - name: Resume template
   url: https://github.com/jglovier/resume-template
   role: Creator
   timeframe: 2015 - Present
   summary: |
-    I created a basic Jekyll-powered resume template for GitHub Pages sites that is as simple to setup as forking a repository.
+    A simple Jekyll-powered resume template for GitHub Pages sites.
   project_image: /img/projects/github-pages-resume-template.png
+  stars: "675"
+  forks: "537"
+  contributors: "14"
 
 - name: Minima
   url: https://github.com/jekyll/minima
   role: Creator
   timeframe: 2014
   summary: |
-    I designed and build the default Jekyll theme for the release of Jekyll 2.0. It has since become it's own project called Minima with a thriving community of contributors.
+    The default Jekyll theme that shipped with the release of Jekyll 2.0.
   project_image: /img/projects/minima.png
+  stars: "842"
+  forks: "706"
+  contributors: "34"

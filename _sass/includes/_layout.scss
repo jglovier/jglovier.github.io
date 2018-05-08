@@ -9,21 +9,19 @@ body {
   }
 }
 
+.icon {
+  fill: currentColor;
+}
+
 .icon-link {
   margin-right: 4px;
 
-  svg {
-    path {
-      fill: #A8BBD4;
-      transition: fill .4s ease;
-    }
-  }
+  .icon {
+    color: $light_blue_icons;
+    transition: color .4s ease;
 
-  &:hover {
-    svg {
-      path {
-        fill: $salmon;
-      }
+    &:hover {
+      color: $salmon;
     }
   }
 }

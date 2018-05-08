@@ -54,12 +54,12 @@ a {
 }
 
 ::-moz-selection {
-  background: rgba(51,51,51,.8);
+  background: rgba($text_link_color,.8);
   color: #fff;
   text-shadow: none;
 }
 ::selection {
-  background: rgba(51,51,51,.8);
+  background: rgba($text_link_color,.8);
   color: #fff;
   text-shadow: none;
 }
