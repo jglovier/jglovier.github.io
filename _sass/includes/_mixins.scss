@@ -49,12 +49,12 @@
 }
 
 @mixin rounded {
-  font-family: "Varela Round", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-family: "Varela Round", Arial, sans-serif;
   color: $text_color;
 }
 
 @mixin rooney_sans {
-  font-family: "Rooney Sans", rooney-sans, "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-family: "Rooney Sans", rooney-sans, "Varela Round", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   letter-spacing: -.015em;
