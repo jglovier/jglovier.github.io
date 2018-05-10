@@ -43,7 +43,11 @@
 // styles for TIME responsive redesign case study
 
 .time-cs-figure-devices {
-  margin: 100px -108px
+  margin: 100px -108px;
+
+  @media (max-width: $mobile) {
+    margin: 100px auto;
+  }
 }
 
 .cs-figure-device {
@@ -51,6 +55,13 @@
   border-radius: 5px;
   background: $white;
   position: relative;
+
+  @media (max-width: $mobile) {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+  }
 
   .cs-figure-device-image {
     border-radius: 0;
@@ -105,6 +116,10 @@
   .cs-figure-device-button {
     bottom: 5px;
   }
+
+  @media (max-width: $mobile) {
+    margin-top: 3rem;
+  }
 }
 
 .cs-figure-device-mobile {
@@ -120,6 +135,10 @@
 
   .cs-figure-device-button {
     bottom: 3px;
+  }
+
+  @media (max-width: $mobile) {
+    margin-top: 3rem;
   }
 }
 

@@ -9,6 +9,7 @@ These principles represent some of the lessons I've learned:
 
 ## Collaborating with others
 - Favor unblocking over blocking. If a decision can be made or action taken that unblocks, default to that option over remaining blocked.
+- Respect is deserved, trust is earned. But offer others a generous assumption of trust to start with because trust is also reciprocal.
 
 ### Communication
 - In writing be clear and concise. Aim for the least amount of words necessary to clearly communicate context and response.

@@ -128,8 +128,10 @@ body {
 
 .page-header {
   padding: 45px 0;
-  // background-color: $litenavy_bg;
-  // border-bottom: 1px solid $border_color;
+
+  @media (max-width: $mobile) {
+    padding-bottom: 0;
+  }
 
   .intro-copy {
 
@@ -140,7 +142,13 @@ body {
       font-size: 60px;
       line-height: 1;
 
-      @media (max-width: 570px) { font-size: 38px; }
+      @media (max-width: $mobile) {
+        font-size: 46px;
+      }
+
+      @media (max-width: 570px) {
+        font-size: 38px;
+      }
     }
 
     .subhead {
