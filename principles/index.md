@@ -47,7 +47,7 @@ These principles represent some of the lessons I've learned:
 - If you are prepared to criticize something, be prepared to offer a solution. If you don't have a solution, ask a helpful question. Sometimes asking the right question is better than proposing a solution.
 - When massive change happens, people lose vision and context; it's really important to help people feel like their work is not being stalled and can still move forward; when context disappears or the environment changes, you need to set a new vision and context as quickly as possible to reduce the entropy that naturally occurs.
 
-### Design management
+### Design process
 
 - The first thing that has to come before any meaningful design work is a conversation about the goals that work needs to accomplish. Break the problem wide open at the beginning.
 - Start the design process with opportunity sketches in low fidelity to show what a solution could be like apart from UI treatments and hi fidelity comps; this is important because in discussing solutions with others, they need to understand the concept being discussed and not get distracted by completed looking designs.

@@ -1,16 +1,15 @@
-/* @group Blog Post Styles -------------------- */
+// @group Blog Post Styles --------------------
 
 .blogpost {
   .page-header {
-    .article-date {
-      letter-spacing: $neg_letter_spacing;
+    @media (max-width: $mobile) {
+      padding-top: 0;
     }
   }
 }
 
 .post-content {
   @include rooney_sans;
-  font-size: 18px;
 
   p, ul {
     @include rooney_sans;
@@ -18,8 +17,7 @@
 
   h1, h2, h3, h4, h5, h6 {
     @include sans_bold;
-    letter-spacing: -2px;
-    letter-spacing: -.03em;
+    letter-spacing: $neg_letter_spacing;
     line-height: 1;
 
     a {
@@ -98,73 +96,60 @@
   a { text-decoration: none; }
 }
 
-/* next article styles */
+// next article styles
 
 .next-article {
   .title {
     font-size: 32px;
-    line-height: 1;
-    letter-spacing: $neg_letter_spacing;
-  }
-
-  .subhead {
-    font-size: 18px;
-    line-height: 1;
   }
 }
 
-.wrap {
+// syntax highlighting
 
-  div.highlight {
-    @include border-radius(10px);
-    padding: 20px 30px;
-    border: 1px solid $gray_1;
-    font-size: 20px;
 
-    pre { margin: 0;
+.highlight {
+  @include border-radius(10px);
+  padding: 20px 30px;
+  border: 1px solid $gray_1;
+  font-size: 20px;
 
-      code {
-        background-color: transparent;
-        font-size: 18px;
-        line-height: 1.2;
-        padding: 0;
-      }
+  pre { margin: 0;
+
+    code {
+      background-color: transparent;
+      font-size: 18px;
+      line-height: 1.2;
+      padding: 0;
     }
-
-    .language-html {
-
-      .nt { color: $navy; background-color: $blue_l4; }
-      .na { color: $blue; }
-      .s { color: $red; }
-      .mc { color: $blue; }
-      .p {}
-      .k { color: $purple; background-color: $blue_l4; }
-      .o {}
-      .m { color: $green; }
-      .c { color: $gray_2; }
-
-    }
-
-    .language-scss,
-    .language-css {
-
-      .c1 { color: $gray_2; }   // comment
-      .nc { color: $blue; }     // selector (class)
-      .p { color: $true_black; }     // bracket or semi-colon
-      .na { color: $red; }      // property
-      .o { color: $true_black; }     // colon
-      .no { color: $blue_d1; }  // value (keyword)
-      .mh { color: $purple; background-color: $purple_l; }    // value (hex)
-      .mi { color: $green; }     // value (integer)
-      .kt { color: $green; }     // value (unit)
-      .k { color: $blue_d1; }    // self selector
-      .nd { color: $blue; }      // selector (psuedo)
-      .nt { color: $green; }     // selector (element)
-
-    }
-
   }
 
+  .language-html {
+    .nt { color: $navy; background-color: $blue_l4; }
+    .na { color: $blue; }
+    .s { color: $red; }
+    .mc { color: $blue; }
+    .p {}
+    .k { color: $purple; background-color: $blue_l4; }
+    .o {}
+    .m { color: $green; }
+    .c { color: $gray_2; }
+  }
+
+  .language-scss,
+  .language-css {
+    .c1 { color: $gray_2; }     // comment
+    .nc { color: $blue; }       // selector (class)
+    .p { color: $true_black; }  // bracket or semi-colon
+    .na { color: $red; }        // property
+    .o { color: $true_black; }  // colon
+    .no { color: $blue_d1; }    // value (keyword)
+    .mh { color: $purple; background-color: $purple_l; }    // value (hex)
+    .mi { color: $green; }      // value (integer)
+    .kt { color: $green; }      // value (unit)
+    .k { color: $blue_d1; }     // self selector
+    .nd { color: $blue; }       // selector (psuedo)
+    .nt { color: $green; }      // selector (element)
+  }
 }
 
-/* @end Blog Post Styles */
+// @end Blog Post Styles

@@ -1,4 +1,4 @@
-<div class="next-article">
+<div class="next-article mt4">
   <div class="wrap">
 
     <div class="contents constrained">
@@ -6,11 +6,11 @@
 
       <p><a href="/writing/">&larr; Article Index</a> <span class="px2">|</span> Next Article:</p>
 
-      <h3 class="title mb1 mt2">
+      <h3 class="title ln-height-1 neg-letter-spacing mb1 mt2">
         <a href="{{ page.previous.url }}" class="text-black">{{ page.previous.title }}</a>
       </h3>
         {% if page.previous.subhead %}
-          <p class="subhead m0 mb2">{{ page.previous.subhead }}</p>
+          <p class="subhead ln-height-1 m0 mb2 text-large">{{ page.previous.subhead }}</p>
         {% endif %}
         <p>{{ page.previous.date | date: "%B %Y" }}</p>
     {% endif %}

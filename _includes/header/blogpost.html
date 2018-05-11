@@ -6,14 +6,14 @@
 
     <div class="ml4 max-width-4 mx-auto clearfix center">
 
-      <img src="/img/blog-default-header-bg.png" class="block mx-auto mt2 mb3" width="960" />
+      <img src="/img/blog-default-header-bg.png" class="img-full-width block mx-auto mt2 mb3" width="960" />
 
-      <div class="intro-copy mb3">
-        <h1 class="my2">{{ page.title }}</h1>
+      <div class="intro-copy mb3 px3">
+        <h1 class="my2 ln-height-1">{{ page.title }}</h1>
         {% if page.subhead %}
-          <p class="subhead mb2 mt0">{{ page.subhead }}</p>
+          <p class="subhead ln-height-1 mb2 mt0">{{ page.subhead }}</p>
         {% endif %}
-        <p class="article-date m0">{{ page.date | date: "%B %e, %Y" }} {% if page.categories %} in <a href="/writing/{{ page.categories | first }}">{{ page.categories | first }}</a>{% endif %} • {{ reading_time }} read • <a href="/writing/">Back to article index</a></p>
+        <p class="article-date m0 neg-letter-spacing">{{ page.date | date: "%B %e, %Y" }} {% if page.categories %} in <a href="/writing/{{ page.categories | first }}">{{ page.categories | first }}</a>{% endif %} • {{ reading_time }} read • <a href="/writing/">Back to article index</a></p>
       </div>
     </div>
 

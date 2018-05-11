@@ -43,11 +43,11 @@ body {
     @include rounded;
     font-size: 18px;
 
-    @media (max-width: 580px) {
+    @media (max-width: 700px) {
       font-size: 16px;
     }
 
-    @media (max-width: 475px) {
+    @media (max-width: 650px) {
       display: none;
     }
   }
@@ -62,7 +62,6 @@ body {
 .site-nav-menu {
   @include border-radius(3px);
   background: $white;
-  position: relative;
   top: 12px;
   right: 30px;
 
@@ -140,7 +139,6 @@ body {
       letter-spacing: $neg_letter_spacing;
       width: auto;
       font-size: 60px;
-      line-height: 1;
 
       @media (max-width: $mobile) {
         font-size: 46px;
@@ -153,6 +151,10 @@ body {
 
     .subhead {
       font-size: 24px;
+
+      @media (max-width: $mobile) {
+        font-size: 20px;
+      }
     }
   }
 }

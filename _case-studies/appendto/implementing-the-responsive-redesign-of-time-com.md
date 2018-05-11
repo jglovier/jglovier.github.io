@@ -77,7 +77,7 @@ We relied on the CSS preprocessor [Sass](https://sass-lang.com/) (SCSS flavor) w
 
 We reset styles with [Normalize.css](https://github.com/necolas/normalize.css), used [Modernizr](www.modernizr.com) to detect support or lack of for specific HTML, CSS, and JS features, and used [Respond.js](https://github.com/scottjehl/Respond) to help bring support to older versions of Internet Explorer.
 
-[JQuery](https://jquery.com/) (at the time ver 1.7.2!) was our tool of choice for DOM manipulation and event binding. We used [RequireJS](http://requirejs.org/) for dependency management, and [Backbone.js](http://backbonejs.org/) for view structure and components.
+[jQuery](https://jquery.com/) (at the time ver 1.7.2!) was our tool of choice for DOM manipulation and event binding. We used [RequireJS](http://requirejs.org/) for dependency management, and [Backbone.js](http://backbonejs.org/) for view structure and components.
 
 ## Responsive approach
 
@@ -125,9 +125,9 @@ The final requirement for TIME's responsive ads was the ability to swap out ad c
 
 TIME was pleased with our approach and it's advertisers were as well.
 
-<blockquote class="cs-quote relative">
+<blockquote class="quote cs-quote relative bg-light-red">
   <p class="cs-quote-copy mb3 pb1">We wanted to embrace our existing advertisers, not limit them – so we set a guideline for the use of traditional advertising sizes. The ads, however, needed to work in a fully responsive environment. appendTo produced a custom wrapper around TIME.com’s existing advertising solutions. This made the ad regions aware of the available real estate so the correct advertisement could be loaded on all devices. We’re happy and our advertisers are really happy.</p>
-  <p class="cs-quote-author"><a href="http://dmacreative.com/" class="text-sans"><b>Davina Anthony</b></a>, TIME.com Design Lead</p>
+  <p><a href="http://dmacreative.com/" class="text-sans"><b>Davina Anthony</b></a>, TIME.com Design Lead</p>
 </blockquote>
 
 When the redesign landed in October of 2012, it was a big success. Craig Ettinger, General Manager of TIME.com,  [said they saw a 23% increase in pages per visit](http://www.magazine.org/timecom-gm-craig-ettinger-bringing-responsive-web-design-iconic-brand) following the move to a responsive site.

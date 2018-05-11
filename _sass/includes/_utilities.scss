@@ -72,6 +72,10 @@
       margin-left: 0;
       margin-right: 0;
       width: 100%;
+
+      @media (max-width: $mobile) {
+        margin-bottom: 2rem;
+      }
     }
   }
 
@@ -177,12 +181,6 @@
   opacity: .8;
 }
 
-.text-lrg {
-  @include sans;
-  font-weight: bold;
-  font-size: 18px;
-}
-
 // images
 
 .img-full-width {
@@ -255,12 +253,15 @@
 
 .bg-light-blue {
   background-color: $light_blue_bg;
+  box-shadow: 0 3px 28px rgba($light_blue_bg, .75);
 }
 .bg-light-red {
   background-color: $pink_light;
+  box-shadow: 0 3px 28px rgba($pink_light, .75);
 }
 .bg-light-yellow {
   background-color: $light_yellow;
+  box-shadow: 0 3px 28px rgba($light_yellow, .75);
 }
 
 // responsive utilities
@@ -289,7 +290,9 @@
   }
 }
 
-// components
+// components -------------------
+
+// card
 
 .card {
   @extend .default-shadow;
@@ -317,6 +320,8 @@
     }
   }
 }
+
+// quote
 
 .quote {
   border-radius: 5px;

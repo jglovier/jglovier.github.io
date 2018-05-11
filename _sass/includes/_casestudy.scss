@@ -3,13 +3,19 @@
 .casestudy {
   .cs-quote {
     border: none;
-    background-color: $pink_light;
-    border-radius: 3px;
     margin: 100px -100px;
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 140px;
     padding-right: 110px;
+
+    @media (max-width: 950px) {
+      margin: 100px auto;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      padding-right: 3rem;
+      padding-left: 5rem;
+    }
 
     // hanging left quote char
     &::before {
@@ -21,13 +27,23 @@
       top: 0;
       left: -28px;
       line-height: 365px;
+
+      @media (max-width: 950px) {
+        font-size: 200px;
+        line-height: 265px;
+      }
     }
   }
 
   .cs-quote-copy {
     font-size: 24px;
     line-height: 38px;
-    color: $dark_navy;
+
+    @media (max-width: 950px) {
+      font-size: 20px;
+      line-height: 32px;
+      margin-bottom: 1rem;
+    }
   }
 
   .references-list {
