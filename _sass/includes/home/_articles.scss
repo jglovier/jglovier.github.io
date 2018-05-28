@@ -2,7 +2,7 @@
 
 .article {
   @extend .card;
-  border-top: 4px solid $secondary_color;
+  border-left: 4px solid $secondary_color;
 
   .story-title {
     font-size: 18px;

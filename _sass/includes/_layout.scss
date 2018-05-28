@@ -29,6 +29,8 @@ body {
 // Site nav
 
 .site-nav {
+  z-index: 2;
+
   .my-name {
     font-weight: bold;
     font-size: 28px;
@@ -117,7 +119,7 @@ body {
     }
     .site-nav-menu {
       position: absolute;
-      top: 46px;
+      top: 8px;
       right: 0px;
     }
   }
@@ -207,6 +209,10 @@ body {
 
 .page-footer {
   margin-top: 160px;
+
+  @media (max-width: $mobile) {
+    margin-top: 0;
+  }
 }
 
 /* Utilities */

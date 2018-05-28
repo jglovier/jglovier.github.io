@@ -55,6 +55,11 @@
     position: absolute;
     top: 0;
     width: 100%;
+
+    .site-nav-menu {
+      right: 0;
+      position: relative;
+    }
   }
 
   .page-header {
@@ -242,8 +247,13 @@
 // general styling
 
 .default-shadow {
-  box-shadow: 0 0px 6px rgba($navy,.30),
-  0 7px 34px 0 rgba($litenavy_bg,1);
+  box-shadow:
+    0 0px 6px rgba($navy,.20),
+    0 7px 34px 0 rgba($litenavy_bg,1);
+}
+
+.shadow-light {
+  box-shadow: 0 3px 18px rgba($navy,.06);
 }
 
 .work-title {
@@ -253,15 +263,12 @@
 
 .bg-light-blue {
   background-color: $light_blue_bg;
-  box-shadow: 0 3px 28px rgba($light_blue_bg, .75);
 }
 .bg-light-red {
   background-color: $pink_light;
-  box-shadow: 0 3px 28px rgba($pink_light, .75);
 }
 .bg-light-yellow {
   background-color: $light_yellow;
-  box-shadow: 0 3px 28px rgba($light_yellow, .75);
 }
 
 // responsive utilities
