@@ -13,7 +13,7 @@
   {% for employer in site.data.employers %}
     <section class="mt4 clearfix home-articles my4 py2 m-my0">
 
-        <header class="section-header col col-6 pt4 pb3">
+        <header class="section-header col col-6 pt3 pb3">
           <div class="section-intro">
             <h2 class="work-title m0">
               <a href="{{ employer.url }}" class="text-decoration-none" target="_blank">
@@ -39,35 +39,11 @@
               <p>{{ employer.summary }}</p>
             </div>
 
-<!-- don't need this right now b/c most articles aren't setup yet
-            <ul class="work-links py0 my2 pl0">
-              {% if employer.has_case_studies != false %}
-              <li class="py1">
-                <p class="m0">
-                  <span
-                    class="emoji inline-block mr1 relative">&#128196;</span>
-                    Or, read a case study from my work <span class="emoji inline-block mr1 relative">&#128073;</span>
-                </p>
-              </li>
-              {% endif %}
-              <li class="py1">
-                <p class="m0">
-                  <span class="emoji inline-block mr1 relative">&#128064;</span>
-                  See some of my {{ employer.name }} work <a href="{{ employer.dribbble }}" target="_blank">on dribbble</a>
-                </p>
-              </li>
--->
-<!--
-              <li class="py1">
-                <p class="m0">
-                  <span class="emoji inline-block mr1 relative">&#128196;</span>
-                  Read what I learned from <a href="{{ employer.learned }}">working at {{ employer.name }}</a>
-                </p>
-              </li>
--->
-<!--
-            </ul>
--->
+            {% if employer.dribbble %}
+            <p class="text-small">
+              <a href="{{ employer.dribbble }}" target="_blank">See on dribbble  &rarr;</a>
+            </p>
+            {% endif %}
 
           </div>
         </header>
