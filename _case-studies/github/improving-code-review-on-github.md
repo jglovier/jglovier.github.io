@@ -7,27 +7,27 @@ thumnail: /img/case-studies/improving-code-review-banner-thumbnail.png
 bodyclass: absolute-site-header
 ---
 
-In 2016, GitHub improved code review on pull requests with the [Pull Request Reviews](https://blog.github.com/2016-09-14-a-whole-new-github-universe-announcing-new-tools-forums-and-features/) feature.
+In September 2016 GitHub improved code review on pull requests with the [Pull Request Reviews](https://blog.github.com/2016-09-14-a-whole-new-github-universe-announcing-new-tools-forums-and-features/) feature.
 
-Developers quickly adopted the feature as it formalized a process pattern of discussing proposed changes within the pull request diffs and discussion views with tooling that both encapsulated reviews as a distinct object in the workflow, and added the ability to affect mergability through protected branches features like [requiring an approved review to merge](#), and [restricting review dismissal](https://github.com/blog/2330-restrict-review-dismissals-with-protected-branches).
+Developers quickly adopted the feature as it formalized the process of discussing proposed changes within the pull request diffs and discussion views with tooling that emphasized reviews as a distinct object in the workflow, and added the ability to affect mergability through protected branches features like [requiring an approved review to merge](#), and [restricting review dismissal](https://github.com/blog/2330-restrict-review-dismissals-with-protected-branches).
 
 After the initial impact of Pull Request Reviews ("PRRs"), we began to explore how we could iterate and improve on the GitHub code review process by building on the PRRs primitive.
 
 PRRs were just the beginning of building an effective code review workflow on GitHub.
 
-## Understanding the problem
+## Iterating based on feedback
 
-Pull Request Reviews laid a critical foundation for the code review workflow on GitHub. But as we observed how developers used PRRs for the code review process with their collaborators, we found areas that we could improve based on the most common needs we saw.
+PRRs laid a critical foundation for the code review workflow on GitHub. As we watched how developers used PRRs for the code review process with their collaborators and listened to customer feedback, we discovered a few common themes:
 
-- Collaborators needed a way to signal when their pull requests were ready for review, and to request review from specific maintainers or groups of maintainers
-- Maintainers wanted to specifically require review prior to a pull request being merged to ensure that code wasn't merged carelessly or without sufficient review
-- Maintainers wanted to be able to designate certain people as owners for specific file types or paths that corresponded to the groups in their organization responsible for those areas of the code base
+- **Collaborators** wanted a way to signal when their pull requests were ready for review, and to request review from specific maintainers or groups of maintainers.
+- **Maintainers** wanted to require review prior to a pull request being merged to ensure that code wasn't merged carelessly or without sufficient review.
+- **Maintainers** wanted to designate certain people as owners for specific files or directories corresponding to areas of responsibility.
 
 ### Initiating the review cycle
 
 The first thing we noticed was that pull request authors wanted a way to signal that their code was ready for review. While PRRs allowed for a formalized review process, often pull request authors aren't ready for review the moment they opened a pull request.
 
-Many authors subscribe to an "open early for discussion" model of pull request review, where a pull request is opened on the first commit well before the bulk of a contribution's activity has occurred to help define scope and approach along with project maintainers, so the need for some way to signal when a pull request is ready for review was a commonly heard piece of feedback.
+Many authors subscribe to an "open early for discussion" model of pull request review, where a pull request is opened on the first commit well before the bulk of a contribution's activity has occurred to help define scope and approach along with project maintainers, so they needed a way to signal when a pull request is ready for review.
 
 ### Reaching the right reviewers
 
@@ -37,21 +37,25 @@ Pull request authors also wanted a way to be able to request review from specifi
 
 GitHub already provided a powerful tool for maintainer organization with the teams feature, which allows organization defined groups of maintainers or collaborators to be @ mentioned in discussion threads. For organizations that effectively use teams, the ability to request review specifically from domain specific teams would...
 
-### [Research]
-
 ### [Hypothesis]
 
 By introducing a set of additional tools to supplement PPRs, we believed we could tighten the communication and synchronization gap between contributing developers and repository maintainers.
 
-## Exploring solutions
+## Review requests
+
+### Exploring solutions
 
 ![review requests workflow sketch](/img/case-studies/code-review-requested-reviews-workflow-sketch.png)
 
-## Testing, gathering feedback, and iterating
+## Filtering pull requests by review state and pull requests dashboard
 
-## Shipping to real people
+## Code owners
 
-## Measuring results & iterating
+## Team review requests
+
+## Protected branches support
+
+
 
 ---
 
@@ -104,4 +108,3 @@ By introducing a set of additional tools to supplement PPRs, we believed we coul
 - [GitHub introduces code owners for code review](https://sdtimes.com/code/github-introduces-code-owners-code-review/)
 - [Own it: GitHub introduces Code Owners](https://jaxenter.com/github-code-owners-135673.html)
 - [GitHub launches a Trello competitor, pull request reviews, redesigned profile pages](https://venturebeat.com/2016/09/14/github-launches-a-trello-competitor-pull-request-reviews-redesigned-profile-pages/)
-
