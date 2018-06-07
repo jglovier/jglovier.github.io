@@ -13,16 +13,29 @@ These principles represent some of the lessons I've learned:
 
 ### Communication
 - In writing be clear and concise. Aim for the least amount of words necessary to clearly communicate context and response.
-- Ask questions generously.
-- If something is unclear, ask for clarification.
-- Repeat things as much as is needed to make sure everyone is on the same page.
+- Ask as many questions as necessary to understand.
+- If something is unclear, ask for explicit clarification.
+- Continue communication as much as is needed until everyone is on the same page.
+- Don't get stuck on things that can't be resolved. Park discussion items that are blocking and revisit when more data presents for consideration, or when an action can be taken.
+- Document discussions and outcomes.
 
-## Product design
+## Design
+- The first thing that has to come before any meaningful design work is a conversation about the goals that work needs to accomplish. Break the problem wide open at the beginning.
+- Start the design process with opportunity sketches in low fidelity to show what a solution could be like apart from UI treatments and hi fidelity comps; this is important because in discussing solutions with others, they need to understand the concept being discussed and not get distracted by completed looking designs.
+- Presentation is really important; sell the idea; sell the experience; from concept, to prototype, to final execution; make it feel like the entire experience has been considered; that will help people experiencing your design or product to feel more confident in it.
 
--
+### Product design
+- Guide product users toward accomplishing their objectives. *(see also [Jobs To Be Done](https://strategyn.com/customer-centered-innovation-map/) framework)*
+- Identify core objectives, map out the workflows that are required to accomplish those objectives, and relentlessly remove friction from those workflows.
+- Don't lead people to dead ends. Workflows should always lead to the next place you want to go (i.e. to your next logical task).
+- Don't leave people wondering what to do (i.e. making them think).
+- A good experience works well across whatever device or screen size the user is on.
+- A good experience is fast (performant) because users don't wait.
+- Favor leveraging familiar trends and conventions rather than introducing confusing new paradigms.
+- Keep workflows shallow and simple. *(i.e. avoid long and complex workflows)*
+- Unique parts of a product should look distinct from other parts.
 
 ## Leadership
-
 - Commit clearly and intentionally.
 - Set the example by what you do.
 - Every time you interact with a team, your answer should be roughly yes or no. Leaving things open ended is death. Be laser focused and answer things affirmatively in such a way that moves things forward, and when you need to answer in the negative, be clear.
@@ -46,12 +59,6 @@ These principles represent some of the lessons I've learned:
 - Shoot straight with people. It's far more helpful than trying to preserve feelings. But don't be an asshole. You can be both kind and considerate, and forthright and honest.
 - If you are prepared to criticize something, be prepared to offer a solution. If you don't have a solution, ask a helpful question. Sometimes asking the right question is better than proposing a solution.
 - When massive change happens, people lose vision and context; it's really important to help people feel like their work is not being stalled and can still move forward; when context disappears or the environment changes, you need to set a new vision and context as quickly as possible to reduce the entropy that naturally occurs.
-
-### Design process
-
-- The first thing that has to come before any meaningful design work is a conversation about the goals that work needs to accomplish. Break the problem wide open at the beginning.
-- Start the design process with opportunity sketches in low fidelity to show what a solution could be like apart from UI treatments and hi fidelity comps; this is important because in discussing solutions with others, they need to understand the concept being discussed and not get distracted by completed looking designs.
-- Presentation is really important; sell the idea; sell the experience; from concept, to prototype, to final execution; make it feel like the entire experience has been considered; that will help people experiencing your design or product to feel more confident in it.
 
 ### Teaching, mentorship, and coaching
 - Tell what, explain why, show how, follow up.
