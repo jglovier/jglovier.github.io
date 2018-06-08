@@ -132,6 +132,36 @@
   }
 }
 
+// quotes
+
+.quote-wrap.col {
+  float: right;
+
+  .quote {
+    max-width: 448px;
+  }
+}
+
+.quote-right {
+  margin-top: -6rem;
+
+  .quote { float: right; }
+
+  @media (max-width: $mobile) {
+    margin-top: 3rem;
+  }
+}
+
+.quote-left {
+  margin-top: 6rem;
+
+  .quote { float: left; }
+
+  @media (max-width: $mobile) {
+    margin-top: 3rem;
+  }
+}
+
 // personal projects
 
 .projects-illustration {
@@ -174,6 +204,7 @@
     margin-top: 3rem;
   }
 }
+
 .card-project-left {
   margin-top: -10rem;
 
