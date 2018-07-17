@@ -1,4 +1,11 @@
 ---
+- name: Kathy Zheng
+  url: https://www.linkedin.com/in/kathy-zheng-b1a85828/
+  image: /img/quotes/pifafu.jpg
+  quote: |
+    I would emphasize his particular thoughtfulness in producing a collaborative environment for peers to offer influence and feedback in his work. He has produced so much context around user problems that I still work off of, and the output of his time at GitHub will remain a great resource for many projects.”
+  title: Colleague at GitHub
+
 - name: Elizabeth Barron
   url: https://www.linkedin.com/in/elizabethn/
   image: /img/quotes/elizabethbarron.jpg
