@@ -25,13 +25,13 @@ PRRs laid a critical foundation for the code review workflow on GitHub. As we wa
 
 ### Initiating the review cycle
 
-The first thing we noticed was that pull request authors wanted a way to signal that their code was ready for review. While PRRs allowed for a formalized review process, often pull request authors aren't ready for review the moment they opened a pull request.
+The first thing we noticed was that pull request authors needed a way to signal that their code was ready for review. While PRRs allowed for a formalized review process, often pull request authors aren't ready for review the moment they opened a pull request.
 
 Many authors subscribe to an "open early for discussion" model of pull request review, where a pull request is opened on the first commit well before the bulk of a contribution's activity has occurred to help define scope and approach along with project maintainers, so they needed a way to signal when a pull request is ready for review.
 
 ### Reaching the right reviewers
 
-Pull request authors also wanted a way to be able to request review from specific people. Often a project's maintainers and collaborators list is very large, so making sure a pull request gets reviewed by the right person or people can be difficult.
+Pull request authors also wanted a way to be able to request review from specific people. Often a project's maintainers and collaborators list is very large, so making sure a pull request gets reviewed by the right person or people could be difficult.
 
 ### Utilizing existing organization teams
 
