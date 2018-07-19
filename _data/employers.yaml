@@ -1,10 +1,25 @@
 ---
+- name: Netlify
+  url: https://netlify.com
+  role: Head of Design
+  timeframe: 2018 – Present
+  summary: |
+    I design and build experiences for the millions of people who use GitHub every day, including recent hits such as Code Owners and Review Requests, and a bunch of work I can't talk about yet.
+  dribbble: https://dribbble.com/jag/projects/540365-GitHub-work
+  learned: #
+  articles_layout: l_1_up
+  articles_list:
+    - title: Improving code review on GitHub
+      summary: Iterating on a software development workflow for 20M users by removing friction and barriers.
+      url: /case-studies/github/improving-code-review-on-github/
+      image: /img/case-studies/case-study-github-improving-code-review-banner-thumbnail.png
+
 - name: GitHub
   url: https://github.com/jglovier
   role: Product Design Lead
-  timeframe: 2013 – Present
+  timeframe: 2013 – 2018
   summary: |
-    I design and build experiences for the millions of people who use GitHub every day, including recent hits such as Code Owners and Review Requests, and a bunch of work I can't talk about yet.
+    I designed and built experiences for the millions of people who use GitHub every day, including recent hits such as Code Owners, Review Requests, and the Checks API.
   dribbble: https://dribbble.com/jag/projects/540365-GitHub-work
   learned: #
   articles_layout: l_1_up
