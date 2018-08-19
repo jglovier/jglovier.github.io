@@ -9,7 +9,7 @@ These principles represent some of the lessons I've learned:
 
 ## Collaborating with others
 - Favor unblocking over blocking. If a decision can be made or action taken that unblocks, default to that option over remaining blocked.
-- Respect is deserved, trust is earned. But offer others a generous assumption of trust to start with because trust is also reciprocal.
+- Respect is deserved, trust is assumed. Both are reciprocal.
 
 ### Communication
 - In writing be clear and concise. Aim for the least amount of words necessary to clearly communicate context and response.
@@ -36,9 +36,12 @@ These principles represent some of the lessons I've learned:
 - Unique parts of a product should look distinct from other parts.
 
 ## Leadership
+- Empowering others to make decisions and take action is critical to team success.
 - Commit clearly and intentionally.
 - Set the example by what you do.
-- Every time you interact with a team, your answer should be roughly yes or no. Leaving things open ended is death. Be laser focused and answer things affirmatively in such a way that moves things forward, and when you need to answer in the negative, be clear.
+- Aim to close loose ends. You are responsible for momentum.
+- Identify blockers and take responsibility to remove them.
+- Leadership is not management, and it does not require authority. It's not an organizational role, it's how you work.
 
 ### Management
 
@@ -50,7 +53,6 @@ These principles represent some of the lessons I've learned:
 - Invite others to be stakeholders and empower them to take ownership.
 - Don't tell people what to do and what not to do.
   - Good managers empower people to do what they want to do, and seek to understand why people want to do the things they don't think they should be doing.
-- Lead others to conclusions they can make themselves, rather than just telling them what to do or giving them the answer.
 - Be flexible and always lean in the direction that favors unblocking, empowering, iteration, and exploration – except in critical outcome situations, where you should lean in the direction of wisdom and away from unreasonable risk.
 - Listen to your team and be open to their perspectives. They need that space, and you need their perspectives.
 - Help your team achieve their goals. Be their biggest champion in the organization.
@@ -61,5 +63,5 @@ These principles represent some of the lessons I've learned:
 - When massive change happens, people lose vision and context; it's really important to help people feel like their work is not being stalled and can still move forward; when context disappears or the environment changes, you need to set a new vision and context as quickly as possible to reduce the entropy that naturally occurs.
 
 ### Teaching, mentorship, and coaching
-- Tell what, explain why, show how, follow up.
 - If a team member takes the initiative to ask you what they can do to support you, or the team, or go above and beyond their responsibilities to be a leader, don't just tell them to keep doing a good job, or their basic responsibilities. Give them a vision for what it looks like to be a leader, and tangible things they can do to practice and perform that way in your current team environment.
+- When possible, lead others to conclusions they can make for themselves. Hold space for their learning process.
