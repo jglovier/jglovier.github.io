@@ -1,207 +1,222 @@
-/* @group Home styles -------------------- */
+// Home styles
+// -------------------------------------
 
-.page-home {
-
-  .page-header {
-    background-color: $tan;
-    background-image: none;
-    padding: 0;
-    overflow: hidden;
-    @media (max-width: 990px) { height: auto; }
-
-    .my-avatar {
-      width: pct( 600, 1024);
-      float: right;
-      position: relative;
-      bottom: -5px;
-      margin-top: 40px;
-      margin-bottom: -10px;
-      @media (max-width: 990px) {
-        max-width: 550px;
-        width: 100%;
-        margin: 40px auto -120px;
-        float: none;
-      }
+// intro
+.intro-copy {
+  &.intro-copy-container {
+    @media (min-width: 1030px) {
+      width: calc(100% - 512px)
     }
-
-    .joel-photo { max-width: 100%; }
-
-    .intro-copy {
-      width: 385px;
-      float: left;
-      margin-top: 80px;
-      @media (max-width: 990px) {
-        margin: 30px auto 0;
-        float: none;
-      }
-      @media (max-width: 700px) { width: auto; }
-
-      h1 {
-        margin: 20px 0 25px;
-        letter-spacing: -3px;
-        font-weight: 800;
-        font-size: 4.4rem;
-        text-indent: 4px;
-        @media (max-width: 570px) { font-size: 14vw; }
-
-        a {
-          font-weight: 700;
-          color: $text_color;
-        }
-      }
-
-      h2 {
-        font-weight: 300;
-        border-top: 3px solid $border_color;
-        border-bottom: 1px solid $border_color;
-        padding: 10px 0;
-        font-size: 1.46875rem;
-        margin: 10px 0;
-        @media (max-width: 570px) {
-          font-size: 5vw;
-          letter-spacing: -1px;
-        }
-      }
-
-      .description {
-        font-size: 16px;
-        line-height: 1.5;
-        @include serif;
-      }
+    @media (min-width: $mobile) and (max-width: 1030px) {
+      width: 460px;
     }
-
-    .social-media-links { margin-top: 20px; }
-
-    .icon-link {
-      display: inline-block;
-      text-decoration: none;
-      margin-right: 6px;
-
-      &:hover {
-        background-color: transparent;
-      }
+    @media (max-width: 960px) {
+      margin-top: 2rem;
+    }
+    @media (max-width: 900px) {
+      margin-top: 0;
     }
   }
 
-  .writing {
-    .article-item { display: none; }
+  .headline {
+    font-size: 52px;
+    line-height: 1.1;
+
+    @media (max-width: 920px) {
+      margin-top: 3rem;
+      font-size: 46px;
+    }
+    @media (max-width: 890px) {
+      margin-top: 2rem;
+    }
+    @media (max-width: 745px) {
+      font-size: 36px;
+    }
+    @media (max-width: $mobile) {
+      padding-top: 0;
+      margin-top: 1rem;
+    }
   }
 }
 
-/* Writing (article index) */
+.description {
+  &.primary {
+    max-width: 320px;
+    @media (max-width: $mobile) {
+      max-width: none;
+    }
+  }
+}
 
-.writing { padding-bottom: 80px;
-
-  .section-heading h2 {
-    float: left;
-    @media (max-width: 595px) { float: none; }
-
-    &.other-writing { font-size: 36px; }
-
+.intro-illustration {
+  &.intro-illustration-container {
+    @media (min-width: 1030px) {
+      min-width: 512px;
+    }
+    @media (min-width: $mobile) and (max-width: 1030px) {
+      min-width: auto;
+      width: calc(100% - 460px)
+    }
   }
 
-  .article-nav {
-    font-weight: 300;
-    font-size: 24px;
+  @media (max-width: $mobile) {
+    text-align: center;
+  }
+}
+
+.intro-img-primary {
+  top: -30px;
+  @media (max-width: 920px) {
+    //top: 30px;
+  }
+  @media (max-width: 890px) {
+    //top: 50px;
+  }
+  @media (max-width: $mobile) {
+    display: none;
+  }
+}
+
+.intro-illustration-banner-sm {
+  @media (min-width: $mobile) {
+    display: none;
+  }
+}
+
+// what I do section
+
+.wid-graphic {
+  @media (max-width: $mobile) {
+    margin-left: 0;
+  }
+}
+
+.wid-content {
+  @media (min-width: $mobile) {
+    max-width: 342px;
+  }
+  @media (min-width: $mobile) and (max-width: 960px) {
     float: right;
-    margin-right: 60px;
-    @media (max-width: 990px) { margin-right: 0; }
-    @media (max-width: 595px) {
-      float: none;
-      margin-top: 20px;
-    }
-
-    > a {
-      @include link-w-bg;
-      background-color: transparent;
-      margin-left: 10px;
-      float: left;
-      @media (max-width: 750px) { margin-left: 4px; }
-      @media (max-width: 650px) {
-        padding: 3px 6px;
-        font-size: 22px;
-      }
-      @media (max-width: 450px) { font-size: 17px; }
-
-      &:first-child {
-        margin-left: 0;
-        padding: 3px 16px;
-        @media (max-width: 450px) { padding: 3px 8px; }
-      }
-
-      &:hover {
-        background-color: $tan;
-        opacity: .6;
-      }
-
-    }
-
-    .showing {
-      background-color: $tan;
-      cursor: default;
-
-      &:hover { background-color: $tan; }
-
-    }
-
   }
+}
 
-  .article-item {
-    > a { text-decoration: none; }
+// how I work section
 
-    &.show { display: block; }
-
-  }
-
-  .article-index {
-    list-style: none;
-    padding-left: 0;
-
-    li { margin: 60px 0; }
-
-    .article-title {
-      @include sans_extrabold;
-      font-size: 28px;
-      color: $text_color;
-      letter-spacing: -1px;
-      margin-bottom: 4px;
-      line-height: 1.2;
-
-      .external-link-icon-svg {
-        margin-left: 5px;
-
-        path { fill: $tan_3; }
-      }
+@media (min-width: $mobile) and (max-width: 1020px) {
+  .pdc-section {
+    .col-4 {
+      width: 317px;
     }
-
-    .article-date {
-      font-size: 16px;
-      color: $tan_3;
-      margin: 0;
-      font-weight: 400;
-      @media (max-width: 450px) { font-size: 14px; }
-    }
-
-    .external_site { text-transform: capitalize; }
-
-    .article-excerpt {
-      color: $text_color;
-      @include serif_regular;
-      margin: 7px 0 0;
-    }
-
-    .article-source {
-      display: block;
-      font-style: italic;
-      color: $gray_2;
-    }
-
-    a { display: block;
-
-      &:hover { opacity: .8; }
+    .col-8 {
+      width: calc(100% - 317px);
     }
   }
 }
 
+.pdc-content {
+  @media (min-width: $mobile) {
+    max-width: 342px;
+  }
+  @media (min-width: $mobile) and (max-width: 960px) {
+    float: left;
+  }
+}
 
-/* @end Home styles */
+.pdc-graphic {
+  @media (max-width: 1020px) {
+    margin-right: 0;
+  }
+  @media (max-width: $mobile) {
+    float: none;
+    margin-top: 2rem;
+  }
+}
+
+// quotes
+
+.quote-wrap.col {
+  float: right;
+
+  .quote {
+    max-width: 448px;
+  }
+}
+
+.quote-right {
+  margin-top: -6rem;
+
+  .quote { float: right; }
+
+  @media (max-width: $mobile) {
+    margin-top: 3rem;
+  }
+}
+
+.quote-left {
+  margin-top: 6rem;
+
+  .quote { float: left; }
+
+  @media (max-width: $mobile) {
+    margin-top: 3rem;
+  }
+}
+
+// personal projects
+
+.projects-illustration {
+  margin-bottom: -8rem;
+
+  @media (max-width: $mobile) {
+    margin-top: 4rem;
+    margin-bottom: -4rem;
+    text-align: center;
+  }
+}
+
+.card-project-wrap.col {
+  float: right;
+}
+
+.card-project {
+  h2 {
+    font-size: 22px;
+    line-height: 1.1;
+  }
+
+  .default-shadow {
+    box-shadow: 0 0px 12px rgba($navy,.30);
+  }
+
+  .icon {
+    vertical-align: middle;
+  }
+
+  .card-project-integer {
+    margin-left: 2px;
+  }
+}
+
+.card-project-right {
+  margin-top: 10rem;
+
+  @media (max-width: $mobile) {
+    margin-top: 3rem;
+  }
+}
+
+.card-project-left {
+  margin-top: -10rem;
+
+  @media (max-width: $mobile) {
+    margin-top: 3rem;
+  }
+}
+
+// media queries
+
+@media (max-width: $mobile) {
+  .intro-section {
+    margin-bottom: 0;
+  }
+}

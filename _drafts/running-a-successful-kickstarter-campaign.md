@@ -239,3 +239,18 @@ additional tips:
 - avoid things where you exclude a gender
 - be aware of the headaches of international shipping
 - include shipping in the reward level (don't ask backers to add on shipping to their pledge, cause most people won't and then you have to sort that out)
+
+---
+
+Hi Ghulu. Nice to meet you.
+
+It's been a while since my Kickstarter campaign (about 5 years ago now I guess), so some of the details have faded from my mind, but a couple of the key things I learned are:
+
+- Keep your reward structure really simple (because fulfillment is complicated and expensive)
+- Have a great video for your project; seriously, this part is well worth whatever you can afford to spend on getting it produced
+- The majority of my traffic came from Twitter, so be sure to reach out to people you know who support your work and ask them to share your campaign once it's live
+
+Hope that helps! I've been meaning to write a detailed blog post about the stuff I've learned from my two Kickstarter campaigns for quite some time. Maybe this year I'll finally find time to write that post. :-D
+
+---
+

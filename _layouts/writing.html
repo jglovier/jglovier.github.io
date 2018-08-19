@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+
+{% include head.html %}
+
+<body class="blogpost writing-index">
+
+{% include header/writing.html %}
+
+<section class="writing" id="writing">
+
+  {{ content }}
+
+  <div class="constrained">
+
+    <section class="pb4">
+
+      <h2 class="text-rounded regular neg-letter-spacing">Would you like to read about <a href="/writing/design">design</a>, <a href="/writing/product">product</a>, or <a href="/writing/user-experience">user experience</a>?</h2>
+
+      <div class="articles">
+        <ul class="article-index list-reset">
+          {% for post in site.posts %}
+            {% if post.featured == 'design' %}
+              {% include article-index-template.html %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+
+    </section>
+
+    <!-- -->
+
+    <section class="py4">
+
+      <h2 class="text-rounded regular neg-letter-spacing">Are you interested in technical topics like <a href="/writing/code">code</a>, <a href="/writing/jekyll">Jekyll</a>, <a href="/writing/sass">Sass</a>, <a href="/writing/css">CSS</a>, <a href="/writing/js">JavaScript</a> or <a href="/writing/wordpress">Wordpress</a>, or <a href="/writing/performance">performance</a>?</h2>
+
+      <div class="articles">
+        <ul class="article-index list-reset">
+          {% for post in site.posts %}
+            {% if post.featured == 'code' %}
+              {% include article-index-template.html %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+
+    </section>
+
+    <!-- -->
+
+    <section class="py4">
+
+      <h2 class="text-rounded regular neg-letter-spacing">Are you interested in <a href="/writing/workflow">workflow</a> and <a href="/writing/resources">resources</a>?</h2>
+
+      <div class="articles">
+        <ul class="article-index list-reset">
+          {% for post in site.posts %}
+            {% if post.featured == 'resources' %}
+              {% include article-index-template.html %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+
+    </section>
+
+    <!-- -->
+
+    <section class="py4">
+
+      <h2 class="text-rounded regular neg-letter-spacing">Maybe you're interested in <a href="/writing/business">business</a>, <a href="/writing/marketing">marketing</a>, <a href="/writing/seo">SEO</a>, or <a href="/writing/career">career</a> topics?</h2>
+
+      <div class="articles">
+        <ul class="article-index list-reset">
+          {% for post in site.posts %}
+            {% if post.featured == 'business' %}
+              {% include article-index-template.html %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+
+    </section>
+
+    <!-- -->
+
+    <section class="py4">
+
+      <h2 class="text-rounded regular neg-letter-spacing">Or, maybe you just want to browse articles about <a href="/writing/life">life</a>, <a href="/writing/faith">faith</a>, <a href="/writing/food">food</a>, <a href="/writing/gaming">gaming</a>, <a href="/writing/internets">the internet</a>, or <a href="/writing/quicktips">quicktips</a>?</h2>
+
+      <div class="articles">
+        <ul class="article-index list-reset">
+          {% for post in site.posts %}
+            {% if post.featured == 'misc' %}
+              {% include article-index-template.html %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+
+    </div>
+
+  </section>
+
+</section>
+
+{% include footer.html %}
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+{% include closing-tags.html %}

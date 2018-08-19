@@ -1,29 +1,32 @@
-/* @group Base Styles -------------------- */
+// Base styles
+// -------------------------------------
 
 body{
-  background: $white;
+  background: white;
   @include sans;
   color: $text_color;
   font-size: 16px;
   line-height: 1.5;
+  overflow-x: hidden;
 }
-
-.wrap:before,
-.wrap:after { content:""; display:table; }
-.wrap:after { clear: both; }
-.wrap {
-  max-width: 1084px;
-  padding: 0 30px;
-  margin: 0 auto;
-  zoom: 1; }
-
-.fixed{ position: fixed; }
-
-/* clearfix (now called group, via http://css-tricks.com/snippets/css/clear-fix/) */
-.group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both; }
-.group { zoom:1; /* For IE 6/7 (trigger hasLayout) */ }
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body p,
+body ul {
+  @include rounded;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  @include sans;
+  color: $black;
+}
 
 /* apply a natural box layout model to all elements; see: http://paulirish.com/2012/box-sizing-border-box-ftw/; */
 /* ...also, dont' be concerned about the everything selector here, as it's not being used as a compound selector, so it's performance impact is very nominal */
@@ -32,26 +35,33 @@ body{
   box-sizing: border-box; }
 
 a {
-  font-weight: bold;
-  color: $black;
+  color: $text_link_color;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
 
   &:hover {
-    text-decoration: none;
-    opacity: .8;
+    color: $secondary_color;
+    transition: all .2s ease-in-out;
   }
+
   &:active,
   &:focus { outline: none; }
+
+  &:visited {
+    // need a better pattern here
+    // text-decoration: none;
+  }
 }
 
 ::-moz-selection {
-    background: rgba(51,51,51,.8);
-    color: #fff;
-    text-shadow: none;
+  background: rgba($text_link_color,.8);
+  color: #fff;
+  text-shadow: none;
 }
 ::selection {
-    background: rgba(51,51,51,.8);
-    color: #fff;
-    text-shadow: none;
+  background: rgba($text_link_color,.8);
+  color: #fff;
+  text-shadow: none;
 }
 
 /* @end Base Styles */

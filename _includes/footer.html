@@ -1,11 +1,34 @@
-<footer class="page-footer">
+<footer class="page-footer overflow-hidden py4 mx2">
+  <section class="max-width-4 mx-auto clearfix center">
+    <nav class="site-nav text-rounded mb2 text-small">
+      {% if page.layout == "home" %}
+      {% else %}
+      <a class="inline-block mr2" href="/">Home</a>
+      {% endif %}
+      <a class="inline-block mr2" href="/#work">Work</a>
+      <a class="inline-block mr2" href="/#projects">Projects</a>
+      <a class="inline-block mr2" href="/principles/">Principles</a>
+      <a class="inline-block mr2" href="/about/">About</a>
+      <a class="inline-block" href="/writing/">Writing</a>
+    </nav>
 
-  <div class="wrap">
+    {% include social-icons.html %}
 
-    <p class="copyright">Content ©2007 - {{ site.time | date: "%Y" }} Joel Glovier. Subscribe <a href="/feed.xml">via RSS</a>. Find me on <a href="http://twitter.com/jglovier">Twitter</a>.</p>
+    <div class="text-small mt3">
+      <p class="mt0 mb2">
+        Content ©{{ site.time | date: "%Y" }} Joel Andrew Glovier. All rights reserved. <br>
+        Design and code (except graphics) are public and open source <a href="https://github.com/jglovier/jglovier.github.io" target="_blank">on GitHub</a>.
+      </p>
 
-    <p>Hosted on <a href="http://pages.github.com">GitHub Pages</a>. Design and code are open source: <a href="https://github.com/jglovier/jglovier.github.io">fork me</a>, or <a href="https://github.com/jglovier/jglovier.github.io/issues?state=open">open an issue</a>.</p>
+      <p class="mb2">
+        See the <a href="https://github.com/jglovier/jglovier.github.io/pull/70" target="_blank">pull request</a> for the current design, or read the <a
+          href="/about#site-credits"
+          class="regular">credits</a>.
+      </p>
+      <p class="my0">
+        Have feedback on this site? <a href="https://github.com/jglovier/jglovier.github.io/issues/new" target="_blank">Open an issue</a> (🙇). Or, <a href="https://github.com/jglovier/ama" target="_blank">AMA</a>!‍
+      </p>
+    </div>
 
-  </div>
-
+  </section>
 </footer>

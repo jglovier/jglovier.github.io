@@ -1,0 +1,20 @@
+{% include site-nav.html %}
+
+{% include readingtime_page.html %}
+
+<header class="page-header {% if page.imgclass %}{{ page.imgclass }} {% else %}{{ page.categories | join: " " }} {% endif %}">
+
+  <div class="ml4 max-width-4 mx-auto clearfix center">
+
+    <img src="{{ page.banner-image }}" class="img-full-width block mx-auto mt2 mb4" width="960" />
+
+    <div class="intro-copy mb3 px3">
+      <h1 class="my2 ln-height-1">{{ page.title }}</h1>
+      {% if page.subhead %}
+        <p class="subhead ln-height-1 mb2 mt0">{{ page.subhead }}</p>
+      {% endif %}
+      <p class="article-date m0">{{ reading_time }} read • <a href="/writing/">Back to article index</a></p>
+    </div>
+  </div>
+
+</header>

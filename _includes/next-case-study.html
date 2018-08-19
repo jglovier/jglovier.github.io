@@ -1,0 +1,14 @@
+<div class="next-article {% if page.previous.imgclass %}{{ page.previous.imgclass }} {% else %}{{ page.previous.categories | join: " " }} {% endif %} mt4">
+  <div class="wrap">
+
+    <div class="contents constrained">
+    {% if page.previous %}
+      <p class="next-arrow">Next case study:</p>
+      <h3 class="title ln-height-1 neg-letter-spacing"><a href="{{ page.previous.url }}" class="next-article-link">{{ page.previous.title }}</a></h3>
+      {% if page.previous.subhead %}<p class="subhead ln-height-1 text-large">{{ page.previous.subhead }}</p>{% endif %}
+    {% endif %}
+      <p class="nav"><a href="{{ page.previous.url }}" class="next-link">Read Now &rarr;</a></p>
+    </div>
+
+  </div>
+</div>

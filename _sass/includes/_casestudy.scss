@@ -1,0 +1,174 @@
+// case study blockquote
+
+.casestudy {
+  .cs-quote {
+    border: none;
+    margin: 100px -100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 140px;
+    padding-right: 110px;
+
+    @media (max-width: 950px) {
+      margin: 100px auto;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      padding-right: 3rem;
+      padding-left: 5rem;
+    }
+
+    // hanging left quote char
+    &::before {
+      content: "“";
+      display: block;
+      font-size: 258px;
+      position: absolute;
+      opacity: .15;
+      top: 0;
+      left: -28px;
+      line-height: 365px;
+
+      @media (max-width: 950px) {
+        font-size: 200px;
+        line-height: 265px;
+      }
+    }
+  }
+
+  .cs-quote-copy {
+    font-size: 24px;
+    line-height: 38px;
+
+    @media (max-width: 950px) {
+      font-size: 20px;
+      line-height: 32px;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .references-list {
+    font-size: 16px;
+    padding-left: 20px;
+
+    li {
+      margin-top: 0;
+    }
+  }
+}
+
+// styles for TIME responsive redesign case study
+
+.time-cs-figure-devices {
+  margin: 100px -108px;
+
+  @media (max-width: $mobile) {
+    margin: 100px auto;
+  }
+}
+
+.cs-figure-device {
+  border: 2px solid $device_color;
+  border-radius: 5px;
+  background: $white;
+  position: relative;
+
+  @media (max-width: $mobile) {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+  }
+
+  .cs-figure-device-image {
+    border-radius: 0;
+  }
+}
+
+.cs-figure-device-browser {
+  width: 500px;
+  height: 330px;
+  overflow: hidden;
+
+  .cs-figure-device-screen {
+    height: 308px;
+  }
+}
+
+.cs-figure-device-browser-header {
+  height: 22px;
+  width: 100%;
+  border-bottom: 1px solid $device_color;
+
+  .circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: $device_color;
+    margin-right: 4px;
+    margin-top: 7px;
+  }
+
+  .address-bar {
+    width: 422px;
+    height: 11px;
+    border: 1px solid $device_color;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 3px;
+  }
+}
+
+.cs-figure-device-tablet {
+  width: 195px;
+  height: 246px;
+  padding: 19px 16px;
+  top: 46px;
+
+  .cs-figure-device-screen {
+    border: 1px solid $device_color;
+    height: 204px;
+  }
+
+  .cs-figure-device-button {
+    bottom: 5px;
+  }
+
+  @media (max-width: $mobile) {
+    margin-top: 3rem;
+  }
+}
+
+.cs-figure-device-mobile {
+  width: 64px;
+  height: 111px;
+  padding: 8px 4px 14px;
+  top: 113px;
+
+  .cs-figure-device-screen {
+    border: 1px solid $device_color;
+    height: 85px;
+  }
+
+  .cs-figure-device-button {
+    bottom: 3px;
+  }
+
+  @media (max-width: $mobile) {
+    margin-top: 3rem;
+  }
+}
+
+.cs-figure-device-screen {
+  overflow: scroll;
+}
+
+.cs-figure-device-button {
+  width: 8px;
+  height: 8px;
+  border: 1px solid $device_color;
+  position: absolute;
+  left: 50%;
+  margin-left: -4px;
+  display: block;
+  border-radius: 50%;
+}

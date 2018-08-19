@@ -3,6 +3,7 @@ layout: blogpost
 title: "Sitemaps for Jekyll sites"
 subhead: SUCH SIMPLE. SO EASE. WOW.
 categories: jekyll code seo
+featured: code
 ---
 
 A couple days ago I talked about how easy it is to [create an RSS feed with Jekyll](/rss-for-jekyll/). Well just as easy is creating a sitemap.

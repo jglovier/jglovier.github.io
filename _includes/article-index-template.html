@@ -1,0 +1,18 @@
+<li class="article-item mb3 pl2">
+  {% if post.external_url %}
+  <a href="{{ post.external_url }}" onclick="_gaq.push(['_trackpageview', '{{ post.url }}']);" target="_blank" class="block">
+    <h3 class="article-title neg-letter-spacing mb0">{{ post.title }} {% include icons/icon-link.html %}</h3>
+    <p class="article-date m0">{{ post.date | date: "%B %e, %Y" }}{% if post.external_site %} • via <span class="external_site">{{ post.external_site }}</span>{% endif %}</p>
+    {% if post.excerpt %}
+    <!--<p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>-->
+    {% endif %}
+  </a>
+  {% else %}
+  {% include readingtime.html %}
+  <a href="{{ post.url }}" class="block">
+    <h3 class="article-title neg-letter-spacing mb0">{{ post.title }}</h3>
+    <p class="article-date m0">{{ post.date | date: "%B %e, %Y" }} • {{ reading_time }} read</p>
+    <!--<p class="article-excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncate: 150 }}</p>-->
+  </a>
+  {% endif %}
+</li>

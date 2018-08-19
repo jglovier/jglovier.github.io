@@ -1,0 +1,49 @@
+---
+- name: Kathy Zheng
+  url: https://www.linkedin.com/in/kathy-zheng-b1a85828/
+  image: /img/quotes/pifafu.jpg
+  quote: |
+    I would emphasize his particular thoughtfulness in producing a collaborative environment for peers to offer influence and feedback in his work. He has produced so much context around user problems that I still work off of, and the output of his time at GitHub will remain a great resource for many projects.”
+  title: Colleague at GitHub
+
+- name: Elizabeth Barron
+  url: https://www.linkedin.com/in/elizabethn/
+  image: /img/quotes/elizabethbarron.jpg
+  quote: |
+    Watching Joel's design process unfold was a delight, and the care and mindfulness he infused in every step was inspirational. He is supremely talented, but even above that, he is a thoughtful, conscientious, open minded, positive individual that makes the work environment more inclusive and welcoming for everyone.”
+  title: Colleague at GitHub
+
+- name: Cameron McEfee
+  url: https://www.linkedin.com/in/cameronmcefee/
+  image: /img/quotes/cameronmcefee.jpg
+  quote: |
+    What stands out most about Joel is that he is an exceptional person to have on a team. People love working with him. Joel communicates well, articulates himself clearly, provides objective feedback, praises when people do well, and speaks up when things aren’t great.”
+  title: Former manager at GitHub
+
+- name: Jialee Chau
+  url: https://www.linkedin.com/in/jialeechau/
+  image: /img/quotes/jialeechau.jpg
+  quote: |
+    Joel is not just a gifted product designer, he also has the patience, dedication and work ethic that motivates the rest of the team. He is one of those colleagues that you wish you could have on every project.”
+  title: Former colleague at GitHub
+
+- name: Joel Worrall
+  url: https://www.linkedin.com/in/jworrall/
+  image: /img/quotes/joelworrall.png
+  quote: |
+    I consider Joel a rare and genuine soul, an incredibly capable teammate, and strong project leader. I'm thankful to continue to work with him in a volunteer capacity and would be glad to collaborate professionally once again.”
+  title: Former manager at CURE & HospitalRun co-maintainer
+
+- name: John Kleinschmidt
+  url: https://www.linkedin.com/in/johnkleinschmidt/
+  image: /img/quotes/johnkleinschmidt.jpg
+  quote: |
+    During his time at CURE International, Joel was a key player in transitioning CURE International's web presence from an awful legacy website to a world class platform that has received numerous awards and accolades. Given the opportunity, I would hire Joel in a heartbeat.”
+  title: Former colleague at CURE & HospitalRun co-maintainer
+
+- name: Doug Neiner
+  url: https://www.linkedin.com/in/dougneiner/
+  image: /img/quotes/dougneiner.jpg
+  quote: |
+    I'd been impressed with Joel's design talent well before he joined the team at appendTo. Once on board, his other technical skills were put to use on numerous projects. Joel's passion for his craft and enthusiasm he brought to his projects were immediately visible.”
+  title: Former colleague at AppendTo

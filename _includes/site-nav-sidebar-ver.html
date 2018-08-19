@@ -1,0 +1,52 @@
+<div class="sidebar fixed">
+
+  <div class="content-expanded fixed p3">
+    <h1 class="site-title mt2 mb0">
+      <span class="my-name block ln-height-1">Joel Glovier</span>
+      <span class="statement block text-color-secondary">designs, codes, makes.</span>
+    </h1>
+
+    <nav class="site-nav pt3 mt3">
+      <a class="block py1" href="#intro">
+        <span class="hover-bg py1 px2">Intro</span>
+      </a>
+      <a class="block py1" href="#work">
+        <span class="hover-bg py1 px2">Work</span>
+      </a>
+      <a class="block py1" href="#projects">
+        <span class="hover-bg py1 px2">Projects</span>
+      </a>
+      <a class="block py1" href="#writing">
+        <span class="hover-bg py1 px2">Writing</span>
+      </a>
+      <a class="block py1" href="/about/">
+        <span class="hover-bg py1 px2">About</span>
+      </a>
+      <a class="block py1" href="/stuff-i-sell/">
+        <span class="hover-bg py1 px2">Stuff I sell</span>
+      </a>
+    </nav>
+
+    <div class="social-media-links py2 absolute">
+      <a href="http://github.com/jglovier" class="icon-link inline-block text-decoration-none" target="_blank">{% include icons/icon-github.html %}</a>
+      <a href="http://twitter.com/jglovier" class="icon-link inline-block text-decoration-none" target="_blank">{% include icons/icon-twitter.html %}</a>
+      <a href="http://dribbble.com/jag" class="icon-link inline-block text-decoration-none" target="_blank">{% include icons/icon-dribbble.html %}</a>
+      <a href="https://soundcloud.com/joelglovier/" class="icon-link inline-block text-decoration-none" target="_blank">{% include icons/icon-soundcloud.html %}</a>
+    </div>
+
+    <button class="js-sidebar-toggle-btn sidebar-toggle-btn absolute">
+      {% include icons/icon-close.html %}
+      <span class="hidden-accessible">Close menu</span>
+    </button>
+
+  </div>
+
+  <div class="content-collapsed fixed p3 js-sidebar-toggle-btn">
+    <h1 class="site-title-collapsed mt2 mb0">
+      <span class="my-name">Joel Glovier</span>
+    </h1>
+    {% include icons/icon-kebab.html %}
+    <span class="hidden-accessible">Open menu</span>
+  </div>
+
+</div>

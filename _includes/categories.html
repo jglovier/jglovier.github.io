@@ -1,14 +1,12 @@
-<div class="categories">
+<div class="categories mt4 pt4">
 
-  <div class="section-heading group">
+  <h2 class="mb3 mt3 text-rounded regular">Articles {% if page.layout == 'home' %}by category{% else%}in other categories{% endif %}</h2>
 
-    <h2>Posts {% if page.layout == 'home' %}by category{% else%}in other categories{% endif %}</h2>
-
-  </div>
-
-  <ul class="category-list constrained">
+  <ul class="category-list constrained p0 list-reset">
     {% for category in site.categories %}
-    <li><a href="/writing/{{ category | first }}/">{{ category | first }}</a></li>
+    <li class="">
+      <a class="inline-block" href="/writing/{{ category | first }}/">{{ category | first }}</a>
+    </li>
     {% endfor %}
   </ul>
 

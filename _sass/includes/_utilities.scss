@@ -1,0 +1,389 @@
+// utilities
+
+// buttons
+
+.btn {
+  @include rounded;
+  background-color: $white;
+  border-radius: 5px;
+  padding: 8px 24px;
+  color: $black;
+  box-shadow: 0 0px 4px rgba($navy,.30);
+  transition: all .1s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 7px 34px 0 rgba($navy,0.20);
+  }
+}
+
+// layout
+
+.wrap:before,
+.wrap:after { content:""; display:table; }
+.wrap:after { clear: both; }
+.wrap {
+  max-width: 1084px;
+  margin: 0 auto;
+  zoom: 1; }
+
+.full-width-wrap:before,
+.full-width-wrap:after { content:""; display:table; }
+.full-width-wrap:after { clear: both; }
+.full-width-wrap {
+  max-width: 820px;
+  padding: 0 60px;
+  margin: 0 auto;
+  zoom: 1; }
+
+.fixed{ position: fixed; }
+
+.content-breakout {
+  margin: 100px -200px;
+}
+
+
+// flexbox
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+// for pages with a full width header image
+.absolute-site-header {
+  .site-nav.header-site-nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    .site-nav-menu {
+      right: 0;
+      position: relative;
+    }
+  }
+
+  .page-header {
+    padding-top: 0px;
+
+    .max-width-4 {
+      width: 100%;
+      max-width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    img {
+      margin-top: 0;
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+
+      @media (max-width: $mobile) {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  .page-header {
+    .intro-copy {
+      max-width: 64rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+// clearfix (now called group, via http://css-tricks.com/snippets/css/clear-fix/)
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both; }
+.group { zoom:1; /* For IE 6/7 (trigger hasLayout) */ }
+
+// hidden accessible text
+// https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+.hidden-accessible {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+// spacing - used in addition to basscss utils
+
+.mb-sm {
+  margin-bottom: .25rem;
+}
+
+// typography
+
+.text-sans {
+  @include sans;
+}
+
+.text-rounded {
+  @include rounded;
+}
+
+.text-white {
+  color: $white;
+}
+
+.text-black {
+  color: $black;
+}
+
+.text-gray {
+  color: $text_color;
+}
+
+.text-color {
+  color: $text_color;
+}
+
+.text-black {
+  color: $black;
+}
+
+.text-color-secondary {
+  color: $secondary_color;
+}
+
+.text-link-color {
+  color: $text_link_color;
+}
+
+.text-color-navy-light {
+  color: $main_color;
+}
+
+.ln-height-1 {
+  line-height: 1;
+}
+
+.neg-letter-spacing {
+  letter-spacing: $neg_letter_spacing;
+}
+
+.neg-text-indent {
+  text-indent: -11px;
+}
+
+.text-small {
+  font-size: 14px;
+}
+
+.text-default {
+  font-size: 16px;
+}
+
+.text-large {
+  font-size: 18px;
+}
+
+.text-sm-subtext {
+  font-size: 14px;
+  opacity: .8;
+}
+
+// images
+
+.img-full-width {
+  max-width: 100%;
+}
+
+.img-screenshot {
+  border-radius: 5px;
+  box-shadow: 0 4px 24px 0 rgba($navy,0.25);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+// css shapes
+
+.downward-arrow {
+  content: " ";
+  width: 16px;
+  height: 16px;
+  border-left: 4px solid $secondary_color;
+  border-bottom: 4px solid $secondary_color;
+  transform:
+    rotate(-45deg)
+    translateX(5px);
+}
+
+// animation
+
+.floating {
+  animation: floating 3s ease-in-out infinite;
+}
+
+.waving {
+  animation: waving 2s ease-in-out 3;
+  transform-origin: 60% 60%;
+
+  &:hover {
+    animation-iteration-count: infinite;
+  }
+}
+
+.flying-ball {
+  animation: flying-ball 1s ease-in-out;
+  transform-origin: 560px 320px;
+}
+
+// border
+
+.border-top { border-top: $color_border_gray; }
+
+.border-right { border-right: $color_border_gray; }
+
+.border-bottom { border-bottom: $color_border_gray; }
+
+.border-left { border-left: $color_border_gray; }
+
+// general styling
+
+.default-shadow {
+  box-shadow:
+    0 0px 6px rgba($navy,.20),
+    0 7px 34px 0 rgba($litenavy_bg,1);
+}
+
+.shadow-light {
+  box-shadow: 0 3px 18px rgba($navy,.06);
+}
+
+.work-title {
+  font-size: 26px;
+  letter-spacing: $neg_letter_spacing;
+}
+
+.bg-light-blue {
+  background-color: $light_blue_bg;
+}
+.bg-light-red {
+  background-color: $pink_light;
+}
+.bg-light-yellow {
+  background-color: $light_yellow;
+}
+
+// responsive utilities
+
+@media (max-width: $mobile) {
+  .m-mt0 { margin-top: 0; }
+  .m-pt0 { padding-top: 0; }
+  .m-mb0 { margin-bottom: 0; }
+  .m-pb0 { padding-bottom: 0; }
+  .m-my0 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .m-py0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .m-pt4 {
+    padding-top: 4rem;
+  }
+  .m-hide {
+    display: none;
+  }
+  .m-block {
+    display: block
+  }
+}
+
+// components -------------------
+
+// card
+
+.card {
+  @extend .default-shadow;
+  background-color: $white;
+  border-radius: 3px;
+  overflow: hidden;
+  transition: all .1s ease-in-out;
+
+  &:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow: 0 7px 34px 0 rgba($navy,0.20);
+  }
+
+  &.card-project {
+    max-width: 336px;
+  }
+
+  .icon {
+    color: $text_link_color;
+
+    &.icon-star {
+      position: relative;
+      top: -1px;
+    }
+  }
+}
+
+// quote
+
+.quote {
+  border-radius: 5px;
+
+  &.pl-quote {
+    padding-left: 60px;
+  }
+
+  // hanging left quote char
+  &::before {
+    content: "“";
+    display: block;
+    font-size: 200px;
+    position: absolute;
+    opacity: .15;
+    top: 0;
+    left: -22px;
+    line-height: 295px;
+  }
+
+  p {
+    color: $dark_navy;
+  }
+
+  .quote-avatar {
+    width: 64px;
+  }
+
+  @media (max-width: 660px) {
+    &.pl-quote {
+      padding-top: 2rem;
+      padding-right: 3rem;
+      padding-bottom: 2rem;
+      padding-left: 65px;
+    }
+    .text-large {
+      font-size: 16px;
+    }
+    &::before {
+      line-height: 230px;
+    }
+    .quote-avatar {
+      width: 48px;
+    }
+  }
+
+  &.bg-light-red {
+    &::before {
+      color: $secondary_color;
+    }
+  }
+
+  &.bg-light-yellow {
+    &::before {
+      color: $dark_yellow;
+    }
+  }
+}

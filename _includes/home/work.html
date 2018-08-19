@@ -1,0 +1,74 @@
+<section class="max-width-4 mx-auto clearfix pb4 mb4" id="work">
+
+  <div class="col col-12 pb4 m-pb0">
+    <h2 class="section-heading mt0 mb3 m-mb0">
+      Work
+    </h2>
+  </div>
+
+<!-- version with illustration instead
+  <img src="/img/section-heading-work.png" alt="Where I've worked" class="section-heading-image flying-ball" width="340">
+-->
+
+  {% for employer in site.data.employers %}
+    <section class="mt4 clearfix home-articles my4 py2 m-my0">
+
+        <header class="section-header col col-6 pt3 pb3">
+          <div class="section-intro">
+            <h2 class="work-title m0">
+              <a href="{{ employer.url }}" class="text-decoration-none" target="_blank">
+                {{ employer.name }}
+              </a>
+            </h2>
+            <h3 class="text-default text-color-navy-light m0">
+              {{ employer.role }}
+              <span class="worked-dates regular text-rounded m-block">
+                <span class="m-hide"> • </span>{{ employer.timeframe }}
+              </span>
+            </h3>
+            {% if employer.role_2 %}
+            <h3 class="text-default text-color-navy-light m0">
+              {{ employer.role_2 }}
+              <span class="worked-dates regular text-rounded m-block">
+                <span class="m-hide"> • </span>{{ employer.timeframe_2 }}
+              </span>
+            </h3>
+            {% endif %}
+
+            <div class="text-small mt2 pr4">
+              <p>{{ employer.summary }}</p>
+            </div>
+
+            {% if employer.dribbble %}
+            <p class="text-small">
+              <a href="{{ employer.dribbble }}" target="_blank">See on dribbble  &rarr;</a>
+            </p>
+            {% endif %}
+
+          </div>
+        </header>
+
+      {% if employer.has_case_studies == false %}
+
+        <section class="clearfix col col-6 pt3 mt1">
+          <img class="img-full-width mx-auto block" alt="{{ employer.image_alt }}" src="{{ employer.image }}" width="512" />
+        </section>
+
+      {% else %}
+
+      <section class="{% if employer.articles_layout %}{{ employer.articles_layout }}{% endif %} clearfix col col-6">
+        {% for article in employer.articles_list %}
+          {% if employer.articles_layout == "l_1_up" %}
+            {% include home/articles-1-up.html %}
+          {% else %}
+            {% include home/articles.html %}
+          {% endif %}
+        {% endfor %}
+      </section>
+
+      {% endif %}
+
+    </section>
+  {% endfor %}
+
+</section>

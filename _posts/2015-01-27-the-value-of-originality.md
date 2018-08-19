@@ -4,6 +4,7 @@ title: "The value of originality"
 subhead: "Spoiler: it really just depends on your goals"
 imgclass:
 categories: design product
+featured: design
 ---
 
 A few months ago I was at [Circles Conference](http://circlesconference.com/) where I had a chance to join a panel of designers to talk about challenges we commonly face. One of the questions that intruiged me most was about the value of originality.

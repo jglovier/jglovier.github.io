@@ -3,6 +3,7 @@ layout: blogpost
 title: Quick Tip - Hand Tool Not Working?
 imgclass: quicktips
 categories: quicktips
+featured: misc
 ---
 
 <p>So a couple times it's happened to me that when I was using Photoshop or Illustrator in Mac OSX, I couldn't access the hand tool with the spacebar.</p>

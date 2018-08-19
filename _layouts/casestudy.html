@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+
+{% include head.html %}
+
+<body class="casestudy {% if page.bodyclass %}{{ page.bodyclass }}{% endif %}">
+
+{% include header/casestudy.html %}
+
+<div class="max-width-4 mx-auto">
+
+  <article class="post-content constrained text-large">
+{{ content }}
+
+    <footer class="content-footer">
+
+      <div class="share">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="jglovier" data-size="large" data-related="jglovier">Tweet</a>
+      </div>
+
+      {% if page.hnlink %}
+      <p class="discussion-link"><a href="{{ page.hnlink }}">Discuss on Hacker News. &rarr;</a></p>
+      {% endif %}
+
+      {% if page.dnlink %}
+      <p class="discussion-link"><a href="{{ page.dnlink }}">Discuss on Designer News. &rarr;</a></p>
+      {% endif %}
+
+      <p class="text-small">
+        Last updated {{ site.time | date: "%m-%d-%Y" }} • <a href="/writing/">Go to article index</a>
+      </p>
+
+    </footer>
+
+  </article>
+
+</div>
+
+{% include footer.html %}
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+{% include closing-tags.html %}

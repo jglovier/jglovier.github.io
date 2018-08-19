@@ -1,13 +1,26 @@
-/* @group default Page styles -------------------- */
+// Page styles --------------------
 
 .page {
 
   .page-header { padding: 30px 0;
 
-    .intro-copy h1 { line-height: 1.3; }
-
+    .intro-copy h1 {
+      line-height: 1.3;
+      margin-bottom: 0;
+    }
   }
-
 }
 
-/* @end default Page styles */
+// 404 page
+
+.page404 {
+  .intro-copy {
+    h1 {
+      font-size: 36px;
+
+      @media (max-width: 700px) {
+        font-size: 28px;
+      }
+    }
+  }
+}

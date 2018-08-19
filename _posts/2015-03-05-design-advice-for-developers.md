@@ -4,6 +4,7 @@ title: "Design advice for developers"
 subhead: "Five simple tips to help you become more design aware"
 imgclass: design
 categories: design
+featured: design
 ---
 
 I often talk to developers who say they feel bad about their level of design skill. In fact, a Redditor recently [posted as much](http://www.reddit.com/r/webdev/comments/2l2e8a/overcoming_being_bad_at_web_design/), seeking advice about how he could improve his command of the discipline of design. I've encountered this question enough times to have some thoughts that may be helpful if improving design competency is your quest too.

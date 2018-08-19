@@ -1,35 +1,62 @@
-/* @group Variables -------------------- */
+// Variables --------------------
 
-// v1 colors
+$white:             #fff;
+$true_black:        #000;
+$blue:              #0099ff;
+$blue_d1:           #2a7ae2;
+$blue_l1:           #3fb2ff;
+$blue_l2:           #7fccff;
+$blue_l3:           #d3edff;
+$blue_l4:           #f3faff;
+$navy:              #004472;
+$gray_1:            #eee;
+$gray_2:            #c7c7c7;
+$gray_3:            #585858;
+$gray_4:            #333;
+$red:               #ff0000;
+$magenta:           #b400ff;
+$purple:            #7653c1;
+$purple_l:          #f3f2ff;
+$green:             #24ac00;
+$salmon:            #ff7e5e;
+$salmon:            #f05947;
+$light_blue:        #d7edfe;
+$dznrblue:          #0067ee;
+$deep_blue:         #28323f;
+$bg_navy:           #3f4956;
+$navy:              #506888;
+$dark_navy:         #102e56;
+$litenavy_bg:       #F9FBFF;
+$litegray:          #eaf2fe;
+$gray:              #DAE3EF;
+$main_color:        $navy;
+$secondary_color:   $salmon;
+$bg_color:          $bg_navy;
+$black:             #474747;
+$black:             $bg_navy;
+$black_light:       rgba($black, .35);
+$text_color:        #4e688b;
+$border_color:      $gray;
+$heading_color:     $black;
+$pink:              #f9cbc7;
+$pink_light:        #fff1f2;
+$main_color_lite:   rgba($main_color, .1);
+$secondary_color_lite: rgba($secondary_color,0.2);
+$light_blue_text:   #7fb3e1;
+$light_blue_icons:  #d1dceb;
+$text_link_color:   $blue;
+$light_blue_bg:     #edf5fb;
+$device_color:      #dae3ef;
+$yellow:            #f6cd06;
+$light_yellow:      #fff8d7;
+$dark_yellow:       #dfb801;
 
-$white:           #fff;
-$true_black:      #000;
-$blue:            #0099ff;
-$blue_d1:         #2a7ae2;    // dark blue
-$blue_l1:         #3fb2ff;    // light blue
-$blue_l2:         #7fccff;    // lighter blue
-$blue_l3:         #d3edff;    // lightest blue
-$blue_l4:         #f3faff;    // REALLY light blue like almost white
-$navy:            #004472;
-$gray_1:          #eee;       // super light gray
-$gray_2:          #c7c7c7;    // light gray
-$gray_3:          #585858;    // dark gray
-$gray_4:          #333;       // darkest gray
-$red:             #ff0000;    // red
-$magenta:         #b400ff;    // magenta
-$purple:          #7653c1;    // purple
-$purple_l:        #f3f2ff;    // light purple
-$green:           #24ac00;    // green
 
-// v2 colors
+// Utility variables
+$color_border_lite: 1px solid rgba($secondary_color, .2);
+$color_border_gray: 1px solid $border_color;
+$neg_letter_spacing: -.04em;
 
-$black:           #333;
-$tan:             #f4f0ed;
-$tan_2:           #d9d4d0;
-$tan_3:           #a29f9c;
-$tan_4:           #85807c;
-$text_color:      $black;
-$border_color:    $tan_2;
-$heading_color:   $black;
+// Media query vars
 
-/* @end Variables */
+$mobile:            860px;

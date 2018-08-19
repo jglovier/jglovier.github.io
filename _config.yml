@@ -1,12 +1,27 @@
-lsi:            false
-exclude:        ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md", "scss"]
-permalink:      /writing/:title
-markdown_ext:   markdown,mkd,mkdn,md
 name:           Joel Glovier's Blog
+
 description:    "The personal site of Joel Andrew Glovier, designer and front-end technologist. Where I write about code, design, faith, food, and life. Views expressed are my own. Use code at your own risk."
+
 url:            http://joelglovier.com
+
 gems:
   - jekyll-redirect-from
+
 sass:
   sass_dir: _sass
   style: compressed
+
+lsi:            false
+
+exclude:        ["script", "vendor", "Gemfile", "Gemfile.lock", "config.ru", "Procfile", "Rakefile", "readme.md", "scss"]
+
+permalink:      /writing/:title
+
+markdown_ext:   markdown,mkd,mkdn,md
+
+collections:
+  case-studies:
+    output: true
+    permalink: /:collection/:path/
+    defaults:
+      layouts: casestudy

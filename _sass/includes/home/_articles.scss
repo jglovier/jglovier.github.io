@@ -1,0 +1,21 @@
+// articles
+
+.article {
+  @extend .card;
+  border-left: 4px solid $secondary_color;
+
+  .story-title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .story-summary {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .action-indicator {
+    font-size: 18px;
+    bottom: 1rem;
+  }
+}

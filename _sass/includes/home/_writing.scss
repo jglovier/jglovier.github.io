@@ -1,0 +1,47 @@
+// writing (article index)
+.writing {
+  padding-bottom: 80px;
+}
+
+.article-index {
+  .article-item {
+    border-left: 2px solid $border_color;
+    transition:
+      padding .2s ease,
+      margin .23s ease;
+
+    &:hover,
+    &:active {
+      padding-left: 2rem;
+      margin-left: 1rem;
+    }
+  }
+
+  .article-title {
+    font-size: 22px;
+
+    .external-link-icon-svg {
+      margin-left: 5px;
+
+      path { fill: rgba($text_color, 1); }
+    }
+  }
+
+  .article-date {
+    font-size: 14px;
+    @media (max-width: 450px) { font-size: 14px; }
+  }
+
+  .external_site { text-transform: capitalize; }
+
+  .article-excerpt {
+    color: $text_color;
+    margin: 7px 0 0;
+  }
+
+  .article-source {
+    display: block;
+    font-style: italic;
+    color: $gray_2;
+  }
+}

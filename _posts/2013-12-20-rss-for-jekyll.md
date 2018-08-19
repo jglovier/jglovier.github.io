@@ -3,6 +3,7 @@ layout: blogpost
 title: RSS for Jekyll blogs
 subhead: "Hey, it's easier than ya think, Jack!"
 categories: jekyll code
+featured: code
 ---
 
 Recently I [rebuilt my blog on Jekyll](https://github.com/jglovier/jglovier.github.io), a sweet static site generator. However when a friend noticed I had no way for him to subscribe to my content, he [suggested adding an RSS feed](https://twitter.com/pengwynn/status/408340355315027970).

@@ -4,6 +4,7 @@ title: "Lessons learned from checking baggage"
 subhead: "Or, multiple points of success"
 categories: design user-experience product
 hnlink: "https://news.ycombinator.com/item?id=7734749"
+featured: design
 ---
 
 It's no secret that airlines have been trying to push their profit margin and increase ticket sales at the same time by a relatively common practice where travelers must pay an extra fee to check bags. Many travelers can get away with bringing only a carry on bag, and those who don't are often traveling on their company's dime so don't have to think about the extra cost anyway.
