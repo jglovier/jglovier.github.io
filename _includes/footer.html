@@ -1,6 +1,10 @@
 <footer class="page-footer overflow-hidden py4 mx2">
   <section class="max-width-4 mx-auto clearfix center">
     <nav class="site-nav text-rounded mb2 text-small">
+      {% if page.layout == "home" %}
+      {% else %}
+      <a class="inline-block mr2" href="/">Home</a>
+      {% endif %}
       <a class="inline-block mr2" href="/#work">Work</a>
       <a class="inline-block mr2" href="/#projects">Projects</a>
       <a class="inline-block mr2" href="/principles/">Principles</a>
@@ -22,7 +26,7 @@
           class="regular">credits</a>.
       </p>
       <p class="my0">
-        Have feedback on this site? <a href="https://github.com/jglovier/jglovier.github.io/issues/new">Open an issue</a> (🙇). Or, <a href="https://github.com/jglovier/ama">AMA</a>!‍
+        Have feedback on this site? <a href="https://github.com/jglovier/jglovier.github.io/issues/new" target="_blank">Open an issue</a> (🙇). Or, <a href="https://github.com/jglovier/ama" target="_blank">AMA</a>!‍
       </p>
     </div>
 
