@@ -7,12 +7,9 @@
     I design and build experiences for the millions of people who use GitHub every day, including recent hits such as Code Owners and Review Requests, and a bunch of work I can't talk about yet.
   dribbble: https://dribbble.com/jag/projects/540365-GitHub-work
   learned: #
-  articles_layout: l_1_up
-  articles_list:
-    - title: Improving code review on GitHub
-      summary: Iterating on a software development workflow for 20M users by removing friction and barriers.
-      url: /case-studies/github/improving-code-review-on-github/
-      image: /img/case-studies/case-study-github-improving-code-review-banner-thumbnail.png
+  has_case_studies: false
+  image: /img/case-studies/case-study-netlify.png
+  image_alt: My clients have included organizations such as StackOverflow, AndCulture, CURE International, Spreadshirt, Papertrail, and many more.
 
 - name: GitHub
   url: https://github.com/jglovier
@@ -22,12 +19,14 @@
     I designed and built experiences for the millions of people who use GitHub every day, including recent hits such as Code Owners, Review Requests, and the Checks API.
   dribbble: https://dribbble.com/jag/projects/540365-GitHub-work
   learned: #
-  articles_layout: l_1_up
-  articles_list:
-    - title: Improving code review on GitHub
-      summary: Iterating on a software development workflow for 20M users by removing friction and barriers.
-      url: /case-studies/github/improving-code-review-on-github/
-      image: /img/case-studies/case-study-github-improving-code-review-banner-thumbnail.png
+  has_case_studies: false
+  image: /img/case-studies/case-study-github-improving-code-review-banner-thumbnail.png
+  image_alt: workflow illustration of code review collaboration on GitHub
+#  articles_list:
+#    - title: Improving code review on GitHub
+#      summary: Iterating on a software development workflow for 20M users by removing friction and barriers.
+#      url: /case-studies/github/improving-code-review-on-github/
+#      image: /img/case-studies/case-study-github-improving-code-review-banner-thumbnail.png
 
 - name: AppendTo
   url: https://appendto.com/
@@ -54,16 +53,14 @@
     I owned design for an 1500 person international NGO that operated a network of charitable hospitals around the world.
   dribbble: https://dribbble.com/jag/projects/560305-CURE-International-work
   learned: #
-  articles_layout: l_1_up
-  articles_list:
-#    - title: Redesigning a brand for an organization in transition
-#      summary: When a brand re-alignment is a more effective approach than a brand redesign.
-#      url: /case-studies/cure/redesigning-a-brand-for-an-organization-in-transition/
-#      image: /img/case-studies/case-study-time-responsive-redesign-thumbnail.png
-    - title: Designing a software platform for social impact
-      summary: Using social media integrations to personalize an online giving experience.
-      url: #
-      image: /img/case-studies/case-study-curekids-thumbnail.png
+  has_case_studies: false
+  image: /img/case-studies/case-study-curekids-banner.png
+  image_alt: workflow illustration of code review collaboration on GitHub
+#  articles_list:
+#    - title: Designing a software platform for social impact
+#      summary: Using social media integrations to personalize an online giving experience.
+#      url: #
+#      image: /img/case-studies/case-study-curekids-thumbnail.png
 
 - name: JAG Design Ideas
   url: #
