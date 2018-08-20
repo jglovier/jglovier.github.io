@@ -13,7 +13,7 @@
   {% for employer in site.data.employers %}
     <section class="mt4 clearfix home-articles my4 py2 m-my0">
 
-        <header class="section-header col col-6 pt3 pb3">
+        <header class="section-header col col-6 pt3 pb3 m-pb0">
           <div class="section-intro">
             <h2 class="work-title m0">
               <a href="{{ employer.url }}" class="text-decoration-none" target="_blank">
@@ -50,7 +50,7 @@
 
       {% if employer.has_case_studies == false %}
 
-        <section class="clearfix col col-6 pt3 mt1">
+        <section class="clearfix col col-6 pt3 mt1 m-pt0 m-mt0">
           <img class="img-full-width mx-auto block" alt="{{ employer.image_alt }}" src="{{ employer.image }}" width="512" />
         </section>
 
