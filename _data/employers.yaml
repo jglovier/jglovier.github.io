@@ -4,12 +4,12 @@
   role: Head of Design
   timeframe: 2018 – Present
   summary: |
-    I design and build experiences for the millions of people who use GitHub every day, including recent hits such as Code Owners and Review Requests, and a bunch of work I can't talk about yet.
-  dribbble: https://dribbble.com/jag/projects/540365-GitHub-work
+    I lead design at Netlify where we are improving the software development workflow by providing the best way to host your websites and hook it up to powerful backend functionality.
+  dribbble: http://dribbble.com/netlify
   learned: #
   has_case_studies: false
   image: /img/case-studies/case-study-netlify.png
-  image_alt: My clients have included organizations such as StackOverflow, AndCulture, CURE International, Spreadshirt, Papertrail, and many more.
+  image_alt: Product illustration for Netlify's core product concept
 
 - name: GitHub
   url: https://github.com/jglovier
