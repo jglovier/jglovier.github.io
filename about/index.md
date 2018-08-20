@@ -3,13 +3,17 @@ layout: page
 title: About
 ---
 
-#### 👋 Hi! I’m Joel Glovier. I lead design at [Netlify](https://www.netlify.com/)
+### 👋 Hi! I’m Joel Glovier. I lead design at [Netlify](https://www.netlify.com/)
 
-Before joining Netlify in June of 2018, I was a product design lead at GitHub where I worked with several teams over the course of my five years there including: platform & ecosystem, core workflow, design systems, the creative department, new user experience, and user growth.
+Before joining Netlify in June of 2018, I was a product design lead at [GitHub](https://blog.github.com/2016-12-07-introducing-review-requests/) where I worked with several teams over the course of my five years there including: platform & ecosystem, core workflow, design systems, the creative department, new user experience, and user growth.
 
-Prior to GitHub I was a visual design engineer and tech lead at [appendTo](http://appendto.com/), a front-end shop, where I worked on awesome client projects like the [TIME Magazine responsive redesign](http://appendto.com/case-study/responsive-design-time-com). Prior to that I was principal designer at an amazing nonprofit called [CURE International](http://cure.org/), and I still stay involved with CURE in my free time as a core contributor to the open source project [HospitalRun](http://hospitalrun.io/). And prior still I did freelance graphic and web design full-time for several years.
+Prior to GitHub I was a visual design engineer and tech lead at [appendTo](http://appendto.com/), a front-end shop, where I worked on awesome client projects like the [TIME Magazine responsive redesign](/case-studies/appendto/implementing-the-responsive-redesign-of-time-com/).
 
-I enjoy [writing](/writing/) about things I learn, [speaking](https://lanyrd.com/profile/jglovier/) occasionally, and collecting experiences in general. I also enjoy using [side projects](/#projects) to learn new things and to have a creative outlet.
+Prior to that I was principal designer at an amazing nonprofit called [CURE International](http://cure.org/), and I still stay involved with CURE in my free time as a core contributor to the open source project [HospitalRun](http://hospitalrun.io/).
+
+And way back in the day I did freelance graphic and web design full-time for several years.
+
+I enjoy [writing](/writing/) about things I learn, [speaking](http://github.com/jglovier/speaking) occasionally, and collecting experiences in general. I also enjoy using [side projects](/#projects) to learn new things and to have a creative outlet.
 
 I have a wonderful family and recently moved to the Pacific Northwest (I work remotely for Netlify, as does approximately 50% of the company). I’m originally from the [Pittsburgh](http://en.wikipedia.org/wiki/Pittsburgh) area (shoutout [Greensburg](http://en.wikipedia.org/wiki/Greensburg,_Pennsylvania)), and lived in [Central Pennsylvania](http://en.wikipedia.org/wiki/Mechanicsburg,_Pennsylvania) for 10 years.
 
