@@ -22,11 +22,11 @@
   has_case_studies: false
   image: /img/case-studies/case-study-github-improving-code-review-banner-thumbnail.png
   image_alt: workflow illustration of code review collaboration on GitHub
-#  articles_list:
-#    - title: Improving code review on GitHub
-#      summary: Iterating on a software development workflow for 20M users by removing friction and barriers.
-#      url: /case-studies/github/improving-code-review-on-github/
-#      image: /img/case-studies/case-study-github-improving-code-review-banner-thumbnail.png
+  articles_list:
+    - title: Improving code review on GitHub
+      summary: Iterating on a software development workflow for 20M users by removing friction and barriers.
+      url: https://medium.com/@jglovier/improving-code-review-on-github-ca550ceac5b8
+      image: /img/case-studies/case-study-github-improving-code-review-banner-thumbnail.png
 
 - name: AppendTo
   url: https://appendto.com/
