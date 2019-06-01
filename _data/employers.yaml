@@ -6,7 +6,6 @@
   summary: |
     I lead design at Netlify where we are improving the software development workflow by providing the best way to host your websites and hook it up to powerful backend functionality.
   hiring: https://www.netlify.com/careers/
-  learned: #
   has_case_studies: false
   image: /img/case-studies/case-study-netlify.png
   image_alt: Product illustration for Netlify's core product concept
@@ -18,7 +17,6 @@
   summary: |
     I designed and built experiences for the millions of people who use GitHub every day, including recent hits such as Code Owners, Review Requests, and the Checks API.
   dribbble: https://dribbble.com/jag/projects/540365-GitHub-work
-  learned: #
   image: /img/case-studies/case-study-github-improving-code-review-banner-thumbnail.png
   image_alt: workflow illustration of code review collaboration on GitHub
   articles_layout: l_1_up
@@ -35,7 +33,6 @@
   summary: |
     At AppendTo, a front-end shop, I did HTML, CSS, and JavaScript implementations of responsive websites such as <a href="http://time.com/">TIME.com</a>, <a href="https://www.zumba.com/en-US">Zumba.com</a>, and <a href="http://www.bloomberg.com/">Bloomberg.com</a>.
   dribbble: https://dribbble.com/jag/projects/555349-AppendTo-work
-  learned: #
   articles_layout: l_1_up
   articles_list:
     - title: Implementing the responsive redesign of Time.com
@@ -52,7 +49,6 @@
   summary: |
     I owned design for an 1500 person international NGO that operated a network of charitable hospitals around the world.
   dribbble: https://dribbble.com/jag/projects/560305-CURE-International-work
-  learned: #
   has_case_studies: false
   image: /img/case-studies/case-study-curekids-banner.png
   image_alt: workflow illustration of code review collaboration on GitHub
@@ -63,7 +59,6 @@
 #      image: /img/case-studies/case-study-curekids-thumbnail.png
 
 - name: JAG Design Ideas
-  url: #
   role: Founder
   timeframe: 2004 – 2016
   summary: |
