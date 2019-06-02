@@ -3,9 +3,13 @@ layout: page
 title: About
 ---
 
-### 👋 Hi! I’m Joel Glovier. I lead design at [Netlify](https://www.netlify.com/)
+### 👋 Hi! I’m Joel Glovier. I'm a human being human.
 
-Before joining Netlify in June of 2018, I was a product design lead at [GitHub](https://blog.github.com/2016-12-07-introducing-review-requests/) where I worked with several teams over the course of my five years there including: platform & ecosystem, core workflow, design systems, the creative department, new user experience, and user growth.
+...which is just a fun way of saying that I'm on a tech industry sabbatical right now, focused on getting healthy physically and mentally (I have had a life long journey with depression and anxiety), restoring balance to my personal and family life, re-connecting with my soul (my passions, creativity, art, faith, etc), and re-discovering my calling and inspiration for the chapter of life ahead.
+
+In 2018 I served as Head of Design at [Netlify](https://www.netlify.com/) where I worked with a small but mighty team of passionate people making websites faster and deployment simpler.
+
+Before joining Netlify, I was a product design lead at [GitHub](https://blog.github.com/2016-12-07-introducing-review-requests/) where I worked with several teams over the course of my five years there including: platform & ecosystem, core workflow, design systems, the creative department, new user experience, and user growth.
 
 Prior to GitHub I was a visual design engineer and tech lead at [appendTo](http://appendto.com/), a front-end shop, where I worked on awesome client projects like the [TIME Magazine responsive redesign](/case-studies/appendto/implementing-the-responsive-redesign-of-time-com/).
 
