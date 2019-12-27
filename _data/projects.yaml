@@ -1,7 +1,7 @@
 ---
 - name: HospitalRun
   url: https://hospitalrun.io
-  role: Core maintainer
+  role: Co-founder
   timeframe: 2014 – 2019
   summary: |
     An open source, offline first EMR designed for hospitals in resource constrained locations using Ember.js, Couch, Pouch, and Node.
