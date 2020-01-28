@@ -8,8 +8,8 @@
 
 {% for quote in site.data.quotes %}
 <div class="col col-6 quote-wrap {% cycle 'quote-right', 'quote-left' %}">
-  <div class="p3 mx-auto clearfix quote pl-quote relative shadow-light {% cycle 'bg-light-blue', 'bg-light-yellow', 'bg-light-red' %}">
-    <p class="mb2 mt1">{{ quote.quote }}</p>
+  <div class="p3 mx-auto clearfix quote pl-quote relative default-shadow {% cycle 'quo-light-blue', 'quo-light-yellow', 'quo-light-red' %}">
+      <p class="mb2 mt1 quote-content">{{ quote.quote }}</p>
     <div class="clearfix">
       <a href="{{ quote.url }}"><img src="{{ quote.image }}" alt="Profile photo of {{ quote.name }}" class="img-circle quote-avatar left mr2" /></a>
       <h3 class="mb0 mt1 m-mt0"><a href="{{ quote.url }}" class="text-black">{{ quote.name }}</a></h3>
