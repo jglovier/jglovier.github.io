@@ -4,7 +4,7 @@ description:    "The personal site of Joel Andrew Glovier, designer and front-en
 
 url:            http://joelglovier.com
 
-gems:
+plugins:
   - jekyll-redirect-from
 
 sass:
