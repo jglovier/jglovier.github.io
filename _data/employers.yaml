@@ -1,4 +1,14 @@
 ---
+- name: Apollo GraphQL
+  url: https://www.apollographql.com/
+  role: Sr. Staff Product Designer
+  timeframe: 2020
+  summary: |
+    At Apollo I'm working on building the next generation of GraphQL tooling for developers working with APIs.
+  has_case_studies: false
+  image: /img/case-studies/case-study-netlify.png
+  image_alt: Product illustration for Netlify's core product concept
+
 - name: Netlify
   url: https://netlify.com
   role: Head of Design
