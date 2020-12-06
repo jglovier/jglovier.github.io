@@ -3,13 +3,9 @@ joelglovier.com [![Build Status](https://travis-ci.org/jglovier/jglovier.github.
 
 ## About the Site
 
-This site is my personal home on the World Wide Intarnetz™. I write about stuff, I link to other stuff, and I showcase stuff I've done/built/designed. It's purely personal in nature and does not necessarily reflect the views of my wonderful employer, my Murica, my tattoo artist, my barber or my neighbor's dog. But it's where I represent, yo!
+This site is my personal home on the web. I write about stuff, I link to other stuff, and I showcase stuff I've done/built/designed. It's purely personal in nature and does not necessarily reflect the views of my employer, my family, my community, or anyone else besides me. It's just where I share things I've built, written, or done.
 
 It lives here: [joelglovier.com](http://joelglovier.com)
-
-For more about the latest iteration, read this blog post: [joelglovier.com/writing/redesigning-and-rebuilding/](http://joelglovier.com/writing/redesigning-and-rebuilding/)
-
-Many of the post images are retouched versions of photos I found at [Unsplash](http://unsplash.com/). If you are looking for great photos to use on your own blog, they have a great collection all free for public use.
 
 ## Running locally
 
