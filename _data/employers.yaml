@@ -6,7 +6,7 @@
   summary: |
     At Apollo I'm working on building the next generation of GraphQL tooling for developers working with APIs. We are creating tools to help organizations implement and collaborate on their data graph. We are supporting workflows for graph managers responsible for producing the graph in their organization, and graph consumers responsible for implementing the graph in their applications.
   has_case_studies: false
-  image: /img/case-studies/case-study-netlify.png
+  image: /img/case-studies/case-study-apollo.png
   image_alt: Product illustration for Netlify's core product concept
 
 - name: Netlify
