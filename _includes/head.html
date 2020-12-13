@@ -33,17 +33,11 @@
 
   <!-- for social media -->
 
-  {% if page.categories %}
-  <meta property="og:image" content="http://joelglovier.com/img/ogimgs/{{ page.categories | first }}.jpg" />
-  <meta property="og:author" content="https://www.facebook.com/joelglovier" />
-  <meta property="og:type" content="article" />
-  <meta name="twitter:image:src" content="http://joelglovier.com/img/ogimgs/{{ page.categories | first }}.jpg">
-  <meta name="twitter:card" content="summary_large_image">
-  {% else %}
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="http://joelglovier.com/img/ogimgs/default.jpg" />
-  <meta name="twitter:card" content="summary">
-  {% endif %}
+  <meta property="og:image" content="http://joelglovier.com/img/ogimgs/joel-juggling.png" />
+  <meta property="og:author" content="https://www.facebook.com/joelglovier" />
+  <meta name="twitter:image:src" content="http://joelglovier.com/img/ogimgs/joel-juggling.png">
+  <meta name="twitter:card" content="summary_large_image">
 
   {% if page.title %}
   <meta property="og:title" content="{{ page.title }}" />
@@ -58,6 +52,6 @@
   <meta name="twitter:domain" content="joelglovier.com">
   <meta name="twitter:site" content="@jglovier">
   <meta name="twitter:creator" content="@jglovier">
-  <meta property="og:site_name" content="Joel Glovier's blog" />
+  <meta property="og:site_name" content="JoelGlovier.com" />
   <meta property="og:url" content="http://joelglovier.com{{ page.url | replace:'index.html','' }}/" />
 </head>
