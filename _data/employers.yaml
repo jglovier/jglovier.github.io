@@ -86,3 +86,13 @@
   has_case_studies: false
   image: /img/freelance-client-logos.png
   image_alt: My clients have included organizations such as StackOverflow, AndCulture, CURE International, Spreadshirt, Papertrail, and many more.
+
+- name: HACC
+  url: https://www.hacc.edu/
+  role: Adjunct Professor
+  timeframe: 2008-2012
+  summary: |
+    Taught non-credit technology courses at Harrisburg Area Community College to adult continuing education students, including Intro to Web Development, Photoshop, Illustrator, Computer Basics, and others.
+  has_case_studies: false
+  image: /img/teaching-img-draft.png
+  image_alt: Illustration of a book and an apple.
