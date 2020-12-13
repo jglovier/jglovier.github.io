@@ -1,6 +1,6 @@
 <head>
   <meta charset="UTF-8">
-  <title>{% if page.title %}{{ page.title }}{% else %}joelglovier.com{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }}{% else %}Joel Glovier's little space on the web.{% endif %}</title>
 
   <!-- styling -->
   
@@ -42,6 +42,9 @@
   {% if page.title %}
   <meta property="og:title" content="{{ page.title }}" />
   <meta name="twitter:title" content="{{ page.title }}">
+  {% else %}
+  <meta property="og:title" content="Joel Glovier's little space on the web." />
+  <meta name="twitter:title" content="Joel Glovier's little space on the web.">
   {% endif %}
 
   {% if page.excerpt %}
