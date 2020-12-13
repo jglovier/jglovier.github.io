@@ -43,13 +43,16 @@
   <meta property="og:title" content="{{ page.title }}" />
   <meta name="twitter:title" content="{{ page.title }}">
   {% else %}
-  <meta property="og:title" content="Joel Glovier's little space on the web." />
-  <meta name="twitter:title" content="Joel Glovier's little space on the web.">
+  <meta property="og:title" content="JoelGlovier.com" />
+  <meta name="twitter:title" content="JoelGlovier.com">
   {% endif %}
 
   {% if page.excerpt %}
   <meta property="og:description" content="{{ page.excerpt | strip_html }}" />
   <meta name="twitter:description" content="{{ page.excerpt | strip_html }}">
+  {% else %}
+  <meta property="og:description" content="Joel Glovier's little space on the web." />
+  <meta name="twitter:description" content="Joel Glovier's little space on the web.">
   {% endif %}
 
   <meta name="twitter:domain" content="joelglovier.com">
