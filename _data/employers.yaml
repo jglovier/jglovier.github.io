@@ -7,7 +7,16 @@
     Apollo makes tools for GraphQL develoeprs. I'm working on Apollo Studio, a platform that helps graph producers and graph consumers work together with a shared data graph layer.
   has_case_studies: false
   image: /img/case-studies/case-study-apollo.png
-  image_alt: Product illustration for Netlify's core product concept
+  image_alt: Illustration of a GraphQL symbol being assembled, packaged into a box, and then shipped out on a conveyor belt
+
+- name: Sabbatical
+  role: Human
+  timeframe: 2019
+  summary: |
+    In 2019 I took time away from my career work to focus on restoring balancing to my life, refueling my soul, addressing a mental health crisis, and re-synchronizing with the rhythm of my family.
+  has_case_studies: false
+  image: /img/sabbatical-img.png
+  image_alt: Illustration of a sign hanging on a wall that says AWAY
 
 - name: Netlify
   url: https://netlify.com
