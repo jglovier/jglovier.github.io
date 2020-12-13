@@ -6,7 +6,7 @@
   summary: |
     Apollo makes tools for GraphQL develoeprs. I'm working on Apollo Studio, a platform that helps graph producers and graph consumers work together with a shared data graph layer.
   has_case_studies: false
-  image: /img/case-studies/case-study-apollo.png
+  image: /img/graphql-tooling-illustration.png
   image_alt: Illustration of a GraphQL symbol being assembled, packaged into a box, and then shipped out on a conveyor belt
 
 - name: Sabbatical
