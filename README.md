@@ -1,6 +1,8 @@
 joelglovier.com [![Build Status](https://travis-ci.org/jglovier/jglovier.github.io.png)](https://travis-ci.org/jglovier/jglovier.github.io)
 ==================
 
+![image](https://user-images.githubusercontent.com/1319791/102702995-1729ce80-421e-11eb-8a69-ac8288bf4ab7.png)
+
 ## About the Site
 
 This site is my personal home on the web. I write about stuff, I link to other stuff, and I showcase stuff I've done/built/designed. It's purely personal in nature and does not necessarily reflect the views of my employer, my family, my community, or anyone else besides me. It's just where I share things I've built, written, or done.
