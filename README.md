@@ -11,7 +11,8 @@ It lives here: [joelglovier.com](http://joelglovier.com)
 
 ### Older versions, and a bit of history
 
-I've been working on this site in various forms since around 2005. Initially it was just a customized Blogger page for a few years. Then, I designed and built the first version around 2008 after teaching myself to write HTML and CSS (and eventually some shoddy PHP). I launched the first version sometime around 2009. Ever since, I've been redesigning every few years. I've started keeping track of the older versions, which you can see here:
+I've been working on this site in various forms since around 2005. Initially it was just a customized Blogger page for a few years. Then, I designed and built the first version around 2008 after teaching myself to write HTML and CSS (and eventually some shoddy PHP). I launched the first version sometime around 2009. Ever since, I've been redesigning every few years. I've republished the older verions as repo dumps and GH pages just for fun and posterity.
+
 - [2009 website](https://2009.joelglovier.com/) ([repo](https://github.com/jglovier/website-2009))
 - [2011 website](https://2011.joelglovier.com/) ([repo](https://github.com/jglovier/website-2011/))
 - [2013 website](https://2013.joelglovier.com/) ([repo](https://github.com/jglovier/website-2013/))
