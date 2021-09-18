@@ -5,6 +5,7 @@ script: bundle exec jekyll build
 before_install:
   - gem install bundler
 install: bundle install
-sudo: false
 notifications:
   email: false
+dist: xenial
+os: linux
