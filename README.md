@@ -26,6 +26,12 @@ I've been working on this site in various forms since around 2005. Initially it 
 3. Run the Jekyll Server: `bundle exec jekyll serve`
 4. View in browser at `http://localhost:4000`
 
+## Regular maintenance
+
+This project currently is a static hosted site on Netlify, built with Jekyll (static site gen), and from time to time needs basic maintenance. Some things to keep an eye on:
+- Is the gemfile up to date? If GitHub is showing a Dependabot alert for security vulnerabilities, it probably means you need to update the gemfile bundle (Bundler is used to maintain the gems). You can easily bump the gemfile.lock by running `bundle update` from the command line, pushing to a new branch, and merge it into `main`.
+- Are builds still working? From time to time things change and the builds get borked (deprecated config values, Travis-CI makes some other change, etc). Just keep an eye on it.
+
 ## Licensing
 
 Feel free to inspect the code structure, and reuse what is appropriate. But please respect that the files in the following directories are Copyright Joel Andrew Glovier. You may not reuse anything therein without my written permission:
