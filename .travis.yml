@@ -7,3 +7,5 @@ before_install:
 install: bundle install
 notifications:
   email: false
+dist: xenial
+os: linux
