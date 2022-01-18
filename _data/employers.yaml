@@ -2,9 +2,9 @@
 - name: Apollo GraphQL
   url: https://www.apollographql.com/
   role: Sr. Staff Product Designer
-  timeframe: 2020
+  timeframe: 2020 – 2021
   summary: |
-    Apollo makes tools for GraphQL developers. I'm working on Apollo Studio, a platform that helps graph producers and graph consumers work together with a shared data graph layer.
+    Apollo makes tools for GraphQL developers. I led product design for developer tooling on Apollo Studio, a collaboration platform for graph maintainers and consumers.
   has_case_studies: false
   image: /img/graphql-tooling-illustration.png
   image_alt: Illustration of a GraphQL symbol being assembled, packaged into a box, and then shipped out on a conveyor belt
