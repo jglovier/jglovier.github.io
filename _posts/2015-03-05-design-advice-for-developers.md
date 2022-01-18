@@ -7,9 +7,13 @@ categories: design
 featured: design
 ---
 
-I often talk to developers who say they feel bad about their level of design skill. In fact, a Redditor recently [posted as much](http://www.reddit.com/r/webdev/comments/2l2e8a/overcoming_being_bad_at_web_design/), seeking advice about how he could improve his command of the discipline of design. I've encountered this question enough times to have some thoughts that may be helpful if improving design competency is your quest too.
+I often talk to developers who really want to improve the design proficiency – whether because they'd like to build their own thing and want it to be more usable and aesthetically enjoyable, or because they want to spike out a prototype for a new feature proactively without being blocked by design, or because they'd simply like to be more active contributors to design discussions (all of which warms my heart as a designer embedded in an engineering team).
 
-### Developer != Designer
+I've encountered this question enough times to have some thoughts that may be helpful if improving design competency is your quest too. Also, I want to be clear that this is advice, not empirical data, facts, or in any way official guidance. Advice is a form of opinions, and that's all this is. In fact, it has changed over the years as I've learned and grown more, and will continue to. 
+
+I'd love to incorporate your feedback and learnings as well, so if you have feedback on how this article please [open an issue](https://github.com/jglovier/jglovier.github.io/issues/new) and share your perspective. :pray:
+
+### Anyone can ~~cook~~ design
 
 As a native designer and immigrant developer, I appreciate people in the reverse position who seek to enhance their cross-disciplinary skill levels. While it can feel safe to operate primarily in the area of your strength, pushing yourself to round out your abilities - even if just for competency, and not for mastery - can bring lots of benefit to your primary strengths, too.
 
