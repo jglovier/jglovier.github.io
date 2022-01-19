@@ -2,7 +2,7 @@ name:           Joel Glovier's Blog
 
 description:    "The personal site of Joel Andrew Glovier, designer and front-end technologist. Where I write about code, design, faith, food, and life. Views expressed are my own. Use code at your own risk."
 
-url:            http://joelglovier.com
+url:            https://joelglovier.com
 
 plugins:
   - jekyll-redirect-from
