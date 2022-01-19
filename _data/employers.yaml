@@ -2,9 +2,9 @@
 - name: Apollo GraphQL
   url: https://www.apollographql.com/
   role: Sr. Staff Product Designer
-  timeframe: 2020
+  timeframe: 2020 – 2021
   summary: |
-    Apollo makes tools for GraphQL developers. I'm working on Apollo Studio, a platform that helps graph producers and graph consumers work together with a shared data graph layer.
+    Apollo makes tools for GraphQL developers. I led product design for developer tooling on Apollo Studio, a collaboration platform for graph maintainers and consumers.
   has_case_studies: false
   image: /img/graphql-tooling-illustration.png
   image_alt: Illustration of a GraphQL symbol being assembled, packaged into a box, and then shipped out on a conveyor belt
@@ -13,7 +13,7 @@
   role: Human
   timeframe: 2019
   summary: |
-    In 2019 I took time away from my career work to focus on restoring balancing to my life, refueling my soul, addressing a mental health crisis, and re-synchronizing with the rhythm of my family.
+    In 2019 I took time away from my career work to focus on restoring balancing to my life, refueling my soul, face my mental health, and re-sync with the rhythm of my family.
   has_case_studies: false
   image: /img/sabbatical-img.png
   image_alt: Illustration of a sign hanging on a wall that says AWAY
@@ -23,7 +23,7 @@
   role: Head of Design
   timeframe: 2018
   summary: |
-    Netlify offers developers a way to host static websites and hook them up to powerful backend functionality. I helped build it's growing design team, and performed IC work for several projects.
+    Netlify lets developers host static websites and hook them up to powerful backend functionality. I helped build it's growing design team, and did product and marketing design for key projects.
   has_case_studies: false
   image: /img/case-studies/case-study-netlify.png
   image_alt: Product illustration for Netlify's core product concept
@@ -33,7 +33,7 @@
   role: Product Design Lead
   timeframe: 2013 – 2018
   summary: |
-    I designed and built experiences for the millions of people who use GitHub every day, including recent hits such as Code Owners, Review Requests, and the Checks API.
+    I designed and built experiences for the millions of people who use GitHub every day, including <a href="https://github.blog/2016-12-07-introducing-review-requests/" target="_blank">Code Review Requests</a>, <a href="https://github.blog/2017-07-06-introducing-code-owners/" target="_blank">Code Owners</a>, <a href="https://github.blog/2017-03-06-restrict-review-dismissals-with-protected-branches/" target="_blank">Protected Branches</a>, the <a href="https://github.blog/2019-05-10-introducing-github-package-registry/" target="_blank">Package Registry</a>, and the <a href="https://github.blog/2018-05-07-introducing-checks-api/" target="_blank">Checks API</a>.
   dribbble: https://dribbble.com/jag/projects/540365-GitHub-work
   image: /img/case-studies/case-study-github-improving-code-review-banner-thumbnail.png
   image_alt: workflow illustration of code review collaboration on GitHub
@@ -49,7 +49,7 @@
   role: Visual Design Engineer, Tech Lead
   timeframe: 2012 – 2013
   summary: |
-    At AppendTo, a front-end shop, I did HTML, CSS, and JavaScript implementations of responsive websites such as <a href="http://time.com/">TIME.com</a>, <a href="https://www.zumba.com/en-US">Zumba.com</a>, and <a href="http://www.bloomberg.com/">Bloomberg.com</a>.
+    I was a front-end developer focused on implementing designs for client projects such as <a href="/case-studies/appendto/implementing-the-responsive-redesign-of-time-com/" target="_blank">the responsive redesign of TIME.com</a>, <a href="http://www.bloomberg.com/">Bloomberg.com</a>, and others.
   dribbble: https://dribbble.com/jag/projects/555349-AppendTo-work
   articles_layout: l_1_up
   articles_list:
@@ -65,7 +65,7 @@
   role_2: Web & Graphic Designer
   timeframe_2: 2009 – 2011
   summary: |
-    I owned design for an 1500 person international NGO that operated a network of charitable hospitals around the world.
+    Responsible for design across all mediums including print, web, UX, and brand for a global network of charitable hospitals.
   dribbble: https://dribbble.com/jag/projects/560305-CURE-International-work
   has_case_studies: false
   image: /img/case-studies/case-study-curekids-banner.png
@@ -80,7 +80,7 @@
   role: Founder
   timeframe: 2004 – 2016
   summary: |
-    Provided professional design and development services for a range of clients in the small business and startup space.
+    Provided contract design and development services for NGOs, startups, and agencies.
   dribbble: https://dribbble.com/jag/projects
   learned: #
   has_case_studies: false
@@ -92,7 +92,7 @@
   role: Adjunct Professor
   timeframe: 2008-2012
   summary: |
-    Taught non-credit technology courses at Harrisburg Area Community College to adult continuing education students, including Intro to Web Development, Photoshop, Illustrator, Computer Basics, and others.
+    Taught non-credit technology courses to continuing education students, including Intro to Web Development, Photoshop, Illustrator, Computer Basics, and Digital Photography.
   has_case_studies: false
   image: /img/teaching-img-draft.png
   image_alt: Illustration of a book and an apple.

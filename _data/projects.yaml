@@ -1,4 +1,13 @@
 ---
+- name: Midnight Theme
+  url: https://marketplace.visualstudio.com/items?itemName=apollographql.apollo-midnight-color-theme
+  role: Creator
+  timeframe: 2020
+  summary: |
+    A VS Code theme based on the color palette of Apollo Studio's GraphQL Explorer in dark mode.
+  project_image: /img/projects/midnight-theme.png
+  downloads: "2,799"
+
 - name: HospitalRun
   url: https://hospitalrun.io
   role: Co-founder
@@ -7,9 +16,9 @@
     An open source, offline first EMR designed for hospitals in resource constrained locations using Ember.js, Couch, Pouch, and Node.
   dribbble: https://dribbble.com/jag/projects/213165-HospitalRun
   project_image: /img/projects/hospitalrun.png
-  stars: "4,172"
-  forks: "1,240"
-  contributors: "124"
+  stars: "6.2k"
+  forks: "2k"
+  contributors: "243"
 
 - name: Dev Tees
   url: http://devtees.com
@@ -36,8 +45,8 @@
   summary: |
     A custom syntax theme for <a href="https://atom.io/" target="_blank">Atom</a> with bright and bubbly colors.
   project_image: /img/projects/fizzy.png
-  downloads: "61,336"
-  contributors: "6"
+  downloads: "64k"
+  contributors: "4"
 
 - name: Resume template
   url: https://github.com/jglovier/resume-template
@@ -46,9 +55,9 @@
   summary: |
     A simple Jekyll-powered resume template for GitHub Pages sites.
   project_image: /img/projects/github-pages-resume-template.png
-  stars: "675"
-  forks: "537"
-  contributors: "14"
+  stars: "1.4k"
+  forks: "1.3k"
+  contributors: "19"
 
 - name: Minima
   url: https://github.com/jekyll/minima
@@ -57,6 +66,6 @@
   summary: |
     The default Jekyll theme that shipped with the release of Jekyll 2.0.
   project_image: /img/projects/minima.png
-  stars: "842"
-  forks: "706"
-  contributors: "34"
+  stars: "2.5k"
+  forks: "2.6k"
+  contributors: "70"
