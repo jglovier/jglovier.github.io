@@ -1,5 +1,5 @@
 ---
-- name: Midnight Theme
+- name: Apollo Midnight theme
   url: https://marketplace.visualstudio.com/items?itemName=apollographql.apollo-midnight-color-theme
   role: Creator
   timeframe: 2020
