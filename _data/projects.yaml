@@ -1,4 +1,13 @@
 ---
+- name: Midnight Theme
+  url: https://marketplace.visualstudio.com/items?itemName=apollographql.apollo-midnight-color-theme
+  role: Creator
+  timeframe: 2020
+  summary: |
+    A VS Code theme based on the color palette of Apollo Studio's GraphQL Explorer in dark mode.
+  project_image: /img/projects/midnight-theme.png
+  downloads: "2,799"
+
 - name: HospitalRun
   url: https://hospitalrun.io
   role: Co-founder
