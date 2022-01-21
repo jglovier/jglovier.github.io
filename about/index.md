@@ -5,38 +5,32 @@ title: About
 
 ### 👋 Hi! I’m Joel Glovier. I'm a human being human.
 
-...which is just a fun way of saying that I'm on a tech industry sabbatical right now, focused on getting healthy physically and mentally (I have had a life long journey with depression and anxiety), restoring balance to my personal and family life, re-connecting with my soul (my passions, creativity, art, faith, etc), and re-discovering my calling and inspiration for the chapter of life ahead.
+I design and build software for humans. I phrase it that way because it's easy to forget that everyone is human. We often tend to think first in foremost of people in terms of what they do (their job role or profession), or their status as something in our society or culture, or in relationship to us. But everyone is first and foremost, a person.
 
-In 2018 I served as Head of Design at [Netlify](https://www.netlify.com/) where I worked with a small but mighty team of passionate people making websites faster and deployment simpler.
+The software I've worked on for most of my career is developer tooling.
 
-Before joining Netlify, I was a product design lead at [GitHub](https://blog.github.com/2016-12-07-introducing-review-requests/) where I worked with several teams over the course of my five years there including: platform & ecosystem, core workflow, design systems, the creative department, new user experience, and user growth.
+I've worked on code collaboration workflows at [GitHub](https://blog.github.com/2016-12-07-introducing-review-requests/), deployment solutions at [Netlify](https://www.netlify.com/), [mobile and responsive design](/case-studies/appendto/implementing-the-responsive-redesign-of-time-com/) at [appendTo](http://appendto.com/) as a design engineer, open source projects like [HospitalRun](http://hospitalrun.io/), and most recently I worked on [collaboration tooling](https://www.apollographql.com/blog/announcement/platform/introducing-the-apollo-explorer/) for the humans who build GraphQL APIs at [Apollo](https://www.apollographql.com/).
 
-Prior to GitHub I was a visual design engineer and tech lead at [appendTo](http://appendto.com/), a front-end shop, where I worked on awesome client projects like the [TIME Magazine responsive redesign](/case-studies/appendto/implementing-the-responsive-redesign-of-time-com/).
+Prior to my years focused on developer tooling software I was part of a technology at an NGO that runs a global network of charitable children's hospitals called [CURE International](http://cure.org/).
 
-Prior to that I was principal designer at an amazing nonprofit called [CURE International](http://cure.org/), and I still stay involved with CURE in my free time as a core contributor to the open source project [HospitalRun](http://hospitalrun.io/).
+I enjoy [writing](/writing/) about things I learn, [speaking](http://github.com/jglovier/speaking) occasionally, and collecting experiences. I also enjoy using [side projects](/#projects) to learn new things, hone my skills, and explore design trends.
 
-And way back in the day I did freelance graphic and web design full-time for several years.
+I'm a Pacific Northwest transplant where I live with my family and enjoy the beauty of nature and an abundance of skateparks. I'm a believer in the power of unconditional love and in honoring the humanity and divinity in all people. 
 
-I enjoy [writing](/writing/) about things I learn, [speaking](http://github.com/jglovier/speaking) occasionally, and collecting experiences in general. I also enjoy using [side projects](/#projects) to learn new things and to have a creative outlet.
+Some things that bring me joy are: painting and drawing, writing, reading (lots of non-fiction, but easing my way into some the world of novels), making music, hiking, playing Overwatch and board games with my kids, [skating](https://www.youtube.com/watch?v=FHG2lUYlUs8) & [snowboarding](/post-images/boyceparkrail.jpg), [mural painting](https://www.youtube.com/watch?v=SUqVSPFgMcw), [breakdancing](/post-images/bboy-jag.jpg), [cooking](http://joelglovier.com/writing/food/), exploring Mt. Rainier, seeing the water, and beautiful sunsets. 🌅
 
-I have a wonderful family and recently moved to the Pacific Northwest (I work remotely for Netlify, as does approximately 50% of the company). I’m originally from the [Pittsburgh](http://en.wikipedia.org/wiki/Pittsburgh) area (shoutout [Greensburg](http://en.wikipedia.org/wiki/Greensburg,_Pennsylvania)), and lived in [Central Pennsylvania](http://en.wikipedia.org/wiki/Mechanicsburg,_Pennsylvania) for 10 years.
-
-I'm a [Jesus](http://joelglovier.com/writing/brokenness-and-restoration/) follower because of his message of freedom and [restoration](/writing/brokenness-and-restoration/). I’m not a very religious person, but my faith is a core part of who I am. My faith in the person and way of Jesus leads me to deeply value and care about things like social justice, human rights, diversity, equality, and loving and respecting every person I come in contact with as fellow members of the human family and as bearers of the divine image within us all.
-
-In my "spare time" I enjoy getting away from the computer screen with other creative outlets like [skateboarding](https://www.youtube.com/watch?v=FHG2lUYlUs8) & [snowboarding](/post-images/boyceparkrail.jpg), [mural painting](https://www.youtube.com/watch?v=SUqVSPFgMcw), working on my [project car](https://github.com/jglovier/project-car), making [EDM and house mixes](https://soundcloud.com/joelglovier), [bboying](/post-images/bboy-jag.jpg), [cooking](http://joelglovier.com/writing/food/), rooting for the [Pittsburgh Steelers](http://www.steelers.com/), and other nerdy stuff.
-
-Now that you know so much about me, [you should say hi!](http://twitter.com/home?status=@jglovier%20Hi%20Joel!)
+Now that you know so much about me, [feel free to say hello!](http://twitter.com/home?status=@jglovier%20Hi%20Joel!)
 
 <h2 id="site-credits">Site credits</h2>
 
 This site was built with care...and lots of inspiration and tooling made available for free on the internet!
 
-I'd like to take a moment to acknowledge those who have offered their work for the world to benefit from (including me while building this very website!). Lots of love and gratitude to those responsible for that work.
+I'd like to take a moment to acknowledge those who have offered their work for the world to benefit from via open source software. Lots of love and gratitude to those responsible for that work. ❤️
 
 ### Build details and tooling
 
-- This site was built with the static site generator [Jekyll](https://jekyllrb.com/), utilizing the templating language [Liquid](http://shopify.github.io/liquid/), and hosted on [Netlify](https://www.netlify.com/). Source code is available on [GitHub](https://github.com/jglovier/jglovier.github.io/).
-- This site was coded in [Atom](https://atom.io/), a hackable text editor for the 21st century.
+- Built with the static site generator [Jekyll](https://jekyllrb.com/), utilizing the templating language [Liquid](http://shopify.github.io/liquid/), and hosted on [Netlify](https://www.netlify.com/). Source code is available on [GitHub](https://github.com/jglovier/jglovier.github.io/).
+- Originally coded in [Atom](https://atom.io/), now maintained with [VS Code](https://code.visualstudio.com/).
 - Illustrations for this site were drawn with the [Apple iPad Pro](https://amzn.to/2G25JTT) and [Apple Pencil](https://amzn.to/2G5h69G) using the [ProCreate](https://itunes.apple.com/us/app/procreate/id425073498?mt=8) app.
 - Typography courtesy of Google Fonts:
   - [Montserrat](https://fonts.google.com/specimen/Montserrat) (headings)
