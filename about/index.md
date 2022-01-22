@@ -3,15 +3,31 @@ layout: page
 title: About
 ---
 
-### 👋 Hi! I’m Joel Glovier. I'm a human being human.
+## 👋 Hi! I’m Joel Glovier. I'm a human being human.
 
 I design and build software for humans. I phrase it that way because it's easy to forget that everyone is human. We often tend to think first in foremost of people in terms of what they do (their job role or profession), or their status as something in our society or culture, or in relationship to us. But everyone is first and foremost, a person.
 
-The software I've worked on for most of my career is developer tooling.
+The software I've worked on for most of my career is developer tooling. I recently realized that was my ancestral destiny, but that's another story *(Glovier => Glover => Glove-maker => Glovers were making tools for other craftspeople ages ago)*.
+
+### My devtools journey
 
 I've worked on code collaboration workflows at [GitHub](https://blog.github.com/2016-12-07-introducing-review-requests/), deployment solutions at [Netlify](https://www.netlify.com/), [mobile and responsive design](/case-studies/appendto/implementing-the-responsive-redesign-of-time-com/) at [appendTo](http://appendto.com/) as a design engineer, open source projects like [HospitalRun](http://hospitalrun.io/), and most recently I worked on [collaboration tooling](https://www.apollographql.com/blog/announcement/platform/introducing-the-apollo-explorer/) for the humans who build GraphQL APIs at [Apollo](https://www.apollographql.com/).
 
+I'm interested in the intersection of humanity and technology, and I'm motivated by advocating for the needs of the real people who are using tools we create within the context of the systems they experience them in.
+
+Often the needs of products, businesses, and industries take the forefront and generate the momentum of change that can be difficult for everyone to keep up with. I care about listening to and advocating for the voices of the people affected by this constant evolution.
+
+For me this takes the form of listening for the emerging narrative that comes from user research, product feedback, and community conversations, and then telling that story as context in the course of product work, from strategy to design to implementation.
+
+I thrive in environments where I can participate in many parts of the process, including user research, low and high fidelity design work, prototyping, and building with the engineering team (something I believe is really important for building user empathy when designing for developers).
+
+And also I am pretty flexibe and can work effectively in many different types of workflows.
+
+I also care a lot about product strategy, and in prior roles (such as at GitHub), I've often been the product lead on embedded teams, performing many aspects of the product manager role. So you'll find I'm often interested to contribute my voice and perspective to product direction.
+
 Prior to my years focused on developer tooling software I was part of a technology at an NGO that runs a global network of charitable children's hospitals called [CURE International](http://cure.org/).
+
+### Else
 
 I enjoy [writing](/writing/) about things I learn, [speaking](http://github.com/jglovier/speaking) occasionally, and collecting experiences. I also enjoy using [side projects](/#projects) to learn new things, hone my skills, and explore design trends.
 
