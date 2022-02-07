@@ -1,7 +1,14 @@
 ---
+- name: Chang Wang
+  url: https://www.linkedin.com/in/appify/
+  image: /img/quotes/cheapsteak.jpg
+  quote: |
+    Joel is an incredibly talented designer. He's wowed us time and again with his ability to take a complex set of requirements and constraints and distill them into elegant designs. He's also technically proficient, able to comfortably jump into code to update React components and CSS where needed. As much as our toolings have improved, still nothing beats a trained eye and a skilled hand nudging the final elements into the right place.”
+  title: Engineering Manager • Apollo
+
 - name: Tim Hingston
   url: https://www.linkedin.com/in/timhingston/
-  image: /img/quotes/timbotnik.jpeg
+  image: /img/quotes/timbotnik.jpg
   quote: |
     Joel brings a rare blend of skills that have been hugely influential at Apollo. He was instrumental in the design of several very complex user experiences, as he took the team on a journey from concept to launch on some of our most popular features. He's also helped us level up our design system and has made a big impact on our ability to scale and collaborate across teams.”
   title: Front-end Tech Lead • Apollo
