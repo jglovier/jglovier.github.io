@@ -24,16 +24,15 @@ $light_blue:        #d7edfe;
 $dznrblue:          #0067ee;
 $deep_blue:         #28323f;
 $bg_navy:           #3f4956;
-$bg_navy_drk:       #2c4059;
+$navy_drk:          #2c4059;
 $navy:              #506888;
-$dark_navy:         #102e56;
 $litenavy_bg:       #F9FBFF;
 $litegray:          #eaf2fe;
 $gray:              #DAE3EF;
 $main_color:        $navy;
 $secondary_color:   $salmon;
 $bg_color:          $bg_navy;
-$black:             $bg_navy_drk;
+$black:             $navy_drk;
 $black_light:       rgba($black, .35);
 $text_color:        #4e688b;
 $border_color:      $gray;
@@ -56,6 +55,8 @@ $dark_yellow:       #dfb801;
 $color_border_lite: 1px solid rgba($secondary_color, .2);
 $color_border_gray: 1px solid $border_color;
 $neg_letter_spacing: -.04em;
+$radius_lrg: 16px;
+$transition_value_default: all .1s ease-in-out;
 
 // Media query vars
 

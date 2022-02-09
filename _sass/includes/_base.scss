@@ -37,11 +37,11 @@ body h6 {
 a {
   color: $text_link_color;
   text-decoration: none;
-  transition: all .2s ease-in-out;
+  transition: $transition_value_default;
 
   &:hover {
     color: $secondary_color;
-    transition: all .2s ease-in-out;
+    transition: $transition_value_default;
   }
 
   &:active,

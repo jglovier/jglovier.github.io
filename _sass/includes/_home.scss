@@ -132,6 +132,31 @@
   }
 }
 
+// work
+
+.home-articles {
+  .employer-external-link {
+    stroke: currentColor;
+    height: 24px;
+    opacity: 0;
+    transition: $transition_value_default;
+  }
+  .work-title:hover {
+    .employer-external-link {
+      opacity: 1;
+      transition: $transition_value_default;
+    }
+  }
+  .dribbble-link {
+    .external-link-icon-svg {
+      height: 12px;
+      margin-bottom: -1px;
+      stroke: currentColor;
+      opacity: .7;
+    }
+  }
+}
+
 // quotes
 
 .quote-wrap.col {
@@ -139,6 +164,7 @@
 
   .quote {
     max-width: 448px;
+    border-radius: $radius_lrg;
   }
 
   .quote-content {
@@ -187,6 +213,13 @@
 }
 
 .card-project {
+  border-radius: 4px 4px $radius_lrg $radius_lrg;
+
+  .project-image {
+    border-radius: 0 0 4px 4px; // round the bottom edges of the images to match the top rounded corder of the cards
+    overflow: hidden; // necessary for the rounding to work on the parent level
+  }
+
   h2 {
     font-size: 22px;
     line-height: 1.1;

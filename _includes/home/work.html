@@ -15,10 +15,11 @@
 
         <header class="section-header col col-6 pt3 pb3 m-pb0">
           <div class="section-intro">
-            <h2 class="work-title m0">
+            <h2 class="work-title m0 text-color-navy-light">
               {% if employer.url %}
-              <a href="{{ employer.url }}" class="text-decoration-none" target="_blank">
+              <a href="{{ employer.url }}" class="text-decoration-none text-color-navy-dark" target="_blank" title="Visit {{ employer.url }}">
                 {{ employer.name }}
+                <span class="employer-external-link">{% include icons/icon-external-link.html %}</span>
               </a>
               {% else %}
                 {{ employer.name }}
@@ -44,12 +45,8 @@
             </div>
 
             {% if employer.dribbble %}
-            <p class="text-small">
-              <a href="{{ employer.dribbble }}" target="_blank">See on dribbble  &rarr;</a>
-            </p>
-            {% elsif employer.hiring %}
-            <p class="text-small">
-              <a href="{{ employer.hiring }}" target="_blank">We're hiring  &rarr;</a>
+            <p class="text-small dribbble-link">
+              <a href="{{ employer.dribbble }}" target="_blank">See on work dribbble  {% include icons/icon-external-link.html %}</a>
             </p>
             {% endif %}
 

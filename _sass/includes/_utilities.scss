@@ -9,7 +9,7 @@
   padding: 8px 24px;
   color: $black;
   box-shadow: 0 0px 4px rgba($navy,.30);
-  transition: all .1s ease-in-out;
+  transition: $transition_value_default;
 
   &:hover {
     transform: scale(1.05);
@@ -155,6 +155,10 @@
 
 .text-color-navy-light {
   color: $main_color;
+}
+
+.text-color-navy-dark {
+  color: $navy_drk;
 }
 
 .ln-height-1 {
@@ -306,7 +310,7 @@
   background-color: $white;
   border-radius: 3px;
   overflow: hidden;
-  transition: all .1s ease-in-out;
+  transition: $transition_value_default;
 
   &:hover {
     opacity: 1;
@@ -319,7 +323,7 @@
   }
 
   .icon {
-    color: $text_link_color;
+    opacity: .7;
 
     &.icon-star {
       position: relative;
@@ -350,7 +354,7 @@
   }
 
   p {
-    color: $dark_navy;
+    color: $deep_blue;
   }
 
   .quote-avatar {
