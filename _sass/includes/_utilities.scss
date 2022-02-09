@@ -9,7 +9,7 @@
   padding: 8px 24px;
   color: $black;
   box-shadow: 0 0px 4px rgba($navy,.30);
-  transition: all .1s ease-in-out;
+  transition: $transition_value_default;
 
   &:hover {
     transform: scale(1.05);
@@ -310,7 +310,7 @@
   background-color: $white;
   border-radius: 3px;
   overflow: hidden;
-  transition: all .1s ease-in-out;
+  transition: $transition_value_default;
 
   &:hover {
     opacity: 1;
