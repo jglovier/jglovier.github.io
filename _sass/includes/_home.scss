@@ -139,6 +139,7 @@
 
   .quote {
     max-width: 448px;
+    border-radius: $radius_lrg;
   }
 
   .quote-content {
@@ -188,7 +189,7 @@
 
 .card-project {
   background-color: #f8fbff;
-  border-radius: 4px 4px 16px 16px;
+  border-radius: 4px 4px $radius_lrg $radius_lrg;
 
   .project-image {
     border-radius: 0 0 4px 4px; // round the bottom edges of the images to match the top rounded corder of the cards

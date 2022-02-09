@@ -3,7 +3,7 @@
 .article {
   @extend .card;
   border-left: 4px solid $secondary_color;
-  border-radius: 3px 16px 16px 3px;
+  border-radius: 3px $radius_lrg $radius_lrg 3px;
 
   .story-title {
     font-size: 18px;
