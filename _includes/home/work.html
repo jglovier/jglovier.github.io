@@ -19,6 +19,7 @@
               {% if employer.url %}
               <a href="{{ employer.url }}" class="text-decoration-none text-color-navy-dark" target="_blank" title="Visit {{ employer.url }}">
                 {{ employer.name }}
+                <span class="employer-external-link">{% include icons/icon-external-link.html %}</span>
               </a>
               {% else %}
                 {{ employer.name }}

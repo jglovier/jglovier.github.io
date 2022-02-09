@@ -135,11 +135,18 @@
 // work
 
 .home-articles {
-  .external-link-icon-svg {
-    height: 12px;
-    margin-bottom: -1px;
+  .employer-external-link {
     stroke: currentColor;
-    opacity: .7;
+    height: 24px;
+    opacity: 0;
+    transition: $transition_value_default;
+  }
+  .work-title:hover {
+    .employer-external-link {
+      opacity: 1;
+      transition: $transition_value_default;
+    }
+  }
   .dribbble-link {
     .external-link-icon-svg {
       height: 12px;
