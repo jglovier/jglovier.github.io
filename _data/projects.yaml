@@ -25,7 +25,7 @@
   role: Creator
   timeframe: 2012 – Present
   summary: |
-    A line of t-shirts for developers started with the help of nearly 500 <a href="https://www.kickstarter.com/projects/jag/dev-tees">Kickstarter backers</a> in 2013.
+    A line of t-shirts for developers started with the help of nearly 500 Kickstarter backers in 2013.
   dribbble: https://dribbble.com/jag/projects/89915-Dev-Tees
   project_image: /img/projects/devtees.png
 
@@ -35,7 +35,7 @@
   timeframe: 2012-2015
   status: Acquired by LiftUX in 2015
   summary: |
-    A job board and job seeker site for connecting remote employees with new opportunities. Acquired by <a href="https://liftux.com/">LiftUX</a>, 2015.
+    A job board and job seeker site for connecting remote employees with new opportunities. Acquired by LiftUX, 2015.
   project_image: /img/projects/remotejobs-io.png
 
 - name: Fizzy syntax theme
@@ -43,7 +43,7 @@
   role: Creator
   timeframe: 2014 - Present
   summary: |
-    A custom syntax theme for <a href="https://atom.io/" target="_blank">Atom</a> with bright and bubbly colors.
+    A custom syntax theme for Atom with bright and bubbly colors.
   project_image: /img/projects/fizzy.png
   downloads: "64k"
   contributors: "4"

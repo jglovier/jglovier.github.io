@@ -14,62 +14,62 @@
   <div class="col col-6 card-project-wrap {% cycle 'card-project-left', 'card-project-right' %}">
     <div class="card card-project mt4 clearfix mx-auto">
 
-      <a href="{{ project.url }}" class="text-decoration-none block default-shadow project-image" target="_blank">
-        <img alt="{{ project.name }} screenshot" src="{{ project.project_image }}" width="336" class="img-full-width block" />
+      <a href="{{ project.url }}" class="text-decoration-none block" target="_blank">
+        
+        <div class="default-shadow project-image">
+          <img alt="{{ project.name }} screenshot" src="{{ project.project_image }}" width="336" class="img-full-width block" />
+        </div>
+
+        <div class="p3">
+          <h2 class="neg-letter-spacing mt1 mb-sm project-name">{{ project.name }}</h2>
+          <h3 class="text-default text-color-navy-light m0">
+            {{ project.role }}
+            <span class="worked-dates regular text-rounded m-block">
+              <span class="m-hide text-small"> • </span><span class="text-small">{{ project.timeframe }}</span>
+            </span>
+          </h3>
+
+          <div class="text-small mt2 pt1">
+            <p class="m0">{{ project.summary }}</p>
+          </div>
+
+          {% if project.stars or project.forks or project.downloads or project.contributors %}
+          <div class="text-small mt2 pt1 text-rounded">
+
+            {% if project.stars %}
+              <span class="mr2 pr1 inline-block">
+                {% include icons/icon-stars.html %}
+                <span class="card-project-integer inline-block">{{ project.stars }}</span>
+              </span>
+            {% endif %}
+
+            {% if project.forks %}
+              <span class="mr2 pr1 inline-block">
+                {% include icons/icon-forks.html %}
+                <span class="card-project-integer inline-block">{{ project.forks }}</span>
+              </span>
+            {% endif %}
+
+            {% if project.downloads %}
+              <span class="mr2 pr1 inline-block">
+                {% include icons/icon-downloads.html %}
+                <span class="card-project-integer inline-block">{{ project.downloads }}</span>
+              </span>
+            {% endif %}
+
+            {% if project.contributors %}
+              <span class="mr2 pr1 inline-block">
+                {% include icons/icon-contributors.html %}
+                <span class="card-project-integer inline-block">{{ project.contributors }}</span>
+              </span>
+            {% endif %}
+
+          </div>
+          {% endif %}
+
+        </div>
+
       </a>
-
-      <div class="p3">
-        <h2 class="neg-letter-spacing mt1 mb-sm">
-          <a href="{{ project.url }}" class="text-decoration-none text-color-navy-dark" target="_blank">
-            {{ project.name }}
-          </a>
-        </h2>
-        <h3 class="text-default text-color-navy-light m0">
-          {{ project.role }}
-          <span class="worked-dates regular text-rounded m-block">
-            <span class="m-hide text-small"> • </span><span class="text-small">{{ project.timeframe }}</span>
-          </span>
-        </h3>
-
-        <div class="text-small mt2 pt1">
-          <p class="m0">{{ project.summary }}</p>
-        </div>
-
-        {% if project.stars or project.forks or project.downloads or project.contributors %}
-        <div class="text-small mt2 pt1 text-rounded">
-
-          {% if project.stars %}
-            <span class="mr2 pr1 inline-block">
-              {% include icons/icon-stars.html %}
-              <span class="card-project-integer inline-block">{{ project.stars }}</span>
-            </span>
-          {% endif %}
-
-          {% if project.forks %}
-            <span class="mr2 pr1 inline-block">
-              {% include icons/icon-forks.html %}
-              <span class="card-project-integer inline-block">{{ project.forks }}</span>
-            </span>
-          {% endif %}
-
-          {% if project.downloads %}
-            <span class="mr2 pr1 inline-block">
-              {% include icons/icon-downloads.html %}
-              <span class="card-project-integer inline-block">{{ project.downloads }}</span>
-            </span>
-          {% endif %}
-
-          {% if project.contributors %}
-            <span class="mr2 pr1 inline-block">
-              {% include icons/icon-contributors.html %}
-              <span class="card-project-integer inline-block">{{ project.contributors }}</span>
-            </span>
-          {% endif %}
-
-        </div>
-        {% endif %}
-
-      </div>
 
     </div>
   </div>
