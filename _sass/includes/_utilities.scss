@@ -350,6 +350,11 @@
     top: 0;
     left: -22px;
     line-height: 295px;
+    transition: $transition_value_default;
+  }
+
+  &:hover::before {
+    top: -30px;
   }
 
   p {
