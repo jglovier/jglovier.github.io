@@ -220,9 +220,15 @@
     overflow: hidden; // necessary for the rounding to work on the parent level
   }
 
-  h2 {
+  .project-name {
     font-size: 22px;
     line-height: 1.1;
+    transition: $transition_value_default;
+  }
+
+  &:hover .project-name {
+    color: $secondary_color;
+    transition: $transition_value_default;
   }
 
   .default-shadow {

@@ -3,11 +3,10 @@
 // buttons
 
 .btn {
-  @include rounded;
+  font-family: "Varela Round", Arial, sans-serif;
   background-color: $white;
   border-radius: 5px;
   padding: 8px 24px;
-  color: $black;
   box-shadow: 0 0px 4px rgba($navy,.30);
   transition: $transition_value_default;
 
@@ -351,6 +350,11 @@
     top: 0;
     left: -22px;
     line-height: 295px;
+    transition: $transition_value_default;
+  }
+
+  &:hover::before {
+    top: -30px;
   }
 
   p {
