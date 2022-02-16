@@ -3,7 +3,7 @@ layout: page
 title: Design Process
 ---
 
-I'm sometimes asked what my design process is like. I've been designing software and for the web since about 2007, and I've worked with a number of different kinds of design teams in that time. I've learned a ton about designing, building, and shipping software (I'm still learning), and this is the design process that has emerged from my practice.
+I'm sometimes asked what my design process is like. I've been designing for software and for the web since about 2007, and I've worked with a number of different kinds of design teams in that time. I've learned a ton about designing, building, and shipping software (I'm still learning), and this is the design process that has emerged from my practice.
 
 I'll note that my practice has been shaped primarily by working on small, high functioning teams primarily in early, high-growth organizations. I believe that much of it translates well to other kinds of teams, but not all of it does and it may not be right for every kind of organization.
 
