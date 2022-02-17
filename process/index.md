@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Design Process
+title: My design process
 ---
 
 I'm sometimes asked what my design process is like. I've been designing for software and for the web since about 2007, and I've worked with a number of different kinds of design teams in that time. I've learned a ton about designing, building, and shipping software – and I'm still learning, of course! This is the design process that has emerged from my practice.
@@ -13,11 +13,11 @@ This is important because story is how we make sense of everything, life doesn't
 
 Also, this process has been tested mainly on teams with a single designer and multiple engineers, sometimes with a product manager and often without. So I admit that my expertise outside of that setup is relatively untested *(…and I'd love to [hear your feedback](mailto:jglovier+designprocessfeedback@gmail.com) if you've worked in different setups!)*.
 
-My process has three phases: investigation, exploration, and implementation.
+My process has three phases: investigate, explore, and implement.
 
-## Investigation
+## Investigate 🔍👀
 
-The first stage is the **investigation phase**. Any effective process starts with a clear understanding of the rationale for the work. What are we doing? Why are we doing it? What do we know so far?
+Any effective process starts with a clear understanding of the rationale for the work. What are we doing? Why are we doing it? What do we know so far?
 
 This phase focuses on curiosity – asking lots of questions and listening to other people's perspectives, digging into data to find quantifiable insights, thinking from first principles to understand what the core building blocks are, and really seeking to identify an emerging narrative that can be the guiding vision for the work.
 
@@ -33,9 +33,9 @@ What I'm searching for in this phase is:
 
 All of this become a product design brief that the team can reference to track the ongoing evolution of the project. The brief is an important step that initiates a sub-process of clarification, alignment, and internal negotiation that will continue throughout the project.
 
-## Exploration
+## Explore 🤔💭
 
-After we have a product design brief and have agreed on scope, sequencing, and priorities, the next stage in the process is **exploration**.
+After we have a product design brief and have agreed on scope, sequencing, and priorities we can start to explore solutions.
 
 In this phase we begin to explore solutions to the problem. It's all about imagining what is possible, and then using signal from what we've learned so far to further negotiate with cross-functional leads on scope and execution.
 
@@ -63,9 +63,9 @@ It's also worth noting that at the beginning of the discovery stage we are focus
 
 But toward the end of this phase we are letting go of theoretical exploration and leaning firmly into the mode of pragmatic and practical thinking as a necessity for the initial implementation.
 
-## Implementation
+## Implement 🛠💃🏽🕺🏾
 
-The final stage in the process is **implementation,** where we shift from conceptual mode to a focusing on bringing the experience to life.
+The final phase is where we shift from the conceptual to a focus on bringing the experience to life.
 
 This stage is all about building, shipping, and iterating. In the previous stage some implementation may occur as a spike or prototype, but by this point we are focused on building for an initial release.
 
