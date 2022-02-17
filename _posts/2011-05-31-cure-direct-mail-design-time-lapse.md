@@ -5,7 +5,7 @@ categories: design
 ---
 
 <div class="video media">
-  <iframe src="http://player.vimeo.com/video/24478858" width="500" height="281" frameborder="0"></iframe>
+  <iframe src="https://player.vimeo.com/video/24478858" width="500" height="281" frameborder="0"></iframe>
 </div>
 
 <p>So here's the process of my design for CURE International's (<a href="http://vimeo.com/cure">vimeo.com/​cure</a>) upcoming direct mail.</p>
