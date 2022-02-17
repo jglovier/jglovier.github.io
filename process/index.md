@@ -3,47 +3,43 @@ layout: page
 title: Design Process
 ---
 
-I'm sometimes asked what my design process is like. I've been designing for software and for the web since about 2007, and I've worked with a number of different kinds of design teams in that time. I've learned a ton about designing, building, and shipping software (I'm still learning), and this is the design process that has emerged from my practice.
+I'm sometimes asked what my design process is like. I've been designing for software and for the web since about 2007, and I've worked with a number of different kinds of design teams in that time. I've learned a ton about designing, building, and shipping software – and I'm still learning, of course! This is the design process that has emerged from my practice.
 
 I'll note that my practice has been shaped primarily by working on small, high functioning teams primarily in early, high-growth organizations. I believe that much of it translates well to other kinds of teams, but not all of it does and it may not be right for every kind of organization.
 
-The key theme of my process is discovering the emerging narrative, imaging where it's headed or where it could go, and executing on it with creativity and openness to what it can become and what it can enable. 
+My process can be summarized as a journey of **discovering the emerging narrative, imaging where it's headed or where it could go, and executing on it with creativity and openness to what it can become and what it can enable**. 
 
 This is important because story is how we make sense of everything, life doesn't always go according to plan, and the best work is cultivated, not dictated.
 
-Also, this process has been tested mainly on teams with a single designer and multiple engineers, sometimes with a product manager and often without. So I admit that my expertise outside of that setup is personally untested (…and I'd love to hear your feedback if you've worked in different setups!).
+Also, this process has been tested mainly on teams with a single designer and multiple engineers, sometimes with a product manager and often without. So I admit that my expertise outside of that setup is relatively untested *(…and I'd love to [hear your feedback](mailto:jglovier+designprocessfeedback@gmail.com) if you've worked in different setups!)*.
 
-I typically approach design as an ongoing cyclical process that has three primary stages or modes of operating.
+My process has three phases: investigation, exploration, and implementation.
 
 ## Investigation
 
-The first stage is the **investigation phase**. Any effective process starts with a clear understanding of the goals. What are we doing? Why are we doing it? What do we know so far?
+The first stage is the **investigation phase**. Any effective process starts with a clear understanding of the rationale for the work. What are we doing? Why are we doing it? What do we know so far?
 
 This phase focuses on curiosity – asking lots of questions and listening to other people's perspectives, digging into data to find quantifiable insights, thinking from first principles to understand what the core building blocks are, and really seeking to identify an emerging narrative that can be the guiding vision for the work.
 
 User research is a big part of this stage, whether or not new active studies are involved. I like to go over past studies and look for context and insights that will inform design decisions, interview internal stakeholders to understand business and product motivations behind the work, and if time and resources allow conduct new studies to address outstanding blindspots.
 
-It is also important to listen to the vision that is motivating and exciting the team who is building the project to help invite their imagination and ownership in the work.
+I also listen carefully to the perspectives of internal stakeholders and the team building the project to really see what is motivating and exciting them. And I often look at the competitive landscape for similar experiences that will affect user expectations, or prior art that may serve as inspiration.
 
-And this is also the time for exploring the competitive landscape for similar experiences that will affect user expectations, or prior art that may serve as inspiration.
-
-What I'm looking for in this phase is:
+What I'm searching for in this phase is:
 - clear answers to why we are doing this work and what business outcome we hope to achieve
 - a project narrative that serves as the rationale for the project in every discussion
 - identifying he user workflows to solving for, and priority if there are multiple
 - a higher level vision for what this work will enable or eventually become that includes an honest emotional connection that will motivate both the team working on the project and the humans who will be invited to use it
 
-All of this become a product design brief that the team can reference to track the ongoing evolution of the project. 
-
-Putting together the product design brief is an important step that kicks off the sub-process of clarification, alignment, and internal negotiation that will continue throughout the project.
+All of this become a product design brief that the team can reference to track the ongoing evolution of the project. The brief is an important step that initiates a sub-process of clarification, alignment, and internal negotiation that will continue throughout the project.
 
 ## Exploration
 
-After we have a product design brief and agreed on scope, sequencing, and priorities, the next stage of the design process is **exploration**.
+After we have a product design brief and have agreed on scope, sequencing, and priorities, the next stage in the process is **exploration**.
 
-In this phase we begin to explore solutions to the problem. It's all about imagining what is possible, and then using signal from what we've learned so far to further negotiate with PDE co-leads on scope and execution.
+In this phase we begin to explore solutions to the problem. It's all about imagining what is possible, and then using signal from what we've learned so far to further negotiate with cross-functional leads on scope and execution.
 
-This phase begins with lo-fi sketching to draw out as many viable concepts as possible and consider solutions from different angles. Often this is just rough sketching on paper, but when time allows or problem depth warrants it I will make actual paper mockups, which is both effective and quite fun *(there's something about drawing by hand and re-arranging elements physically that brings kinetic intelligence into the problem solving space; wheeee!)*.
+I start by drawing out as many viable concepts as possible and consider solutions from different angles in low fidelity. Often this is just rough sketching on paper, but when time allows or problem depth warrants it I will make actual paper mockups, which is both effective and quite fun *(there's something about drawing by hand and re-arranging elements physically that brings kinetic intelligence into the problem solving space; wheeee!)*.
 
 I also often use diagrams to align discussion around a shared mental model of the higher level concepts or workflows involved.
 
