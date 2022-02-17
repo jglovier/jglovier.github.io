@@ -98,8 +98,13 @@ body {
     list-style: none;
     margin: 0;
     padding: 0 15px 8px;
-    text-align: right;
     display: none;
+
+    li {
+      margin: 4px 0;
+
+      a { display: block; }
+    }
 
     > li:hover {
       text-decoration: underline;
