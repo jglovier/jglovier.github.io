@@ -1,4 +1,11 @@
 ---
+- name: Maya Koneval
+  url: https://www.linkedin.com/in/mayakoneval/
+  image: /img/quotes/mayakoneval.jpg
+  quote: |
+    Many times, Joel was able to take a functional existing view and upgrade it to a level I could not have envisioned. All of his work is extremely considered and well presented. In a growing company, Joel was able to establish patterns and principles for our design systems that we still rely on.”
+  title: Software Engineer • Apollo GraphQL
+
 - name: Chang Wang
   url: https://www.linkedin.com/in/appify/
   image: /img/quotes/cheapsteak.jpg
