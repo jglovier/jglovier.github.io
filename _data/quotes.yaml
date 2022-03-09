@@ -1,63 +1,80 @@
 ---
+- name: Maya Koneval
+  linkedinprofile: https://www.linkedin.com/in/mayakoneval/
+  image: /img/quotes/mayakoneval.jpg
+  url: https://www.linkedin.com/in/jglovier/details/recommendations/
+  quote: |
+    Many times, Joel was able to take a functional existing view and upgrade it to a level I could not have envisioned. All of his work is extremely considered and well presented. In a growing company, Joel was able to establish patterns and principles for our design systems that we still rely on.”
+  title: Software Engineer • Apollo GraphQL
+
 - name: Chang Wang
-  url: https://www.linkedin.com/in/appify/
+  linkedinprofile: https://www.linkedin.com/in/appify/
   image: /img/quotes/cheapsteak.jpg
+  url: https://www.linkedin.com/in/jglovier/details/recommendations/
   quote: |
     Joel is an incredibly talented designer. He's wowed us time and again with his ability to take a complex set of requirements and constraints and distill them into elegant designs. He's also technically proficient, able to comfortably jump into code to update React components and CSS where needed. As much as our toolings have improved, still nothing beats a trained eye and a skilled hand nudging the final elements into the right place.”
-  title: Engineering Manager • Apollo
+  title: Engineering Manager • Apollo GraphQL
 
 - name: Tim Hingston
-  url: https://www.linkedin.com/in/timhingston/
+  linkedinprofile: https://www.linkedin.com/in/timhingston/
   image: /img/quotes/timbotnik.jpg
+  url: https://www.linkedin.com/in/jglovier/details/recommendations/
   quote: |
     Joel brings a rare blend of skills that have been hugely influential at Apollo. He was instrumental in the design of several very complex user experiences, as he took the team on a journey from concept to launch on some of our most popular features. He's also helped us level up our design system and has made a big impact on our ability to scale and collaborate across teams.”
-  title: Front-end Tech Lead • Apollo
+  title: Front-end Tech Lead • Apollo GraphQL
 
 - name: Kathy Zheng
-  url: https://www.linkedin.com/in/kathy-zheng-b1a85828/
+  linkedinprofile: https://www.linkedin.com/in/kathy-zheng-b1a85828/
   image: /img/quotes/pifafu.jpg
+  url: https://www.linkedin.com/in/jglovier/details/recommendations/
   quote: |
     I would emphasize his particular thoughtfulness in producing a collaborative environment for peers to offer influence and feedback in his work. He has produced so much context around user problems that I still work off of, and the output of his time at GitHub will remain a great resource for many projects.”
   title: Staff Product Designer • GitHub
 
 - name: Elizabeth Barron
-  url: https://www.linkedin.com/in/elizabethn/
+  linkedinprofile: https://www.linkedin.com/in/elizabethn/
   image: /img/quotes/elizabethbarron.jpg
+  url: https://www.linkedin.com/in/jglovier/details/recommendations/
   quote: |
     Watching Joel's design process unfold was a delight, and the care and mindfulness he infused in every step was inspirational. He is supremely talented, but even above that, he is a thoughtful, conscientious, open minded, positive individual that makes the work environment more inclusive and welcoming for everyone.”
   title: Sr. Dir of Social Impact, Community Manager • GitHub
 
 - name: Cameron McEfee
-  url: https://www.linkedin.com/in/cameronmcefee/
+  linkedinprofile: https://www.linkedin.com/in/cameronmcefee/
   image: /img/quotes/cameronmcefee.jpg
+  url: https://www.linkedin.com/in/jglovier/details/recommendations/
   quote: |
     What stands out most about Joel is that he is an exceptional person to have on a team. People love working with him. Joel communicates well, articulates himself clearly, provides objective feedback, praises when people do well, and speaks up when things aren’t great.”
   title: Creative Director • GitHub
 
 - name: Jialee Chau
-  url: https://www.linkedin.com/in/jialeechau/
+  linkedinprofile: https://www.linkedin.com/in/jialeechau/
   image: /img/quotes/jialeechau.jpg
+  url: https://www.linkedin.com/in/jglovier/details/recommendations/
   quote: |
     Joel is not just a gifted product designer, he also has the patience, dedication and work ethic that motivates the rest of the team. He is one of those colleagues that you wish you could have on every project.”
   title: Product Marketing, Growth • GitHub
 
 - name: Joel Worrall
-  url: https://www.linkedin.com/in/jworrall/
+  linkedinprofile: https://www.linkedin.com/in/jworrall/
   image: /img/quotes/joelworrall.png
+  url: https://www.linkedin.com/in/jglovier/details/recommendations/
   quote: |
     I consider Joel a rare and genuine soul, an incredibly capable teammate, and strong project leader. I'm thankful to continue to work with him in a volunteer capacity and would be glad to collaborate professionally once again.”
   title: CTO • CURE Intl, HospitalRun co-founder
 
 - name: John Kleinschmidt
-  url: https://www.linkedin.com/in/johnkleinschmidt/
+  linkedinprofile: https://www.linkedin.com/in/johnkleinschmidt/
   image: /img/quotes/johnkleinschmidt.jpg
+  url: https://www.linkedin.com/in/jglovier/details/recommendations/
   quote: |
     During his time at CURE International, Joel was a key player in transitioning CURE International's web presence from an awful legacy website to a world class platform that has received numerous awards and accolades. Given the opportunity, I would hire Joel in a heartbeat.”
   title: VP of Technology • CURE Intl, HospitalRun co-founder
 
 - name: Doug Neiner
-  url: https://www.linkedin.com/in/dougneiner/
+  linkedinprofile: https://www.linkedin.com/in/dougneiner/
   image: /img/quotes/dougneiner.jpg
+  url: https://www.linkedin.com/in/jglovier/details/recommendations/
   quote: |
     I'd been impressed with Joel's design talent well before he joined the team at appendTo. Once on board, his other technical skills were put to use on numerous projects. Joel's passion for his craft and enthusiasm he brought to his projects were immediately visible.”
   title: Chief Design Engineer • AppendTo
