@@ -6,7 +6,7 @@
   summary: |
     Apollo provides secure authentiation and identity management. I lead product design for our Developer Platform team focused on the developer experience in the Okta Admin Console.
   has_case_studies: false
-  image: /img/okta-workflow-illustration.png
+  image: /img/sso-auth-illustration.png
   image_alt: An illustration of a sign in widget sending a user to the okta sso authentication experience and then on to the app experience.
 
 - name: Apollo GraphQL
