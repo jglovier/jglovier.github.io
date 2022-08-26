@@ -4,7 +4,7 @@
   role: Staff Product Designer
   timeframe: 2022
   summary: |
-    Apollo provides secure authentiation and identity management. I lead product design for our Developer Platform team focused on the developer experience in the Okta Admin Console.
+    Okta is a policy engine that provides SSO and user access management solutions. I lead product design for our Developer Platform group focused on the developer experience for Okta Admins.
   has_case_studies: false
   image: /img/sso-auth-illustration.png
   image_alt: An illustration of a sign in widget sending a user to the okta sso authentication experience and then on to the app experience.
